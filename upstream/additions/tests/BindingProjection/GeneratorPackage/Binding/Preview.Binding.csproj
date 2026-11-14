@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
+    <IsBindingProject>true</IsBindingProject>
+    <Nullable>enable</Nullable>
+    <AndroidBindingGenerator Condition=" '$(AndroidBindingGenerator)' == '' ">Semantic</AndroidBindingGenerator>
+    <GeneratorPackageVersion Condition=" '$(GeneratorPackageVersion)' == '' ">0.1.0-preview.1</GeneratorPackageVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Android.BindingGenerator.Semantic" Version="$(GeneratorPackageVersion)" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Android.Kotlin" Version="0.1.0-preview.1" Condition=" '$(KotlinProjections)' == 'true' " />
+    <AndroidLibrary Include="preview.jar" Bind="true" />
+    <AndroidNamespaceReplacement Include="Net.Dot.Android.Packagetest" Replacement="PackagePreview" />
+    <TransformFile Include="Metadata.xml" />
+  </ItemGroup>
+</Project>

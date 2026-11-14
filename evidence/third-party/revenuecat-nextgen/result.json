@@ -1,0 +1,363 @@
+{
+  "profile": "revenuecat-nextgen",
+  "roots": [
+    "com.revenuecat.purchases:purchases-admob-next-gen:11.0.1"
+  ],
+  "policy": "Vendor groups are regenerated, without per-library transforms. Other canonical JNI owners are reused. Shared-native version differences are recorded, not certified automatically.",
+  "resolution": {
+    "command": [
+      "${ANDROID_SOURCE}/build-tools/gradle/gradlew",
+      "--no-daemon",
+      "--console",
+      "plain",
+      "-p",
+      "${EXPERIMENT_ARTIFACTS}/third-party-sdk-tests/revenuecat-nextgen/gradle",
+      "nativeInputs",
+      "--write-locks",
+      "-PbindingCorpusConfig=${EXPERIMENT_ARTIFACTS}/third-party-sdk-tests/revenuecat-nextgen/config.json",
+      "-PbindingCorpusOutput=${EXPERIMENT_ARTIFACTS}/third-party-sdk-tests/revenuecat-nextgen/resolved"
+    ],
+    "exitCode": 0,
+    "seconds": 5.205890874989564,
+    "log": "${EXPERIMENT_ARTIFACTS}/third-party-sdk-tests/revenuecat-nextgen/resolve.log"
+  },
+  "nativeArchives": 56,
+  "nativeCoherent": true,
+  "sharedNativeVersionDifferences": [
+    {
+      "coordinate": "androidx.activity:activity",
+      "baseline": "1.13.0",
+      "selected": "1.2.3"
+    },
+    {
+      "coordinate": "androidx.annotation:annotation-experimental",
+      "baseline": "1.6.0",
+      "selected": "1.4.1"
+    },
+    {
+      "coordinate": "androidx.annotation:annotation-jvm",
+      "baseline": "1.11.0",
+      "selected": "1.8.1"
+    },
+    {
+      "coordinate": "androidx.collection:collection-jvm",
+      "baseline": "1.6.0",
+      "selected": "1.4.2"
+    },
+    {
+      "coordinate": "androidx.concurrent:concurrent-futures",
+      "baseline": "1.3.0",
+      "selected": "1.1.0"
+    },
+    {
+      "coordinate": "androidx.core:core-ktx",
+      "baseline": "1.19.1",
+      "selected": "1.15.0"
+    },
+    {
+      "coordinate": "androidx.core:core",
+      "baseline": "1.19.1",
+      "selected": "1.15.0"
+    },
+    {
+      "coordinate": "androidx.customview:customview",
+      "baseline": "1.2.0",
+      "selected": "1.0.0"
+    },
+    {
+      "coordinate": "androidx.fragment:fragment",
+      "baseline": "1.9.1",
+      "selected": "1.1.0"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-livedata-core",
+      "baseline": "2.11.0",
+      "selected": "2.6.2"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-livedata",
+      "baseline": "2.11.0",
+      "selected": "2.6.2"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-process",
+      "baseline": "2.11.0",
+      "selected": "2.6.2"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-runtime",
+      "baseline": "2.11.0",
+      "selected": "2.6.2"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-viewmodel",
+      "baseline": "2.11.0",
+      "selected": "2.6.2"
+    },
+    {
+      "coordinate": "androidx.loader:loader",
+      "baseline": "1.2.0",
+      "selected": "1.0.0"
+    },
+    {
+      "coordinate": "androidx.profileinstaller:profileinstaller",
+      "baseline": "1.4.1",
+      "selected": "1.3.0"
+    },
+    {
+      "coordinate": "androidx.startup:startup-runtime",
+      "baseline": "1.2.0",
+      "selected": "1.1.1"
+    },
+    {
+      "coordinate": "androidx.versionedparcelable:versionedparcelable",
+      "baseline": "1.2.1",
+      "selected": "1.1.1"
+    },
+    {
+      "coordinate": "androidx.viewpager:viewpager",
+      "baseline": "1.1.0",
+      "selected": "1.0.0"
+    },
+    {
+      "coordinate": "com.google.android.datatransport:transport-api",
+      "baseline": "4.1.1",
+      "selected": "3.0.0"
+    },
+    {
+      "coordinate": "com.google.android.datatransport:transport-backend-cct",
+      "baseline": "4.1.1",
+      "selected": "3.1.8"
+    },
+    {
+      "coordinate": "com.google.android.datatransport:transport-runtime",
+      "baseline": "4.1.1",
+      "selected": "3.1.8"
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-ads-identifier",
+      "baseline": "18.3.0",
+      "selected": "17.0.1"
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-base",
+      "baseline": "18.11.0",
+      "selected": "18.5.0"
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-basement",
+      "baseline": "18.12.0",
+      "selected": "18.9.0"
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-location",
+      "baseline": "21.4.0",
+      "selected": "19.0.0"
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-places-placereport",
+      "baseline": "17.1.0",
+      "selected": "17.0.0"
+    },
+    {
+      "coordinate": "com.google.android.gms:play-services-tasks",
+      "baseline": "18.4.1",
+      "selected": "18.2.0"
+    },
+    {
+      "coordinate": "com.google.code.gson:gson",
+      "baseline": "2.14.0",
+      "selected": "2.10.1"
+    },
+    {
+      "coordinate": "com.google.crypto.tink:tink-android",
+      "baseline": "1.23.0",
+      "selected": "1.10.0"
+    },
+    {
+      "coordinate": "com.google.errorprone:error_prone_annotations",
+      "baseline": "2.50.0",
+      "selected": "2.18.0"
+    },
+    {
+      "coordinate": "com.google.firebase:firebase-encoders-json",
+      "baseline": "18.0.1",
+      "selected": "18.0.0"
+    },
+    {
+      "coordinate": "com.google.guava:listenablefuture",
+      "baseline": "9999.0-empty-to-avoid-conflict-with-guava",
+      "selected": "1.0"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlin:kotlin-stdlib",
+      "baseline": "2.4.0",
+      "selected": "2.2.21"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-android",
+      "baseline": "1.11.0",
+      "selected": "1.9.0"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm",
+      "baseline": "1.11.0",
+      "selected": "1.9.0"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm",
+      "baseline": "1.11.0",
+      "selected": "1.7.3"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm",
+      "baseline": "1.11.0",
+      "selected": "1.7.3"
+    },
+    {
+      "coordinate": "org.jetbrains:annotations",
+      "baseline": "26.1.0",
+      "selected": "23.0.0"
+    }
+  ],
+  "descriptor": {
+    "command": [
+      "${JAVA_HOME}/bin/java",
+      "-Xmx3g",
+      "-cp",
+      "${ANDROID_SOURCE}/external/Java.Interop/tools/jvm-api-descriptor/build/install/jvm-api-descriptor/lib/*",
+      "net.dot.android.descriptor.ApiDescriptorKt",
+      "--manifest",
+      "${EXPERIMENT_ARTIFACTS}/third-party-sdk-tests/revenuecat-nextgen/resolved/native-inputs.json",
+      "--output",
+      "${EXPERIMENT_ARTIFACTS}/third-party-sdk-tests/revenuecat-nextgen/api-descriptor.json"
+    ],
+    "exitCode": 0,
+    "seconds": 1.7819409579969943,
+    "log": "${EXPERIMENT_ARTIFACTS}/third-party-sdk-tests/revenuecat-nextgen/descriptor.log"
+  },
+  "excludedCanonicalAssemblies": [
+    "Android.Maven.Androidx.Activity",
+    "Android.Maven.Androidx.Ads",
+    "Android.Maven.Androidx.Annotation",
+    "Android.Maven.Androidx.Appcompat",
+    "Android.Maven.Androidx.Biometric",
+    "Android.Maven.Androidx.Browser",
+    "Android.Maven.Androidx.Camera",
+    "Android.Maven.Androidx.Camera.Viewfinder",
+    "Android.Maven.Androidx.Car",
+    "Android.Maven.Androidx.Car.App",
+    "Android.Maven.Androidx.Collection",
+    "Android.Maven.Androidx.Compose.Animation",
+    "Android.Maven.Androidx.Compose.Foundation",
+    "Android.Maven.Androidx.Compose.Material",
+    "Android.Maven.Androidx.Compose.Material3",
+    "Android.Maven.Androidx.Compose.Material3.Adaptive",
+    "Android.Maven.Androidx.Compose.Runtime",
+    "Android.Maven.Androidx.Compose.Ui",
+    "Android.Maven.Androidx.Concurrent",
+    "Android.Maven.Androidx.Constraintlayout",
+    "Android.Maven.Androidx.Coordinatorlayout",
+    "Android.Maven.Androidx.Core",
+    "Android.Maven.Androidx.Credentials",
+    "Android.Maven.Androidx.Customview",
+    "Android.Maven.Androidx.Databinding",
+    "Android.Maven.Androidx.Datastore",
+    "Android.Maven.Androidx.Drawerlayout",
+    "Android.Maven.Androidx.Emoji",
+    "Android.Maven.Androidx.Emoji2",
+    "Android.Maven.Androidx.Fragment",
+    "Android.Maven.Androidx.Graphics",
+    "Android.Maven.Androidx.Health.Connect",
+    "Android.Maven.Androidx.Leanback",
+    "Android.Maven.Androidx.Legacy",
+    "Android.Maven.Androidx.Lifecycle",
+    "Android.Maven.Androidx.Loader",
+    "Android.Maven.Androidx.Media",
+    "Android.Maven.Androidx.Media2",
+    "Android.Maven.Androidx.Media3",
+    "Android.Maven.Androidx.Mediarouter",
+    "Android.Maven.Androidx.Navigation",
+    "Android.Maven.Androidx.Navigation3",
+    "Android.Maven.Androidx.Navigationevent",
+    "Android.Maven.Androidx.Paging",
+    "Android.Maven.Androidx.Preference",
+    "Android.Maven.Androidx.Privacysandbox.Ads",
+    "Android.Maven.Androidx.Profileinstaller",
+    "Android.Maven.Androidx.Recyclerview",
+    "Android.Maven.Androidx.Room",
+    "Android.Maven.Androidx.Savedstate",
+    "Android.Maven.Androidx.Slice",
+    "Android.Maven.Androidx.Slidingpanelayout",
+    "Android.Maven.Androidx.Sqlite",
+    "Android.Maven.Androidx.Startup",
+    "Android.Maven.Androidx.Swiperefreshlayout",
+    "Android.Maven.Androidx.Tracing",
+    "Android.Maven.Androidx.Transition",
+    "Android.Maven.Androidx.Versionedparcelable",
+    "Android.Maven.Androidx.Viewpager",
+    "Android.Maven.Androidx.Viewpager2",
+    "Android.Maven.Androidx.Wear",
+    "Android.Maven.Androidx.Wear.Compose",
+    "Android.Maven.Androidx.Wear.Protolayout",
+    "Android.Maven.Androidx.Wear.Tiles",
+    "Android.Maven.Androidx.Wear.Watchface",
+    "Android.Maven.Androidx.Window",
+    "Android.Maven.Androidx.Work",
+    "Android.Maven.Com.Airbnb.Android",
+    "Android.Maven.Com.Android.Billingclient",
+    "Android.Maven.Com.Github.Bumptech.Glide",
+    "Android.Maven.Com.Google.Accompanist",
+    "Android.Maven.Com.Google.Ads.Interactivemedia.V3",
+    "Android.Maven.Com.Google.Ai.Edge.Aicore",
+    "Android.Maven.Com.Google.Ai.Edge.Litert",
+    "Android.Maven.Com.Google.Ai.Edge.Localagents",
+    "Android.Maven.Com.Google.Android.Datatransport",
+    "Android.Maven.Com.Google.Android.Gms",
+    "Android.Maven.Com.Google.Android.Libraries.Identity.Googleid",
+    "Android.Maven.Com.Google.Android.Libraries.Places",
+    "Android.Maven.Com.Google.Android.Material",
+    "Android.Maven.Com.Google.Android.Play",
+    "Android.Maven.Com.Google.Android.Recaptcha",
+    "Android.Maven.Com.Google.Android.Tv",
+    "Android.Maven.Com.Google.Assistant.Appactions",
+    "Android.Maven.Com.Google.Code.Gson",
+    "Android.Maven.Com.Google.Crypto.Tink",
+    "Android.Maven.Com.Google.Errorprone",
+    "Android.Maven.Com.Google.Firebase",
+    "Android.Maven.Com.Google.Guava",
+    "Android.Maven.Com.Google.Inject",
+    "Android.Maven.Com.Google.Mediapipe",
+    "Android.Maven.Com.Google.Mlkit",
+    "Android.Maven.Com.Squareup.Okhttp3",
+    "Android.Maven.Com.Squareup.Okio",
+    "Android.Maven.Com.Squareup.Picasso",
+    "Android.Maven.Com.Squareup.Retrofit",
+    "Android.Maven.Com.Squareup.Retrofit2",
+    "Android.Maven.Dev.Chrisbanes.Snapper",
+    "Android.Maven.Io.Github.Aakira",
+    "Android.Maven.Io.Grpc",
+    "Android.Maven.Io.Opencensus",
+    "Android.Maven.Io.Reactivex.Rxjava2",
+    "Android.Maven.Io.Reactivex.Rxjava3",
+    "Android.Maven.Org.Jetbrains",
+    "Android.Maven.Org.Jetbrains.Kotlin",
+    "Android.Maven.Org.Jetbrains.Kotlinx"
+  ],
+  "build": {
+    "command": [
+      "${ANDROID_SOURCE}/dotnet-local.sh",
+      "build",
+      "${EXPERIMENT_ARTIFACTS}/third-party-sdk-tests/revenuecat-nextgen/Bindings.csproj",
+      "-c",
+      "Debug",
+      "-v:q",
+      "-nr:false"
+    ],
+    "exitCode": 0,
+    "seconds": 55.22690624999814,
+    "log": "${EXPERIMENT_ARTIFACTS}/third-party-sdk-tests/revenuecat-nextgen/build.log"
+  },
+  "errors": [],
+  "generatedSources": 6096
+}

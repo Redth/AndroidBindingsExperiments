@@ -1,0 +1,128 @@
+<Project>
+  <PropertyGroup>
+    <_AndroidSemanticBindingTargetsImported>true</_AndroidSemanticBindingTargetsImported>
+    <_AndroidSemanticCompilerTools>$(MSBuildThisFileDirectory)..\tools\</_AndroidSemanticCompilerTools>
+  </PropertyGroup>
+  <UsingTask TaskName="Microsoft.Android.BindingGenerator.BuildTasks.RunBindingTool"
+      AssemblyFile="$(_AndroidSemanticCompilerTools)tasks\Microsoft.Android.BindingGenerator.Semantic.dll" />
+  <UsingTask TaskName="Microsoft.Android.BindingGenerator.BuildTasks.ReadBindingOutputs"
+      AssemblyFile="$(_AndroidSemanticCompilerTools)tasks\Microsoft.Android.BindingGenerator.Semantic.dll" />
+  <UsingTask TaskName="Microsoft.Android.BindingGenerator.BuildTasks.WriteBindingKeepRules"
+      AssemblyFile="$(_AndroidSemanticCompilerTools)tasks\Microsoft.Android.BindingGenerator.Semantic.dll" />
+
+  <Target Name="_AndroidSemanticBindingInputs">
+    <ItemGroup>
+      <_AndroidSemanticSourceJar Include="@(EmbeddedJar->'%(FullPath)');@(InputJar->'%(FullPath)')" />
+      <_AndroidSemanticReferenceJar Include="@(EmbeddedReferenceJar->'%(FullPath)');@(ReferenceJar->'%(FullPath)')" Exclude="@(_AndroidSemanticSourceJar)" />
+      <_AndroidSemanticNative Include="@(EmbeddedJar->'%(FullPath)');@(InputJar->'%(FullPath)');@(EmbeddedReferenceJar->'%(FullPath)');@(ReferenceJar->'%(FullPath)')" />
+      <_AndroidSemanticRuntime Include="@(ReferencePath)" Condition=" '%(Filename)' == 'Microsoft.Android.Kotlin' " />
+      <_AndroidSemanticJavadoc Include="@(_JavaSourceJavadocXml)" />
+      <_AndroidSemanticJavadoc Include="$(_AndroidIntermediateBindingClassesDocs)" Condition=" Exists('$(_AndroidIntermediateBindingClassesDocs)') " />
+      <_AndroidSemanticAnnotations Include="$(IntermediateOutputPath)library_project_annotations\**\*.zip" />
+    </ItemGroup>
+    <PropertyGroup>
+      <_AndroidSemanticInputKey>$(_AndroidSemanticCompilerTools)|$(AssemblyName)|$(Nullable)|$(LangVersion)|$(UseShortGeneratorFileNames)|$(AndroidBoundInterfacesContainConstants)|$(AndroidBoundInterfacesContainTypes)|$(AndroidBoundInterfacesContainStaticAndDefaultInterfaceMethods)|$(AndroidEnableObsoleteOverrideInheritance)|$(AndroidEnableRestrictToAttributes)|$(_AndroidEnableUnmanagedCallersOnlyCallbacks)|$(AndroidJavadocVerbosity)|@(_AndroidSemanticNative)|@(ReferencePath)|@(ReferenceDependencyPaths)|@(TransformFile)|@(AndroidNamespaceReplacement->'%(Identity)=%(Replacement)')|@(_AndroidSemanticRuntime)|@(_AndroidSemanticJavadoc)|@(_AndroidSemanticAnnotations)</_AndroidSemanticInputKey>
+      <_AndroidSemanticDirectory>$(IntermediateOutputPath)semantic-bindings\$([MSBuild]::StableStringHash('$(_AndroidSemanticInputKey)'))\</_AndroidSemanticDirectory>
+      <ApiOutputFile>$(_AndroidSemanticDirectory)api.xml</ApiOutputFile>
+      <GeneratedOutputPath>$(_AndroidSemanticDirectory)generated\</GeneratedOutputPath>
+      <_AndroidSemanticDescriptor>$(_AndroidSemanticDirectory)api-descriptor.json</_AndroidSemanticDescriptor>
+      <_AndroidSemanticProjitems>$(GeneratedOutputPath)src\$(AssemblyName).projitems</_AndroidSemanticProjitems>
+      <_AndroidSemanticKeepRules>$(GeneratedOutputPath)semantic-binding.pro</_AndroidSemanticKeepRules>
+      <_AndroidSemanticDotnet Condition=" Exists('$(NetCoreRoot)dotnet') ">$(NetCoreRoot)dotnet</_AndroidSemanticDotnet>
+      <_AndroidSemanticDotnet Condition=" Exists('$(NetCoreRoot)dotnet.exe') ">$(NetCoreRoot)dotnet.exe</_AndroidSemanticDotnet>
+      <_AndroidSemanticDotnet Condition=" '$(_AndroidSemanticDotnet)' == '' ">dotnet</_AndroidSemanticDotnet>
+      <_AndroidSemanticJava>$(_JavaSdkDirectory)\bin\java</_AndroidSemanticJava>
+      <_AndroidSemanticJava Condition=" '$(OS)' == 'Windows_NT' ">$(_AndroidSemanticJava).exe</_AndroidSemanticJava>
+    </PropertyGroup>
+    <ItemGroup>
+      <_AndroidSemanticNativeDistinct Include="@(_AndroidSemanticNative->Distinct())" />
+      <_AndroidSemanticParserTools Include="$(_AndroidSemanticCompilerTools)parser\**\*" />
+      <_AndroidSemanticGeneratorTools Include="$(_AndroidSemanticCompilerTools)generator\**\*;$(_AndroidSemanticCompilerTools)tasks\**\*" />
+      <_AndroidSemanticDescriptorTools Include="$(_AndroidSemanticCompilerTools)descriptor\*.jar" />
+      <_AndroidSemanticSourceOutput Include="$(_AndroidSemanticProjitems);$(_AndroidSemanticKeepRules)" />
+    </ItemGroup>
+    <ReadBindingOutputs Condition=" Exists('$(_AndroidSemanticProjitems)') " Manifest="$(_AndroidSemanticProjitems)">
+      <Output TaskParameter="Files" ItemName="_AndroidSemanticSourceOutput" />
+    </ReadBindingOutputs>
+  </Target>
+
+  <Target Name="_ExportJarToXml"
+      DependsOnTargets="_ExtractJavadocsFromJavaSourceJars;_AndroidSemanticBindingInputs;_ExportJarToXmlInputs"
+      Inputs="@(EmbeddedJar);@(InputJar);@(EmbeddedReferenceJar);@(ReferenceJar);@(_AndroidSemanticParserTools);@(_AndroidMSBuildAllProjects)"
+      Outputs="@(_ExportJarToXmlOutputs)">
+    <ItemGroup>
+      <_AndroidSemanticParseArgument Include="$(_AndroidSemanticCompilerTools)parser\class-parse.dll;--o=$(ApiOutputFile);--reference-output=$(ApiOutputFile).reference.class-parse" />
+      <_AndroidSemanticParseReference Include="@(_AndroidSemanticReferenceJar->Distinct())" />
+      <_AndroidSemanticParseSource Include="@(_AndroidSemanticSourceJar->Distinct())" />
+      <_AndroidSemanticParseArgument Include="@(_AndroidSemanticParseReference->'--reference=%(Identity)')" />
+      <_AndroidSemanticParseArgument Include="@(_JavaSourceJavadocXml->'--docspath=%(FullPath)')" />
+      <_AndroidSemanticParseArgument Include="@(_AndroidSemanticParseSource)" />
+    </ItemGroup>
+    <RunBindingTool Executable="$(_AndroidSemanticDotnet)" Arguments="@(_AndroidSemanticParseArgument)" RequiredOutputs="$(ApiOutputFile)" />
+    <ItemGroup>
+      <FileWrites Include="$(ApiOutputFile);$(ApiOutputFile).reference.class-parse" />
+    </ItemGroup>
+  </Target>
+
+  <Target Name="_AndroidSemanticDescriptorInputs" DependsOnTargets="_AndroidSemanticBindingInputs">
+    <ItemGroup>
+      <_AndroidSemanticDescriptorArgument Include="-classpath" />
+      <_AndroidSemanticDescriptorArgument Include="$(_AndroidSemanticCompilerTools)descriptor\%2A" />
+      <_AndroidSemanticDescriptorArgument Include="net.dot.android.descriptor.ApiDescriptorKt" />
+      <_AndroidSemanticDescriptorArgument Include="--archive;%(_AndroidSemanticNativeDistinct.Identity)" />
+      <_AndroidSemanticDescriptorArgument Include="--output;$(_AndroidSemanticDescriptor)" />
+    </ItemGroup>
+  </Target>
+  <Target Name="_AndroidGenerateSemanticDescriptor"
+      DependsOnTargets="_AndroidSemanticDescriptorInputs"
+      Inputs="@(_AndroidSemanticNativeDistinct);@(_AndroidSemanticDescriptorTools);@(_AndroidMSBuildAllProjects)"
+      Outputs="$(_AndroidSemanticDescriptor)">
+    <RunBindingTool Executable="$(_AndroidSemanticJava)" Arguments="@(_AndroidSemanticDescriptorArgument)"
+        RequiredOutputs="$(_AndroidSemanticDescriptor)" />
+    <ItemGroup>
+      <FileWrites Include="$(_AndroidSemanticDescriptor)" />
+    </ItemGroup>
+  </Target>
+
+  <Target Name="_AndroidSemanticGeneratorInputs" DependsOnTargets="_AndroidSemanticBindingInputs;_AndroidGenerateSemanticDescriptor">
+    <ItemGroup>
+      <_AndroidSemanticFeature Include="interface-constants" Condition=" '$(AndroidBoundInterfacesContainConstants)' == 'true' " />
+      <_AndroidSemanticFeature Include="nested-interface-types" Condition=" '$(AndroidBoundInterfacesContainTypes)' == 'true' " />
+      <_AndroidSemanticFeature Include="default-interface-methods" Condition=" '$(AndroidBoundInterfacesContainStaticAndDefaultInterfaceMethods)' == 'true' " />
+      <_AndroidSemanticFeature Include="do-not-fix-obsolete-overrides" Condition=" '$(AndroidEnableObsoleteOverrideInheritance)' != 'true' " />
+      <_AndroidSemanticFeature Include="restrict-to-attributes" Condition=" '$(AndroidEnableRestrictToAttributes)' == 'obsolete' " />
+      <_AndroidSemanticFeature Include="nullable-reference-types" Condition=" '$(Nullable)' == 'enable' " />
+      <_AndroidSemanticFeature Include="unmanaged-callers-only-callbacks" Condition=" '$(_AndroidEnableUnmanagedCallersOnlyCallbacks)' == 'true' " />
+    </ItemGroup>
+    <PropertyGroup>
+      <_AndroidSemanticFeatures>@(_AndroidSemanticFeature, ',')</_AndroidSemanticFeatures>
+    </PropertyGroup>
+    <ItemGroup>
+      <_AndroidSemanticGeneratorArgument Include="$(_AndroidSemanticCompilerTools)generator\generator.dll;$(ApiOutputFile);--experimental-semantic-model;--experimental-api-descriptor=$(_AndroidSemanticDescriptor);--global;--public;--codegen-target=$(AndroidCodegenTarget);--assembly=$(AssemblyName);--api-level=$(_AndroidApiLevel);--csdir=$(GeneratedOutputPath)src;--enumdir=$(GeneratedOutputPath)enums;--enummetadata=$(GeneratedOutputPath)metadata;--type-map-report=$(GeneratedOutputPath)type-mapping.txt;--experimental-ownership-report=$(GeneratedOutputPath)ownership.json;--lang-features=$(_AndroidSemanticFeatures);--doc-comment-verbosity=$(AndroidJavadocVerbosity)" />
+      <_AndroidSemanticGeneratorArgument Include="--use-short-file-names" Condition=" '$(UseShortGeneratorFileNames)' == 'true' " />
+      <_AndroidSemanticGeneratorArgument Include="--experimental-kotlin-async;--experimental-generic-facades" Condition=" '@(_AndroidSemanticRuntime->Count())' != '0' " />
+      <_AndroidSemanticGeneratorArgument Include="@(ReferencePath->'--ref=%(FullPath)');@(ReferenceDependencyPaths->'--ref=%(FullPath)')" />
+      <_AndroidSemanticGeneratorArgument Include="@(_JavaReferenceApiXml->'--java-reference=%(FullPath)')" />
+      <_AndroidSemanticGeneratorArgument Include="@(_AndroidSemanticJavadoc->'--with-javadoc-xml=%(FullPath)')" />
+      <_AndroidSemanticGeneratorArgument Include="@(_AndroidSemanticAnnotations->'--annotations=%(FullPath)')" />
+    </ItemGroup>
+  </Target>
+  <Target Name="GenerateBindings"
+      Condition=" '$(_AndroidGenerateManagedBindings)' == 'true' "
+      DependsOnTargets="_AndroidSemanticGeneratorInputs"
+      Inputs="$(ApiOutputFile);$(_AndroidSemanticDescriptor);@(_JavaReferenceApiXml);@(TransformFile);@(ReferencePath);@(ReferenceDependencyPaths);@(_AndroidSemanticGeneratorTools);@(_AndroidSemanticJavadoc);@(_AndroidSemanticAnnotations);@(_AndroidMSBuildAllProjects)"
+      Outputs="@(_AndroidSemanticSourceOutput)">
+    <RemoveDir Directories="$(GeneratedOutputPath)" Condition=" Exists('$(GeneratedOutputPath)') " />
+    <RunBindingTool Executable="$(_AndroidSemanticDotnet)" Arguments="@(_AndroidSemanticGeneratorArgument)"
+        TransformFiles="@(TransformFile)" NamespaceTransforms="@(AndroidNamespaceReplacement)"
+        NamespaceTransformFile="$(GeneratedOutputPath)msbuild-metadata.xml" RequiredOutputs="$(_AndroidSemanticProjitems)" />
+    <WriteBindingKeepRules OwnershipReport="$(GeneratedOutputPath)ownership.json" OutputFile="$(_AndroidSemanticKeepRules)" />
+    <ItemGroup>
+      <ProguardConfiguration Include="$(_AndroidSemanticKeepRules)" />
+      <FileWrites Include="$(GeneratedOutputPath)**\*" />
+    </ItemGroup>
+  </Target>
+  <Target Name="_AndroidCleanSemanticBindings" AfterTargets="CleanBindingsOutput">
+    <RemoveDir Directories="$(IntermediateOutputPath)semantic-bindings" />
+  </Target>
+</Project>

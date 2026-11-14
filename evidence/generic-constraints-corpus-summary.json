@@ -1,0 +1,97 @@
+{
+  "viewFiles": 13440,
+  "genericViewDeclarations": 2863,
+  "viewsWithBoundChecks": 2585,
+  "mostCommonBounds": [
+    {
+      "nativeType": "java/util/Collection",
+      "views": 640,
+      "example": "Androidx.Compose.UI.Util.ListUtilsKtView.Generic.cs"
+    },
+    {
+      "nativeType": "com/google/protobuf/MessageLite",
+      "views": 346,
+      "example": "Com.Google.AI.Edge.Localagents.Core.Proto.CandidateView.Generic.cs"
+    },
+    {
+      "nativeType": "org/reactivestreams/Subscriber",
+      "views": 340,
+      "example": "IO.Reactivex.FlowableView.Generic.cs"
+    },
+    {
+      "nativeType": "androidx/wear/protolayout/protobuf/MessageLite",
+      "views": 263,
+      "example": "Androidx.Wear.Protolayout.Expression.Proto.AnimationParameterProto_AnimationParametersView.Generic.cs"
+    },
+    {
+      "nativeType": "com/google/crypto/tink/shaded/protobuf/MessageLite",
+      "views": 180,
+      "example": "Com.Google.Crypto.Tink.Internal.PrimitiveFactoryView.Generic.cs"
+    },
+    {
+      "nativeType": "io/reactivex/rxjava3/core/Observer",
+      "views": 150,
+      "example": "IO.Reactivex.Rxjava3.Core.ObservableView.Generic.cs"
+    },
+    {
+      "nativeType": "io/reactivex/Observer",
+      "views": 140,
+      "example": "IO.Reactivex.Internal.Operators.Completable.CompletableToObservableView.Generic.cs"
+    },
+    {
+      "nativeType": "androidx/health/platform/client/proto/MessageLite",
+      "views": 108,
+      "example": "Androidx.Health.Platform.Client.Proto.AbstractParserView.Generic.cs"
+    },
+    {
+      "nativeType": "io/reactivex/rxjava3/core/SingleObserver",
+      "views": 84,
+      "example": "IO.Reactivex.Rxjava3.Core.SingleView.Generic.cs"
+    },
+    {
+      "nativeType": "io/reactivex/SingleObserver",
+      "views": 77,
+      "example": "IO.Reactivex.Internal.Operators.Completable.CompletableMaterializeView.Generic.cs"
+    },
+    {
+      "nativeType": "io/reactivex/rxjava3/core/MaybeObserver",
+      "views": 74,
+      "example": "IO.Reactivex.Rxjava3.Core.MaybeView.Generic.cs"
+    },
+    {
+      "nativeType": "androidx/datastore/preferences/protobuf/MessageLite",
+      "views": 71,
+      "example": "Androidx.Datastore.Preferences.PreferencesProto_PreferenceMapView.Generic.cs"
+    },
+    {
+      "nativeType": "io/reactivex/MaybeObserver",
+      "views": 64,
+      "example": "IO.Reactivex.Internal.Operators.Flowable.FlowableElementAtMaybeView.Generic.cs"
+    },
+    {
+      "nativeType": "androidx/compose/animation/core/AnimationVector",
+      "views": 48,
+      "example": "Androidx.Compose.Animation.Core.AnimatableView.Generic.cs"
+    },
+    {
+      "nativeType": "java/lang/Comparable",
+      "views": 38,
+      "example": "Androidx.Compose.UI.Util.ListUtilsKtView.Generic.cs"
+    },
+    {
+      "nativeType": "kotlin/reflect/jvm/internal/impl/protobuf/MessageLite",
+      "views": 36,
+      "example": "Kotlin.Reflect.Jvm.Internal.Impl.Metadata.Jvm.JvmProtoBuf_JvmFieldSignatureView.Generic.cs"
+    },
+    {
+      "nativeType": "kotlin/coroutines/CoroutineContext$Element",
+      "views": 33,
+      "example": "Androidx.Compose.Runtime.IMonotonicFrameClockView.Generic.cs"
+    },
+    {
+      "nativeType": "com/google/android/gms/common/api/Api$AnyClient",
+      "views": 32,
+      "example": "Com.Google.Android.Gms.Auth.Account.WorkAccountClientView.Generic.cs"
+    }
+  ]
+}

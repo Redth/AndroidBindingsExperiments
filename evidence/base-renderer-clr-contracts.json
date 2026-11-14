@@ -1,0 +1,412 @@
+[
+  {
+    "Name": "class_ref",
+    "Type": "System.IntPtr",
+    "Getter": "get_class_ref",
+    "Abstract": false,
+    "Attributes": []
+  },
+  {
+    "Name": "JniPeerMembers",
+    "Type": "Java.Interop.JniPeerMembers",
+    "Getter": "get_JniPeerMembers",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "System.Runtime.CompilerServices.NullableContextAttribute",
+        "Args": [
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "ThresholdClass",
+    "Type": "System.IntPtr",
+    "Getter": "get_ThresholdClass",
+    "Abstract": false,
+    "Attributes": []
+  },
+  {
+    "Name": "ThresholdType",
+    "Type": "System.Type",
+    "Getter": "get_ThresholdType",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "System.Runtime.CompilerServices.NullableContextAttribute",
+        "Args": [
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Capabilities",
+    "Type": "AndroidX.Media3.ExoPlayer.IRendererCapabilities",
+    "Getter": "get_Capabilities",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getCapabilities",
+          "()Landroidx/media3/exoplayer/RendererCapabilities;",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Clock",
+    "Type": "AndroidX.Media3.Common.Util.IClock",
+    "Getter": "get_Clock",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getClock",
+          "()Landroidx/media3/common/util/Clock;",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Configuration",
+    "Type": "AndroidX.Media3.ExoPlayer.RendererConfiguration",
+    "Getter": "get_Configuration",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getConfiguration",
+          "()Landroidx/media3/exoplayer/RendererConfiguration;",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "FormatHolder",
+    "Type": "AndroidX.Media3.ExoPlayer.FormatHolder",
+    "Getter": "get_FormatHolder",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getFormatHolder",
+          "()Landroidx/media3/exoplayer/FormatHolder;",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "HasReadStreamToEnd",
+    "Type": "System.Boolean",
+    "Getter": "get_HasReadStreamToEnd",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "hasReadStreamToEnd",
+          "()Z",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Index",
+    "Type": "System.Int32",
+    "Getter": "get_Index",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getIndex",
+          "()I",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "IsCurrentStreamFinal",
+    "Type": "System.Boolean",
+    "Getter": "get_IsCurrentStreamFinal",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "isCurrentStreamFinal",
+          "()Z",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "IsSourceReady",
+    "Type": "System.Boolean",
+    "Getter": "get_IsSourceReady",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "isSourceReady",
+          "()Z",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "LastResetPositionUs",
+    "Type": "System.Int64",
+    "Getter": "get_LastResetPositionUs",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getLastResetPositionUs",
+          "()J",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "MediaClock",
+    "Type": "AndroidX.Media3.ExoPlayer.IMediaClock",
+    "Getter": "get_MediaClock",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getMediaClock",
+          "()Landroidx/media3/exoplayer/MediaClock;",
+          "GetGetMediaClockHandler"
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "MediaPeriodId",
+    "Type": "AndroidX.Media3.ExoPlayer.Source.MediaSourceMediaPeriodId",
+    "Getter": "get_MediaPeriodId",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getMediaPeriodId",
+          "()Landroidx/media3/exoplayer/source/MediaSource$MediaPeriodId;",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "PlayerId",
+    "Type": "AndroidX.Media3.ExoPlayer.Analytics.PlayerId",
+    "Getter": "get_PlayerId",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getPlayerId",
+          "()Landroidx/media3/exoplayer/analytics/PlayerId;",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "ReadingPositionUs",
+    "Type": "System.Int64",
+    "Getter": "get_ReadingPositionUs",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getReadingPositionUs",
+          "()J",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "State",
+    "Type": "System.Int32",
+    "Getter": "get_State",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getState",
+          "()I",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Stream",
+    "Type": "AndroidX.Media3.ExoPlayer.Source.ISampleStream",
+    "Getter": "get_Stream",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getStream",
+          "()Landroidx/media3/exoplayer/source/SampleStream;",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "StreamEndPositionUs",
+    "Type": "System.Int64",
+    "Getter": "get_StreamEndPositionUs",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getStreamEndPositionUs",
+          "()J",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "StreamOffsetUs",
+    "Type": "System.Int64",
+    "Getter": "get_StreamOffsetUs",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getStreamOffsetUs",
+          "()J",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Timeline",
+    "Type": "AndroidX.Media3.Common.Timeline",
+    "Getter": "get_Timeline",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getTimeline",
+          "()Landroidx/media3/common/Timeline;",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "TrackType",
+    "Type": "System.Int32",
+    "Getter": "get_TrackType",
+    "Abstract": false,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getTrackType",
+          "()I",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "IsEnded",
+    "Type": "System.Boolean",
+    "Getter": "get_IsEnded",
+    "Abstract": true,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "isEnded",
+          "()Z",
+          "GetIsEndedHandler"
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "IsReady",
+    "Type": "System.Boolean",
+    "Getter": "get_IsReady",
+    "Abstract": true,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "isReady",
+          "()Z",
+          "GetIsReadyHandler"
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Name",
+    "Type": "System.String",
+    "Getter": "get_Name",
+    "Abstract": true,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getName",
+          "()Ljava/lang/String;",
+          "GetGetNameHandler"
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "NameRendererCapabilities",
+    "Type": "System.String",
+    "Getter": "get_NameRendererCapabilities",
+    "Abstract": true,
+    "Attributes": [
+      {
+        "Name": "Android.Runtime.RegisterAttribute",
+        "Args": [
+          "getNameRendererCapabilities",
+          "()Ljava/lang/String;",
+          "GetGetNameRendererCapabilitiesHandler"
+        ]
+      }
+    ]
+  }
+]

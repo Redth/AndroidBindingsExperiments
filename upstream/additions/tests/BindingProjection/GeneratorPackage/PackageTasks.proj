@@ -1,0 +1,13 @@
+<Project>
+  <UsingTask TaskName="Microsoft.Android.BindingGenerator.BuildTasks.CheckBindingGenerator" AssemblyFile="$(PackageTaskAssembly)" />
+  <UsingTask TaskName="Microsoft.Android.BindingGenerator.BuildTasks.RunBindingTool" AssemblyFile="$(PackageTaskAssembly)" />
+  <UsingTask TaskName="Microsoft.Android.BindingGenerator.BuildTasks.ReadBindingOutputs" AssemblyFile="$(PackageTaskAssembly)" />
+  <UsingTask TaskName="Microsoft.Android.BindingGenerator.BuildTasks.WriteBindingKeepRules" AssemblyFile="$(PackageTaskAssembly)" />
+  <Target Name="Check" Inputs="$(BindingOwnershipReport)" Outputs="package-task-rules.pro">
+    <CheckBindingGenerator Selection="Semantic" Platform="Android" FrameworkVersion="v11.0"
+        SdkVersion="37.2.0-rc.2.84" BindingProject="true" TailImported="true" />
+    <RunBindingTool Executable="$(DotnetHost)" Arguments="--version" />
+    <ReadBindingOutputs Manifest="$(BindingManifest)" />
+    <WriteBindingKeepRules OwnershipReport="$(BindingOwnershipReport)" OutputFile="package-task-rules.pro" />
+  </Target>
+</Project>

@@ -1,0 +1,19 @@
+{
+  "archive": "${EXPERIMENT_ARTIFACTS}/consolidated-binding-tree.tar.xz",
+  "sha256": "5e4ae9b9c3411b1db50c5f01df25d9fbd2ced3b546da0c12b1f3608bb8d8d3b1",
+  "bytes": 35690612,
+  "bindingAssemblies": 162,
+  "dlls": 163,
+  "managedTypes": 123154,
+  "verification": {
+    "Assemblies": 162,
+    "Types": 123154,
+    "OwnedTypeReferencesResolved": 8007,
+    "OwnedMemberReferencesResolved": 50129,
+    "DuplicateOwners": 0,
+    "Resources": [],
+    "PublicJavaPeerOwners": 43455,
+    "DuplicatePublicJavaPeers": 0,
+    "ReferencedCanonicalOwners": 7
+  }
+}

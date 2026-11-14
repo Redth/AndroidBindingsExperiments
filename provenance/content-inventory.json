@@ -1,0 +1,270 @@
+{
+  "source": {
+    "trackedChanges": 91,
+    "addedFiles": 186,
+    "upstreamCommit": "097fd4f7eb6cab27a798e04254ac838c9e8d0369",
+    "excludedOnlyGenerated": [
+      "external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/kotlin-compatibility/build/reports/problems/problems-report.html",
+      "external/Java.Interop/tests/generator-Tests/__pycache__/compare-binding-closure.cpython-314.pyc",
+      "external/Java.Interop/tests/generator-Tests/__pycache__/compare-binding-corpus.cpython-314.pyc",
+      "external/Java.Interop/tests/generator-Tests/__pycache__/compare-bindings.cpython-314.pyc",
+      "external/Java.Interop/tests/generator-Tests/__pycache__/test_compare_binding_corpus.cpython-314.pyc",
+      "tests/BindingProjection/__pycache__/verify-reference.cpython-314.pyc"
+    ]
+  },
+  "text": {
+    "docs": {
+      "files": 22,
+      "bytes": 361924
+    },
+    "evidence": {
+      "files": 144,
+      "bytes": 28060457
+    },
+    "historical": {
+      "files": 18,
+      "bytes": 100333
+    },
+    "inputs": {
+      "files": 2,
+      "bytes": 198823
+    },
+    "provenance": {
+      "files": 4,
+      "bytes": 4830
+    }
+  },
+  "assets": [
+    {
+      "file": "binding-generator-semantic-preview.zip",
+      "bytes": 11002565,
+      "sha256": "c6d38bae23e3780f8e4dc22c41da6648659b66f6a687a116fa6fa51da05149a9",
+      "description": "Historical renamed semantic compiler/runtime local NuGet preview; package task verification 24 and stock-workload fixture17. Predates compatibility CLI.",
+      "historical": true,
+      "format": "public historical archive; executable/generated-code payloads unchanged; text paths normalized",
+      "sourceOriginalSha256": "88a342861e40e9a9d37fc1087d1a94fe803d90050b38bed2458fb87e13130683",
+      "publicAudit": {
+        "unchangedExecutableOrGeneratedSourcePayloads": 6,
+        "textChanges": 3,
+        "machinePaths": "replaced in narrative/evidence; source code unchanged"
+      }
+    },
+    {
+      "file": "maui-protected-compatibility-pilot.zip",
+      "bytes": 437689,
+      "sha256": "fdf65b8b26acaa852f8a5178b3d4ed73b431127a6191d1dd704c6b94d629dd92",
+      "description": "Compiled full/usage-selected MAUI profile, regenerated old-owned SwipeRefreshLayout and unchanged consumer; 13 checks each Debug/R8/NativeAOT.",
+      "historical": true,
+      "format": "public historical archive; executable/generated-code payloads unchanged; text paths normalized",
+      "sourceOriginalSha256": "ca9d81e57902e9cf6968d5d8620d91bcf116e911355dcb3405f9bca22bbb4a6f",
+      "publicAudit": {
+        "unchangedExecutableOrGeneratedSourcePayloads": 7,
+        "textChanges": 3,
+        "machinePaths": "replaced in narrative/evidence; source code unchanged"
+      }
+    },
+    {
+      "file": "projection-constraints-health-connect.zip",
+      "bytes": 1481433,
+      "sha256": "7746d3adddbfb524eedf416867a0fe1a66663b01ff36384b77f7d448cf38b353",
+      "description": "Targeted projection-aware generic constraints and mapped escape hatch; not a whole-corpus replacement.",
+      "historical": true,
+      "format": "public historical archive; executable/generated-code payloads unchanged; text paths normalized",
+      "sourceOriginalSha256": "d72ff1acedca06bcaad8a6c42d4816bbea37ffb1943e83af102e54f36c7ade3d",
+      "publicAudit": {
+        "unchangedExecutableOrGeneratedSourcePayloads": 8,
+        "textChanges": 3,
+        "machinePaths": "replaced in narrative/evidence; source code unchanged"
+      }
+    },
+    {
+      "file": "consolidated-binding-tree.tar.xz",
+      "bytes": 35770220,
+      "sha256": "487acf517adf00022f3ee7bf037dfc3d3917ec7c5019879e04530de2517e3b28",
+      "description": "Complete compatible baseline, original GROUP layout: 162 bindings plus runtime. Not regenerated in artifact layout.",
+      "historical": true,
+      "format": "public historical archive; executable/generated-code payloads unchanged; text paths normalized",
+      "sourceOriginalSha256": "5e4ae9b9c3411b1db50c5f01df25d9fbd2ced3b546da0c12b1f3608bb8d8d3b1",
+      "publicAudit": {
+        "unchangedExecutableOrGeneratedSourcePayloads": 167,
+        "textChanges": 12,
+        "machinePaths": "replaced in narrative/evidence; source code unchanged"
+      }
+    },
+    {
+      "file": "consolidated-generated-source.tar.xz",
+      "bytes": 28043740,
+      "sha256": "275347cf01654a44e8643e6ea4bc65028d78f4cc05ac5e76a13514e1cc328dc1",
+      "description": "Compressed original complete compatible baseline generated-source snapshot.",
+      "historical": true,
+      "format": "original archive, bytes preserved",
+      "publicAudit": {
+        "generatedSourceArchivePreserved": true
+      }
+    },
+    {
+      "file": "maplibre-sentry-koin-artifact-bindings.zip",
+      "bytes": 13262582,
+      "sha256": "a9668dce7e7e79a62956f0f2fcc94adcc672a30b0ae35e2543f9602be5607dd4",
+      "description": "Three separate complete PER-ARTIFACT SDK graphs, do not mix graphs.",
+      "historical": true,
+      "format": "public historical archive; executable/generated-code payloads unchanged; text paths normalized",
+      "sourceOriginalSha256": "2636f99649b791650c63488086532dfd415e8e72df5533498e900a28a3b6bb74",
+      "publicAudit": {
+        "unchangedExecutableOrGeneratedSourcePayloads": 154,
+        "textChanges": 29,
+        "machinePaths": "replaced in narrative/evidence; source code unchanged"
+      }
+    },
+    {
+      "file": "third-party-sdk-validation.zip",
+      "bytes": 57154612,
+      "sha256": "789ea59f48f22361ba111cb8f9f4178a6d073575e493f945f3db6cf6d7d0f00a",
+      "description": "Eight independent RevenueCat/Mapbox/Stripe/Coil/network profiles; do not merge. No service credentials required for offline probes.",
+      "historical": true,
+      "format": "public historical archive; executable/generated-code payloads unchanged; text paths normalized",
+      "sourceOriginalSha256": "d3570b9c2878ede31423275817823c1c2c9567f34dbb6ce49d6f10c4c8bb1188",
+      "publicAudit": {
+        "unchangedExecutableOrGeneratedSourcePayloads": 18,
+        "textChanges": 39,
+        "machinePaths": "replaced in narrative/evidence; source code unchanged"
+      }
+    },
+    {
+      "file": "canonical-corpus-audit.zip",
+      "bytes": 15592197,
+      "sha256": "76417e49058fce8af80382e14f2947e1f64c899202011a1b5596cbd2d82c36f0",
+      "description": "Audited canonical public native ownership, provenance, dependency and incompatibility evidence; not generated deliverable.",
+      "historical": true,
+      "format": "public historical archive; executable/generated-code payloads unchanged; text paths normalized",
+      "sourceOriginalSha256": "805875d4cdd98647bff2feae916cbb52fa88b23a32fbb9d38c4027a1a5f8a13e",
+      "publicAudit": {
+        "unchangedExecutableOrGeneratedSourcePayloads": 0,
+        "textChanges": 5,
+        "machinePaths": "replaced in narrative/evidence; source code unchanged"
+      }
+    },
+    {
+      "file": "native-evolution-evidence.zip",
+      "bytes": 130354,
+      "sha256": "09c722d7c3018ce8c2d95231dbe35b669ef92011471e28ba5fbd42e6fc2d13ee",
+      "description": "Native API evolution evidence and verified concrete examples.",
+      "historical": true,
+      "format": "public historical archive; executable/generated-code payloads unchanged; text paths normalized",
+      "sourceOriginalSha256": "af55d22cb460692e46a35ddb073412f53c65ac5c023c88c8532519deccdcc03b",
+      "publicAudit": {
+        "unchangedExecutableOrGeneratedSourcePayloads": 0,
+        "textChanges": 33,
+        "machinePaths": "replaced in narrative/evidence; source code unchanged"
+      }
+    },
+    {
+      "file": "full-config-corpus-inputs.zip",
+      "bytes": 161378,
+      "sha256": "7e16317675ef21f1726d17867608c19468d03f35ed87279cdd6fc069f3b1a81d",
+      "description": "Full717-record pinned config/resolution coverage, relocations and incompatible native alternatives.",
+      "historical": true,
+      "format": "public historical archive; executable/generated-code payloads unchanged; text paths normalized",
+      "sourceOriginalSha256": "7cceece84e97d6b40ad41d23c65efc7267228f91b3c390d755d0490d5f0a4987",
+      "publicAudit": {
+        "unchangedExecutableOrGeneratedSourcePayloads": 0,
+        "textChanges": 3,
+        "machinePaths": "replaced in narrative/evidence; source code unchanged"
+      }
+    },
+    {
+      "file": "kotlin-descriptor-inspection.zip",
+      "bytes": 6956760,
+      "sha256": "b683944f8b508cc7c0f434b8b4dfd6ec637dddc468089df7cd4b55dc2b7b50b5",
+      "description": "Official Kotlin/ASM descriptor and binding inspection snapshot.",
+      "historical": true,
+      "format": "public historical archive; executable/generated-code payloads unchanged; text paths normalized",
+      "sourceOriginalSha256": "daeb4f777e9ad2f8fb6b911ae3c5c0e316537aeba8e1c75f007d41e5a073f268",
+      "publicAudit": {
+        "unchangedExecutableOrGeneratedSourcePayloads": 4,
+        "textChanges": 2,
+        "machinePaths": "replaced in narrative/evidence; source code unchanged"
+      }
+    },
+    {
+      "file": "binding-output-inspection.zip",
+      "bytes": 27744245,
+      "sha256": "b9586036665518d4383ca165ba14beb82aac221015b6cd07658d8f9eee1d3e29",
+      "description": "Historical early per-artifact inspection bindings, before final full-config coverage; useful comparison only, not current compiler output.",
+      "historical": true,
+      "format": "original archive, bytes preserved",
+      "publicAudit": {
+        "unchangedExecutableOrGeneratedSourcePayloads": 370,
+        "textChanges": 0,
+        "machinePaths": "replaced in narrative/evidence; source code unchanged"
+      }
+    },
+    {
+      "file": "maven-group-preflight-evidence.zip",
+      "bytes": 306288,
+      "sha256": "6ea64976caf1829c00d465436d3ed8f9ecf9f794788126cf1e45cde17990b179",
+      "description": "Maven-group overlap/dependency preflight evidence leading to compatible graph policy.",
+      "historical": true,
+      "format": "public historical archive; executable/generated-code payloads unchanged; text paths normalized",
+      "sourceOriginalSha256": "2c78f18b5683ac91d9edee8903e50e35ef801befaa8470f0e72fe371fa34fea2",
+      "publicAudit": {
+        "unchangedExecutableOrGeneratedSourcePayloads": 0,
+        "textChanges": 6,
+        "machinePaths": "replaced in narrative/evidence; source code unchanged"
+      }
+    },
+    {
+      "file": "retained-experiment-summaries.tar.xz",
+      "bytes": 444616,
+      "sha256": "ff0e9e62d584a5cc5570092f495ba33e2563cbc3fd65a5c22391f3af6d63578e",
+      "description": "Original compact archive of 800 incremental experiment results/provenance/source helpers, preserved for deeper research history.",
+      "historical": true,
+      "format": "public historical archive; executable/generated-code payloads unchanged; text paths normalized",
+      "sourceOriginalSha256": "cf483538ccdd603345b3b9931ed6483dc6a76af0e1f1f21c7ababfa9488dbdec",
+      "publicAudit": {
+        "unchangedExecutableOrGeneratedSourcePayloads": 0,
+        "textChanges": 260,
+        "machinePaths": "replaced in narrative/evidence; source code unchanged"
+      }
+    },
+    {
+      "file": "reference-official-api-descriptor.json.xz",
+      "bytes": 2260188,
+      "sha256": "1fe9c47985869ea4bf9b58ac389e1d56ddba62827702abaf97aa408dd3a068ac",
+      "description": "Compressed official JVM/Kotlin descriptor for the customer-shaped reference fixture.",
+      "historical": true,
+      "format": "original archive, bytes preserved"
+    },
+    {
+      "file": "Microsoft.Android.BindingGenerator.Semantic.0.1.0-preview.1.nupkg",
+      "bytes": 10998062,
+      "sha256": "05f35c9eac213c4c48271158c111ef0ef9a737ec3abea1170be30f745c4d3268",
+      "description": "Historical locally validated package; current source includes later CLI-only compatibility work.",
+      "historical": true,
+      "format": "NuGet"
+    },
+    {
+      "file": "Microsoft.Android.Kotlin.0.1.0-preview.1.nupkg",
+      "bytes": 37518,
+      "sha256": "dc0bb10b2d65da84e7317f008649e13b3fd02d8fc9a3480781e45a8cbe397265",
+      "description": "Historical locally validated package; current source includes later CLI-only compatibility work.",
+      "historical": true,
+      "format": "NuGet"
+    },
+    {
+      "file": "consolidated-api-descriptor.json.xz",
+      "bytes": 25263828,
+      "sha256": "459ced9ce9d5b847cf1785146788c39a661d471d7db2d3d43dd3a8d59696f036",
+      "description": "Original full compatible native graph official descriptor, compressed; native fact inputs are not a second set of bindings.",
+      "historical": true,
+      "format": "xz-compressed JSON"
+    }
+  ],
+  "preservationNotes": [
+    "All substantive tracked/untracked code changes are included in pinned patch/additions.",
+    "Historical generated outputs are inspection artifacts, not whole-world compatible sets or a NuGet.org release.",
+    "Full source/runnable fixtures supersede transient bin/obj/caches; original published session attachments remain available.",
+    "Windows/Linux and untested workload revisions must not be presented as validated.",
+    "Compilation and exact bounded device checks prove selected paths, not all methods of every third-party SDK."
+  ]
+}

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\Configuration.props" />
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <Import Project="..\..\src\Microsoft.Android.Build.BaseTasks\MSBuildReferences.projitems" />
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Microsoft.Android.BindingGenerator.Semantic\Microsoft.Android.BindingGenerator.Semantic.csproj" />
+    <ProjectReference Include="..\..\src\Microsoft.Android.Build.BaseTasks\Microsoft.Android.Build.BaseTasks.csproj" />
+    <ProjectReference Include="..\..\src\Xamarin.Android.Tools.AndroidSdk\Xamarin.Android.Tools.AndroidSdk.csproj" />
+    <PackageReference Include="NUnit" Version="$(NUnitVersion)" />
+    <PackageReference Include="NUnit3TestAdapter" Version="6.2.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.7.0" />
+    <Compile Include="..\Microsoft.Android.Build.BaseTasks-Tests\Utilites\MockBuildEngine.cs" Link="MockBuildEngine.cs" />
+    <None Include="ProcessProbe.proj" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+{
+  "unchanged_parser": "${EXPERIMENT_ARTIFACTS}/binding-corpus/tools/eefaa0d98ced9c260873/Xamarin.Android.Tools.Bytecode.dll",
+  "parser_sha256": "98b4e0e97a2beec5a950a1e6fa8a51dd4e261026f034fb394aa7738a0980a008",
+  "test_assembly_sha256": "6eb9291665fb5fc67bbc6b449844ece2335af06d891dc02352d3abb317c62956",
+  "result": "ModuleInfoTests.ClassFile fails with Expected 12 / Actual 13 using the unchanged corpus parser and the same test fixture."
+}

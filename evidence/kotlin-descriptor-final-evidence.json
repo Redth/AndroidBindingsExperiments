@@ -1,0 +1,97 @@
+{
+  "corpus_summary": "${EXPERIMENT_ARTIFACTS}/kotlin-final-corpus/runs/55e737a565c8d39a83a3/summary.json",
+  "corpus_status_counts": {
+    "no-jvm-classes": 80,
+    "compiled": 280,
+    "compiled-supported-api-profile": 44,
+    "compiled-api-changes-review-required": 38,
+    "input-failed": 1,
+    "metadata-only": 1
+  },
+  "compiled_independent_assemblies": 362,
+  "registered_api_review": {
+    "audited_assemblies": 362,
+    "reviewed_differences": 124,
+    "reasons": {
+      "legacy-slot-not-in-native-class-physical-family-accounted-for": 106,
+      "operation-retained-via-compiled-managed-contract": 18
+    },
+    "unexplained_differences": [],
+    "restricted_public_leaks": []
+  },
+  "reference_assembly": {
+    "publicTypes": 3487,
+    "genericFacades": 1043,
+    "hiddenRequiredPublicContracts": 2,
+    "restrictedPublicLeaks": [],
+    "genericFields": true,
+    "genericTaskResults": true,
+    "genericFlowElements": true,
+    "facadePeerRegistrations": 0
+  },
+  "device_runs": [
+    {
+      "path": "${EXPERIMENT_ARTIFACTS}/api-generic-device/Debug-4414a785bb8d/results.json",
+      "configuration": "Debug",
+      "apk_sha256": "798150e61fea3a551c46c32857a9a222267bd063b2ba1ae547a903eb7edda9dc",
+      "cycles": 2
+    },
+    {
+      "path": "${EXPERIMENT_ARTIFACTS}/api-generic-device/Release-R8-899939c3dcaf/results.json",
+      "configuration": "Release-R8",
+      "apk_sha256": "ea9b7914e45d72a9d75e602551e02146941c320401bd5d0dccc20f0dc0d0f9ce",
+      "cycles": 2
+    },
+    {
+      "path": "${EXPERIMENT_ARTIFACTS}/api-generic-device/NativeAOT-R8-fd40f234602f/results.json",
+      "configuration": "NativeAOT-R8",
+      "apk_sha256": "634a13d6d6fc34d56cb5397bc3612cf701fd6006e39041ea6c030b236f3e1ade",
+      "cycles": 2
+    }
+  ],
+  "incremental": {
+    "command": [
+      "./dotnet-local.sh",
+      "build",
+      "tests/BindingProjection/App/Reference.App.csproj",
+      "-c",
+      "Debug",
+      "-v:q",
+      "-nr:false"
+    ],
+    "trackedOutputs": 2961,
+    "unchangedBuildPreservedOutputs": true,
+    "csharpOnlyChangePreservedOutputs": true,
+    "writerContentUnchanged": true
+  },
+  "emoji_native_closure": {
+    "assembly": "${EXPERIMENT_ARTIFACTS}/api-generic-emoji-closure/bin/Debug/net11.0-android/BindingEmoji.Foundation.dll",
+    "sha256": "012bca78ed7c8001433679231a2f5ad9d51c590ddb121b08e02b9d3dd31acc4f",
+    "sizeBytes": 17161216,
+    "archives": 49,
+    "nativeClasses": 6697,
+    "generatedCSharpFiles": 3688,
+    "publishedManagedSupportBindings": false,
+    "originalNuGetConstraintGraphUnchanged": true
+  },
+  "canonical_package": {
+    "package": "${EXPERIMENT_ARTIFACTS}/kotlin-descriptor-final-packages/Microsoft.Android.Kotlin.0.1.0-dev.nupkg",
+    "sha256": "8605994570ee67344ec111bc8a9ab57c1a4a0f70e7eb17bd4fcd35cca9cc57ca",
+    "managedAssemblies": [
+      "lib/net11.0-android37.0/Microsoft.Android.Kotlin.dll"
+    ],
+    "nativeSourceFiles": 1,
+    "nativeBinaries": 0,
+    "managedNuGetDependencies": []
+  },
+  "generator_sha256": "900a1a07e0b95e8e62f46666304fa941f16decd324e31e2d6998e4a10f668171",
+  "validation_counts": {
+    "generator": 731,
+    "jvm": 7,
+    "java_type_system": 18,
+    "msbuild_options": 6,
+    "bytecode_passed": 110,
+    "bytecode_skipped": 2,
+    "python": 17
+  }
+}

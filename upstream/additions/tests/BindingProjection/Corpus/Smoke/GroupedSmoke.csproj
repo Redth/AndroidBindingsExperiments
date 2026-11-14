@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0-android</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ApplicationId>net.dot.android.groupedbindings</ApplicationId>
+    <RuntimeIdentifier>android-arm64</RuntimeIdentifier>
+    <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+    <_AndroidUseResolvedNativeGraph>true</_AndroidUseResolvedNativeGraph>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TrimMode>full</TrimMode>
+    <AndroidLinkTool>r8</AndroidLinkTool>
+  </PropertyGroup>
+  <Import Project="$(_AndroidGroupedSmokeNativeInputs)" />
+  <ItemGroup>
+    <Reference Include="$(_AndroidGroupedAssemblyDirectory)/*.dll" />
+    <Reference Include="$(_AndroidGroupedProbeAssembly)" Condition="'$(_AndroidGroupedProbeAssembly)' != ''" />
+    <ProjectReference Include="../../../../src/Microsoft.Android.Kotlin/Microsoft.Android.Kotlin.csproj" />
+    <Compile Include="../../App/GenericProjectionChecks.cs" Link="GenericProjectionChecks.cs" />
+  </ItemGroup>
+</Project>

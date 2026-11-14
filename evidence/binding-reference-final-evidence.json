@@ -1,0 +1,869 @@
+{
+  "decision": "User chose one canonical foundation owner for this pilot; per-group assembly emission is deferred.",
+  "native_versions": [
+    {
+      "group": "androidx.activity",
+      "artifact": "activity",
+      "version": "1.13.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.activity/activity/1.13.0/722e241a3182b6f135b6cc2eb16e37dc9e422339/activity-1.13.0.aar"
+    },
+    {
+      "group": "androidx.annotation",
+      "artifact": "annotation-experimental",
+      "version": "1.4.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.annotation/annotation-experimental/1.4.1/7851235e2a16ce50270a74b555edaf9209b42864/annotation-experimental-1.4.1.aar"
+    },
+    {
+      "group": "androidx.annotation",
+      "artifact": "annotation-jvm",
+      "version": "1.9.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.annotation/annotation-jvm/1.9.1/b17951747e38bf3986a24431b9ba0d039958aa5f/annotation-jvm-1.9.1.jar"
+    },
+    {
+      "group": "androidx.arch.core",
+      "artifact": "core-common",
+      "version": "2.2.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.2.0/5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3/core-common-2.2.0.jar"
+    },
+    {
+      "group": "androidx.arch.core",
+      "artifact": "core-runtime",
+      "version": "2.2.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.2.0/39705982680d78556b679ef9d5400d4f17509b0b/core-runtime-2.2.0.aar"
+    },
+    {
+      "group": "androidx.collection",
+      "artifact": "collection-jvm",
+      "version": "1.5.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.collection/collection-jvm/1.5.0/7ba2c69414d46ebc2dd76598bdd0a75c54281a57/collection-jvm-1.5.0.jar"
+    },
+    {
+      "group": "androidx.compose.runtime",
+      "artifact": "runtime-annotation-android",
+      "version": "1.9.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.compose.runtime/runtime-annotation-android/1.9.0/5e40e47a89961866acb3847692ac479f885d70de/runtime-annotation.aar"
+    },
+    {
+      "group": "androidx.concurrent",
+      "artifact": "concurrent-futures",
+      "version": "1.1.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.1.0/50b7fb98350d5f42a4e49704b03278542293ba48/concurrent-futures-1.1.0.jar"
+    },
+    {
+      "group": "androidx.core",
+      "artifact": "core",
+      "version": "1.18.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.core/core/1.18.0/ff046a9f2725d94c2eaaa82e08674bb761c17792/core-1.18.0.aar"
+    },
+    {
+      "group": "androidx.core",
+      "artifact": "core-ktx",
+      "version": "1.18.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.core/core-ktx/1.18.0/d3e73ac068e614ed84893958bded6b0724717f2/core-ktx-1.18.0.aar"
+    },
+    {
+      "group": "androidx.core",
+      "artifact": "core-viewtree",
+      "version": "1.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.core/core-viewtree/1.0.0/449ba4f495b4d10d18edd01f32f9328be40d5749/core-viewtree-1.0.0.aar"
+    },
+    {
+      "group": "androidx.datastore",
+      "artifact": "datastore-android",
+      "version": "1.2.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.datastore/datastore-android/1.2.1/6c33fb86b8dade7f33c58061f4c707953ca04ec5/datastore.aar"
+    },
+    {
+      "group": "androidx.datastore",
+      "artifact": "datastore-core-android",
+      "version": "1.2.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.datastore/datastore-core-android/1.2.1/32af822bae994f6308e987ac8c9d4e507de72fc5/datastore-core.aar"
+    },
+    {
+      "group": "androidx.datastore",
+      "artifact": "datastore-core-okio-jvm",
+      "version": "1.2.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.datastore/datastore-core-okio-jvm/1.2.1/16e01a0603ce8cf206b21a304ff1ded7a9bff1da/datastore-core-okio-jvm-1.2.1.jar"
+    },
+    {
+      "group": "androidx.datastore",
+      "artifact": "datastore-preferences-android",
+      "version": "1.2.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.datastore/datastore-preferences-android/1.2.1/2ad64a252c01f8d1dfd4c71d9b598d627e341b5/datastore-preferences.aar"
+    },
+    {
+      "group": "androidx.datastore",
+      "artifact": "datastore-preferences-core-android",
+      "version": "1.2.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.datastore/datastore-preferences-core-android/1.2.1/1c6a56a2802d44f6d451101eed3420488a75ca85/datastore-preferences-core.aar"
+    },
+    {
+      "group": "androidx.datastore",
+      "artifact": "datastore-preferences-external-protobuf",
+      "version": "1.2.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.datastore/datastore-preferences-external-protobuf/1.2.1/200a891fd29602b4bcff8e197d243a372fb026d5/datastore-preferences-external-protobuf-1.2.1.jar"
+    },
+    {
+      "group": "androidx.datastore",
+      "artifact": "datastore-preferences-proto",
+      "version": "1.2.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.datastore/datastore-preferences-proto/1.2.1/5d062b556fb45141138c3d86284bbdcbe07cc770/datastore-preferences-proto-1.2.1.jar"
+    },
+    {
+      "group": "androidx.interpolator",
+      "artifact": "interpolator",
+      "version": "1.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.interpolator/interpolator/1.0.0/8a01fa254a23b9388571eb6334b03707c7d122d7/interpolator-1.0.0.aar"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-common-jvm",
+      "version": "2.11.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-jvm/2.11.0/2c4f7d92f1fd723121d394c93455f50158403ad9/lifecycle-common-jvm-2.11.0.jar"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-livedata-core",
+      "version": "2.11.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.11.0/eee2966766006333a2c90ad1e24e5fbce746ef30/lifecycle-livedata-core-2.11.0.aar"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-runtime-android",
+      "version": "2.11.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-android/2.11.0/4db234395dbd79ab62ab80840421c858d9b65b21/lifecycle-runtime.aar"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-viewmodel-android",
+      "version": "2.11.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-android/2.11.0/1ac7d4172a592c7b416f9bcd2b3724cdb0f4b0b3/lifecycle-viewmodel.aar"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-viewmodel-savedstate-android",
+      "version": "2.11.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-savedstate-android/2.11.0/fb3904b4ca214d822d10abfe741e48db718c971d/lifecycle-viewmodel-savedstate.aar"
+    },
+    {
+      "group": "androidx.navigationevent",
+      "artifact": "navigationevent-android",
+      "version": "1.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.navigationevent/navigationevent-android/1.0.0/8171ee9b6046346e0c0aad9b767a99726a81c6dc/navigationevent.aar"
+    },
+    {
+      "group": "androidx.profileinstaller",
+      "artifact": "profileinstaller",
+      "version": "1.4.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.profileinstaller/profileinstaller/1.4.0/6b6262e9ca50d1f75a496f3b64ebeb092a9d42eb/profileinstaller-1.4.0.aar"
+    },
+    {
+      "group": "androidx.savedstate",
+      "artifact": "savedstate-android",
+      "version": "1.4.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.savedstate/savedstate-android/1.4.0/8cf8663a8d810d4d50110ff135b3cd1d7227c867/savedstate.aar"
+    },
+    {
+      "group": "androidx.startup",
+      "artifact": "startup-runtime",
+      "version": "1.1.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.startup/startup-runtime/1.1.1/9d4ba67056aff98b69eadc1477c19a1e67cb9470/startup-runtime-1.1.1.aar"
+    },
+    {
+      "group": "androidx.tracing",
+      "artifact": "tracing",
+      "version": "1.2.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.tracing/tracing/1.2.0/a6ac2cc501278fdc99c56b428548e0cd1e9300f7/tracing-1.2.0.aar"
+    },
+    {
+      "group": "androidx.versionedparcelable",
+      "artifact": "versionedparcelable",
+      "version": "1.1.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/18e18071e7715679e0593c570217edeb5ca48b9e/versionedparcelable-1.1.1.aar"
+    },
+    {
+      "group": "com.google.guava",
+      "artifact": "listenablefuture",
+      "version": "1.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.guava/listenablefuture/1.0/c949a840a6acbc5268d088e47b04177bf90b3cad/listenablefuture-1.0.jar"
+    },
+    {
+      "group": "com.squareup.okio",
+      "artifact": "okio-jvm",
+      "version": "3.9.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.squareup.okio/okio-jvm/3.9.1/79696e3f4ff05d41ba2b3dc68adb5808a2e5dc53/okio-jvm-3.9.1.jar"
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "artifact": "kotlin-stdlib",
+      "version": "2.4.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.4.0/4e9f4b531dce5c7dee58ed2de9a8b9a763c8dc6c/kotlin-stdlib-2.4.0.jar"
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-coroutines-android",
+      "version": "1.9.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.9.0/6cf3b8df5a2ce8c6b0dffe55657a827c405ee2fe/kotlinx-coroutines-android-1.9.0.jar"
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-coroutines-core-jvm",
+      "version": "1.9.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.9.0/9beade4c1c1569e4f36cbd2c37e02e3e41502601/kotlinx-coroutines-core-jvm-1.9.0.jar"
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-serialization-core-jvm",
+      "version": "1.7.3",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.7.3/1f226780b845ff9206474c05159245d861556249/kotlinx-serialization-core-jvm-1.7.3.jar"
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-serialization-json-jvm",
+      "version": "1.7.3",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json-jvm/1.7.3/6701e8c68d9e82387ce72ee96e8ddf058208d58f/kotlinx-serialization-json-jvm-1.7.3.jar"
+    },
+    {
+      "group": "org.jetbrains",
+      "artifact": "annotations",
+      "version": "23.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/8cc20c07506ec18e0834947b84a864bfc094484e/annotations-23.0.0.jar"
+    },
+    {
+      "group": "org.jspecify",
+      "artifact": "jspecify",
+      "version": "1.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jspecify/jspecify/1.0.0/7425a601c1c7ec76645a78d22b8c6a627edee507/jspecify-1.0.0.jar"
+    }
+  ],
+  "owned_type_count": 2459,
+  "maven_group_count": 23,
+  "default_partition_count": 22,
+  "contract_cycles": [
+    [
+      "androidx.lifecycle",
+      "androidx.savedstate"
+    ]
+  ],
+  "device_runs": {
+    "Final-Debug-8431fde8a88e": {
+      "configuration": "Final-Debug",
+      "device": "emulator-5570",
+      "apk": "${ANDROID_SOURCE}/tests/BindingProjection/App/bin/Debug/net11.0-android/android-arm64/net.dot.android.bindingreference-Signed.apk",
+      "apk_sha256": "710cfed06a45529ee24b08577c75a4ab4bf35f82363b835f2a04505b35f3bf33",
+      "cycles": [
+        {
+          "identity": "8222cdb89ae54a518325467c37f4ec8a",
+          "results": [
+            "START VALUE 6",
+            "PASS independently built libraries have distinct minimal views of one JVM type",
+            "PASS one canonical managed peer crosses both library boundaries",
+            "PASS C# directly reads real DataStore and Preferences APIs through regenerated bindings",
+            "PASS Java dispatch reaches a managed callback in the other library with the original Activity peer",
+            "PASS real DataStore commit reaches the C# typed Flow and writes persistent storage",
+            "PASS ending collection waits for native subscription cleanup",
+            "PASS Activity recreation preserves the committed DataStore value",
+            "PASS recreated Activity starts exactly one new lifecycle-bound collection",
+            "PASS recreated collection cleans up without disposing the shared repository",
+            "DONE 9 VALUE 7"
+          ],
+          "value": 7
+        },
+        {
+          "identity": "746d679de0c44cd9b966355c8e69abee",
+          "results": [
+            "START VALUE 7",
+            "PASS independently built libraries have distinct minimal views of one JVM type",
+            "PASS one canonical managed peer crosses both library boundaries",
+            "PASS C# directly reads real DataStore and Preferences APIs through regenerated bindings",
+            "PASS Java dispatch reaches a managed callback in the other library with the original Activity peer",
+            "PASS real DataStore commit reaches the C# typed Flow and writes persistent storage",
+            "PASS ending collection waits for native subscription cleanup",
+            "PASS Activity recreation preserves the committed DataStore value",
+            "PASS recreated Activity starts exactly one new lifecycle-bound collection",
+            "PASS recreated collection cleans up without disposing the shared repository",
+            "DONE 9 VALUE 8"
+          ],
+          "value": 8
+        }
+      ],
+      "process_restart_persistence": true
+    },
+    "Release-R8-67e2979849e9": {
+      "configuration": "Release-R8",
+      "device": "emulator-5570",
+      "apk": "${EXPERIMENT_ARTIFACTS}/binding-reference-apks/release-r8.apk",
+      "apk_sha256": "c231812902fe3ca6f4b25d014e0c2b86d56fd2cb2113598329a1ad3d2a65d32b",
+      "cycles": [
+        {
+          "identity": "225b4aa9894241209188f592fe78a1a0",
+          "results": [
+            "START VALUE 2",
+            "PASS independently built libraries have distinct minimal views of one JVM type",
+            "PASS one canonical managed peer crosses both library boundaries",
+            "PASS C# directly reads real DataStore and Preferences APIs through regenerated bindings",
+            "PASS Java dispatch reaches a managed callback in the other library with the original Activity peer",
+            "PASS real DataStore commit reaches the C# typed Flow and writes persistent storage",
+            "PASS ending collection waits for native subscription cleanup",
+            "PASS Activity recreation preserves the committed DataStore value",
+            "PASS recreated Activity starts exactly one new lifecycle-bound collection",
+            "PASS recreated collection cleans up without disposing the shared repository",
+            "DONE 9 VALUE 3"
+          ],
+          "value": 3
+        },
+        {
+          "identity": "38577f4bc0744e0bbd965f7c4c20fc6d",
+          "results": [
+            "START VALUE 3",
+            "PASS independently built libraries have distinct minimal views of one JVM type",
+            "PASS one canonical managed peer crosses both library boundaries",
+            "PASS C# directly reads real DataStore and Preferences APIs through regenerated bindings",
+            "PASS Java dispatch reaches a managed callback in the other library with the original Activity peer",
+            "PASS real DataStore commit reaches the C# typed Flow and writes persistent storage",
+            "PASS ending collection waits for native subscription cleanup",
+            "PASS Activity recreation preserves the committed DataStore value",
+            "PASS recreated Activity starts exactly one new lifecycle-bound collection",
+            "PASS recreated collection cleans up without disposing the shared repository",
+            "DONE 9 VALUE 4"
+          ],
+          "value": 4
+        }
+      ],
+      "process_restart_persistence": true
+    },
+    "NativeAOT-R8-2574365d3e87": {
+      "configuration": "NativeAOT-R8",
+      "device": "emulator-5570",
+      "apk": "${EXPERIMENT_ARTIFACTS}/binding-reference-apks/nativeaot-r8.apk",
+      "apk_sha256": "f4e8deef4fd52dea0ad818cbd72fe3f8464a4fc90fe86bca3a4d01d7503bd63c",
+      "cycles": [
+        {
+          "identity": "e3231a62dece425db7314aa61053bbc2",
+          "results": [
+            "START VALUE 4",
+            "PASS independently built libraries have distinct minimal views of one JVM type",
+            "PASS one canonical managed peer crosses both library boundaries",
+            "PASS C# directly reads real DataStore and Preferences APIs through regenerated bindings",
+            "PASS Java dispatch reaches a managed callback in the other library with the original Activity peer",
+            "PASS real DataStore commit reaches the C# typed Flow and writes persistent storage",
+            "PASS ending collection waits for native subscription cleanup",
+            "PASS Activity recreation preserves the committed DataStore value",
+            "PASS recreated Activity starts exactly one new lifecycle-bound collection",
+            "PASS recreated collection cleans up without disposing the shared repository",
+            "DONE 9 VALUE 5"
+          ],
+          "value": 5
+        },
+        {
+          "identity": "c47a87cc74334c2bb06f6fba31c9fc6e",
+          "results": [
+            "START VALUE 5",
+            "PASS independently built libraries have distinct minimal views of one JVM type",
+            "PASS one canonical managed peer crosses both library boundaries",
+            "PASS C# directly reads real DataStore and Preferences APIs through regenerated bindings",
+            "PASS Java dispatch reaches a managed callback in the other library with the original Activity peer",
+            "PASS real DataStore commit reaches the C# typed Flow and writes persistent storage",
+            "PASS ending collection waits for native subscription cleanup",
+            "PASS Activity recreation preserves the committed DataStore value",
+            "PASS recreated Activity starts exactly one new lifecycle-bound collection",
+            "PASS recreated collection cleans up without disposing the shared repository",
+            "DONE 9 VALUE 6"
+          ],
+          "value": 6
+        }
+      ],
+      "process_restart_persistence": true
+    },
+    "Debug-d7a0215f6a34": {
+      "configuration": "Debug",
+      "device": "emulator-5570",
+      "apk": "${ANDROID_SOURCE}/tests/BindingProjection/App/bin/Debug/net11.0-android/android-arm64/net.dot.android.bindingreference-Signed.apk",
+      "apk_sha256": "29ce5d3708101709a826428ee44936f93cf155a10bb3017cd36ee8b8f4c99333",
+      "cycles": [
+        {
+          "identity": "076362d0d3204803b27394663ca06d09",
+          "results": [
+            "START VALUE 0",
+            "PASS independently built libraries have distinct minimal views of one JVM type",
+            "PASS one canonical managed peer crosses both library boundaries",
+            "PASS C# directly reads real DataStore and Preferences APIs through regenerated bindings",
+            "PASS Java dispatch reaches a managed callback in the other library with the original Activity peer",
+            "PASS real DataStore commit reaches the C# typed Flow and writes persistent storage",
+            "PASS ending collection waits for native subscription cleanup",
+            "PASS Activity recreation preserves the committed DataStore value",
+            "PASS recreated Activity starts exactly one new lifecycle-bound collection",
+            "PASS recreated collection cleans up without disposing the shared repository",
+            "DONE 9 VALUE 1"
+          ],
+          "value": 1
+        },
+        {
+          "identity": "86e61cd244f84b809db61a80ce7c4532",
+          "results": [
+            "START VALUE 1",
+            "PASS independently built libraries have distinct minimal views of one JVM type",
+            "PASS one canonical managed peer crosses both library boundaries",
+            "PASS C# directly reads real DataStore and Preferences APIs through regenerated bindings",
+            "PASS Java dispatch reaches a managed callback in the other library with the original Activity peer",
+            "PASS real DataStore commit reaches the C# typed Flow and writes persistent storage",
+            "PASS ending collection waits for native subscription cleanup",
+            "PASS Activity recreation preserves the committed DataStore value",
+            "PASS recreated Activity starts exactly one new lifecycle-bound collection",
+            "PASS recreated collection cleans up without disposing the shared repository",
+            "DONE 9 VALUE 2"
+          ],
+          "value": 2
+        }
+      ],
+      "process_restart_persistence": true
+    }
+  },
+  "measurements": {
+    "clean-managed-build": {
+      "label": "clean-managed-build",
+      "command": [
+        "${ANDROID_SOURCE}/dotnet-local.sh",
+        "build",
+        "${ANDROID_SOURCE}/tests/BindingProjection/App/Reference.App.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:minimal",
+        "-bl:${EXPERIMENT_ARTIFACTS}/binding-reference-measurements/clean-managed-build.binlog"
+      ],
+      "exit_code": 0,
+      "seconds": 45.63764654198894,
+      "before": {
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/api.xml.class-parse": null,
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/ownership.json": {
+          "mtime_ns": 1793300048850668763,
+          "sha256": "85b78f1c4d6000d70a2f23f5a8b3365af33943734dd57442310fcaf43933198f"
+        },
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/generated/src/Net.Dot.Android.Reference.SettingsRepository.cs": null,
+        "tests/BindingProjection/Reader/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": null,
+        "tests/BindingProjection/Writer/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": null,
+        "tests/BindingProjection/Foundation/bin/Debug/net11.0-android/Reference.Foundation.dll": null,
+        "tests/BindingProjection/Reader/bin/Debug/net11.0-android/Reference.Reader.dll": null,
+        "tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll": null
+      },
+      "after": {
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/api.xml.class-parse": {
+          "mtime_ns": 1793300386043001997,
+          "sha256": "9c33ded2deae47628b8fa61819aedffd4a643449c0bb100d0723d887289f2211"
+        },
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/ownership.json": {
+          "mtime_ns": 1793300393573337161,
+          "sha256": "85b78f1c4d6000d70a2f23f5a8b3365af33943734dd57442310fcaf43933198f"
+        },
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/generated/src/Net.Dot.Android.Reference.SettingsRepository.cs": {
+          "mtime_ns": 1793300394651297087,
+          "sha256": "ffeefcf1e64a86bbf7ff0368a1f89921c590d331a9238cb8b3c290fa071dab10"
+        },
+        "tests/BindingProjection/Reader/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": {
+          "mtime_ns": 1793300400531966192,
+          "sha256": "13ec5af0c0a9f5b0a3ac3b50c1c5edbfb5da413343f39848a87f1eb48457ba4d"
+        },
+        "tests/BindingProjection/Writer/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": {
+          "mtime_ns": 1793300400531965901,
+          "sha256": "c0b95f72dd40c8d3e3a6fcd205de2122f1126d355c7f99decf2ac18d93503295"
+        },
+        "tests/BindingProjection/Foundation/bin/Debug/net11.0-android/Reference.Foundation.dll": {
+          "mtime_ns": 1793300399049280025,
+          "sha256": "e5e2d6dc13f8eb57e0b990922eeeb5ce003749fa378d088056da5349183b0fa0"
+        },
+        "tests/BindingProjection/Reader/bin/Debug/net11.0-android/Reference.Reader.dll": {
+          "mtime_ns": 1793300400732394779,
+          "sha256": "5e407acfd2fa1f8c95148ad1536b7a231906d9b8ae2df83aac815a337e74b224"
+        },
+        "tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll": {
+          "mtime_ns": 1793300400633374369,
+          "sha256": "5108b170da2e12fa3a36f0183142f1640972a8057ef8c9e09d99b8bcdd7752d6"
+        }
+      },
+      "rewritten": [
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/api.xml.class-parse",
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/ownership.json",
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/generated/src/Net.Dot.Android.Reference.SettingsRepository.cs",
+        "tests/BindingProjection/Reader/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs",
+        "tests/BindingProjection/Writer/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs",
+        "tests/BindingProjection/Foundation/bin/Debug/net11.0-android/Reference.Foundation.dll",
+        "tests/BindingProjection/Reader/bin/Debug/net11.0-android/Reference.Reader.dll",
+        "tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll"
+      ]
+    },
+    "managed-only-edit": {
+      "label": "managed-only-edit",
+      "command": [
+        "${ANDROID_SOURCE}/dotnet-local.sh",
+        "build",
+        "${ANDROID_SOURCE}/tests/BindingProjection/App/Reference.App.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:minimal",
+        "-bl:${EXPERIMENT_ARTIFACTS}/binding-reference-measurements/managed-only-edit.binlog"
+      ],
+      "exit_code": 0,
+      "seconds": 12.261005916981958,
+      "before": {
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/api.xml.class-parse": {
+          "mtime_ns": 1793299303458914731,
+          "sha256": "1c3d8af2682065cd8f8f21a4ebfd87c06e45c5af6930a8bb0e24dd605783c464"
+        },
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/ownership.json": {
+          "mtime_ns": 1793299311774615755,
+          "sha256": "85b78f1c4d6000d70a2f23f5a8b3365af33943734dd57442310fcaf43933198f"
+        },
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/generated/src/Net.Dot.Android.Reference.SettingsRepository.cs": {
+          "mtime_ns": 1793299313380494554,
+          "sha256": "57e0aebc8a8c71bf5a39edde88145a0d6e849d11b55e7b53d96c595a97b1f719"
+        },
+        "tests/BindingProjection/Reader/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": {
+          "mtime_ns": 1793299319297459265,
+          "sha256": "13ec5af0c0a9f5b0a3ac3b50c1c5edbfb5da413343f39848a87f1eb48457ba4d"
+        },
+        "tests/BindingProjection/Writer/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": {
+          "mtime_ns": 1793299319301309000,
+          "sha256": "c0b95f72dd40c8d3e3a6fcd205de2122f1126d355c7f99decf2ac18d93503295"
+        },
+        "tests/BindingProjection/Foundation/bin/Debug/net11.0-android/Reference.Foundation.dll": {
+          "mtime_ns": 1793299318229336367,
+          "sha256": "ad69f24d863349bad128cca71cba89afc011590d19884d895e5f2f5e9442087a"
+        },
+        "tests/BindingProjection/Reader/bin/Debug/net11.0-android/Reference.Reader.dll": {
+          "mtime_ns": 1793299319377058695,
+          "sha256": "b684e67bd473b62629785c7f62fcd9677b43a25e46b419f883e8cae6f4a5c199"
+        },
+        "tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll": {
+          "mtime_ns": 1793299319394643234,
+          "sha256": "026df5a047d96cb73f1ec946c0df47ed12a17c3d40849104d119aec589b0e08c"
+        }
+      },
+      "after": {
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/api.xml.class-parse": {
+          "mtime_ns": 1793299303458914731,
+          "sha256": "1c3d8af2682065cd8f8f21a4ebfd87c06e45c5af6930a8bb0e24dd605783c464"
+        },
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/ownership.json": {
+          "mtime_ns": 1793299311774615755,
+          "sha256": "85b78f1c4d6000d70a2f23f5a8b3365af33943734dd57442310fcaf43933198f"
+        },
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/generated/src/Net.Dot.Android.Reference.SettingsRepository.cs": {
+          "mtime_ns": 1793299313380494554,
+          "sha256": "57e0aebc8a8c71bf5a39edde88145a0d6e849d11b55e7b53d96c595a97b1f719"
+        },
+        "tests/BindingProjection/Reader/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": {
+          "mtime_ns": 1793299319297459265,
+          "sha256": "13ec5af0c0a9f5b0a3ac3b50c1c5edbfb5da413343f39848a87f1eb48457ba4d"
+        },
+        "tests/BindingProjection/Writer/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": {
+          "mtime_ns": 1793299319301309000,
+          "sha256": "c0b95f72dd40c8d3e3a6fcd205de2122f1126d355c7f99decf2ac18d93503295"
+        },
+        "tests/BindingProjection/Foundation/bin/Debug/net11.0-android/Reference.Foundation.dll": {
+          "mtime_ns": 1793299318229336367,
+          "sha256": "ad69f24d863349bad128cca71cba89afc011590d19884d895e5f2f5e9442087a"
+        },
+        "tests/BindingProjection/Reader/bin/Debug/net11.0-android/Reference.Reader.dll": {
+          "mtime_ns": 1793299319377058695,
+          "sha256": "b684e67bd473b62629785c7f62fcd9677b43a25e46b419f883e8cae6f4a5c199"
+        },
+        "tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll": {
+          "mtime_ns": 1793299366665798544,
+          "sha256": "7cade6833d55e5dedea1c8181577a212949a230888cb27793765a4ab7daf363d"
+        }
+      },
+      "rewritten": [
+        "tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll"
+      ]
+    },
+    "datastore-1.2.1-upgrade": {
+      "label": "datastore-1.2.1-upgrade",
+      "command": [
+        "${ANDROID_SOURCE}/dotnet-local.sh",
+        "build",
+        "${ANDROID_SOURCE}/tests/BindingProjection/App/Reference.App.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:minimal",
+        "-bl:${EXPERIMENT_ARTIFACTS}/binding-reference-measurements/datastore-1.2.1-upgrade.binlog"
+      ],
+      "exit_code": 0,
+      "seconds": 50.222242832998745,
+      "before": {
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/api.xml.class-parse": {
+          "mtime_ns": 1793299819208912795,
+          "sha256": "9c33ded2deae47628b8fa61819aedffd4a643449c0bb100d0723d887289f2211"
+        },
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/ownership.json": {
+          "mtime_ns": 1793299829482390844,
+          "sha256": "85b78f1c4d6000d70a2f23f5a8b3365af33943734dd57442310fcaf43933198f"
+        },
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/generated/src/Net.Dot.Android.Reference.SettingsRepository.cs": {
+          "mtime_ns": 1793299832241806053,
+          "sha256": "ffeefcf1e64a86bbf7ff0368a1f89921c590d331a9238cb8b3c290fa071dab10"
+        },
+        "tests/BindingProjection/Reader/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": {
+          "mtime_ns": 1793299837946422162,
+          "sha256": "13ec5af0c0a9f5b0a3ac3b50c1c5edbfb5da413343f39848a87f1eb48457ba4d"
+        },
+        "tests/BindingProjection/Writer/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": {
+          "mtime_ns": 1793299837959842507,
+          "sha256": "c0b95f72dd40c8d3e3a6fcd205de2122f1126d355c7f99decf2ac18d93503295"
+        },
+        "tests/BindingProjection/Foundation/bin/Debug/net11.0-android/Reference.Foundation.dll": {
+          "mtime_ns": 1793299836798079988,
+          "sha256": "e5e2d6dc13f8eb57e0b990922eeeb5ce003749fa378d088056da5349183b0fa0"
+        },
+        "tests/BindingProjection/Reader/bin/Debug/net11.0-android/Reference.Reader.dll": {
+          "mtime_ns": 1793299838049240390,
+          "sha256": "5e407acfd2fa1f8c95148ad1536b7a231906d9b8ae2df83aac815a337e74b224"
+        },
+        "tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll": {
+          "mtime_ns": 1793299838065549714,
+          "sha256": "5108b170da2e12fa3a36f0183142f1640972a8057ef8c9e09d99b8bcdd7752d6"
+        }
+      },
+      "after": {
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/api.xml.class-parse": {
+          "mtime_ns": 1793300040383533464,
+          "sha256": "9c33ded2deae47628b8fa61819aedffd4a643449c0bb100d0723d887289f2211"
+        },
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/ownership.json": {
+          "mtime_ns": 1793300048850668763,
+          "sha256": "85b78f1c4d6000d70a2f23f5a8b3365af33943734dd57442310fcaf43933198f"
+        },
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/generated/src/Net.Dot.Android.Reference.SettingsRepository.cs": {
+          "mtime_ns": 1793300053443939501,
+          "sha256": "ffeefcf1e64a86bbf7ff0368a1f89921c590d331a9238cb8b3c290fa071dab10"
+        },
+        "tests/BindingProjection/Reader/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": {
+          "mtime_ns": 1793300060943014735,
+          "sha256": "13ec5af0c0a9f5b0a3ac3b50c1c5edbfb5da413343f39848a87f1eb48457ba4d"
+        },
+        "tests/BindingProjection/Writer/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": {
+          "mtime_ns": 1793300060945293793,
+          "sha256": "c0b95f72dd40c8d3e3a6fcd205de2122f1126d355c7f99decf2ac18d93503295"
+        },
+        "tests/BindingProjection/Foundation/bin/Debug/net11.0-android/Reference.Foundation.dll": {
+          "mtime_ns": 1793300059515465750,
+          "sha256": "e5e2d6dc13f8eb57e0b990922eeeb5ce003749fa378d088056da5349183b0fa0"
+        },
+        "tests/BindingProjection/Reader/bin/Debug/net11.0-android/Reference.Reader.dll": {
+          "mtime_ns": 1793300061044230827,
+          "sha256": "5e407acfd2fa1f8c95148ad1536b7a231906d9b8ae2df83aac815a337e74b224"
+        },
+        "tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll": {
+          "mtime_ns": 1793300061044218660,
+          "sha256": "5108b170da2e12fa3a36f0183142f1640972a8057ef8c9e09d99b8bcdd7752d6"
+        }
+      },
+      "rewritten": [
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/api.xml.class-parse",
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/ownership.json",
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/generated/src/Net.Dot.Android.Reference.SettingsRepository.cs",
+        "tests/BindingProjection/Reader/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs",
+        "tests/BindingProjection/Writer/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs",
+        "tests/BindingProjection/Foundation/bin/Debug/net11.0-android/Reference.Foundation.dll",
+        "tests/BindingProjection/Reader/bin/Debug/net11.0-android/Reference.Reader.dll",
+        "tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll"
+      ]
+    },
+    "final-unchanged": {
+      "label": "final-unchanged",
+      "command": [
+        "${ANDROID_SOURCE}/dotnet-local.sh",
+        "build",
+        "${ANDROID_SOURCE}/tests/BindingProjection/App/Reference.App.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:minimal",
+        "-bl:${EXPERIMENT_ARTIFACTS}/binding-reference-measurements/final-unchanged.binlog"
+      ],
+      "exit_code": 0,
+      "seconds": 6.021976791991619,
+      "before": {
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/api.xml.class-parse": {
+          "mtime_ns": 1793301486265070274,
+          "sha256": "9c33ded2deae47628b8fa61819aedffd4a643449c0bb100d0723d887289f2211"
+        },
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/ownership.json": {
+          "mtime_ns": 1793301493931185964,
+          "sha256": "85b78f1c4d6000d70a2f23f5a8b3365af33943734dd57442310fcaf43933198f"
+        },
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/generated/src/Net.Dot.Android.Reference.SettingsRepository.cs": {
+          "mtime_ns": 1793301494999189196,
+          "sha256": "ffeefcf1e64a86bbf7ff0368a1f89921c590d331a9238cb8b3c290fa071dab10"
+        },
+        "tests/BindingProjection/Reader/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": {
+          "mtime_ns": 1793301500984230494,
+          "sha256": "13ec5af0c0a9f5b0a3ac3b50c1c5edbfb5da413343f39848a87f1eb48457ba4d"
+        },
+        "tests/BindingProjection/Writer/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": {
+          "mtime_ns": 1793301500984603622,
+          "sha256": "c0b95f72dd40c8d3e3a6fcd205de2122f1126d355c7f99decf2ac18d93503295"
+        },
+        "tests/BindingProjection/Foundation/bin/Debug/net11.0-android/Reference.Foundation.dll": {
+          "mtime_ns": 1793301499923677398,
+          "sha256": "e5e2d6dc13f8eb57e0b990922eeeb5ce003749fa378d088056da5349183b0fa0"
+        },
+        "tests/BindingProjection/Reader/bin/Debug/net11.0-android/Reference.Reader.dll": {
+          "mtime_ns": 1793301501059640990,
+          "sha256": "5e407acfd2fa1f8c95148ad1536b7a231906d9b8ae2df83aac815a337e74b224"
+        },
+        "tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll": {
+          "mtime_ns": 1793301501060211452,
+          "sha256": "5108b170da2e12fa3a36f0183142f1640972a8057ef8c9e09d99b8bcdd7752d6"
+        }
+      },
+      "after": {
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/api.xml.class-parse": {
+          "mtime_ns": 1793301486265070274,
+          "sha256": "9c33ded2deae47628b8fa61819aedffd4a643449c0bb100d0723d887289f2211"
+        },
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/ownership.json": {
+          "mtime_ns": 1793301493931185964,
+          "sha256": "85b78f1c4d6000d70a2f23f5a8b3365af33943734dd57442310fcaf43933198f"
+        },
+        "tests/BindingProjection/Foundation/obj/Debug/net11.0-android/generated/src/Net.Dot.Android.Reference.SettingsRepository.cs": {
+          "mtime_ns": 1793301494999189196,
+          "sha256": "ffeefcf1e64a86bbf7ff0368a1f89921c590d331a9238cb8b3c290fa071dab10"
+        },
+        "tests/BindingProjection/Reader/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": {
+          "mtime_ns": 1793301500984230494,
+          "sha256": "13ec5af0c0a9f5b0a3ac3b50c1c5edbfb5da413343f39848a87f1eb48457ba4d"
+        },
+        "tests/BindingProjection/Writer/obj/Debug/net11.0-android/views/Reference.Local.SettingsView.cs": {
+          "mtime_ns": 1793301500984603622,
+          "sha256": "c0b95f72dd40c8d3e3a6fcd205de2122f1126d355c7f99decf2ac18d93503295"
+        },
+        "tests/BindingProjection/Foundation/bin/Debug/net11.0-android/Reference.Foundation.dll": {
+          "mtime_ns": 1793301499923677398,
+          "sha256": "e5e2d6dc13f8eb57e0b990922eeeb5ce003749fa378d088056da5349183b0fa0"
+        },
+        "tests/BindingProjection/Reader/bin/Debug/net11.0-android/Reference.Reader.dll": {
+          "mtime_ns": 1793301501059640990,
+          "sha256": "5e407acfd2fa1f8c95148ad1536b7a231906d9b8ae2df83aac815a337e74b224"
+        },
+        "tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll": {
+          "mtime_ns": 1793301501060211452,
+          "sha256": "5108b170da2e12fa3a36f0183142f1640972a8057ef8c9e09d99b8bcdd7752d6"
+        }
+      },
+      "rewritten": []
+    }
+  },
+  "negative_contract_checks": [
+    {
+      "case": "compatible",
+      "command": [
+        "${ANDROID_SOURCE}/dotnet-local.sh",
+        "${ANDROID_SOURCE}/bin/Debug/lib/packs/Microsoft.Android.Sdk.Darwin/37.99.0/tools/generator.dll",
+        "--experimental-check-requirements=${ANDROID_SOURCE}/tests/BindingProjection/Reader/bin/Debug/net11.0-android/Reference.Reader.dll",
+        "--experimental-check-requirements=${ANDROID_SOURCE}/tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll",
+        "--experimental-ownership-manifest=${ANDROID_SOURCE}/tests/BindingProjection/Foundation/obj/Debug/net11.0-android/ownership.json",
+        "--experimental-validation-report=${EXPERIMENT_ARTIFACTS}/binding-reference-contract-validation/compatible.validated.json",
+        "${ANDROID_SOURCE}/tests/BindingProjection/Foundation/obj/Debug/net11.0-android/api.xml.class-parse"
+      ],
+      "exit_code": 0,
+      "expected_rejection": null
+    },
+    {
+      "case": "missing-slot",
+      "command": [
+        "${ANDROID_SOURCE}/dotnet-local.sh",
+        "${ANDROID_SOURCE}/bin/Debug/lib/packs/Microsoft.Android.Sdk.Darwin/37.99.0/tools/generator.dll",
+        "--experimental-check-requirements=${ANDROID_SOURCE}/tests/BindingProjection/Reader/bin/Debug/net11.0-android/Reference.Reader.dll",
+        "--experimental-check-requirements=${ANDROID_SOURCE}/tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll",
+        "--experimental-ownership-manifest=${ANDROID_SOURCE}/tests/BindingProjection/Foundation/obj/Debug/net11.0-android/ownership.json",
+        "--experimental-validation-report=${EXPERIMENT_ARTIFACTS}/binding-reference-contract-validation/missing-slot.validated.json",
+        "${EXPERIMENT_ARTIFACTS}/binding-reference-contract-validation/missing-slot.xml"
+      ],
+      "exit_code": 1,
+      "expected_rejection": "requires missing native member"
+    },
+    {
+      "case": "invocation",
+      "command": [
+        "${ANDROID_SOURCE}/dotnet-local.sh",
+        "${ANDROID_SOURCE}/bin/Debug/lib/packs/Microsoft.Android.Sdk.Darwin/37.99.0/tools/generator.dll",
+        "--experimental-check-requirements=${ANDROID_SOURCE}/tests/BindingProjection/Reader/bin/Debug/net11.0-android/Reference.Reader.dll",
+        "--experimental-check-requirements=${ANDROID_SOURCE}/tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll",
+        "--experimental-ownership-manifest=${ANDROID_SOURCE}/tests/BindingProjection/Foundation/obj/Debug/net11.0-android/ownership.json",
+        "--experimental-validation-report=${EXPERIMENT_ARTIFACTS}/binding-reference-contract-validation/invocation.validated.json",
+        "${EXPERIMENT_ARTIFACTS}/binding-reference-contract-validation/changed-invocation.xml"
+      ],
+      "exit_code": 1,
+      "expected_rejection": "different invocation kind"
+    },
+    {
+      "case": "kotlin-contract",
+      "command": [
+        "${ANDROID_SOURCE}/dotnet-local.sh",
+        "${ANDROID_SOURCE}/bin/Debug/lib/packs/Microsoft.Android.Sdk.Darwin/37.99.0/tools/generator.dll",
+        "--experimental-check-requirements=${ANDROID_SOURCE}/tests/BindingProjection/Reader/bin/Debug/net11.0-android/Reference.Reader.dll",
+        "--experimental-check-requirements=${ANDROID_SOURCE}/tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll",
+        "--experimental-ownership-manifest=${ANDROID_SOURCE}/tests/BindingProjection/Foundation/obj/Debug/net11.0-android/ownership.json",
+        "--experimental-validation-report=${EXPERIMENT_ARTIFACTS}/binding-reference-contract-validation/kotlin-contract.validated.json",
+        "${EXPERIMENT_ARTIFACTS}/binding-reference-contract-validation/changed-kotlin.xml"
+      ],
+      "exit_code": 1,
+      "expected_rejection": "different Kotlin return contract"
+    },
+    {
+      "case": "owner",
+      "command": [
+        "${ANDROID_SOURCE}/dotnet-local.sh",
+        "${ANDROID_SOURCE}/bin/Debug/lib/packs/Microsoft.Android.Sdk.Darwin/37.99.0/tools/generator.dll",
+        "--experimental-check-requirements=${ANDROID_SOURCE}/tests/BindingProjection/Reader/bin/Debug/net11.0-android/Reference.Reader.dll",
+        "--experimental-check-requirements=${ANDROID_SOURCE}/tests/BindingProjection/Writer/bin/Debug/net11.0-android/Reference.Writer.dll",
+        "--experimental-ownership-manifest=${EXPERIMENT_ARTIFACTS}/binding-reference-contract-validation/changed-owner.json",
+        "--experimental-validation-report=${EXPERIMENT_ARTIFACTS}/binding-reference-contract-validation/owner.validated.json",
+        "${ANDROID_SOURCE}/tests/BindingProjection/Foundation/obj/Debug/net11.0-android/api.xml.class-parse"
+      ],
+      "exit_code": 1,
+      "expected_rejection": "different canonical CLR owner"
+    }
+  ],
+  "tests": {
+    "generator_passed": 682,
+    "new_sdk_passed": 6,
+    "existing_gradle_passed": 2,
+    "harness_passed": 14
+  },
+  "source_hashes": {
+    "tests/BindingProjection/App/Reference.App.csproj": "ff028770414b2c9ab1ff7be2dd64ec36d029f3991d59e3848345fc520cb3f538",
+    "tests/BindingProjection/App/ReferenceActivity.cs": "777e7ead8b96b4f1cd239804631c47f769aeece7c5e6fcd65c89feab4c5afd06",
+    "tests/BindingProjection/Foundation/Reference.Foundation.csproj": "b29f49105c16235827a31a6dc45d242e25f39c692e7f8875f30ed00105776aae",
+    "tests/BindingProjection/Native/.gitignore": "8c52614a6393b6b7820cdde0027edb883ac1c2b204d35a088b623ccc4e6157cd",
+    "tests/BindingProjection/Native/AndroidManifest.xml": "d1f609b54ec23b76591127cf91382109c7c837de7fb6a1c6307fd54bd073813e",
+    "tests/BindingProjection/Native/build.gradle.kts": "01e57b452032c9a61e5e801c141929c3ae8b9ebc1a829141bd256b59183cf493",
+    "tests/BindingProjection/Native/gradle.lockfile": "1000e339b923095aceacdc8846926d8966e2b12c4d5c0c61a59721d2b0e9dd47",
+    "tests/BindingProjection/Native/gradle.properties": "76bae61b57a478abcf6c1adc2c750c17a304aa256d81cf73fb49a591421ece98",
+    "tests/BindingProjection/Native/gradlew": "e8ef59824445349ef8bbcdf8ea79568e64f5a38ef88a2908f6cb3cbf63d728dd",
+    "tests/BindingProjection/Native/gradlew.bat": "b36566b5e043bd2b04c13e363467b545bc8768e64b5ac0de174dad4b2155c66a",
+    "tests/BindingProjection/Native/settings.gradle.kts": "57a7f96a4ff596872bbc2e82ba73925f16bb4864113b9768a334c682ff07962f",
+    "tests/BindingProjection/Native/src/main/kotlin/net/dot/android/reference/SettingsRepository.kt": "15ff3259b32679c99ce16b41f7ac7b78ab8eca3dbf3e32badc33b395088b4942",
+    "tests/BindingProjection/README.md": "55b0e973df77e499f1b5f09772992d6470dc4b313d36628066410621eae0af78",
+    "tests/BindingProjection/Reader/CounterReader.cs": "072fa242013a8dbb9a4042a61c951f0e2c8ca6515dae75a742661d613c2a4093",
+    "tests/BindingProjection/Reader/Reference.Reader.csproj": "112b411cf2e33ac8319c404e701f0d51c2086fb93ff02efa89835865bd9b03fc",
+    "tests/BindingProjection/Reader/view.json": "f6de537c9bee07f735c77903b0c83d22945da06b9d5d543a9d812d0798d6f519",
+    "tests/BindingProjection/Reference.props": "fddead4c073f49ab602ed3f8a4cb510d555c01278d14214854cb01c5a8873232",
+    "tests/BindingProjection/Reference.slnx": "e144586c1cf109b17c73a54af010c775932d0756b8733f322d7968b668ae5fd0",
+    "tests/BindingProjection/Views.targets": "d83d8231cf40e567455cf55c992520e7fda082431b139f05a64e9d3c62bca83d",
+    "tests/BindingProjection/Writer/CounterWriter.cs": "bb0be2da4c270dda852179f66be2bf93623fb42d4d0f7535e45bdc73537b4a5d",
+    "tests/BindingProjection/Writer/Reference.Writer.csproj": "112b411cf2e33ac8319c404e701f0d51c2086fb93ff02efa89835865bd9b03fc",
+    "tests/BindingProjection/Writer/view.json": "a41a1766d9cf0aacfd131d3c5621cc47c9b9fb919584d656bf123a0b8cc63f80",
+    "tests/BindingProjection/verify-reference.py": "d9664fe5d5178e177ae4617cf0b464d00be484123c7b04518077f2490f12d418"
+  },
+  "notes": [
+    "Measurements use warm dependency caches; not a controlled performance guarantee.",
+    "Existing Mono.Android NativeAOT IL3053 warning remains.",
+    "Exact C# views are not CLR type equivalence and are not another registered JNI peer.",
+    "No published AndroidX/Kotlin managed packages are referenced.",
+    "No commits, pushes or pull requests."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+    "schemaVersion": 1,
+    "policy": "Every artifact record in config.json; no Maven-group allowlist",
+    "configurationSha256": "8aaadeaa197978b69d910f2dbaf1578c2cc5654f6a7fe8fd9242a5390a95a383",
+    "originalRecords": 3,
+    "mavenGroups": {
+        "io.sentry": 3
+    },
+    "records": [
+        {
+            "groupId": "io.sentry",
+            "artifactId": "sentry-android",
+            "version": "8.62.0"
+        },
+        {
+            "groupId": "io.sentry",
+            "artifactId": "sentry-compose-android",
+            "version": "8.62.0"
+        },
+        {
+            "groupId": "io.sentry",
+            "artifactId": "sentry-kotlin-extensions",
+            "version": "8.62.0"
+        }
+    ]
+}

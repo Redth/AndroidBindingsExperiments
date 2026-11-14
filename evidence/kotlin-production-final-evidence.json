@@ -1,0 +1,656 @@
+{
+  "evidence": {
+    "corpus": "kotlin-final-corpus/runs/a7abbeb8f1dd88966273/summary.json",
+    "published_owner_runtime": "kotlin-final-production/async-20261029T164630Z-b8fc00bf/comparison.json",
+    "regenerated_owner_runtime": "kotlin-complete-async-closures/closure-dd9c3fa21074/runtime-comparison.json",
+    "complete_async_closure": "kotlin-complete-async-closures/closure-dd9c3fa21074/comparison.json",
+    "androidx_support_closure": "kotlin-final-closures/closure-409b238c02ce/comparison.json",
+    "broader_support_closure": "kotlin-broad-support-closures/closure-a40096047f63/comparison.json",
+    "package_consumer": "kotlin-package-consumers/package-17f5134eb80d/results.json",
+    "real_libraries": "kotlin-production-real-libraries/results.json"
+  },
+  "corpus": {
+    "completed": 444,
+    "status_counts": {
+      "no-jvm-classes": 80,
+      "compiled": 319,
+      "compiled-api-changes-review-required": 43,
+      "input-failed": 1,
+      "no-generated-sources-review-required": 1
+    },
+    "semantic_error_codes": {}
+  },
+  "benchmarks": [
+    {
+      "items_per_trial": 10000,
+      "baseline": "one native operation, completion Task and FlowItem per MoveNext",
+      "optimized": "one native subscription and reusable ValueTask source per enumeration",
+      "allocation_scope": "process-wide managed bytes; excludes Java/native heap allocations",
+      "baseline_median_bytes": 41047064,
+      "optimized_median_bytes": 2077448,
+      "trials": [
+        {
+          "optimized": false,
+          "managed_bytes": 41675176,
+          "milliseconds": 1137.6725,
+          "items_per_second": 8789.87582102934,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 3009568,
+          "milliseconds": 136.4907,
+          "items_per_second": 73265.06494581682,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 2077448,
+          "milliseconds": 158.3615,
+          "items_per_second": 63146.661278151565,
+          "checksum": 49995000
+        },
+        {
+          "optimized": false,
+          "managed_bytes": 41047064,
+          "milliseconds": 840.3506,
+          "items_per_second": 11899.79515692617,
+          "checksum": 49995000
+        },
+        {
+          "optimized": false,
+          "managed_bytes": 40772496,
+          "milliseconds": 778.7532,
+          "items_per_second": 12841.038727031877,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 1780400,
+          "milliseconds": 104.7188,
+          "items_per_second": 95493.83682777113,
+          "checksum": 49995000
+        }
+      ],
+      "ownership": "published_owner_runtime",
+      "configuration": "Debug",
+      "nativeaot": false,
+      "allocation_reduction": 0.9493886334964177
+    },
+    {
+      "items_per_trial": 10000,
+      "baseline": "one native operation, completion Task and FlowItem per MoveNext",
+      "optimized": "one native subscription and reusable ValueTask source per enumeration",
+      "allocation_scope": "process-wide managed bytes; excludes Java/native heap allocations",
+      "baseline_median_bytes": 37684408,
+      "optimized_median_bytes": 2076984,
+      "trials": [
+        {
+          "optimized": false,
+          "managed_bytes": 38214552,
+          "milliseconds": 529.4675,
+          "items_per_second": 18886.90051797325,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 2949176,
+          "milliseconds": 47.0854,
+          "items_per_second": 212380.05836204003,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 2076984,
+          "milliseconds": 89.839,
+          "items_per_second": 111310.23274969668,
+          "checksum": 49995000
+        },
+        {
+          "optimized": false,
+          "managed_bytes": 37684408,
+          "milliseconds": 429.9322,
+          "items_per_second": 23259.481378691802,
+          "checksum": 49995000
+        },
+        {
+          "optimized": false,
+          "managed_bytes": 35151960,
+          "milliseconds": 245.4715,
+          "items_per_second": 40737.926806166906,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 1699496,
+          "milliseconds": 23.3469,
+          "items_per_second": 428322.3896962766,
+          "checksum": 49995000
+        }
+      ],
+      "ownership": "published_owner_runtime",
+      "configuration": "Release",
+      "nativeaot": false,
+      "allocation_reduction": 0.9448847916093043
+    },
+    {
+      "items_per_trial": 10000,
+      "baseline": "one native operation, completion Task and FlowItem per MoveNext",
+      "optimized": "one native subscription and reusable ValueTask source per enumeration",
+      "allocation_scope": "process-wide managed bytes; excludes Java/native heap allocations",
+      "baseline_median_bytes": 48919368,
+      "optimized_median_bytes": 2145904,
+      "trials": [
+        {
+          "optimized": false,
+          "managed_bytes": 48919368,
+          "milliseconds": 342.1621,
+          "items_per_second": 29225.913682432976,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 3562072,
+          "milliseconds": 25.7584,
+          "items_per_second": 388222.8709857755,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 2145904,
+          "milliseconds": 60.1477,
+          "items_per_second": 166257.39637592126,
+          "checksum": 49995000
+        },
+        {
+          "optimized": false,
+          "managed_bytes": 49094376,
+          "milliseconds": 332.1427,
+          "items_per_second": 30107.54112614849,
+          "checksum": 49995000
+        },
+        {
+          "optimized": false,
+          "managed_bytes": 48569512,
+          "milliseconds": 340.1765,
+          "items_per_second": 29396.504461654466,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 1690208,
+          "milliseconds": 21.6334,
+          "items_per_second": 462248.1902983349,
+          "checksum": 49995000
+        }
+      ],
+      "ownership": "published_owner_runtime",
+      "configuration": "Release",
+      "nativeaot": true,
+      "allocation_reduction": 0.9561338568396877
+    },
+    {
+      "items_per_trial": 10000,
+      "baseline": "one native operation, completion Task and FlowItem per MoveNext",
+      "optimized": "one native subscription and reusable ValueTask source per enumeration",
+      "allocation_scope": "process-wide managed bytes; excludes Java/native heap allocations",
+      "baseline_median_bytes": 41047368,
+      "optimized_median_bytes": 2077024,
+      "trials": [
+        {
+          "optimized": false,
+          "managed_bytes": 41727104,
+          "milliseconds": 1281.4737,
+          "items_per_second": 7803.515593023875,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 3011032,
+          "milliseconds": 147.5745,
+          "items_per_second": 67762.38442278307,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 2077024,
+          "milliseconds": 193.0263,
+          "items_per_second": 51806.4118723718,
+          "checksum": 49995000
+        },
+        {
+          "optimized": false,
+          "managed_bytes": 41047368,
+          "milliseconds": 975.517,
+          "items_per_second": 10250.974611411179,
+          "checksum": 49995000
+        },
+        {
+          "optimized": false,
+          "managed_bytes": 40772328,
+          "milliseconds": 990.2595,
+          "items_per_second": 10098.36310583236,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 1780328,
+          "milliseconds": 132.9462,
+          "items_per_second": 75218.3966145704,
+          "checksum": 49995000
+        }
+      ],
+      "ownership": "regenerated_owner_runtime",
+      "configuration": "Debug",
+      "nativeaot": false,
+      "allocation_reduction": 0.9493993378576673
+    },
+    {
+      "items_per_trial": 10000,
+      "baseline": "one native operation, completion Task and FlowItem per MoveNext",
+      "optimized": "one native subscription and reusable ValueTask source per enumeration",
+      "allocation_scope": "process-wide managed bytes; excludes Java/native heap allocations",
+      "baseline_median_bytes": 37415600,
+      "optimized_median_bytes": 2077296,
+      "trials": [
+        {
+          "optimized": false,
+          "managed_bytes": 38214872,
+          "milliseconds": 606.1475,
+          "items_per_second": 16497.634651631823,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 2948736,
+          "milliseconds": 62.4855,
+          "items_per_second": 160037.1286138384,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 2077296,
+          "milliseconds": 94.6553,
+          "items_per_second": 105646.48783533517,
+          "checksum": 49995000
+        },
+        {
+          "optimized": false,
+          "managed_bytes": 37415600,
+          "milliseconds": 455.904,
+          "items_per_second": 21934.44233873798,
+          "checksum": 49995000
+        },
+        {
+          "optimized": false,
+          "managed_bytes": 34971128,
+          "milliseconds": 323.5613,
+          "items_per_second": 30906.04469693996,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 1691272,
+          "milliseconds": 30.0019,
+          "items_per_second": 333312.22355917457,
+          "checksum": 49995000
+        }
+      ],
+      "ownership": "regenerated_owner_runtime",
+      "configuration": "Release",
+      "nativeaot": false,
+      "allocation_reduction": 0.9444804840761607
+    },
+    {
+      "items_per_trial": 10000,
+      "baseline": "one native operation, completion Task and FlowItem per MoveNext",
+      "optimized": "one native subscription and reusable ValueTask source per enumeration",
+      "allocation_scope": "process-wide managed bytes; excludes Java/native heap allocations",
+      "baseline_median_bytes": 48920056,
+      "optimized_median_bytes": 2145888,
+      "trials": [
+        {
+          "optimized": false,
+          "managed_bytes": 48920056,
+          "milliseconds": 436.9843,
+          "items_per_second": 22884.11734700766,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 3562056,
+          "milliseconds": 29.2462,
+          "items_per_second": 341924.7628751769,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 2145888,
+          "milliseconds": 67.589,
+          "items_per_second": 147953.06928642234,
+          "checksum": 49995000
+        },
+        {
+          "optimized": false,
+          "managed_bytes": 49094360,
+          "milliseconds": 403.0082,
+          "items_per_second": 24813.390893783304,
+          "checksum": 49995000
+        },
+        {
+          "optimized": false,
+          "managed_bytes": 48569288,
+          "milliseconds": 346.2745,
+          "items_per_second": 28878.823014689213,
+          "checksum": 49995000
+        },
+        {
+          "optimized": true,
+          "managed_bytes": 1690192,
+          "milliseconds": 25.4003,
+          "items_per_second": 393696.1374471955,
+          "checksum": 49995000
+        }
+      ],
+      "ownership": "regenerated_owner_runtime",
+      "configuration": "Release",
+      "nativeaot": true,
+      "allocation_reduction": 0.9561348008268837
+    }
+  ],
+  "closures": {
+    "complete_async_closure": {
+      "native_archives": 51,
+      "managed_references": [
+        "${ANDROID_SOURCE}/src/Microsoft.Android.Kotlin/bin/Debug/net11.0-android/Microsoft.Android.Kotlin.dll"
+      ],
+      "registered": {
+        "types": 2833,
+        "methods": 19549,
+        "fields": 1849
+      },
+      "compilation_exit_code": 0
+    },
+    "androidx_support_closure": {
+      "native_archives": 49,
+      "managed_references": [],
+      "registered": {
+        "types": 2795,
+        "methods": 19069,
+        "fields": 1847
+      },
+      "compilation_exit_code": 0
+    },
+    "broader_support_closure": {
+      "native_archives": 12,
+      "managed_references": [],
+      "registered": {
+        "types": 2737,
+        "methods": 17763,
+        "fields": 1237
+      },
+      "compilation_exit_code": 0
+    }
+  },
+  "host_tests": {
+    "generator": {
+      "passed": 672,
+      "log": "kotlin-final-generator-tests.log"
+    },
+    "bytecode": {
+      "passed": 110,
+      "skipped": 2,
+      "excluded_baseline": "ModuleInfoTests.ClassFile",
+      "log": "kotlin-final-bytecode-filtered.log"
+    },
+    "source_writer": {
+      "passed": 11,
+      "log": "kotlin-final-sourcewriter-tests.log"
+    },
+    "python_harness": {
+      "passed": 14
+    }
+  },
+  "library_adapters": [
+    {
+      "coordinate": "androidx.datastore:datastore-core-jvm:1.2.1",
+      "suspend_facts": 19,
+      "generated_task_adapters": 19,
+      "archive_sha256": "dd2d080fc16eb0bea1e02e5551d43496fb9e5177855c5b72c6aaf6e16ab1c5c1",
+      "parse": {
+        "command": [
+          "${ANDROID_SOURCE}/dotnet-local.sh",
+          "${ANDROID_SOURCE}/bin/Debug/lib/packs/Microsoft.Android.Sdk.Darwin/37.99.0/tools/class-parse.dll",
+          "-o=${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.datastore__datastore-core-jvm__1.2.1/fresh-api.xml",
+          "${EXPERIMENT_ARTIFACTS}/binding-corpus/inputs/androidx.datastore__datastore-core-jvm__1.2.1/artifact.jar"
+        ],
+        "cwd": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.datastore__datastore-core-jvm__1.2.1",
+        "log": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.datastore__datastore-core-jvm__1.2.1/class-parse.log",
+        "exit_code": 0
+      },
+      "generation": {
+        "command": [
+          "${ANDROID_SOURCE}/dotnet-local.sh",
+          "${ANDROID_SOURCE}/bin/Debug/lib/packs/Microsoft.Android.Sdk.Darwin/37.99.0/tools/generator.dll",
+          "@${EXPERIMENT_ARTIFACTS}/binding-corpus/inputs/androidx.datastore__datastore-core-jvm__1.2.1/obj/Debug/net11.0-android/generated/src/generator.rsp",
+          "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.datastore__datastore-core-jvm__1.2.1/api.xml.class-parse",
+          "--csdir=${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.datastore__datastore-core-jvm__1.2.1/semantic",
+          "--xml-adjuster-output=${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.datastore__datastore-core-jvm__1.2.1/semantic/api.xml",
+          "--experimental-semantic-model",
+          "--experimental-kotlin-async",
+          "--ref=${ANDROID_SOURCE}/src/Microsoft.Android.Kotlin/bin/Debug/net11.0-android/Microsoft.Android.Kotlin.dll"
+        ],
+        "cwd": "${EXPERIMENT_ARTIFACTS}/binding-corpus/inputs/androidx.datastore__datastore-core-jvm__1.2.1",
+        "log": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.datastore__datastore-core-jvm__1.2.1/generation.log",
+        "exit_code": 0
+      },
+      "compilation": {
+        "command": [
+          "${ANDROID_SOURCE}/dotnet-local.sh",
+          "${ANDROID_SOURCE}/bin/Debug/dotnet/sdk/12.0.100-alpha.1.26523.103/Roslyn/bincore/csc.dll",
+          "-noconfig",
+          "@${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.datastore__datastore-core-jvm__1.2.1/compile.rsp"
+        ],
+        "cwd": "${EXPERIMENT_ARTIFACTS}/binding-corpus/inputs/androidx.datastore__datastore-core-jvm__1.2.1",
+        "log": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.datastore__datastore-core-jvm__1.2.1/compilation.log",
+        "exit_code": 0
+      },
+      "runtime_sha256": "a00cf68b8b782167e143c206827243ce9aba9832755e228e96077926c04df2e3"
+    },
+    {
+      "coordinate": "androidx.lifecycle:lifecycle-runtime-android:2.11.0",
+      "suspend_facts": 10,
+      "generated_task_adapters": 10,
+      "archive_sha256": "8711865f8d3603bc05decc03bb42aab2faa8d8bc55b3b12a0a8e516b562b60ca",
+      "parse": {
+        "command": [
+          "${ANDROID_SOURCE}/dotnet-local.sh",
+          "${ANDROID_SOURCE}/bin/Debug/lib/packs/Microsoft.Android.Sdk.Darwin/37.99.0/tools/class-parse.dll",
+          "-o=${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.lifecycle__lifecycle-runtime-android__2.11.0/fresh-api.xml",
+          "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.lifecycle__lifecycle-runtime-android__2.11.0/classes.jar"
+        ],
+        "cwd": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.lifecycle__lifecycle-runtime-android__2.11.0",
+        "log": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.lifecycle__lifecycle-runtime-android__2.11.0/class-parse.log",
+        "exit_code": 0
+      },
+      "generation": {
+        "command": [
+          "${ANDROID_SOURCE}/dotnet-local.sh",
+          "${ANDROID_SOURCE}/bin/Debug/lib/packs/Microsoft.Android.Sdk.Darwin/37.99.0/tools/generator.dll",
+          "@${EXPERIMENT_ARTIFACTS}/binding-corpus/inputs/androidx.lifecycle__lifecycle-runtime-android__2.11.0/obj/Debug/net11.0-android/generated/src/generator.rsp",
+          "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.lifecycle__lifecycle-runtime-android__2.11.0/api.xml.class-parse",
+          "--csdir=${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.lifecycle__lifecycle-runtime-android__2.11.0/semantic",
+          "--xml-adjuster-output=${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.lifecycle__lifecycle-runtime-android__2.11.0/semantic/api.xml",
+          "--experimental-semantic-model",
+          "--experimental-kotlin-async",
+          "--ref=${ANDROID_SOURCE}/src/Microsoft.Android.Kotlin/bin/Debug/net11.0-android/Microsoft.Android.Kotlin.dll"
+        ],
+        "cwd": "${EXPERIMENT_ARTIFACTS}/binding-corpus/inputs/androidx.lifecycle__lifecycle-runtime-android__2.11.0",
+        "log": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.lifecycle__lifecycle-runtime-android__2.11.0/generation.log",
+        "exit_code": 0
+      },
+      "compilation": {
+        "command": [
+          "${ANDROID_SOURCE}/dotnet-local.sh",
+          "${ANDROID_SOURCE}/bin/Debug/dotnet/sdk/12.0.100-alpha.1.26523.103/Roslyn/bincore/csc.dll",
+          "-noconfig",
+          "@${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.lifecycle__lifecycle-runtime-android__2.11.0/compile.rsp"
+        ],
+        "cwd": "${EXPERIMENT_ARTIFACTS}/binding-corpus/inputs/androidx.lifecycle__lifecycle-runtime-android__2.11.0",
+        "log": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.lifecycle__lifecycle-runtime-android__2.11.0/compilation.log",
+        "exit_code": 0
+      },
+      "runtime_sha256": "a00cf68b8b782167e143c206827243ce9aba9832755e228e96077926c04df2e3"
+    },
+    {
+      "coordinate": "androidx.paging:paging-common-jvm:3.3.6",
+      "suspend_facts": 13,
+      "generated_task_adapters": 7,
+      "archive_sha256": "9ba390d49c490837bec724fef660465495a7318de81b691d46334ebe4d83aa2a",
+      "parse": {
+        "command": [
+          "${ANDROID_SOURCE}/dotnet-local.sh",
+          "${ANDROID_SOURCE}/bin/Debug/lib/packs/Microsoft.Android.Sdk.Darwin/37.99.0/tools/class-parse.dll",
+          "-o=${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.paging__paging-common-jvm__3.3.6/fresh-api.xml",
+          "${EXPERIMENT_ARTIFACTS}/binding-corpus/inputs/androidx.paging__paging-common-jvm__3.3.6/artifact.jar"
+        ],
+        "cwd": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.paging__paging-common-jvm__3.3.6",
+        "log": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.paging__paging-common-jvm__3.3.6/class-parse.log",
+        "exit_code": 0
+      },
+      "generation": {
+        "command": [
+          "${ANDROID_SOURCE}/dotnet-local.sh",
+          "${ANDROID_SOURCE}/bin/Debug/lib/packs/Microsoft.Android.Sdk.Darwin/37.99.0/tools/generator.dll",
+          "@${EXPERIMENT_ARTIFACTS}/binding-corpus/inputs/androidx.paging__paging-common-jvm__3.3.6/obj/Debug/net11.0-android/generated/src/generator.rsp",
+          "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.paging__paging-common-jvm__3.3.6/api.xml.class-parse",
+          "--csdir=${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.paging__paging-common-jvm__3.3.6/semantic",
+          "--xml-adjuster-output=${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.paging__paging-common-jvm__3.3.6/semantic/api.xml",
+          "--experimental-semantic-model",
+          "--experimental-kotlin-async",
+          "--ref=${ANDROID_SOURCE}/src/Microsoft.Android.Kotlin/bin/Debug/net11.0-android/Microsoft.Android.Kotlin.dll"
+        ],
+        "cwd": "${EXPERIMENT_ARTIFACTS}/binding-corpus/inputs/androidx.paging__paging-common-jvm__3.3.6",
+        "log": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.paging__paging-common-jvm__3.3.6/generation.log",
+        "exit_code": 0
+      },
+      "compilation": {
+        "command": [
+          "${ANDROID_SOURCE}/dotnet-local.sh",
+          "${ANDROID_SOURCE}/bin/Debug/dotnet/sdk/12.0.100-alpha.1.26523.103/Roslyn/bincore/csc.dll",
+          "-noconfig",
+          "@${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.paging__paging-common-jvm__3.3.6/compile.rsp"
+        ],
+        "cwd": "${EXPERIMENT_ARTIFACTS}/binding-corpus/inputs/androidx.paging__paging-common-jvm__3.3.6",
+        "log": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.paging__paging-common-jvm__3.3.6/compilation.log",
+        "exit_code": 0
+      },
+      "runtime_sha256": "a00cf68b8b782167e143c206827243ce9aba9832755e228e96077926c04df2e3"
+    },
+    {
+      "coordinate": "androidx.room:room-runtime-android:2.8.5",
+      "suspend_facts": 19,
+      "generated_task_adapters": 14,
+      "archive_sha256": "ab6f951f6e7b63ed419eaf740b34dbe51560532f78289fd9c5dadabf46401dba",
+      "parse": {
+        "command": [
+          "${ANDROID_SOURCE}/dotnet-local.sh",
+          "${ANDROID_SOURCE}/bin/Debug/lib/packs/Microsoft.Android.Sdk.Darwin/37.99.0/tools/class-parse.dll",
+          "-o=${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.room__room-runtime-android__2.8.5/fresh-api.xml",
+          "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.room__room-runtime-android__2.8.5/classes.jar"
+        ],
+        "cwd": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.room__room-runtime-android__2.8.5",
+        "log": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.room__room-runtime-android__2.8.5/class-parse.log",
+        "exit_code": 0
+      },
+      "generation": {
+        "command": [
+          "${ANDROID_SOURCE}/dotnet-local.sh",
+          "${ANDROID_SOURCE}/bin/Debug/lib/packs/Microsoft.Android.Sdk.Darwin/37.99.0/tools/generator.dll",
+          "@${EXPERIMENT_ARTIFACTS}/binding-corpus/inputs/androidx.room__room-runtime-android__2.8.5/obj/Debug/net11.0-android/generated/src/generator.rsp",
+          "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.room__room-runtime-android__2.8.5/api.xml.class-parse",
+          "--csdir=${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.room__room-runtime-android__2.8.5/semantic",
+          "--xml-adjuster-output=${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.room__room-runtime-android__2.8.5/semantic/api.xml",
+          "--experimental-semantic-model",
+          "--experimental-kotlin-async",
+          "--ref=${ANDROID_SOURCE}/src/Microsoft.Android.Kotlin/bin/Debug/net11.0-android/Microsoft.Android.Kotlin.dll"
+        ],
+        "cwd": "${EXPERIMENT_ARTIFACTS}/binding-corpus/inputs/androidx.room__room-runtime-android__2.8.5",
+        "log": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.room__room-runtime-android__2.8.5/generation.log",
+        "exit_code": 0
+      },
+      "compilation": {
+        "command": [
+          "${ANDROID_SOURCE}/dotnet-local.sh",
+          "${ANDROID_SOURCE}/bin/Debug/dotnet/sdk/12.0.100-alpha.1.26523.103/Roslyn/bincore/csc.dll",
+          "-noconfig",
+          "@${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.room__room-runtime-android__2.8.5/compile.rsp"
+        ],
+        "cwd": "${EXPERIMENT_ARTIFACTS}/binding-corpus/inputs/androidx.room__room-runtime-android__2.8.5",
+        "log": "${EXPERIMENT_ARTIFACTS}/kotlin-production-real-libraries/androidx.room__room-runtime-android__2.8.5/compilation.log",
+        "exit_code": 0
+      },
+      "runtime_sha256": "a00cf68b8b782167e143c206827243ce9aba9832755e228e96077926c04df2e3"
+    }
+  ],
+  "published_owner_runtime": [
+    {
+      "configuration": "Debug",
+      "nativeaot": false,
+      "passed": 56,
+      "directory": "${EXPERIMENT_ARTIFACTS}/kotlin-final-production/async-20261029T164630Z-b8fc00bf/device-d3f6a27d"
+    },
+    {
+      "configuration": "Release",
+      "nativeaot": false,
+      "passed": 56,
+      "directory": "${EXPERIMENT_ARTIFACTS}/kotlin-final-production/async-20261029T164630Z-b8fc00bf/device-0445eadc"
+    },
+    {
+      "configuration": "Release",
+      "nativeaot": true,
+      "passed": 56,
+      "directory": "${EXPERIMENT_ARTIFACTS}/kotlin-final-production/async-20261029T164630Z-b8fc00bf/device-7c4b4b23"
+    }
+  ],
+  "regenerated_owner_runtime": [
+    {
+      "configuration": "Debug",
+      "nativeaot": false,
+      "passed": 56,
+      "directory": "${EXPERIMENT_ARTIFACTS}/kotlin-complete-async-closures/closure-dd9c3fa21074/device-42d756a8"
+    },
+    {
+      "configuration": "Release",
+      "nativeaot": false,
+      "passed": 56,
+      "directory": "${EXPERIMENT_ARTIFACTS}/kotlin-complete-async-closures/closure-dd9c3fa21074/device-0330d776"
+    },
+    {
+      "configuration": "Release",
+      "nativeaot": true,
+      "passed": 56,
+      "directory": "${EXPERIMENT_ARTIFACTS}/kotlin-complete-async-closures/closure-dd9c3fa21074/device-9993846c"
+    }
+  ],
+  "package": {
+    "file": "kotlin-final-packages/Microsoft.Android.Kotlin.0.1.0-spike.1.nupkg",
+    "sha256": "8092705ac91a991e223320a8d6bca7d24aa35f21b02a83811119de1814a07e52",
+    "files": [
+      "_rels/.rels",
+      "Microsoft.Android.Kotlin.nuspec",
+      "README.md",
+      "buildTransitive/Microsoft.Android.Kotlin.props",
+      "lib/net11.0-android37.0/Microsoft.Android.Kotlin.dll",
+      "lib/net11.0-android37.0/Microsoft.Android.Kotlin.xml",
+      "native/AndroidManifest.xml",
+      "native/build.gradle.kts",
+      "native/gradle/dependency-repositories.gradle",
+      "native/gradle/plugin-repositories.gradle",
+      "native/settings.gradle.kts",
+      "native/src/main/kotlin/net/dot/android/kotlin/CoroutineBridge.kt",
+      "[Content_Types].xml",
+      "package/services/metadata/core-properties/nuget.psmdcp"
+    ]
+  }
+}

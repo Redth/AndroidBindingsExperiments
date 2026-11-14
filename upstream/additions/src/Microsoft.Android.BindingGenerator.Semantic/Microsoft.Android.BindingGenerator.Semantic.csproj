@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <WarningsAsErrors>nullable</WarningsAsErrors>
+    <IsPackable>true</IsPackable>
+    <PackageId>Microsoft.Android.BindingGenerator.Semantic</PackageId>
+    <Version>0.1.0-preview.1</Version>
+    <Authors>Microsoft</Authors>
+    <Description>Project-local experimental semantic Java/Kotlin binding compiler for .NET for Android.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+    <TargetsForTfmSpecificContentInPackage>$(TargetsForTfmSpecificContentInPackage);_AndroidCollectBindingCompilerPackage</TargetsForTfmSpecificContentInPackage>
+    <_AndroidDescriptorDistribution>$(MSBuildThisFileDirectory)..\..\external\Java.Interop\tools\jvm-api-descriptor\build\install\jvm-api-descriptor\lib\</_AndroidDescriptorDistribution>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.Android.Build.BaseTasks\Microsoft.Android.Build.BaseTasks.csproj" PrivateAssets="all" />
+    <ProjectReference Include="..\Xamarin.Android.Tools.AndroidSdk\Xamarin.Android.Tools.AndroidSdk.csproj" PrivateAssets="all" />
+    <None Update="README.md" Pack="true" PackagePath="" />
+    <None Update="build\Microsoft.Android.BindingGenerator.Semantic.targets" Pack="true" PackagePath="build\Microsoft.Android.BindingGenerator.Semantic.targets" />
+    <None Update="build\Microsoft.Android.BindingGenerator.Semantic.Bindings.targets" Pack="true" PackagePath="build\Microsoft.Android.BindingGenerator.Semantic.Bindings.targets" />
+    <None Include="..\..\THIRD-PARTY-NOTICES.TXT" Pack="true" PackagePath="" />
+  </ItemGroup>
+  <Target Name="_AndroidBindingCompilerPackageInputs">
+    <PropertyGroup>
+      <_AndroidCompilerPackageStage>$(MSBuildProjectDirectory)\$(IntermediateOutputPath)package-tools\</_AndroidCompilerPackageStage>
+    </PropertyGroup>
+    <ItemGroup>
+      <_AndroidCompilerProject Include="..\..\external\Java.Interop\tools\generator\generator.csproj">
+        <Destination>$(_AndroidCompilerPackageStage)generator\</Destination>
+      </_AndroidCompilerProject>
+      <_AndroidCompilerProject Include="..\..\external\Java.Interop\tools\class-parse\class-parse.csproj">
+        <Destination>$(_AndroidCompilerPackageStage)parser\</Destination>
+      </_AndroidCompilerProject>
+    </ItemGroup>
+  </Target>
+  <Target Name="_AndroidCollectBindingCompilerPackage"
+      DependsOnTargets="Build;_AndroidBindingCompilerPackageInputs">
+    <Error Condition=" !Exists('$(_AndroidDescriptorDistribution)jvm-api-descriptor.jar') "
+        Text="Build the official descriptor with gradlew -p external/Java.Interop/tools/jvm-api-descriptor installDist before packing." />
+    <MSBuild Projects="%(_AndroidCompilerProject.Identity)" Targets="Publish"
+        Properties="Configuration=$(Configuration);DotNetTargetFramework=net10.0;PublishDir=%(_AndroidCompilerProject.Destination)" />
+    <ItemGroup>
+      <_AndroidCompilerPackageTool Include="$(_AndroidCompilerPackageStage)**\*" />
+      <_AndroidCompilerPackageTool Update="@(_AndroidCompilerPackageTool)">
+        <PackagePath>tools\%(_AndroidCompilerPackageTool.RecursiveDir)%(_AndroidCompilerPackageTool.Filename)%(_AndroidCompilerPackageTool.Extension)</PackagePath>
+      </_AndroidCompilerPackageTool>
+      <_AndroidCompilerPackageDescriptor Include="$(_AndroidDescriptorDistribution)*.jar" />
+      <_AndroidCompilerPackageDescriptor Update="@(_AndroidCompilerPackageDescriptor)">
+        <PackagePath>tools\descriptor\%(_AndroidCompilerPackageDescriptor.Filename)%(_AndroidCompilerPackageDescriptor.Extension)</PackagePath>
+      </_AndroidCompilerPackageDescriptor>
+      <_AndroidCompilerPackageTask Include="$(TargetPath);$(TargetDir)$(AssemblyName).deps.json" />
+      <_AndroidCompilerPackageTask Update="@(_AndroidCompilerPackageTask)">
+        <PackagePath>tools\tasks\%(_AndroidCompilerPackageTask.Filename)%(_AndroidCompilerPackageTask.Extension)</PackagePath>
+      </_AndroidCompilerPackageTask>
+      <_AndroidCompilerPackageTaskDependency Include="@(ReferenceCopyLocalPaths)"
+          Condition=" !$([System.String]::Copy('%(ReferenceCopyLocalPaths.Filename)').StartsWith('Microsoft.Build')) ">
+        <PackagePath>tools\tasks\%(ReferenceCopyLocalPaths.DestinationSubDirectory)%(ReferenceCopyLocalPaths.Filename)%(ReferenceCopyLocalPaths.Extension)</PackagePath>
+      </_AndroidCompilerPackageTaskDependency>
+      <TfmSpecificPackageFile Include="@(_AndroidCompilerPackageTool);@(_AndroidCompilerPackageDescriptor);@(_AndroidCompilerPackageTask);@(_AndroidCompilerPackageTaskDependency)" />
+    </ItemGroup>
+  </Target>
+</Project>

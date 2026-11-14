@@ -1,0 +1,26 @@
+[
+  {
+    "artifacts": [
+      {
+        "groupId": "com.squareup.retrofit2",
+        "artifactId": "retrofit",
+        "version": "3.0.0"
+      },
+      {
+        "groupId": "com.squareup.retrofit2",
+        "artifactId": "converter-moshi",
+        "version": "3.0.0"
+      },
+      {
+        "groupId": "com.squareup.okhttp3",
+        "artifactId": "okhttp",
+        "version": "5.5.1"
+      },
+      {
+        "groupId": "com.squareup.moshi",
+        "artifactId": "moshi",
+        "version": "1.15.2"
+      }
+    ]
+  }
+]

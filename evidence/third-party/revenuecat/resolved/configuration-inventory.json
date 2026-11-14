@@ -1,0 +1,41 @@
+{
+    "schemaVersion": 1,
+    "policy": "Every artifact record in config.json; no Maven-group allowlist",
+    "configurationSha256": "6f54433d8470fd2111be5f6eb1b0df16be5b1069ffa53fbc948d663faf97a948",
+    "originalRecords": 6,
+    "mavenGroups": {
+        "com.revenuecat.purchases": 6
+    },
+    "records": [
+        {
+            "groupId": "com.revenuecat.purchases",
+            "artifactId": "purchases",
+            "version": "11.0.1"
+        },
+        {
+            "groupId": "com.revenuecat.purchases",
+            "artifactId": "purchases-ui",
+            "version": "11.0.1"
+        },
+        {
+            "groupId": "com.revenuecat.purchases",
+            "artifactId": "purchases-store-amazon",
+            "version": "11.0.1"
+        },
+        {
+            "groupId": "com.revenuecat.purchases",
+            "artifactId": "purchases-store-galaxy",
+            "version": "11.0.1"
+        },
+        {
+            "groupId": "com.revenuecat.purchases",
+            "artifactId": "purchases-debug-view",
+            "version": "11.0.1"
+        },
+        {
+            "groupId": "com.revenuecat.purchases",
+            "artifactId": "purchases-admob",
+            "version": "11.0.1"
+        }
+    ]
+}

@@ -1,0 +1,425 @@
+{
+    "schemaVersion": 1,
+    "policy": "One Gradle-resolved version per module",
+    "configurationSha256": "eff6a1a4f882eaaa08cfc70f3b396fe432b993aa397958a0a05e306261765b86",
+    "configurationRecords": 1,
+    "includedRoots": null,
+    "records": [
+        {
+            "requested": {
+                "groupId": "org.maplibre.gl",
+                "artifactId": "android-sdk",
+                "version": "13.7.1"
+            },
+            "selected": {
+                "group": "org.maplibre.gl",
+                "artifact": "android-sdk",
+                "version": "13.7.1",
+                "reasons": [
+                    "requested"
+                ]
+            },
+            "variantAlias": null,
+            "publishedRelocation": null,
+            "superseded": false
+        }
+    ],
+    "modules": [
+        {
+            "group": "org.maplibre.gl",
+            "artifact": "android-sdk",
+            "version": "13.7.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.maplibre.gl",
+            "artifact": "android-sdk-turf",
+            "version": "6.0.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.maplibre.gl",
+            "artifact": "android-sdk-geojson",
+            "version": "6.0.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "com.google.code.gson",
+            "artifact": "gson",
+            "version": "2.10.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.annotation",
+            "artifact": "annotation",
+            "version": "1.8.2",
+            "reasons": [
+                "requested",
+                "between versions 1.8.2, 1.1.0, 1.0.0, 1.2.0 and 1.6.0"
+            ]
+        },
+        {
+            "group": "androidx.annotation",
+            "artifact": "annotation-jvm",
+            "version": "1.8.2",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlin",
+            "artifact": "kotlin-stdlib",
+            "version": "2.2.10",
+            "reasons": [
+                "requested",
+                "between versions 2.2.10, 1.8.22, 1.5.21, 2.0.10, 1.7.10, 1.8.10, 1.8.21, 2.1.0 and 1.9.10"
+            ]
+        },
+        {
+            "group": "org.jetbrains",
+            "artifact": "annotations",
+            "version": "23.0.0",
+            "reasons": [
+                "requested",
+                "between versions 23.0.0, 20.1.0 and 13.0"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlin",
+            "artifact": "kotlin-stdlib-jdk8",
+            "version": "1.9.10",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 1.9.10, 1.8.21, 1.8.0 and 1.6.21"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlin",
+            "artifact": "kotlin-stdlib-jdk7",
+            "version": "1.9.10",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 1.9.10 and 1.8.0"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlin",
+            "artifact": "kotlin-stdlib-common",
+            "version": "2.2.10",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 2.2.10 and 1.9.10"
+            ]
+        },
+        {
+            "group": "androidx.fragment",
+            "artifact": "fragment",
+            "version": "1.8.9",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.activity",
+            "artifact": "activity",
+            "version": "1.8.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.collection",
+            "artifact": "collection",
+            "version": "1.1.0",
+            "reasons": [
+                "requested",
+                "between versions 1.1.0 and 1.0.0"
+            ]
+        },
+        {
+            "group": "androidx.core",
+            "artifact": "core",
+            "version": "1.13.1",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 1.13.1, 1.8.0 and 1.0.0"
+            ]
+        },
+        {
+            "group": "androidx.annotation",
+            "artifact": "annotation-experimental",
+            "version": "1.4.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.concurrent",
+            "artifact": "concurrent-futures",
+            "version": "1.1.0",
+            "reasons": [
+                "requested",
+                "between versions 1.1.0 and 1.0.0"
+            ]
+        },
+        {
+            "group": "com.google.guava",
+            "artifact": "listenablefuture",
+            "version": "1.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.interpolator",
+            "artifact": "interpolator",
+            "version": "1.0.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-runtime",
+            "version": "2.6.2",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 2.6.2 and 2.6.1"
+            ]
+        },
+        {
+            "group": "androidx.arch.core",
+            "artifact": "core-common",
+            "version": "2.2.0",
+            "reasons": [
+                "requested",
+                "between versions 2.2.0 and 2.1.0"
+            ]
+        },
+        {
+            "group": "androidx.arch.core",
+            "artifact": "core-runtime",
+            "version": "2.2.0",
+            "reasons": [
+                "requested",
+                "between versions 2.2.0 and 2.1.0"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-common",
+            "version": "2.6.2",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 2.6.2 and 2.6.1"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlinx",
+            "artifact": "kotlinx-coroutines-android",
+            "version": "1.10.2",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 1.10.2 and 1.6.4"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlinx",
+            "artifact": "kotlinx-coroutines-core",
+            "version": "1.10.2",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 1.10.2 and 1.6.4"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlinx",
+            "artifact": "kotlinx-coroutines-core-jvm",
+            "version": "1.10.2",
+            "reasons": [
+                "requested",
+                "constraint"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlinx",
+            "artifact": "kotlinx-coroutines-bom",
+            "version": "1.10.2",
+            "reasons": [
+                "requested",
+                "between versions 1.10.2 and 1.6.4"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-livedata",
+            "version": "2.6.2",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 2.6.2, 2.6.1 and 2.0.0"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-livedata-core",
+            "version": "2.6.2",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 2.6.2 and 2.6.1"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-viewmodel",
+            "version": "2.6.2",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 2.6.2, 2.6.1 and 2.0.0"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-viewmodel-savedstate",
+            "version": "2.6.2",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 2.6.2 and 2.6.1"
+            ]
+        },
+        {
+            "group": "androidx.core",
+            "artifact": "core-ktx",
+            "version": "1.13.1",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 1.13.1 and 1.2.0"
+            ]
+        },
+        {
+            "group": "androidx.savedstate",
+            "artifact": "savedstate",
+            "version": "1.2.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.profileinstaller",
+            "artifact": "profileinstaller",
+            "version": "1.3.1",
+            "reasons": [
+                "requested",
+                "between versions 1.3.1 and 1.3.0"
+            ]
+        },
+        {
+            "group": "androidx.startup",
+            "artifact": "startup-runtime",
+            "version": "1.1.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.tracing",
+            "artifact": "tracing",
+            "version": "1.0.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.versionedparcelable",
+            "artifact": "versionedparcelable",
+            "version": "1.1.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.loader",
+            "artifact": "loader",
+            "version": "1.0.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.viewpager",
+            "artifact": "viewpager",
+            "version": "1.0.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.customview",
+            "artifact": "customview",
+            "version": "1.0.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "com.squareup.okhttp3",
+            "artifact": "okhttp",
+            "version": "4.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "com.squareup.okio",
+            "artifact": "okio",
+            "version": "3.6.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "com.squareup.okio",
+            "artifact": "okio-jvm",
+            "version": "3.6.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "com.jakewharton.timber",
+            "artifact": "timber",
+            "version": "5.0.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.maplibre.gl",
+            "artifact": "maplibre-android-gestures",
+            "version": "0.0.4",
+            "reasons": [
+                "requested"
+            ]
+        }
+    ]
+}

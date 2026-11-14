@@ -1,0 +1,11 @@
+{
+  "Microsoft.Android.Kotlin.dll": [],
+  "profiles/coil/ThirdParty.coil.dll": [],
+  "profiles/mapbox/ThirdParty.mapbox.dll": [],
+  "profiles/networking/ThirdParty.networking.dll": [],
+  "profiles/revenuecat/ThirdParty.revenuecat.dll": [],
+  "profiles/revenuecat-custom/ThirdParty.revenuecat.custom.dll": [],
+  "profiles/revenuecat-nextgen/ThirdParty.revenuecat.nextgen.dll": [],
+  "profiles/revenuecat-noop/ThirdParty.revenuecat.noop.dll": [],
+  "profiles/stripe/ThirdParty.stripe.dll": []
+}

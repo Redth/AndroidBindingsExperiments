@@ -1,0 +1,22 @@
+{
+    "schemaVersion": 1,
+    "policy": "Every artifact record in config.json; no Maven-group allowlist",
+    "configurationSha256": "c7a1696c8d53e1026ede6232004a6656601ded4f8577674e51762ac6e8c319ce",
+    "originalRecords": 2,
+    "mavenGroups": {
+        "com.mapbox.extension": 1,
+        "com.mapbox.maps": 1
+    },
+    "records": [
+        {
+            "groupId": "com.mapbox.maps",
+            "artifactId": "android-ndk27",
+            "version": "11.34.1"
+        },
+        {
+            "groupId": "com.mapbox.extension",
+            "artifactId": "maps-compose-ndk27",
+            "version": "11.34.1"
+        }
+    ]
+}

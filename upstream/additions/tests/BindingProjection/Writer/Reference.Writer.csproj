@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\Reference.props" />
+  <ItemGroup>
+    <ProjectReference Include="..\Foundation\Reference.Foundation.csproj" />
+  </ItemGroup>
+  <Import Project="..\Views.targets" />
+</Project>

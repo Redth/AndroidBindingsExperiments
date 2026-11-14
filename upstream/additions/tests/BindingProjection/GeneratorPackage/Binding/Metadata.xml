@@ -1,0 +1,4 @@
+<metadata>
+  <attr path="/api/package[@name='net.dot.android.packagetest']/class[@name='Box']" name="managedName">PreviewBox</attr>
+  <attr path="/api/package[@name='net.dot.android.packagetest']/class[@name='Box']/method[@name='echo']" name="managedName">RenamedEcho</attr>
+</metadata>

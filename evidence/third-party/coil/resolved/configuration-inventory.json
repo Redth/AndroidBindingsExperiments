@@ -1,0 +1,26 @@
+{
+    "schemaVersion": 1,
+    "policy": "Every artifact record in config.json; no Maven-group allowlist",
+    "configurationSha256": "454723b78d5429a1f0223c41beefb9fa304b6f74a54e0c310ab537f938f49d7c",
+    "originalRecords": 3,
+    "mavenGroups": {
+        "io.coil-kt.coil3": 3
+    },
+    "records": [
+        {
+            "groupId": "io.coil-kt.coil3",
+            "artifactId": "coil",
+            "version": "3.6.3"
+        },
+        {
+            "groupId": "io.coil-kt.coil3",
+            "artifactId": "coil-compose",
+            "version": "3.6.3"
+        },
+        {
+            "groupId": "io.coil-kt.coil3",
+            "artifactId": "coil-network-okhttp",
+            "version": "3.6.3"
+        }
+    ]
+}

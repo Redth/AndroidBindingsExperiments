@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "coherent": true,
+  "inputArchiveRecords": 23,
+  "uniqueArchives": 23,
+  "repeatedArchiveRecords": [],
+  "nativeClassNames": 2888,
+  "mavenGroups": {
+    "androidx.annotation": 59,
+    "androidx.arch.core": 9,
+    "androidx.collection": 17,
+    "androidx.core": 457,
+    "androidx.lifecycle": 38,
+    "androidx.versionedparcelable": 15,
+    "com.abovevacant": 23,
+    "io.sentry": 1260,
+    "org.jetbrains": 32,
+    "org.jetbrains.kotlin": 978
+  },
+  "androidVariantAliases": {},
+  "conflicts": [],
+  "inputs": [
+    {
+      "group": "androidx.annotation",
+      "artifact": "annotation",
+      "version": "1.1.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar",
+      "sha256": "d38d63edb30f1467818d50aaf05f8a692dea8b31392a049bfa991b159ad5b692"
+    },
+    {
+      "group": "androidx.arch.core",
+      "artifact": "core-common",
+      "version": "2.1.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar",
+      "sha256": "fe1237bf029d063e7f29fe39aeaf73ef74c8b0a3658486fc29d3c54326653889"
+    },
+    {
+      "group": "androidx.collection",
+      "artifact": "collection",
+      "version": "1.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar",
+      "sha256": "9c8d117b5c2bc120a1cdfeb857e05b495b16c36013570372a708f7827e3ac9f9"
+    },
+    {
+      "group": "androidx.core",
+      "artifact": "core",
+      "version": "1.3.2",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.core/core/1.3.2/18a4755efb834c487bac7062e508465f0c853218/core-1.3.2.aar",
+      "sha256": "94de196cd67950cff6ef3e1ac59015f8eaaf61840bdc238f2cf54ddef8dd0be9"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-common-java8",
+      "version": "2.2.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-java8/2.2.0/cd3478503da69b1a7e0319bd2d1389943db9b364/lifecycle-common-java8-2.2.0.jar",
+      "sha256": "a1ec63c1bb973443cb731d78ec336c5e20e7ee35c89cbb32d36f92c55bb02542"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-common",
+      "version": "2.2.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0/4ef09a745007778eef83b92f8f23987a8ea59496/lifecycle-common-2.2.0.jar",
+      "sha256": "63898dabf7cfe5ec5d7ed8b8c2564c1427be876e1496ead95c2703cf59d3734b"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-process",
+      "version": "2.2.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-process/2.2.0/93a5ef35a6bbca403722522d2374fc18d8f9d04b/lifecycle-process-2.2.0.aar",
+      "sha256": "3a977e7778fc8418742d388409daaba7ea8fea8823d21ffb96e4c4236f715070"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-runtime",
+      "version": "2.2.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.2.0/62fab579508713b8bbb6d251b0abff6e538e8f46/lifecycle-runtime-2.2.0.aar",
+      "sha256": "2f866c07a1f33a8c9bb69a9545d4f20b4f0628cd0a155432386d7cb081e1e0bc"
+    },
+    {
+      "group": "androidx.versionedparcelable",
+      "artifact": "versionedparcelable",
+      "version": "1.1.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.0/91acce73e00a17b524f6697f6c3893efb8ea349f/versionedparcelable-1.1.0.aar",
+      "sha256": "9a1d77140ac222b7866b5054ee7d159bc1800987ed2d46dd6afdd145abb710c1"
+    },
+    {
+      "group": "com.abovevacant",
+      "artifact": "epitaph",
+      "version": "0.1.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.abovevacant/epitaph/0.1.1/b67003ab014880706ed3ecb55e3409067519d68/epitaph-0.1.1.jar",
+      "sha256": "13a329149ac36efc2bc4f5529f2d857887c3e60eacf93f2bf3dce5cb2ebea148"
+    },
+    {
+      "group": "io.sentry",
+      "artifact": "sentry-android-core",
+      "version": "8.62.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/io.sentry/sentry-android-core/8.62.0/124731f2895db2e7ea87471eb0b9169017146007/sentry-android-core-8.62.0.aar",
+      "sha256": "bbb04979d54fad7f6bf605c3a1e1645658ba50e49ed8ba5804e4e64013100f21"
+    },
+    {
+      "group": "io.sentry",
+      "artifact": "sentry-android-navigation",
+      "version": "8.62.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/io.sentry/sentry-android-navigation/8.62.0/f073b61856a71e5235a84980c572bb5623e149e2/sentry-android-navigation-8.62.0.aar",
+      "sha256": "0c3e4bb28dda321a678b86f09185cf13cc167948a35a171279937998b18fe9d1"
+    },
+    {
+      "group": "io.sentry",
+      "artifact": "sentry-android-ndk",
+      "version": "8.62.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/io.sentry/sentry-android-ndk/8.62.0/ef39536371a75c21538cb1c84caacf62e40cfed1/sentry-android-ndk-8.62.0.aar",
+      "sha256": "19b01626745dfa8e850a5adeeed13802a702f6e60cdbb31b5635bd8a2ae2c078"
+    },
+    {
+      "group": "io.sentry",
+      "artifact": "sentry-android-replay",
+      "version": "8.62.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/io.sentry/sentry-android-replay/8.62.0/fae14fd3c5222ec07fe6b8775fc01221237f1f4/sentry-android-replay-8.62.0.aar",
+      "sha256": "29b1fc64a8a03406b2cb9802d0a338389e6be6f43774ec7b21d03cae3c83645d"
+    },
+    {
+      "group": "io.sentry",
+      "artifact": "sentry-android",
+      "version": "8.62.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/io.sentry/sentry-android/8.62.0/7cb3578c0c00f8272a0b0f19aa7154c6a6b76ceb/sentry-android-8.62.0.aar",
+      "sha256": "42500f64bf20434990d16e97199dbdc1e649810ea09d684df382eeaaed7add15"
+    },
+    {
+      "group": "io.sentry",
+      "artifact": "sentry-compose-android",
+      "version": "8.62.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/io.sentry/sentry-compose-android/8.62.0/57fc634f7fa18d68946d96b882e62df448e451fe/sentry-compose-release.aar",
+      "sha256": "d3adbf97ba7e491f891e78a027dea4bd3506bd05a3ed244a42d92ff1741d7ad7"
+    },
+    {
+      "group": "io.sentry",
+      "artifact": "sentry-kotlin-extensions",
+      "version": "8.62.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/io.sentry/sentry-kotlin-extensions/8.62.0/d7a672158d9964c3caac388d8afaa6f1a4ebf381/sentry-kotlin-extensions-8.62.0.jar",
+      "sha256": "21c33c985dff69bc187c86baf6b991bf8a3055dee154faaf3176b10e872bf789"
+    },
+    {
+      "group": "io.sentry",
+      "artifact": "sentry-native-ndk",
+      "version": "0.17.4",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/io.sentry/sentry-native-ndk/0.17.4/117cf48e420bc02d0f8d9f3a36a4728deb2c16ef/sentry-native-ndk-0.17.4.aar",
+      "sha256": "1bbb49a73d20c587f463bff38767913a7d258d2fc5ac1cab00822f0b876916b1"
+    },
+    {
+      "group": "io.sentry",
+      "artifact": "sentry",
+      "version": "8.62.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/io.sentry/sentry/8.62.0/4741cd361be2f1bf8d21f70f87a7cb73ded64a29/sentry-8.62.0.jar",
+      "sha256": "5e7f398cf3115f10bce52fe0fa411e32ac6e84e0ac6d50673e5701739af3f319"
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "artifact": "kotlin-stdlib-jdk7",
+      "version": "1.9.24",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.9.24/46b6e1099acabc71feca1c0013deee78e6793d07/kotlin-stdlib-jdk7-1.9.24.jar",
+      "sha256": "b6699b850ba0789f2e904279cd8bdc7bea9130ffd157cdba001fc7425d8a47b7"
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "artifact": "kotlin-stdlib-jdk8",
+      "version": "1.9.24",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.9.24/a2f6d82081a54b52ceb120c5a18f87402ccab0c/kotlin-stdlib-jdk8-1.9.24.jar",
+      "sha256": "5b5bbfb3e1184b5e13317c3d42237fa24add443b2e7781961eea334db136adb1"
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "artifact": "kotlin-stdlib",
+      "version": "1.9.24",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.9.24/9928532f12c66ad816a625b3f9984f8368ca6d2b/kotlin-stdlib-1.9.24.jar",
+      "sha256": "858b902696da9cf585ab9d98ffc1c2712269828354dfe9107e3711b084a36468"
+    },
+    {
+      "group": "org.jetbrains",
+      "artifact": "annotations",
+      "version": "13.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar",
+      "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "assemblyLayout": "One implementation assembly per projected Maven group:artifact, plus managed-only support and one Kotlin runtime.",
+  "scope": "Three separately validated native graphs. Select one complete profile; they are not interchangeable overlays or a newly merged 717-record corpus.",
+  "generatorTests": {
+    "command": "./dotnet-local.sh test external/Java.Interop/tests/generator-Tests/generator-Tests.csproj -c Debug -v:minimal -nr:false --logger 'console;verbosity=normal'",
+    "result": "799 passed"
+  },
+  "corpusPipelineTests": {
+    "command": "python3 -m unittest discover -s tests/BindingProjection/Corpus -p 'test_*.py'",
+    "result": "22 passed"
+  },
+  "localSdk": {
+    "command": "make all",
+    "result": "passed"
+  },
+  "ownership": "Unique public Java and CLR owners, resolved cross-artifact references, no legacy Maven-group or monolithic generation dependencies; stable owner registry replay verified.",
+  "identityMigration": "Group-to-artifact ownership is an intentional CLR identity migration. First artifact snapshots use a new registry; subsequent snapshots retain original owners, including absent reservations, when native packaging moves.",
+  "limits": [
+    "Existing full-corpus and prior third-party archives remain unchanged; the full 717-record corpus has not been regenerated into the new layout.",
+    "MapLibre default Vulkan 13.7.1 bindings compiled, but its renderer aborted on this no-Vulkan emulator. The same-version OpenGL artifact rendered actual native offline style pixels in both runtime modes.",
+    "Sentry uses a recording transport and managed before-send callback; no telemetry or credentialed project upload is performed. Profiling/replay and Compose UI runtime behavior are not certified.",
+    "Koin's actual singleton/generic explicit-KClass APIs invoke the managed factory. Inline/reified-only Kotlin DSL operations and Compose UI rendering are not claimed as exercised.",
+    "Generated-code and trim/AOT warnings remain; representative successful checks are not exhaustive API compatibility guarantees."
+  ],
+  "profiles": [
+    {
+      "profile": "maplibre-opengl",
+      "roots": [
+        "org.maplibre.gl:android-sdk-opengl:13.7.1"
+      ],
+      "nativeArchives": 40,
+      "bindingAssemblies": 39,
+      "verification": {
+        "Assemblies": 39,
+        "Types": 6111,
+        "OwnedTypeReferencesResolved": 905,
+        "OwnedMemberReferencesResolved": 4167,
+        "DuplicateOwners": 0,
+        "Resources": [],
+        "PublicJavaPeerOwners": 2196,
+        "DuplicatePublicJavaPeers": 0,
+        "ReferencedCanonicalOwners": 0
+      },
+      "dllSha256": {
+        "Android.Maven.Androidx.Activity.Artifacts.Activity.dll": "9c987b328b7d2ae4c1cece20bd8e28f1862bdbac09bbbefb1245f71aade9e1ed",
+        "Android.Maven.Androidx.Annotation.Artifacts.Annotation_experimental.dll": "b6e86fea06e41c21d48a04cbca1b9d07c91675594b08d52bc6e5c2105ecc64be",
+        "Android.Maven.Androidx.Annotation.Artifacts.Annotation_jvm.dll": "36112c90ce5e8bf99248efc477e7a7007e0eb954826f4eb4dba5caee1f82df90",
+        "Android.Maven.Androidx.Arch.Core.Artifacts.Core_common.dll": "5cbf254f3cd19aa1d2a2c2b83e5871fa4d237eb9b8c9fc44221cb7d5d129fe2a",
+        "Android.Maven.Androidx.Arch.Core.Artifacts.Core_runtime.dll": "491833855b456de02e2710ec8abe6f5a0c94ef02d23bc316272e0a071fb9f1d4",
+        "Android.Maven.Androidx.Collection.Artifacts.Collection.dll": "6171d123a984ff0759c5ddd0a38cae7c99f1582ebfa4a07915ce9817e79b5803",
+        "Android.Maven.Androidx.Concurrent.Artifacts.Concurrent_futures.dll": "066603b90ec8072adff0bb5fb77fb564251602da9ebb79a2467967652dd336eb",
+        "Android.Maven.Androidx.Core.Artifacts.Core.dll": "3014c3d0824814ef6793ed9b82811bdf82238d9d9a8ad10795923e9ca1355317",
+        "Android.Maven.Androidx.Core.Artifacts.Core_ktx.dll": "850055f1ee609425475f6bd69595e08b032d615e5cb1c4f72105290c3bb1ea5d",
+        "Android.Maven.Androidx.Customview.Artifacts.Customview.dll": "d53e23bd8f41e839c1d4d13fb597ae7be6d43995192ff2bde7f434941b0afe54",
+        "Android.Maven.Androidx.Fragment.Artifacts.Fragment.dll": "981c11492791784319e102d706ef61e7372d680169f19ceb389c4a7ea9449424",
+        "Android.Maven.Androidx.Interpolator.Artifacts.Interpolator.dll": "c2d19c41a6062dd9d8e724129ee4cccd0ea184fe7c0e67d25cd5f626afca3c52",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_common.dll": "9a2626d5bd224c93e2bac00d28770273318a4ea705e93dcd396b2f06de34e9c0",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_livedata.dll": "dd6544416eb0ff7e6c8721c43a57e75447cce4b53ad8703fd592835ef21d727a",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_livedata_core.dll": "9fbce7425c74158ac3f75ffa398ee292d1d6c2296fe0225f24952b4b1e554890",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_runtime.dll": "ab973c279b14bf8808d05fdb7f23801e2a2f88474649545b63175b8813cf219f",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_viewmodel.dll": "df42e43fdfbd6337af29bbf6ac1d87e6c96a45c79d7363c64da2a0598429010f",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_viewmodel_savedstate.dll": "82346ba902bf216c81acad70bb2d66b0205f6607c92971bb630b19e31f9325eb",
+        "Android.Maven.Androidx.Loader.Artifacts.Loader.dll": "1c7b832d5ff88f16205cb0b626c69582223e305e3c6c2fe4f4ed40aad4e57a61",
+        "Android.Maven.Androidx.Profileinstaller.Artifacts.Profileinstaller.dll": "3c6cf8689c7a628601898ba83dbbebe5dff1279bd752425329110943330b4438",
+        "Android.Maven.Androidx.Savedstate.Artifacts.Savedstate.dll": "a45a3f992ae1ae7f53fc69a75e03297c1f41d1b793d32f9bea5b825b56f4b9af",
+        "Android.Maven.Androidx.Startup.Artifacts.Startup_runtime.dll": "2ed34cb6b7ec97b7f162c9b3646351a051cfadc7e17c1375d13d239c50fef921",
+        "Android.Maven.Androidx.Tracing.Artifacts.Tracing.dll": "bba4a3be5b11b92b0d4b706da0801befc897bd3ccf146872f30ee41acdf8256e",
+        "Android.Maven.Androidx.Versionedparcelable.Artifacts.Versionedparcelable.dll": "5791d019a3b92d65b2ecef7e2ec69278e4cefc960e700ebece8ada6e4ce5ff06",
+        "Android.Maven.Androidx.Viewpager.Artifacts.Viewpager.dll": "a8c26daf11b006158c03117a51f4febe36c8061c02a16b4979c1fff92d1513e4",
+        "Android.Maven.BindingSupport.dll": "973abae17d865b873fb4865a367feb9bee44e841096c81b3d43d45426396dac9",
+        "Android.Maven.Com.Google.Code.Gson.Artifacts.Gson.dll": "4a8c3e11bd35bd57543d82dcdc54b64b3b0bb8221a37673cf195488a8016412a",
+        "Android.Maven.Com.Google.Guava.Artifacts.Listenablefuture.dll": "1d0309e8e54fa30beae16b51fba2f26c947cac90c351b1398ab8f9bdf39f525d",
+        "Android.Maven.Com.Jakewharton.Timber.Artifacts.Timber.dll": "9b149d705d7f86695eb974447dfa51e335ce7d626a30ea0a6c77aeb04257da3c",
+        "Android.Maven.Com.Squareup.Okhttp3.Artifacts.Okhttp.dll": "78d3011fe2aac182972f65832d79fe1ba794ae0321c419d692b51158737810b9",
+        "Android.Maven.Com.Squareup.Okio.Artifacts.Okio_jvm.dll": "030f876738aac8efc38eab2ed2cbb45b046c9ec11a9af95d09ffe9e411ef39db",
+        "Android.Maven.Org.Jetbrains.Artifacts.Annotations.dll": "8ae57d17341681e63ca1434e10c499324af89532d7fc95c4f3c9b0a8f05f6f64",
+        "Android.Maven.Org.Jetbrains.Kotlin.Artifacts.Kotlin_stdlib.dll": "f3698af1e621affb3976f6426038dccc596f2c11e55ba23d7571285c055a02b4",
+        "Android.Maven.Org.Jetbrains.Kotlinx.Artifacts.Kotlinx_coroutines_android.dll": "13fbbe75f02e7d56cdbcef0041abb4ea275c318f38b177bee264dcbc9fc4cc85",
+        "Android.Maven.Org.Jetbrains.Kotlinx.Artifacts.Kotlinx_coroutines_core_jvm.dll": "6a41488a08c0a32bc01aa5cd0f099368df226facb8ae568f22bc325781a933de",
+        "Android.Maven.Org.Maplibre.Gl.Artifacts.Android_sdk_geojson.dll": "602dffc691d0b9a16d70496a270a1f9483bc8c79af4324067d6dfa2a598449c7",
+        "Android.Maven.Org.Maplibre.Gl.Artifacts.Android_sdk_opengl.dll": "7af84da3e891d9adeecbdda58061011e8bc917968c0d0f30fff3db50be124568",
+        "Android.Maven.Org.Maplibre.Gl.Artifacts.Android_sdk_turf.dll": "6826cc59a8ce5b32c2c7ba219c33e093e2f6b7ae6b71f57f8202836d983a64f9",
+        "Android.Maven.Org.Maplibre.Gl.Artifacts.Maplibre_android_gestures.dll": "a7f774ce6b5b8452f863da9c8fbf608bbe198259c093740e3b24176905eff81b"
+      },
+      "runtime": [
+        {
+          "configuration": "Release",
+          "passed": 6,
+          "expected": 6
+        },
+        {
+          "configuration": "NativeAOT",
+          "passed": 6,
+          "expected": 6
+        }
+      ]
+    },
+    {
+      "profile": "sentry",
+      "roots": [
+        "io.sentry:sentry-android:8.62.0",
+        "io.sentry:sentry-compose-android:8.62.0",
+        "io.sentry:sentry-kotlin-extensions:8.62.0"
+      ],
+      "nativeArchives": 23,
+      "bindingAssemblies": 20,
+      "verification": {
+        "Assemblies": 20,
+        "Types": 3774,
+        "OwnedTypeReferencesResolved": 431,
+        "OwnedMemberReferencesResolved": 2182,
+        "DuplicateOwners": 0,
+        "Resources": [],
+        "PublicJavaPeerOwners": 1345,
+        "DuplicatePublicJavaPeers": 0,
+        "ReferencedCanonicalOwners": 0
+      },
+      "dllSha256": {
+        "Android.Maven.Androidx.Annotation.Artifacts.Annotation.dll": "0e0a21f60b1aa3d2814305421640efd2b080ef92174f7aefafb74d0b380d36fd",
+        "Android.Maven.Androidx.Arch.Core.Artifacts.Core_common.dll": "398dbf482d36301779ebb3bb2044ea21351f08b4510168d1c2888623464db552",
+        "Android.Maven.Androidx.Collection.Artifacts.Collection.dll": "f22bb48cd72fc2aa3eddb335b781e89dc337ef99e492a77be5d0657571615ae3",
+        "Android.Maven.Androidx.Core.Artifacts.Core.dll": "b3147a2faee4002cb9285ba0fa9f8b7477533b1509c7b5932c64c0162b0920f7",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_common.dll": "f6031040bb7151848e8cdbd27695f086ccc5166f667cd3fef0f978b5e563b799",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_common_java8.dll": "50a195c6e46dd127f8039ce5ea181c319f840a7fe2b791544c1472e3223c2e94",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_process.dll": "1c3184034776ef2c36b6e99d11886fd19b6fe45c0102e40f7a6befac9b1ef355",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_runtime.dll": "b5a80a311fad0bcd56bae104c7cbdd6b79c6332b6248df7e807594c5dcbcaf0c",
+        "Android.Maven.Androidx.Versionedparcelable.Artifacts.Versionedparcelable.dll": "7688db1781f2dd11757f43a41adbac1b19e760437cadd8204ccdc6924409310b",
+        "Android.Maven.BindingSupport.dll": "109743c7bb347906d8e4456daff0f794771deb7e50363a2edd66f1e7903c4633",
+        "Android.Maven.Com.Abovevacant.Artifacts.Epitaph.dll": "8f1d9e725ddd5e24da8387b3a56a58da287ffd0c85db24eb05a88edc35fd5811",
+        "Android.Maven.Io.Sentry.Artifacts.Sentry.dll": "0eb244e49fe7cec4bf8afc0b4d624187ade35429178bcd68c7e18ebef50319ec",
+        "Android.Maven.Io.Sentry.Artifacts.Sentry_android_core.dll": "ee5194830760d7e4ba209068aada1623a9e608db55fc0c17eb3e41d782e9791c",
+        "Android.Maven.Io.Sentry.Artifacts.Sentry_android_navigation.dll": "76978d9bd9fb635bd0bb2e28cd0f585e06b4e25e82f021d4a7462a5ebecb7c86",
+        "Android.Maven.Io.Sentry.Artifacts.Sentry_android_ndk.dll": "4281b30ba1a5fc900f320c80f11c17212619ded79e544af4a0eaf44d06fbfc5b",
+        "Android.Maven.Io.Sentry.Artifacts.Sentry_android_replay.dll": "dce067d14535ad98e3d69fafc5df5294d59f4cface12abd9d870781751a78e73",
+        "Android.Maven.Io.Sentry.Artifacts.Sentry_compose_android.dll": "342e99b965ff4bf3a15b50aa8f16379d8e6fcbac682c7bc442851fcb3d0d3a5e",
+        "Android.Maven.Io.Sentry.Artifacts.Sentry_native_ndk.dll": "aa4587ef2143f3b9b1b184b21985c27663baff1614da8d6ffaf546d62633e343",
+        "Android.Maven.Org.Jetbrains.Artifacts.Annotations.dll": "4cc5ef4c08cb56968596650077ea6843e95823d21d18d0df2d6398c460c44583",
+        "Android.Maven.Org.Jetbrains.Kotlin.Artifacts.Kotlin_stdlib.dll": "2410a6dbbd582d6ab724d10c7d677004bd397af0a0eea55aeffb30dab81787ba"
+      },
+      "runtime": [
+        {
+          "configuration": "Release",
+          "passed": 6,
+          "expected": 6
+        },
+        {
+          "configuration": "NativeAOT",
+          "passed": 6,
+          "expected": 6
+        }
+      ]
+    },
+    {
+      "profile": "koin",
+      "roots": [
+        "io.insert-koin:koin-core:4.2.2",
+        "io.insert-koin:koin-android:4.2.2",
+        "io.insert-koin:koin-androidx-compose:4.2.2",
+        "io.insert-koin:koin-android-compat:4.2.2"
+      ],
+      "nativeArchives": 92,
+      "bindingAssemblies": 86,
+      "verification": {
+        "Assemblies": 86,
+        "Types": 11703,
+        "OwnedTypeReferencesResolved": 2229,
+        "OwnedMemberReferencesResolved": 7699,
+        "DuplicateOwners": 0,
+        "Resources": [],
+        "PublicJavaPeerOwners": 4375,
+        "DuplicatePublicJavaPeers": 0,
+        "ReferencedCanonicalOwners": 0
+      },
+      "dllSha256": {
+        "Android.Maven.Androidx.Activity.Artifacts.Activity.dll": "5f46a228e15e3c2074949320234848a90cbabd6a0fc6548b4e98f9c1818466b9",
+        "Android.Maven.Androidx.Activity.Artifacts.Activity_compose.dll": "0383c57511cbe342e49f012ebac0bf42a52a1f45d87e620a044be24298dc6a42",
+        "Android.Maven.Androidx.Annotation.Artifacts.Annotation_experimental.dll": "bbda9ff7e0d349e2589107b110bfaa119f9314a0be5df76236a1ff1d80860e72",
+        "Android.Maven.Androidx.Annotation.Artifacts.Annotation_jvm.dll": "b4b05e28273d7ac918d1530d2070a7c4515f4b299f3fb2dbbef19f139e9a426a",
+        "Android.Maven.Androidx.Appcompat.Artifacts.Appcompat.dll": "929be583e1e9ec2ac54655e97425e0f514a343fc887d8eda67970a41337527cd",
+        "Android.Maven.Androidx.Appcompat.Artifacts.Appcompat_resources.dll": "8e887393bab17c92ce3eed3b34d97439fe6fb4127f8ecbfbf5dfcf20450f7884",
+        "Android.Maven.Androidx.Arch.Core.Artifacts.Core_common.dll": "55da9b9fc9ece521efe6c0b14522336cdebcc5519533c6ea1fc411e6171b59ec",
+        "Android.Maven.Androidx.Arch.Core.Artifacts.Core_runtime.dll": "ad5227ded9fb7ddd4e1d4d6bfad2dcf1a5da8d3022df8f474d356375f09cb28f",
+        "Android.Maven.Androidx.Autofill.Artifacts.Autofill.dll": "46b91a9991e2d3079d34e54210b511941a4556dc1a337e857721742f77f7fd3f",
+        "Android.Maven.Androidx.Collection.Artifacts.Collection_jvm.dll": "626aa66317a0a5dfea0eb8678ab413cf4ff448d240a9fe8c66a9fe90b6b90073",
+        "Android.Maven.Androidx.Compose.Animation.Artifacts.Animation_android.dll": "20e40dd82e81d26ebc8f1bdc05d8fba0ff0779a672f01f64760f5889de792910",
+        "Android.Maven.Androidx.Compose.Animation.Artifacts.Animation_core_android.dll": "53318cedbd555c83141081737354989f199630da18e71fc96481490646940f41",
+        "Android.Maven.Androidx.Compose.Foundation.Artifacts.Foundation_android.dll": "e4a5b706de40484be04a0935326fbd9258a9890d3a98ccdd87536e773ab9fddd",
+        "Android.Maven.Androidx.Compose.Foundation.Artifacts.Foundation_layout_android.dll": "8c6f0c0ae395a949da7a9c7586ee7311b2ce2ec0e62c152c148680c5f536ef3b",
+        "Android.Maven.Androidx.Compose.Runtime.Artifacts.Runtime_android.dll": "85e05432882d85487dfe9837ad95e193f1482c1f7712cbee27f039415a27c941",
+        "Android.Maven.Androidx.Compose.Runtime.Artifacts.Runtime_annotation_android.dll": "09ef033f1ac8c35c3dbafd1bb1e774b6e7c9dd70a91d096888363775f9338cac",
+        "Android.Maven.Androidx.Compose.Runtime.Artifacts.Runtime_retain_android.dll": "f9c941e9eec16d3c98d4e52f6d875b6b40be7a0a8a686d0ea220aac0cf78041e",
+        "Android.Maven.Androidx.Compose.Runtime.Artifacts.Runtime_saveable_android.dll": "d8ea9d4cc8d510864213d45a835729b51be0cbc67add5a385dc729d3892c75e6",
+        "Android.Maven.Androidx.Compose.Ui.Artifacts.Ui_android.dll": "ec57d38b189dae33dd7c3c2874a5d299b8d6247be780a9d3286e2bfbb67a38d0",
+        "Android.Maven.Androidx.Compose.Ui.Artifacts.Ui_geometry_android.dll": "3148d83b3e51c61336aa334fad9daebb6e5be7718168c4b6786644b7999f9d28",
+        "Android.Maven.Androidx.Compose.Ui.Artifacts.Ui_graphics_android.dll": "b57baf719c54a37fa035725a9f9f79204df1a84e5274b6b6def962363165d21b",
+        "Android.Maven.Androidx.Compose.Ui.Artifacts.Ui_text_android.dll": "5a1ae407d63d9a9ec4773ba6abe53efe419c7d14f184e917668fa5e2e8ec77cf",
+        "Android.Maven.Androidx.Compose.Ui.Artifacts.Ui_unit_android.dll": "019109b923013834d9427b37260a21e6d7b3a3be66d5f2ff57d047adc542b8b5",
+        "Android.Maven.Androidx.Compose.Ui.Artifacts.Ui_util_android.dll": "08eb657e8f1fb7f08dcc369fae1f694e55173dd3c0ebd53c39d824a1a5df9046",
+        "Android.Maven.Androidx.Concurrent.Artifacts.Concurrent_futures.dll": "ef71e86e7e818452cbd0706f07401546b1c2af5be97b4392eca58cc0a4ee7e31",
+        "Android.Maven.Androidx.Core.Artifacts.Core.dll": "b37e4f82700b0dfcf11abe141d12ac95a0fb5d6f9a793864a6254cb96e87624b",
+        "Android.Maven.Androidx.Core.Artifacts.Core_ktx.dll": "0eecd6bd1be4aec667cf7d1dfc8782e3272fae5e7f8dab202f3ba0f745c533e8",
+        "Android.Maven.Androidx.Core.Artifacts.Core_viewtree.dll": "3fa96e0aca3692ae27735cac2fc97cc0d2e8e12e87915bda5ea08ca1ccc6b4b2",
+        "Android.Maven.Androidx.Cursoradapter.Artifacts.Cursoradapter.dll": "8dfa379a2991c79148ab4f16cc97c0ccfebe70065e954c239116e13d8ef590d7",
+        "Android.Maven.Androidx.Customview.Artifacts.Customview.dll": "c8c13cf29abdbf48d06ea0936d5ecbe0b0093c7d1e08d519ef5970842b3fce34",
+        "Android.Maven.Androidx.Customview.Artifacts.Customview_poolingcontainer.dll": "217066b373099612082ea2b90d97a06b7e36d3746041c17fe03ec33410b66419",
+        "Android.Maven.Androidx.Documentfile.Artifacts.Documentfile.dll": "e5be9718dc384d995cec078290aee047eada7c806164f1cd9ff700c04cdee202",
+        "Android.Maven.Androidx.Drawerlayout.Artifacts.Drawerlayout.dll": "ada1038cb536311f9e28df57c0148d6a2e281415793d7cafb1eddf6163db0c29",
+        "Android.Maven.Androidx.Dynamicanimation.Artifacts.Dynamicanimation.dll": "243ed9ebc063103866195e4a007d54c8c27791c614398fe749962b1cdb9aa313",
+        "Android.Maven.Androidx.Emoji2.Artifacts.Emoji2.dll": "9365489b6dd66e70d63da2883ba8a264e22ce6078e7238ddff2bde5fc8bf8f74",
+        "Android.Maven.Androidx.Emoji2.Artifacts.Emoji2_views_helper.dll": "3aac1b528598d2d3f3e60db6e9c31d9bfc6b6e33278b41265d0cc4fba1037728",
+        "Android.Maven.Androidx.Fragment.Artifacts.Fragment.dll": "3555f7e4955cb73e099e9d1127c06df6b04e14c0bc4e302259c7a6e1eada13b0",
+        "Android.Maven.Androidx.Fragment.Artifacts.Fragment_ktx.dll": "2198960b047ab03b7fd4786d7bea6fcf0bfb57027f7c8435cf97a79bb82a6f3f",
+        "Android.Maven.Androidx.Graphics.Artifacts.Graphics_path.dll": "8f49b566214ef9954cb2bf91124893132af1a04e46cf002883e251bab3bcd39e",
+        "Android.Maven.Androidx.Interpolator.Artifacts.Interpolator.dll": "0334c7fd9a7be62da1c1ca8cb2a0964e822ae53cf51bb283eda4e698979a6bfc",
+        "Android.Maven.Androidx.Legacy.Artifacts.Legacy_support_core_utils.dll": "8990c0251fb35e0c28f525dc5af3066ed4baa892908f13ed3afeec7453bd8df4",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_common_jvm.dll": "a1091bdbd6afacef3ed36942087e897a698d2dbae3ff99f1ea4fd0411e59af22",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_livedata.dll": "12f8db769d5ef4c8ee2805f13bddb6c16c419a074493aee39e73e18a51b15687",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_livedata_core.dll": "bbb98936f9759f6d1a1f758fc7181e8e1a39eae332149ce994442054436b3d18",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_process.dll": "dcef4d086e0787928146f0dad39d91b557065e5660ffd500c4a8a9ada295e9c8",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_runtime_android.dll": "d5ee0f7d55e67b77638cce36c743090d979c53ec3fe50ff2dd5a7c09993ec92d",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_runtime_compose_android.dll": "6470902ae50d710555dc8b68e12da1305c72806cd4fe2aadd55749642cca645c",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_viewmodel_android.dll": "92204a9044cf593ac15dafd1067eacd8621f61cce9c47b82e0519726a3b5b472",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_viewmodel_compose_android.dll": "80246033bdc0049ea67285ae6db21bda8970d93c40a7b78844eb2767b7bfcd42",
+        "Android.Maven.Androidx.Lifecycle.Artifacts.Lifecycle_viewmodel_savedstate_android.dll": "31cef5fc68d1bc98be902ed09440c09904511a3cd5af089873a8e75a93e1b632",
+        "Android.Maven.Androidx.Loader.Artifacts.Loader.dll": "2e091dba11ab936ebcc980a86221fdbd6fd3d1084b4ff966d58b2cc58b870c8d",
+        "Android.Maven.Androidx.Localbroadcastmanager.Artifacts.Localbroadcastmanager.dll": "df0b8afb84639ae6b6e6219ec045412654f207c903bfcfb075cfaf3355e41c1a",
+        "Android.Maven.Androidx.Navigationevent.Artifacts.Navigationevent_android.dll": "6c6797efcc5f71b74ee90a8cdc916f148b99d9afa90f33490bdb01bcf2c0d6ee",
+        "Android.Maven.Androidx.Navigationevent.Artifacts.Navigationevent_compose_android.dll": "cc2f5347a4a209a0b76d0be6b3c5d5d848240d703d4ec8b9f9a4b59c0451e34e",
+        "Android.Maven.Androidx.Print.Artifacts.Print.dll": "0e3642e88fb26ed2379e95a400621da4dae768ca42ad7c43e032ea0aa3bccf52",
+        "Android.Maven.Androidx.Profileinstaller.Artifacts.Profileinstaller.dll": "bcafc6795e42ed6301f7d5cc721fde121fa7f07b2f0cd37e8eab4584db8847d1",
+        "Android.Maven.Androidx.Resourceinspection.Artifacts.Resourceinspection_annotation.dll": "ee32d17817a5b130665a08a72c9c3bda5c2d13f832313920290225eb6fd818c4",
+        "Android.Maven.Androidx.Savedstate.Artifacts.Savedstate_android.dll": "ed9942a20119c9f487cd9ac9955b397790d205864e50c3fcb1163b85d1c90dc5",
+        "Android.Maven.Androidx.Savedstate.Artifacts.Savedstate_compose_android.dll": "14c3836603d67a8e9dbdab7e7fee0363b54374d41e7749be9bc811456451df2a",
+        "Android.Maven.Androidx.Startup.Artifacts.Startup_runtime.dll": "e802f6347e3b7dcced7c11e375c88d02648ffcc1b7d705868ce8cbdbd854e180",
+        "Android.Maven.Androidx.Tracing.Artifacts.Tracing.dll": "d2c89960ad8188fcaa2496339a349282dfd738486d75b1a998568a2b6207d00c",
+        "Android.Maven.Androidx.Transition.Artifacts.Transition.dll": "db9b8c2d6be2f06289aecc8fc4097cc574ae06a50807dbd5a23d5ea0a3373a7d",
+        "Android.Maven.Androidx.Vectordrawable.Artifacts.Vectordrawable.dll": "a2928db78ae7765ce16563540428341abf6662e20b11413b9c9f66717c7e2256",
+        "Android.Maven.Androidx.Vectordrawable.Artifacts.Vectordrawable_animated.dll": "29f759073a1a253e897030f57b04a70f084584a3159f094d8728df609b57be23",
+        "Android.Maven.Androidx.Versionedparcelable.Artifacts.Versionedparcelable.dll": "aefc5268e12aa7c55dbf43729dd077061d911cd3756e0b61e62a105641952199",
+        "Android.Maven.Androidx.Viewpager.Artifacts.Viewpager.dll": "e8fd2c93e2c3d1f596c3e24c30b667165adb097f2b8199e1b5a8bcc9dadb0ec8",
+        "Android.Maven.Androidx.Window.Artifacts.Window.dll": "e673cb307a805f6d1584ef25fd54e7be25300f8e982727e81ff6b26551d3fed5",
+        "Android.Maven.Androidx.Window.Artifacts.Window_core_android.dll": "7d47aaacf38158f7f5af2a6ab9b1652ca37cf324029e289b03d3f7457287d54f",
+        "Android.Maven.BindingSupport.dll": "8adce4c6025f165bd6586b2b3927d7ddd8b25a2805996c8580c27a7f79c4583a",
+        "Android.Maven.Co.Touchlab.Artifacts.Stately_concurrency_jvm.dll": "eca4f2f6da7ae41da7831c0fdec9b89ddb5cd553f8f8a03c8aabcbfce83b98fb",
+        "Android.Maven.Co.Touchlab.Artifacts.Stately_concurrent_collections_jvm.dll": "5b8a50d09aee83f33926ec402dd84ef74f663fc16bfbfb840cf6fdc9369acc4f",
+        "Android.Maven.Co.Touchlab.Artifacts.Stately_strict_jvm.dll": "4f1ea3c2e85ebb12478ed6f99b05d8c998b246eeae0ba47342f8a2c1992d56a7",
+        "Android.Maven.Com.Google.Guava.Artifacts.Listenablefuture.dll": "4e45f7c1e0411f868dae58fcf16a96d76fbe0dff10050d8c1dda4c98dd30219d",
+        "Android.Maven.Io.Insert_koin.Artifacts.Koin_android.dll": "9e90179ba6cbbe930d7fd55ffc343dd352464e1c36b470463021e84c33134280",
+        "Android.Maven.Io.Insert_koin.Artifacts.Koin_android_compat.dll": "05776cead295ea3817bad755ba45617decdba899817cd28b6c9a2a54e2132257",
+        "Android.Maven.Io.Insert_koin.Artifacts.Koin_androidx_compose.dll": "d5b76608ab5a3edee683310b713b9c7f2d8ffd079cb1677caa4c1d4330a36afd",
+        "Android.Maven.Io.Insert_koin.Artifacts.Koin_compose_android.dll": "89c29a41fe70220b5966f3ccb86210eef4edfc0df785b6ca73dbb6f969585f76",
+        "Android.Maven.Io.Insert_koin.Artifacts.Koin_compose_viewmodel_android.dll": "da89f6183974161bffb93cdcd95b1d1451aebb44b80f4683dee1061494b4c1aa",
+        "Android.Maven.Io.Insert_koin.Artifacts.Koin_core_jvm.dll": "864b90774b619ec98645643e551107c8cfcacfce1649866308186e9d4a4461a8",
+        "Android.Maven.Io.Insert_koin.Artifacts.Koin_core_viewmodel_android.dll": "2f0f8f9fd5b0cda1fdbed541131df6fa9dfa2754ed65c5e1846f28fa0023189a",
+        "Android.Maven.Org.Jetbrains.Artifacts.Annotations.dll": "ad536bf53e775e54188759c727720ac1644e023bf7f72da6882b35a507e4e7a6",
+        "Android.Maven.Org.Jetbrains.Kotlin.Artifacts.Kotlin_stdlib.dll": "b5eaa0efe8b53c24f87484f4cf666db7c71be8e93725b0510dd401eb3bb03995",
+        "Android.Maven.Org.Jetbrains.Kotlinx.Artifacts.Kotlinx_coroutines_android.dll": "0204d032dfb528330c3a5b57caa1cedd06fee4204cf9d01c5393fd58334392e6",
+        "Android.Maven.Org.Jetbrains.Kotlinx.Artifacts.Kotlinx_coroutines_core_jvm.dll": "2b5c690fb82dc4a5004ac02e374030cdfa6ba9db7ce5e3ce5a76ed0c9904bf96",
+        "Android.Maven.Org.Jetbrains.Kotlinx.Artifacts.Kotlinx_serialization_core_jvm.dll": "ba425bbb69784a612c16459346ba4e8e17e03deafa386b399c78e00bc87cf266",
+        "Android.Maven.Org.Jspecify.Artifacts.Jspecify.dll": "faff0fa00a1265b4675d0a16deaf9278da30ba6e6932fdc80af8ff1ac294d9e4"
+      },
+      "runtime": [
+        {
+          "configuration": "Release",
+          "passed": 6,
+          "expected": 6
+        },
+        {
+          "configuration": "NativeAOT",
+          "passed": 6,
+          "expected": 6
+        }
+      ]
+    }
+  ],
+  "kotlinRuntimeSha256": "fbb5e288dd93f941934a08d018abdfc6c2adfd586a03318bded3a0665950822c"
+}

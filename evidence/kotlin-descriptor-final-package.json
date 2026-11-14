@@ -1,0 +1,10 @@
+{
+  "package": "${EXPERIMENT_ARTIFACTS}/kotlin-descriptor-final-packages/Microsoft.Android.Kotlin.0.1.0-dev.nupkg",
+  "sha256": "8605994570ee67344ec111bc8a9ab57c1a4a0f70e7eb17bd4fcd35cca9cc57ca",
+  "managedAssemblies": [
+    "lib/net11.0-android37.0/Microsoft.Android.Kotlin.dll"
+  ],
+  "nativeSourceFiles": 1,
+  "nativeBinaries": 0,
+  "managedNuGetDependencies": []
+}

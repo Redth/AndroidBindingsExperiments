@@ -1,0 +1,86 @@
+[
+    {
+        "group": "androidx.annotation",
+        "artifact": "annotation-jvm",
+        "version": "1.10.0",
+        "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.annotation/annotation-jvm/1.10.0/388cfaa79001d0f024d28f6a13d5a3dfc2f0e18f/annotation-jvm-1.10.0.jar",
+        "sha256": "ddd072ddbb553178e205517ce777b2f05aa9e412982d9ecb4eedc74f1212f697"
+    },
+    {
+        "group": "androidx.startup",
+        "artifact": "startup-runtime",
+        "version": "1.2.0",
+        "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.startup/startup-runtime/1.2.0/db6080018fb5afc5f1f74243f418fadcfb3e874a/startup-runtime-1.2.0.aar",
+        "sha256": "f51d361d17b30b09cfb9e2aebf301d113f99437cbf462a066092795fb60eddd2"
+    },
+    {
+        "group": "androidx.tracing",
+        "artifact": "tracing",
+        "version": "1.0.0",
+        "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.tracing/tracing/1.0.0/69cef34711dffbc517e7a0a419ec4a98f84f496a/tracing-1.0.0.aar",
+        "sha256": "07b8b6139665b884a162eccf97891ca50f7f56831233bf25168ae04f7b568612"
+    },
+    {
+        "group": "com.squareup.moshi",
+        "artifact": "moshi",
+        "version": "1.15.2",
+        "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.15.2/8e9a6b11929c7c162a4ded3bb064cbd514af639a/moshi-1.15.2.jar",
+        "sha256": "767f7592c6c61eb693549a26d333c121f5383826bd287b899867aa326dae55e4"
+    },
+    {
+        "group": "com.squareup.okhttp3",
+        "artifact": "okhttp-android",
+        "version": "5.5.1",
+        "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-android/5.5.1/8901fb7a84be05aa777639120071a89bb16ab813/okhttp.aar",
+        "sha256": "ce00fd7751cf7e4f28ba73a0287b3cc0c62b8b83f038e428592eeef189513ee1"
+    },
+    {
+        "group": "com.squareup.okio",
+        "artifact": "okio-jvm",
+        "version": "3.18.1",
+        "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.squareup.okio/okio-jvm/3.18.1/a3a8128bb3a0157d23ecc18c17e8330d9c0ac96c/okio-jvm-3.18.1.jar",
+        "sha256": "b97b640557a650d15411f2be29aef558c4e422a83653cb18ba494311dbed18be"
+    },
+    {
+        "group": "com.squareup.retrofit2",
+        "artifact": "converter-moshi",
+        "version": "3.0.0",
+        "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-moshi/3.0.0/4077e3a5d530448507c5f69b043523c3bf8e0595/converter-moshi-3.0.0.jar",
+        "sha256": "646beed03bd77e51dad0df6bd05c2a39cbc8562d8e1b9b8cf9126481781611a6"
+    },
+    {
+        "group": "com.squareup.retrofit2",
+        "artifact": "retrofit",
+        "version": "3.0.0",
+        "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/3.0.0/c0cdf6d243c5187732134129fda05a74f9197874/retrofit-3.0.0.jar",
+        "sha256": "69c6a2d3451b6df9549a93fab744094ebf07a4b0ce4f453d6c8f575ef0fec9a1"
+    },
+    {
+        "group": "org.jetbrains.kotlin",
+        "artifact": "kotlin-stdlib-jdk7",
+        "version": "1.8.21",
+        "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.21/7473b8cd3c0ef9932345baf569bc398e8a717046/kotlin-stdlib-jdk7-1.8.21.jar",
+        "sha256": "33d148db0e11debd0d90677d28242bced907f9c77730000fd597867089039d86"
+    },
+    {
+        "group": "org.jetbrains.kotlin",
+        "artifact": "kotlin-stdlib-jdk8",
+        "version": "1.8.21",
+        "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.8.21/67f57e154437cd9e6e9cf368394b95814836ff88/kotlin-stdlib-jdk8-1.8.21.jar",
+        "sha256": "3db752a30074f06ee6c57984aa6f27da44f4d2bbc7f5442651f6988f1cb2b7d7"
+    },
+    {
+        "group": "org.jetbrains.kotlin",
+        "artifact": "kotlin-stdlib",
+        "version": "2.2.21",
+        "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.21/fa374a986e128314c3db00a20aae55f72a258511/kotlin-stdlib-2.2.21.jar",
+        "sha256": "6558a3d233da56a20934b32159f9db5f86ed5816ef098f78a2c223dc6abb79dd"
+    },
+    {
+        "group": "org.jetbrains",
+        "artifact": "annotations",
+        "version": "13.0",
+        "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar",
+        "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+    }
+]

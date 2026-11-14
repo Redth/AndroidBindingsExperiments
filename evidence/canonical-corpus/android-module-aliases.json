@@ -1,0 +1,7 @@
+{
+  "androidx.compose.runtime:runtime-annotation-jvm": "androidx.compose.runtime:runtime-annotation-android:1.12.1",
+  "androidx.datastore:datastore-core-jvm": "androidx.datastore:datastore-core-android:1.2.1",
+  "androidx.datastore:datastore-preferences-core-jvm": "androidx.datastore:datastore-preferences-core-android:1.2.1",
+  "androidx.paging:paging-common-jvm": "androidx.paging:paging-common-android:3.5.1",
+  "androidx.window:window-core-jvm": "androidx.window:window-core-android:1.5.1"
+}

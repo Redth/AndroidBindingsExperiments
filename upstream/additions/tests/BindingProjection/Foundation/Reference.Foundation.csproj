@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\Reference.props" />
+  <PropertyGroup>
+    <AssemblyName>Reference.Foundation</AssemblyName>
+    <IsBindingProject>true</IsBindingProject>
+    <_AndroidExperimentalSemanticModel>true</_AndroidExperimentalSemanticModel>
+    <_AndroidExperimentalKotlinAsync>true</_AndroidExperimentalKotlinAsync>
+    <_AndroidExperimentalGenericFacades>true</_AndroidExperimentalGenericFacades>
+    <_AndroidExperimentalOwnershipReport>$(MSBuildProjectDirectory)/obj/$(Configuration)/$(TargetFramework)/ownership.json</_AndroidExperimentalOwnershipReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Microsoft.Android.Kotlin\Microsoft.Android.Kotlin.csproj" />
+    <AndroidGradleProject Include="..\Native\build.gradle.kts" Bind="true" Pack="false" />
+  </ItemGroup>
+  <Target Name="_AndroidReferenceSharedNativeInputs" AfterTargets="_GetBuildAndroidGradleProjectsInputs">
+    <ItemGroup>
+      <_GradleInputs Include="$(XamarinAndroidSourcePath)src/Microsoft.Android.Kotlin/Native/src/**/*.kt;$(XamarinAndroidSourcePath)src/Microsoft.Android.Kotlin/Native/*.kts" />
+      <_GradleInputs Include="$(XamarinAndroidSourcePath)external/Java.Interop/tools/jvm-api-descriptor/src/main/**/*.kt;$(XamarinAndroidSourcePath)external/Java.Interop/tools/jvm-api-descriptor/*.kts" />
+    </ItemGroup>
+  </Target>
+  <Target Name="_AndroidReferenceNativeInputs" AfterTargets="_BuildAndroidGradleProjects">
+    <PropertyGroup>
+      <_AndroidExperimentalNativeManifest>%(AndroidGradleProject.OutputPath)outputs/native-inputs.json</_AndroidExperimentalNativeManifest>
+      <_AndroidExperimentalApiDescriptor>%(AndroidGradleProject.OutputPath)outputs/api-descriptor.json</_AndroidExperimentalApiDescriptor>
+    </PropertyGroup>
+    <ReadLinesFromFile File="%(AndroidGradleProject.OutputPath)outputs/binding-items.txt">
+      <Output TaskParameter="Lines" ItemName="_AndroidReferenceNativeBinding" />
+    </ReadLinesFromFile>
+    <ReadLinesFromFile File="%(AndroidGradleProject.OutputPath)outputs/runtime-items.txt">
+      <Output TaskParameter="Lines" ItemName="_AndroidReferenceNativeRuntime" />
+    </ReadLinesFromFile>
+    <ItemGroup>
+      <AndroidLibrary Include="@(_AndroidReferenceNativeBinding)" Bind="true" Pack="false" />
+      <AndroidLibrary Include="@(_AndroidReferenceNativeRuntime)" Bind="false" Pack="false" />
+    </ItemGroup>
+  </Target>
+  <Target Name="GetReferenceNativeGraph"
+      DependsOnTargets="_CalculateAndroidGradleProjectOutputPath;_AndroidReferenceNativeInputs"
+      Returns="@(_AndroidReferenceNativeArchive);@(_AndroidReferenceNativeBinding);@(_AndroidReferenceNativeRuntime)">
+    <ItemGroup>
+      <_AndroidReferenceNativeArchive Include="%(AndroidGradleProject.OutputPath)outputs/aar/*.aar" />
+    </ItemGroup>
+  </Target>
+</Project>

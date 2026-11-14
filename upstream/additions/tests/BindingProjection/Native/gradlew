@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+directory=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+exec "$directory/../../../build-tools/gradle/gradlew" -p "$directory" "$@"

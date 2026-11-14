@@ -1,0 +1,16 @@
+{
+    "schemaVersion": 1,
+    "policy": "Every artifact record in config.json; no Maven-group allowlist",
+    "configurationSha256": "4d96af909d846baab38b05935860ac2c5935ae98a0306b10150211d85dfc12f0",
+    "originalRecords": 1,
+    "mavenGroups": {
+        "com.stripe": 1
+    },
+    "records": [
+        {
+            "groupId": "com.stripe",
+            "artifactId": "stripe-android",
+            "version": "23.25.1"
+        }
+    ]
+}

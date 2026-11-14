@@ -1,0 +1,26 @@
+[
+  {
+    "artifacts": [
+      {
+        "groupId": "io.insert-koin",
+        "artifactId": "koin-core",
+        "version": "4.2.2"
+      },
+      {
+        "groupId": "io.insert-koin",
+        "artifactId": "koin-android",
+        "version": "4.2.2"
+      },
+      {
+        "groupId": "io.insert-koin",
+        "artifactId": "koin-androidx-compose",
+        "version": "4.2.2"
+      },
+      {
+        "groupId": "io.insert-koin",
+        "artifactId": "koin-android-compat",
+        "version": "4.2.2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,696 @@
+{
+  "summary": "${EXPERIMENT_ARTIFACTS}/kotlin-final-corpus/runs/04881c7537f2cc26501a/summary.json",
+  "auditedAssemblies": 115,
+  "publicTypes": 20819,
+  "reviewedDifferences": [
+    {
+      "coordinate": "androidx.camera:camera-camera2-pipe:1.6.2",
+      "identity": "androidx.camera.camera2.pipe.config.DaggerCameraPipeComponent.Builder.cameraPipeConfigModule(Ljava/lang/Object;)Landroidx/camera/camera2/pipe/config/DaggerCameraPipeComponent$Builder;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "cameraPipeConfigModule(Landroidx/camera/camera2/pipe/config/CameraPipeConfigModule;)Landroidx/camera/camera2/pipe/config/DaggerCameraPipeComponent$Builder;",
+          "available": true,
+          "excluded": false,
+          "bridgeCovered": false,
+          "classification": "Public"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.camera:camera-camera2-pipe:1.6.2",
+      "identity": "androidx.camera.camera2.pipe.config.DaggerCameraPipeComponent.Builder.threadConfigModule(Ljava/lang/Object;)Landroidx/camera/camera2/pipe/config/DaggerCameraPipeComponent$Builder;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "threadConfigModule(Landroidx/camera/camera2/pipe/config/ThreadConfigModule;)Landroidx/camera/camera2/pipe/config/DaggerCameraPipeComponent$Builder;",
+          "available": true,
+          "excluded": false,
+          "bridgeCovered": false,
+          "classification": "Public"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.camera:camera-video:1.6.2",
+      "identity": "androidx.camera.video.Recorder.getEncoderProfilesResolver(Landroidx/camera/core/CameraInfo;I)Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getEncoderProfilesResolver(Landroidx/camera/core/CameraInfo;I)Landroidx/camera/video/EncoderProfilesResolver;",
+          "available": true,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Infrastructure"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.camera:camera-video:1.6.2",
+      "identity": "androidx.camera.video.VideoOutput.getEncoderProfilesResolver(Landroidx/camera/core/CameraInfo;I)Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getEncoderProfilesResolver(Landroidx/camera/core/CameraInfo;I)Landroidx/camera/video/EncoderProfilesResolver;",
+          "available": true,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Infrastructure"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.car:car:1.0.0-alpha7",
+      "identity": "androidx.car.drawer.CarDrawerAdapter.onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;",
+      "reason": "operation-retained-via-compiled-managed-contract",
+      "managedOwner": "AndroidX.RecyclerView.Widget.RecyclerView/Adapter",
+      "Slot": "onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;"
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation-android:1.12.1",
+      "identity": "androidx.compose.foundation.contextmenu.ContextMenuUiKt.getDefaultContextMenuColors()Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getDefaultContextMenuColors()Landroidx/compose/foundation/contextmenu/ContextMenuColors;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation-android:1.12.1",
+      "identity": "androidx.compose.foundation.lazy.staggeredgrid.LazyStaggeredGridMeasureResultKt.getEmptyLazyStaggeredGridLayoutInfo()Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getEmptyLazyStaggeredGridLayoutInfo()Landroidx/compose/foundation/lazy/staggeredgrid/LazyStaggeredGridMeasureResult;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation-android:1.12.1",
+      "identity": "androidx.compose.foundation.pager.PagerStateKt.getEmptyLayoutInfo()Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getEmptyLayoutInfo()Landroidx/compose/foundation/pager/PagerMeasureResult;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation-android:1.12.1",
+      "identity": "androidx.compose.foundation.style.StylePropertiesKt.getEmptyStyleProperties()Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getEmptyStyleProperties()Landroidx/compose/foundation/style/StyleProperties;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation-layout-android:1.12.1",
+      "identity": "androidx.compose.foundation.layout.FlowLayoutKt.getCROSS_AXIS_ALIGNMENT_START()Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getCROSS_AXIS_ALIGNMENT_START()Landroidx/compose/foundation/layout/CrossAxisAlignment;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation-layout-android:1.12.1",
+      "identity": "androidx.compose.foundation.layout.FlowLayoutKt.getCROSS_AXIS_ALIGNMENT_TOP()Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getCROSS_AXIS_ALIGNMENT_TOP()Landroidx/compose/foundation/layout/CrossAxisAlignment;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation-layout-android:1.12.1",
+      "identity": "androidx.compose.foundation.layout.RowColumnImplKt.getCrossAxisAlignment(Ljava/lang/Object;)Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getCrossAxisAlignment(Landroidx/compose/foundation/layout/RowColumnParentData;)Landroidx/compose/foundation/layout/CrossAxisAlignment;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation-layout-android:1.12.1",
+      "identity": "androidx.compose.foundation.layout.RowColumnImplKt.getFill(Ljava/lang/Object;)Z",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getFill(Landroidx/compose/foundation/layout/RowColumnParentData;)Z",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation-layout-android:1.12.1",
+      "identity": "androidx.compose.foundation.layout.RowColumnImplKt.getRowColumnParentData(Landroidx/compose/ui/layout/IntrinsicMeasurable;)Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getRowColumnParentData(Landroidx/compose/ui/layout/IntrinsicMeasurable;)Landroidx/compose/foundation/layout/RowColumnParentData;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        },
+        {
+          "slot": "getRowColumnParentData(Landroidx/compose/ui/layout/Placeable;)Landroidx/compose/foundation/layout/RowColumnParentData;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation-layout-android:1.12.1",
+      "identity": "androidx.compose.foundation.layout.RowColumnImplKt.getRowColumnParentData(Landroidx/compose/ui/layout/Placeable;)Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getRowColumnParentData(Landroidx/compose/ui/layout/IntrinsicMeasurable;)Landroidx/compose/foundation/layout/RowColumnParentData;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        },
+        {
+          "slot": "getRowColumnParentData(Landroidx/compose/ui/layout/Placeable;)Landroidx/compose/foundation/layout/RowColumnParentData;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation-layout-android:1.12.1",
+      "identity": "androidx.compose.foundation.layout.RowColumnImplKt.getWeight(Ljava/lang/Object;)F",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getWeight(Landroidx/compose/foundation/layout/RowColumnParentData;)F",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.foundation:foundation-layout-android:1.12.1",
+      "identity": "androidx.compose.foundation.layout.RowColumnImplKt.isRelative(Ljava/lang/Object;)Z",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "isRelative(Landroidx/compose/foundation/layout/RowColumnParentData;)Z",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.material3.adaptive:adaptive-layout-android:1.3.0",
+      "identity": "androidx.compose.material3.adaptive.layout.ThreePaneScaffoldOverrideScope..ctor(Landroidx/compose/ui/Modifier;Landroidx/compose/material3/adaptive/layout/PaneScaffoldDirective;Landroidx/compose/material3/adaptive/layout/ThreePaneScaffoldState;Landroidx/compose/material3/adaptive/layout/ThreePaneScaffoldHorizontalOrder;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/material3/adaptive/layout/PaneExpansionState;Lkotlin/jvm/functions/Function3;Ljava/lang/Object;)V",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "\u003Cinit\u003E(Landroidx/compose/ui/Modifier;Landroidx/compose/material3/adaptive/layout/PaneScaffoldDirective;Landroidx/compose/material3/adaptive/layout/ThreePaneScaffoldState;Landroidx/compose/material3/adaptive/layout/ThreePaneScaffoldHorizontalOrder;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function2;Landroidx/compose/material3/adaptive/layout/PaneExpansionState;Lkotlin/jvm/functions/Function3;Landroidx/compose/material3/adaptive/layout/ThreePaneScaffoldMotionDataProvider;)V",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.material3.adaptive:adaptive-layout-android:1.3.0",
+      "identity": "androidx.compose.material3.adaptive.layout.WindowSizeClassHelperKt.getHeightSizeClasses(Landroidx/window/core/layout/WindowSizeClass$Companion;)Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getHeightSizeClasses(Landroidx/window/core/layout/WindowSizeClass$Companion;)Landroidx/compose/material3/adaptive/layout/DpHeightSizeClasses;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.material3.adaptive:adaptive-layout-android:1.3.0",
+      "identity": "androidx.compose.material3.adaptive.layout.WindowSizeClassHelperKt.getWidthSizeClasses(Landroidx/window/core/layout/WindowSizeClass$Companion;)Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getWidthSizeClasses(Landroidx/window/core/layout/WindowSizeClass$Companion;)Landroidx/compose/material3/adaptive/layout/DpWidthSizeClasses;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.material3:material3-adaptive-navigation-suite-android:1.4.0",
+      "identity": "androidx.compose.material3.adaptive.navigationsuite.WindowSizeClassHelperKt.getHeightSizeClasses(Landroidx/window/core/layout/WindowSizeClass$Companion;)Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getHeightSizeClasses(Landroidx/window/core/layout/WindowSizeClass$Companion;)Landroidx/compose/material3/adaptive/navigationsuite/DpHeightSizeClasses;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.material3:material3-adaptive-navigation-suite-android:1.4.0",
+      "identity": "androidx.compose.material3.adaptive.navigationsuite.WindowSizeClassHelperKt.getWidthSizeClasses(Landroidx/window/core/layout/WindowSizeClass$Companion;)Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getWidthSizeClasses(Landroidx/window/core/layout/WindowSizeClass$Companion;)Landroidx/compose/material3/adaptive/navigationsuite/DpWidthSizeClasses;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.material3:material3-android:1.4.0",
+      "identity": "androidx.compose.material3.ColorSchemeKt.getValue(Ljava/lang/Enum;Landroidx/compose/runtime/Composer;I)J",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getValue(Landroidx/compose/material3/tokens/ColorSchemeKeyTokens;Landroidx/compose/runtime/Composer;I)J",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.material3:material3-android:1.4.0",
+      "identity": "androidx.compose.material3.ShapesKt.getValue(Ljava/lang/Enum;Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/graphics/Shape;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getValue(Landroidx/compose/material3/tokens/ShapeKeyTokens;Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/graphics/Shape;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.material3:material3-android:1.4.0",
+      "identity": "androidx.compose.material3.TimePickerKt.getSelectorPos(Ljava/lang/Object;)J",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getSelectorPos(Landroidx/compose/material3/AnalogTimePickerState;)J",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.material3:material3-android:1.4.0",
+      "identity": "androidx.compose.material3.TonalPaletteKt.getBaselineTonalPalette()Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getBaselineTonalPalette()Landroidx/compose/material3/TonalPalette;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.material3:material3-android:1.4.0",
+      "identity": "androidx.compose.material3.TypographyKt.getValue(Ljava/lang/Enum;Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/text/TextStyle;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getValue(Landroidx/compose/material3/tokens/TypographyKeyTokens;Landroidx/compose/runtime/Composer;I)Landroidx/compose/ui/text/TextStyle;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-android:1.12.1",
+      "identity": "androidx.compose.ui.focus.FocusTraversalKt.getActiveChild(Landroidx/compose/ui/Modifier$Node;)Landroidx/compose/ui/Modifier$Node;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getActiveChild(Landroidx/compose/ui/focus/FocusTargetNode;)Landroidx/compose/ui/focus/FocusTargetNode;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-android:1.12.1",
+      "identity": "androidx.compose.ui.focus.FocusTraversalKt.isEligibleForFocusSearch(Landroidx/compose/ui/Modifier$Node;)Z",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "isEligibleForFocusSearch(Landroidx/compose/ui/focus/FocusTargetNode;)Z",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-android:1.12.1",
+      "identity": "androidx.compose.ui.layout.LookaheadLayoutCoordinatesKt.getRootLookaheadDelegate(Landroidx/compose/ui/layout/Placeable;)Landroidx/compose/ui/layout/Placeable;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getRootLookaheadDelegate(Landroidx/compose/ui/node/LookaheadDelegate;)Landroidx/compose/ui/node/LookaheadDelegate;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-android:1.12.1",
+      "identity": "androidx.compose.ui.node.LayoutNodeLayoutDelegateKt.isOutMostLookaheadRoot(Ljava/lang/Object;)Z",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "isOutMostLookaheadRoot(Landroidx/compose/ui/node/LayoutNode;)Z",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-graphics-android:1.12.1",
+      "identity": "androidx.compose.ui.graphics.CanvasHolder.getAndroidCanvas()Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getAndroidCanvas()Landroidx/compose/ui/graphics/AndroidCanvas;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-graphics-android:1.12.1",
+      "identity": "androidx.compose.ui.graphics.drawscope.CanvasDrawScope.getDrawParams()Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getDrawParams()Landroidx/compose/ui/graphics/drawscope/CanvasDrawScope$DrawParams;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-text-android:1.12.1",
+      "identity": "androidx.compose.ui.text.font.FontFamilyResolverKt.getGlobalAsyncTypefaceCache()Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getGlobalAsyncTypefaceCache()Landroidx/compose/ui/text/font/AsyncTypefaceCache;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.ui:ui-text-android:1.12.1",
+      "identity": "androidx.compose.ui.text.font.FontFamilyResolverKt.getGlobalTypefaceRequestCache()Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getGlobalTypefaceRequestCache()Landroidx/compose/ui/text/font/TypefaceRequestCache;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.constraintlayout:constraintlayout-core:1.1.2",
+      "identity": "androidx.constraintlayout.core.parser.CLToken.getType()Ljava/lang/Enum;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getType()Landroidx/constraintlayout/core/parser/CLToken$Type;",
+          "available": true,
+          "excluded": false,
+          "bridgeCovered": false,
+          "classification": "Public"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.constraintlayout:constraintlayout-core:1.1.2",
+      "identity": "androidx.constraintlayout.core.state.Transition.findNextPosition(Ljava/lang/String;I)Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "findNextPosition(Ljava/lang/String;I)Landroidx/constraintlayout/core/state/Transition$KeyPosition;",
+          "available": true,
+          "excluded": false,
+          "bridgeCovered": false,
+          "classification": "Public"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.constraintlayout:constraintlayout-core:1.1.2",
+      "identity": "androidx.constraintlayout.core.state.Transition.findPreviousPosition(Ljava/lang/String;I)Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "findPreviousPosition(Ljava/lang/String;I)Landroidx/constraintlayout/core/state/Transition$KeyPosition;",
+          "available": true,
+          "excluded": false,
+          "bridgeCovered": false,
+          "classification": "Public"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.constraintlayout:constraintlayout:2.2.2",
+      "identity": "androidx.constraintlayout.motion.widget.MotionScene.Transition.getTouchResponse()Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getTouchResponse()Landroidx/constraintlayout/motion/widget/TouchResponse;",
+          "available": true,
+          "excluded": false,
+          "bridgeCovered": false,
+          "classification": "Public"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.datastore:datastore-preferences-external-protobuf:1.2.1",
+      "identity": "androidx.datastore.preferences.protobuf.GeneratedMessageLite.ExtendableMessage.parseUnknownField(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtendableMessage;Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;I)Z",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "parseUnknownField(Landroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;I)Z",
+          "available": true,
+          "excluded": false,
+          "bridgeCovered": false,
+          "classification": "Protected"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.datastore:datastore-preferences-external-protobuf:1.2.1",
+      "identity": "androidx.datastore.preferences.protobuf.GeneratedMessageLite.ExtendableMessage.parseUnknownFieldAsMessageSet(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtendableMessage;Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;I)Z",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "parseUnknownFieldAsMessageSet(Landroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;I)Z",
+          "available": true,
+          "excluded": false,
+          "bridgeCovered": false,
+          "classification": "Protected"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.datastore:datastore-preferences-external-protobuf:1.2.1",
+      "identity": "androidx.datastore.preferences.protobuf.GeneratedMessageLite.SerializedForm.of(Landroidx/datastore/preferences/protobuf/MessageLite;)Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "of(Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$SerializedForm;",
+          "available": true,
+          "excluded": false,
+          "bridgeCovered": false,
+          "classification": "Public"
+        }
+      ]
+    }
+  ],
+  "unexplainedDifferences": [
+    {
+      "coordinate": "androidx.constraintlayout:constraintlayout-core:1.1.2",
+      "identity": "androidx.constraintlayout.core.motion.utils.CurveFit.CONSTANT",
+      "reason": "requires-manual-review"
+    }
+  ],
+  "restrictedPublicLeaks": [
+    {
+      "coordinate": "androidx.autofill:autofill:1.3.0",
+      "type": "Androidx.Autofill.Inline.UiVersions/IStyle",
+      "method": "get_Bundle",
+      "slot": "getBundle()Landroid/os/Bundle;",
+      "classification": "Infrastructure"
+    },
+    {
+      "coordinate": "androidx.autofill:autofill:1.3.0",
+      "type": "Androidx.Autofill.Inline.UiVersions/IStyle",
+      "method": "get_Version",
+      "slot": "getVersion()Ljava/lang/String;",
+      "classification": "Infrastructure"
+    },
+    {
+      "coordinate": "androidx.camera:camera-core:1.6.2",
+      "type": "Androidx.Camera.Core.ICamera",
+      "method": "get_ExtendedConfig",
+      "slot": "getExtendedConfig()Landroidx/camera/core/impl/CameraConfig;",
+      "classification": "Infrastructure"
+    },
+    {
+      "coordinate": "androidx.camera:camera-core:1.6.2",
+      "type": "Androidx.Camera.Core.ICameraInfo",
+      "method": "get_ImplementationType",
+      "slot": "getImplementationType()Ljava/lang/String;",
+      "classification": "Infrastructure"
+    },
+    {
+      "coordinate": "androidx.camera:camera-core:1.6.2",
+      "type": "Androidx.Camera.Core.ICameraProvider",
+      "method": "get_AvailableConcurrentCameraInfos",
+      "slot": "getAvailableConcurrentCameraInfos()Ljava/util/List;",
+      "classification": "Infrastructure"
+    },
+    {
+      "coordinate": "androidx.camera:camera-core:1.6.2",
+      "type": "Androidx.Camera.Core.ICameraProvider",
+      "method": "get_IsConcurrentCameraModeOn",
+      "slot": "isConcurrentCameraModeOn()Z",
+      "classification": "Infrastructure"
+    },
+    {
+      "coordinate": "androidx.camera:camera-core:1.6.2",
+      "type": "Androidx.Camera.Core.IExtendableBuilder",
+      "method": "get_MutableConfig",
+      "slot": "getMutableConfig()Landroidx/camera/core/impl/MutableConfig;",
+      "classification": "Infrastructure"
+    },
+    {
+      "coordinate": "androidx.camera:camera-core:1.6.2",
+      "type": "Androidx.Camera.Core.IImageInfo",
+      "method": "get_TagBundle",
+      "slot": "getTagBundle()Landroidx/camera/core/impl/TagBundle;",
+      "classification": "Infrastructure"
+    },
+    {
+      "coordinate": "androidx.camera:camera-core:1.6.2",
+      "type": "Androidx.Camera.Core.Imagecapture.ITakePictureManager",
+      "method": "get_CapturingRequest",
+      "slot": "getCapturingRequest()Landroidx/camera/core/imagecapture/RequestWithCallback;",
+      "classification": "Infrastructure"
+    },
+    {
+      "coordinate": "androidx.camera:camera-core:1.6.2",
+      "type": "Androidx.Camera.Core.Imagecapture.ITakePictureManager",
+      "method": "get_HasCapturingRequest",
+      "slot": "hasCapturingRequest()Z",
+      "classification": "Infrastructure"
+    },
+    {
+      "coordinate": "androidx.camera:camera-core:1.6.2",
+      "type": "Androidx.Camera.Core.Imagecapture.ITakePictureManager",
+      "method": "get_ImagePipeline",
+      "slot": "getImagePipeline()Landroidx/camera/core/imagecapture/ImagePipeline;",
+      "classification": "Infrastructure"
+    },
+    {
+      "coordinate": "androidx.camera:camera-core:1.6.2",
+      "type": "Androidx.Camera.Core.Imagecapture.ITakePictureManager",
+      "method": "get_IncompleteRequests",
+      "slot": "getIncompleteRequests()Ljava/util/List;",
+      "classification": "Infrastructure"
+    }
+  ],
+  "qualification": "JNI-slot and compiled CLR-contract evidence, not behavioral equivalence or validation of every native dependency version."
+}

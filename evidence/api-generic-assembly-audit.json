@@ -1,0 +1,10 @@
+{
+  "publicTypes": 3487,
+  "genericFacades": 1043,
+  "hiddenRequiredPublicContracts": 2,
+  "restrictedPublicLeaks": [],
+  "genericFields": true,
+  "genericTaskResults": true,
+  "genericFlowElements": true,
+  "facadePeerRegistrations": 0
+}

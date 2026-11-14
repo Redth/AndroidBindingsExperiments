@@ -1,0 +1,212 @@
+{
+    "schemaVersion": 1,
+    "policy": "One Gradle-resolved version per module",
+    "configurationSha256": "bc06aa77284c84aef5064a142624feb1539f603b7125688ea436b4ddcc95e2d8",
+    "configurationRecords": 4,
+    "includedRoots": null,
+    "records": [
+        {
+            "requested": {
+                "groupId": "com.squareup.retrofit2",
+                "artifactId": "retrofit",
+                "version": "3.0.0"
+            },
+            "selected": {
+                "group": "com.squareup.retrofit2",
+                "artifact": "retrofit",
+                "version": "3.0.0",
+                "reasons": [
+                    "requested"
+                ]
+            },
+            "variantAlias": null,
+            "publishedRelocation": null,
+            "superseded": false
+        },
+        {
+            "requested": {
+                "groupId": "com.squareup.retrofit2",
+                "artifactId": "converter-moshi",
+                "version": "3.0.0"
+            },
+            "selected": {
+                "group": "com.squareup.retrofit2",
+                "artifact": "converter-moshi",
+                "version": "3.0.0",
+                "reasons": [
+                    "requested"
+                ]
+            },
+            "variantAlias": null,
+            "publishedRelocation": null,
+            "superseded": false
+        },
+        {
+            "requested": {
+                "groupId": "com.squareup.okhttp3",
+                "artifactId": "okhttp",
+                "version": "5.5.1"
+            },
+            "selected": {
+                "group": "com.squareup.okhttp3",
+                "artifact": "okhttp",
+                "version": "5.5.1",
+                "reasons": [
+                    "requested",
+                    "between versions 5.5.1 and 4.12.0"
+                ]
+            },
+            "variantAlias": null,
+            "publishedRelocation": null,
+            "superseded": false
+        },
+        {
+            "requested": {
+                "groupId": "com.squareup.moshi",
+                "artifactId": "moshi",
+                "version": "1.15.2"
+            },
+            "selected": {
+                "group": "com.squareup.moshi",
+                "artifact": "moshi",
+                "version": "1.15.2",
+                "reasons": [
+                    "requested"
+                ]
+            },
+            "variantAlias": null,
+            "publishedRelocation": null,
+            "superseded": false
+        }
+    ],
+    "modules": [
+        {
+            "group": "com.squareup.retrofit2",
+            "artifact": "retrofit",
+            "version": "3.0.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "com.squareup.okhttp3",
+            "artifact": "okhttp",
+            "version": "5.5.1",
+            "reasons": [
+                "requested",
+                "between versions 5.5.1 and 4.12.0"
+            ]
+        },
+        {
+            "group": "com.squareup.okhttp3",
+            "artifact": "okhttp-android",
+            "version": "5.5.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlin",
+            "artifact": "kotlin-stdlib",
+            "version": "2.2.21",
+            "reasons": [
+                "requested",
+                "between versions 2.2.21, 2.1.21, 1.8.21 and 2.1.20"
+            ]
+        },
+        {
+            "group": "org.jetbrains",
+            "artifact": "annotations",
+            "version": "13.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlin",
+            "artifact": "kotlin-stdlib-jdk7",
+            "version": "1.8.21",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 1.8.21 and 1.8.0"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlin",
+            "artifact": "kotlin-stdlib-jdk8",
+            "version": "1.8.21",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 1.8.21 and 1.8.0"
+            ]
+        },
+        {
+            "group": "com.squareup.okio",
+            "artifact": "okio",
+            "version": "3.18.1",
+            "reasons": [
+                "requested",
+                "between versions 3.18.1 and 3.7.0"
+            ]
+        },
+        {
+            "group": "com.squareup.okio",
+            "artifact": "okio-jvm",
+            "version": "3.18.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.annotation",
+            "artifact": "annotation",
+            "version": "1.10.0",
+            "reasons": [
+                "requested",
+                "between versions 1.10.0, 1.8.1 and 1.1.0"
+            ]
+        },
+        {
+            "group": "androidx.annotation",
+            "artifact": "annotation-jvm",
+            "version": "1.10.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.startup",
+            "artifact": "startup-runtime",
+            "version": "1.2.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.tracing",
+            "artifact": "tracing",
+            "version": "1.0.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "com.squareup.retrofit2",
+            "artifact": "converter-moshi",
+            "version": "3.0.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "com.squareup.moshi",
+            "artifact": "moshi",
+            "version": "1.15.2",
+            "reasons": [
+                "requested"
+            ]
+        }
+    ]
+}

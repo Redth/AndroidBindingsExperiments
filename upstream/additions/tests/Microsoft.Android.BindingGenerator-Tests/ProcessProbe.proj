@@ -1,0 +1,8 @@
+<Project>
+  <Target Name="Probe">
+    <WriteLinesToFile File="probe-output.txt" Lines="$(MSBuildProjectDirectory)|$(BINDING_TEST_ENV)" Overwrite="true" />
+  </Target>
+  <Target Name="Diagnostic">
+    <Message Text="$(ProbeDiagnostic)" Importance="high" />
+  </Target>
+</Project>

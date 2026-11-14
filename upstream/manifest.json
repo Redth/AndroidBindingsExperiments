@@ -1,0 +1,1791 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/dotnet/android.git",
+  "commit": "097fd4f7eb6cab27a798e04254ac838c9e8d0369",
+  "patches": [
+    {
+      "path": "patches/android.patch",
+      "sha256": "116ce42b05bafb3f45322c8327614fa0b38d18ed13f8748593e910e346eab8e2"
+    }
+  ],
+  "additionsRoot": "additions",
+  "additions": [
+    {
+      "path": "Documentation/docs-mobile/messages/xa4350.md",
+      "sha256": "ff4c2dee69688c4531c6a31cd388e16e8ddfca682e8f6732cb0b420f2580ddf8",
+      "bytes": 874,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/src/Xamarin.Android.Tools.Bytecode/Kotlin/KotlinTypeContract.cs",
+      "sha256": "1fe608bcef210f9458d01b5abfab8a8f8189ef4adc43f89440468ca0f72a3f10",
+      "bytes": 3217,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/ClassPathResourceTests.cs",
+      "sha256": "0e44ea6831a8f8c447b6fabe7715e290e547a63272e1cdfd794ee15a8b83ce06",
+      "bytes": 1297,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/KotlinTypeContractTests.cs",
+      "sha256": "1d348b41497445e62d908e24aa472163ca8f60e689d714b504ffbaf43a77f018",
+      "bytes": 3638,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/kotlin-compatibility/build.gradle.kts",
+      "sha256": "34d20771e3087f5ad35306f41b759117e7e5e6f1052a7524fcd75681505e2c1b",
+      "bytes": 1138,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/kotlin-compatibility/settings.gradle.kts",
+      "sha256": "0bbd44746efb1c1574019d3682d68ee1b73003aa5d83b916268ec15eba583f5c",
+      "bytes": 574,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/kotlin-gradle/src/main/kotlin/AsyncFixture.kt",
+      "sha256": "13c0445a5715d05a72aa0eec14541bf80eccda2f817ed0b5133fd5fa0ac09daf",
+      "bytes": 6085,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/kotlin-gradle/src/main/kotlin/net/dot/android/kotlinasync/CoroutineBridge.kt",
+      "sha256": "f58a1afcc30629a93b62d6e98e7c7275368a28132737aead6992d92438642a90",
+      "bytes": 2833,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/TestInputs/SemanticDeviceProbe/BridgeProbe.java",
+      "sha256": "c455aecc05d30192bca905003e2ecc1a22026f68bbec67a344d297591f3c7ab8",
+      "bytes": 539,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/TestInputs/SemanticDeviceProbe/ClosureProbeActivity.cs",
+      "sha256": "010cd2e2bcaf50aee652f7b7e8277068603be952174e548444f605f471ffc310",
+      "bytes": 4484,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/TestInputs/SemanticDeviceProbe/ContractProbe.java",
+      "sha256": "9e085a9a6a706ca1ee817391e0807cc2b59bc9709b17e9f9a6257b61fa44821c",
+      "bytes": 2354,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/TestInputs/SemanticDeviceProbe/ContractProbeActivity.cs",
+      "sha256": "381135cc76e104d04c4bd6f611280fb31d764bc6ab16a54b5593cbf949153ee3",
+      "bytes": 5209,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/TestInputs/SemanticDeviceProbe/KotlinAsyncProbeActivity.cs",
+      "sha256": "1c4cf5e5d12226c9372f87171937ea9e5f7f9d96c173edc4ecd54c30746cf7f3",
+      "bytes": 10795,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/TestInputs/SemanticDeviceProbe/KotlinCoroutines.cs",
+      "sha256": "8966888d971e73eb08629fd6c5695a15a1541d9d185e3ebd764770b6fd1ccafc",
+      "bytes": 5777,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/TestInputs/SemanticDeviceProbe/KotlinFlowBenchmarks.cs",
+      "sha256": "6f5b5e6fdac21333b6260db0603d0cee3d0e58d831fc5aabfca46763d9e1104e",
+      "bytes": 3933,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/TestInputs/SemanticDeviceProbe/KotlinPackageProbeActivity.cs",
+      "sha256": "7119111fca44472bf5f51022bdf45f600eb854612e64c4ee8cb595551cc60420",
+      "bytes": 3267,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/TestInputs/SemanticDeviceProbe/KotlinProductionProbeActivity.cs",
+      "sha256": "9a4bf0e453c9a4311f8135ddae32dc4a177b66f081217a973190fc2420b50140",
+      "bytes": 11103,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/TestInputs/SemanticDeviceProbe/ProbeActivity.cs",
+      "sha256": "582758e8f12f1583c38438ee88f7f8b6d9d4555d1b212c8d7f8d231ed8632a5c",
+      "bytes": 8395,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/TestInputs/SemanticDeviceProbe/SupportClosureProbeActivity.cs",
+      "sha256": "3aff4a7fddebf0b85ebf3417aa78db0cbb9810efe6a7dc7f2fd474fd1b8c5088",
+      "bytes": 2384,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/BindingAccessibilityProjectionTests.cs",
+      "sha256": "341ee387abb4d3660c2873d239b6109247f028661823494de7c1660152eb575d",
+      "bytes": 14802,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/BindingCompatibilityProfileTests.cs",
+      "sha256": "1bd5172c20af257ffa3ecf84697291d63bcaba768c304478fc9b3759be399ee3",
+      "bytes": 10744,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/BindingCompilationTests.cs",
+      "sha256": "48aac576005fa22e3313e67278815722f405eaf8abab210bc93d4b63964d23e6",
+      "bytes": 24228,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/BindingCorpusCatalogTests.cs",
+      "sha256": "aac69b951ae0dff3d6b9ef17445fa3fe66f8d5a35a106f96523849fdfa8d0cca",
+      "bytes": 11916,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/BindingFieldProjectionTests.cs",
+      "sha256": "508bf98cd687c4e2c75a59294da601f162891c9ffd8c674d1ce507d724daac67",
+      "bytes": 2520,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/BindingSupportContractTests.cs",
+      "sha256": "0e075e61cea09aa2feb71ab3f0c00aace0b89f249db1e2d5c74e959a7081f420",
+      "bytes": 8923,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/BindingViewProjectionTests.cs",
+      "sha256": "9d94e0fa41ca74f90c6b84e7b18cf73fe9619260f2065f7453f2ea0b31fd009a",
+      "bytes": 8717,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/ConsolidatedContractTests.cs",
+      "sha256": "13b99081f292d8270950a87695a0a474a756cb2988ebe8d6ac2386d4a91e013d",
+      "bytes": 20832,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/GenericFacadeProjectionTests.cs",
+      "sha256": "ac0075973c05dfaec825612c9ce692dd92f2945cfc15764c75e1db7f83327fde",
+      "bytes": 11155,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/GenericProjectionConstraintTests.cs",
+      "sha256": "ef44fc48f48dc6ffe14750c04cb857895c9d42a46411f2e3a7bdae98f117d1d0",
+      "bytes": 13169,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/GroupedAssemblyTests.cs",
+      "sha256": "76334524dd8f0d973cb11a4b7de0f9d0b6ae171c97995f1c1f68f15e4d740ca4",
+      "bytes": 18109,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/JvmApiDescriptorTests.cs",
+      "sha256": "ed3cb90d07a9078cadb7bad691858629bb3cf64b18f44d27abc5ba5f5eb54977",
+      "bytes": 7254,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/KotlinDefaultTests.cs",
+      "sha256": "6b1c5dd70f751a45756ba1f966f7128e4453cc29ffebd83e70f173e05e886107",
+      "bytes": 7435,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/KotlinDemandTests.cs",
+      "sha256": "5df193b198296ffa73697b37b4f08eb3edbbfc0182f1ebb3d51fab391073290f",
+      "bytes": 4551,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/KotlinFlowProjectionTests.cs",
+      "sha256": "7c5751b9ed55dbb70a1fc5c85a8f08dfc53195820cb87ae2c86a3c7940447df8",
+      "bytes": 5029,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/KotlinSuspendTests.cs",
+      "sha256": "1d532f1244c0d543052afcc25a095f81cb91cc86e07e4a1c81a62ca51577d75a",
+      "bytes": 8200,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/ManagedContractProjectionTests.cs",
+      "sha256": "676719bcb1030c0fa3fbc7f94bbe601ccff39635be06166f16d04d64f6f0349b",
+      "bytes": 135313,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/compare-binding-closure.py",
+      "sha256": "987e7bb842d5b16551d798783bdb6c041e9e48297aa71ff0a488fb323856c409",
+      "bytes": 16768,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/compare-binding-corpus.py",
+      "sha256": "f8111448db7ba4659fbc6b35f8c92ffd55e4fa4b1637d64a4b949ccb4cab72c8",
+      "bytes": 30521,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/compare-bindings.py",
+      "sha256": "b2d292170b5e4b950005697d03058a25ca27d8a85e23e551c084823fea185302",
+      "bytes": 28768,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/test_compare_binding_corpus.py",
+      "sha256": "5617f2c8ea4ba52f250074d09268cc7a62784ba7e459633a39141e9da0b5dcf8",
+      "bytes": 13286,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/verify-kotlin-package.py",
+      "sha256": "99c05ab49ffd3c1da53a5dd057debb7ec67840b09b5984df852c714c68009fb0",
+      "bytes": 9041,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/binding-compatibility/Program.cs",
+      "sha256": "5746efa4d713c5e07a48114e7b18c62d7eb4440762720eef07f60d4aef92fd10",
+      "bytes": 2263,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/binding-compatibility/README.md",
+      "sha256": "149349b8c42a8b50363215a8fac55353fe08cd2ed3e6194863056cdb7f2d5b38",
+      "bytes": 3666,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/binding-compatibility/binding-compatibility.csproj",
+      "sha256": "331e00af245d7d7d114fba2d072d3c7435f325d93d7d16046b6f3514ad73810b",
+      "bytes": 407,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Semantics/BindingAccessibilityProjection.cs",
+      "sha256": "a3241fa60a1306a01ff3d178d2dd6568b2e90ebbcab8afb234afae1677ad2772",
+      "bytes": 12137,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Semantics/BindingCompatibilityProfile.cs",
+      "sha256": "4cea7e9ee77cb5054dc534cdde62ca0d8fefae075dc5500b544e6fa9ff969988",
+      "bytes": 18372,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Semantics/BindingCompatibilityUsage.cs",
+      "sha256": "52ab2dfe319ac866dcd3fc276677dbc81d09bf7d20a7b30073c0b0e2b37135d6",
+      "bytes": 7004,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Semantics/BindingCompilation.cs",
+      "sha256": "535f8f09bd86b49af051d4f0792fb8e48e970a9c2723aa65bb6c9aa8cda0c56d",
+      "bytes": 25010,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Semantics/BindingCorpusCatalog.cs",
+      "sha256": "95407aee576df2e66ddf52897fad1befefd185596cedf3a23e01662a98cedf85",
+      "bytes": 18533,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Semantics/BindingOwnershipPlanner.cs",
+      "sha256": "068e8370e297cb667bb05758d96d8321b494d095bb9076460e42beabbf0fa7c9",
+      "bytes": 6107,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Semantics/BindingPublisherPolicy.cs",
+      "sha256": "99cb143ec4a47c024c418ae98424c6caceed2da98cf8406cc815092908f8f9db",
+      "bytes": 2951,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Semantics/BindingViewProjection.cs",
+      "sha256": "d12e4fbe3345697a1d84cba6494d1d4b104f903c81c2eb1e48163426a1145364",
+      "bytes": 13217,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Semantics/GenericFacadeProjection.cs",
+      "sha256": "c1d7870b36f687b73947daa184bab7cfbef19eb5b70bc15603d1e5f14647ecb2",
+      "bytes": 47894,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Semantics/JavaProjectionContract.cs",
+      "sha256": "11c17a4b8af8ceb121178364affed68b834d3484ee0e18c24fd5bb64c2c1e892",
+      "bytes": 1365,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Semantics/JvmApiDescriptor.cs",
+      "sha256": "9f35db7c5e0849991a3df32fd866b372b3d14b70c45a6176dadc35dba084de65",
+      "bytes": 16428,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Semantics/KotlinTypeProjection.cs",
+      "sha256": "7eaa31d03d473ebec728708ed4b7fb8bada826bd2b64dbf68590922a40284c9f",
+      "bytes": 4045,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Semantics/ManagedContractProjection.cs",
+      "sha256": "a5f2a6343819265b40e505a0fa2191ed4d7f688577157337089adaeed7b18b90",
+      "bytes": 59176,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/KotlinDefaultConstructor.cs",
+      "sha256": "7d5d54fc50551c758dd91b6e29326f62c39712dae6cc33c497c146063e4d0a91",
+      "bytes": 3786,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/KotlinDefaultMethod.cs",
+      "sha256": "2354f5dd1686bc401e0ff4bea1c027c392400f46d0b4dacdf9b2bad174754bf5",
+      "bytes": 9519,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/KotlinFlowMethod.cs",
+      "sha256": "8dca383d1b604ab3ab06dcfabe85706bf79248b6d65c905c5ceecffb60e3ad23",
+      "bytes": 3708,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/KotlinSuspendMethod.cs",
+      "sha256": "e6216112f88b86da67b919efe4280e81529a0548fec7f754116e99b47bd773b3",
+      "bytes": 6536,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/KotlinValueClassMethods.cs",
+      "sha256": "affa53bd5fe9b11585ceca7ce19122a299ba291cb74b110bf91371a193c450f8",
+      "bytes": 2773,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/grouped-bindings/ImplementationCatalog.cs",
+      "sha256": "c0c8987ffa1112824b632806bf377cc83ccf91b8a06bd9fe6146f4db39e7f787",
+      "bytes": 6682,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/grouped-bindings/Program.cs",
+      "sha256": "24c0a17bbe50753b8cc71d3780473375b1c0bfda6a101f7fd0a86e540023b679",
+      "bytes": 31931,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/grouped-bindings/README.md",
+      "sha256": "66b6468a73f8d032a4c964fe01dd5713a8ad1f763f4be83ce7a68ae8f2b615a6",
+      "bytes": 5176,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/grouped-bindings/Verifier.cs",
+      "sha256": "5f985abd4154400d3f8c0086d2e2c4bf1afa5d942a50ff9301787291c57a57bd",
+      "bytes": 7130,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/grouped-bindings/grouped-bindings.csproj",
+      "sha256": "52f0baaaecd1ef57fc99a427e6310f2fd684b3a3371ff6f651282345c797c0e5",
+      "bytes": 435,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/jvm-api-descriptor/.gitignore",
+      "sha256": "0b3a11570c1f2041957ffafd33809115bae3ee845501b3c997a7fceaf722a0c4",
+      "bytes": 28,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/jvm-api-descriptor/README.md",
+      "sha256": "527609da21308ed03e130e84439d5048197a544cc6c2de2a02fbea71c853f0cb",
+      "bytes": 4736,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/jvm-api-descriptor/build.gradle.kts",
+      "sha256": "f3b340ccef27da381cd572c455bcdc529f6b6b47faa41274af90c184ddcf87ff",
+      "bytes": 1339,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/jvm-api-descriptor/settings.gradle.kts",
+      "sha256": "2dc6d837a8d2c6eb5989ef43eb7771201e89b83f98908418190bb758406b4f34",
+      "bytes": 468,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/jvm-api-descriptor/src/main/kotlin/net/dot/android/descriptor/ApiDescriptor.kt",
+      "sha256": "528ebc7c07a89da6e1fcbb380661b157151f9c7dfbe64c5e8d9d69753ba22893",
+      "bytes": 25058,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/jvm-api-descriptor/src/main/kotlin/net/dot/android/descriptor/JvmSignatures.kt",
+      "sha256": "93bf1d6bf03fa70fe06b4a95773a26bce79f327cf65bd71ac2ea276b9bfb0aeb",
+      "bytes": 5092,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/jvm-api-descriptor/src/test/java/net/dot/android/descriptor/fixtures/JavaFixture.java",
+      "sha256": "99749db162e3315f2984930925ff3b9dc840c869809f8e2e8d8b33492a8974ff",
+      "bytes": 1086,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/jvm-api-descriptor/src/test/kotlin/net/dot/android/descriptor/DescriptorTests.kt",
+      "sha256": "182e0291265016e5f8b1ba7161b8006f0c54b35c3941ee385990a07fb0d8f204",
+      "bytes": 10444,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/jvm-api-descriptor/src/test/kotlin/net/dot/android/descriptor/fixtures/Fixture.kt",
+      "sha256": "80e43487eb7dddf695d91c61729d86597b02631ebced3086358b52cb0179fd58",
+      "bytes": 841,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/jvm-api-descriptor/src/test/kotlin/net/dot/android/descriptor/fixtures/MultifileOne.kt",
+      "sha256": "2927cfa24ee05ca6ce03afc36febab498e1885cc99126c39cb59e16e6090e8bd",
+      "bytes": 302,
+      "mode": "100644"
+    },
+    {
+      "path": "external/Java.Interop/tools/jvm-api-descriptor/src/test/kotlin/net/dot/android/descriptor/fixtures/MultifileTwo.kt",
+      "sha256": "d8f300e76ca5551df15d06cc917ea1101a1311560da4e4ef2ca6fc34900ee7be",
+      "bytes": 188,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.BindingGenerator.Semantic/CheckBindingGenerator.cs",
+      "sha256": "27dfe4b1aaedcc03d485900f95f5a5ca72df84e63f4cc6d7a3e6ae0463b17a02",
+      "bytes": 1491,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.BindingGenerator.Semantic/Microsoft.Android.BindingGenerator.Semantic.csproj",
+      "sha256": "0abbadee074e8bed8348ee2e3a672cd97ad99685f0222fbbbc654c79d49fcf45",
+      "bytes": 4859,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.BindingGenerator.Semantic/Properties/Resources.cs",
+      "sha256": "1540ae7d1662e4a97e2d68fb9e219fe6c88da35dc8d13ead2186e1b31f8cbbba",
+      "bytes": 1507,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.BindingGenerator.Semantic/Properties/Resources.resx",
+      "sha256": "6bd9f1455576ed30542bfe87eeaae6c184edc52d59b59ab763249aa668a6c889",
+      "bytes": 3466,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.BindingGenerator.Semantic/README.md",
+      "sha256": "5b2558afcca3ccb8c192d7a84baba7d4e74ac98c375e862f11bdec8aade64359",
+      "bytes": 4199,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.BindingGenerator.Semantic/ReadBindingOutputs.cs",
+      "sha256": "a16ff8491c6a1c62596ca327bc246cf127005b2f619ab3ff355c2fe55ca55615",
+      "bytes": 1427,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.BindingGenerator.Semantic/RunBindingTool.cs",
+      "sha256": "ee54cc8247a08f2883109342d1cb0cd46ef2e7397eaf30cf249052d5f8604529",
+      "bytes": 5358,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.BindingGenerator.Semantic/WriteBindingKeepRules.cs",
+      "sha256": "4f34d372f52764dbfaf044c190a98433d5201346722ad57f8699be27d92e483b",
+      "bytes": 1956,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.BindingGenerator.Semantic/build/Microsoft.Android.BindingGenerator.Semantic.Bindings.targets",
+      "sha256": "f77ed8b3c7823458f80ea92937ddc91c288337791b57578de22fd7fa1941ed7e",
+      "bytes": 11164,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.BindingGenerator.Semantic/build/Microsoft.Android.BindingGenerator.Semantic.targets",
+      "sha256": "00ada4d6c4ae8edfa83cc79791808351d9c88d63d4b927d81e9e31a6a4e26662",
+      "bytes": 1154,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/DemandAsyncEnumerator.cs",
+      "sha256": "2c2660386439773381740228146045f0ca63e20f3f7e3d665ee0a7579582830c",
+      "bytes": 5957,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/IJavaProjection.cs",
+      "sha256": "c083a39b47fac03230cd4ba5c1657a441dc18290f7c77b0637647d187f787062",
+      "bytes": 316,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/JvmArray.cs",
+      "sha256": "0ddd94c11a71dddd4bf306db8663448544ae8c22dcc437f40d8f37032c75e55d",
+      "bytes": 2678,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/JvmType.cs",
+      "sha256": "28d3af33514d943efda25d580744b1b0f00690330aaa64f6ebcad5548a9ef320",
+      "bytes": 5289,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/KotlinCollections.cs",
+      "sha256": "6b9f5c92b0b5bb673b440ade054ce967fc55ed078df72e8c83ad1fba272261c4",
+      "bytes": 7528,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/KotlinCoroutines.cs",
+      "sha256": "cb16d4a5358d1037683fbbd439aaaabaf25e98ed4061bf70f28f7735ea9c68ed",
+      "bytes": 8153,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/KotlinOptional.cs",
+      "sha256": "e7cc9dfac8f47417a04c55ad3f193b524f42485d163cb200691a947aafb120bf",
+      "bytes": 600,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/ManagedCoroutines.cs",
+      "sha256": "37c0e6355e945e64754ddd2d35f7875a2c104438529f988fcda1d0ed93a8e25b",
+      "bytes": 3458,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/Microsoft.Android.Kotlin.csproj",
+      "sha256": "3c19f6907ea6d8bb606f3ca65406dd5fa53984610e592bae7a2e73a1801f284b",
+      "bytes": 4578,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/Native/AndroidManifest.xml",
+      "sha256": "7c78ff94708d10eea100dde8791b02e9447733fbd2fb66df47c323797a2867d8",
+      "bytes": 157,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/Native/build.gradle.kts",
+      "sha256": "ce470128911b8158c59bf94f87e6cc21176db48dd0d66032a49d6123d01bf1ae",
+      "bytes": 1086,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/Native/settings.gradle.kts",
+      "sha256": "9b6bf5b330cec780d19bf046e45afbaa9d5693e75bb488c5a767665990a137d4",
+      "bytes": 771,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/Native/src/main/kotlin/net/dot/android/kotlin/CoroutineBridge.kt",
+      "sha256": "5c54d20191a1d41646b528b590cb3552aa0a3805268445622e2c9254ac97abe9",
+      "bytes": 4960,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/NativeRuntime.cs",
+      "sha256": "dc93bf6e836828b525aeff33f754d5368118d8b05b060f66fe9b2088da6eddad",
+      "bytes": 2962,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/README.md",
+      "sha256": "11e0cf601c8dc3ab6213faef9c6ecb7f6f4b68fdfe2fb7790ff518f7ada6918d",
+      "bytes": 8790,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Microsoft.Android.Kotlin/buildTransitive/Microsoft.Android.Kotlin.props",
+      "sha256": "60c3d37df638f80143c0388871fbd6d3012e1755811d10449984145811c3ef9f",
+      "bytes": 228,
+      "mode": "100644"
+    },
+    {
+      "path": "src/Xamarin.Android.Build.Tasks/Tests/Xamarin.Android.Build.Tests/Tasks/ExperimentalBindingsTests.cs",
+      "sha256": "46d1d0d423adeba1ae2cca4a66f2a56801b48f29cf2b0eb4fb48dfac139e1b95",
+      "bytes": 3974,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/App/GenericProjectionChecks.cs",
+      "sha256": "cd9262215136cd22c3c6c2d0f72ce313290641b09dc92eaecd4d64620ad0c7b3",
+      "bytes": 8329,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/App/Reference.App.csproj",
+      "sha256": "4387d082abb44f62fd984b725c34b71f81df2485b371454f07d8d9d8533489e3",
+      "bytes": 3353,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/App/ReferenceActivity.cs",
+      "sha256": "dd370287343ce74d24e877cea0a6a087ce96489b4d814a6f88a2dc4566dfa616",
+      "bytes": 7364,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/.gitignore",
+      "sha256": "51a2ab0e1a8f3b3ce2181d66131e11c928749fc851158b37651ea763fc0f4415",
+      "bytes": 18,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/Consumer/ConsolidatedConsumer.cs",
+      "sha256": "2192b6d999c25816150a10c810c17f2794eb2c21684bf1284140bd17c84c2300",
+      "bytes": 671,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/Consumer/GroupedConsumer.cs",
+      "sha256": "c56bd600ad01292d6f335acd7b2633395bcf4877ab35ddc6a8c77ce1ef24fbfb",
+      "bytes": 491,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/Consumer/GroupedConsumer.csproj",
+      "sha256": "5da97c7852ef500fe1c1c163dcbd13445bda37c1d6e008135d1f1054497461cc",
+      "bytes": 596,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/Native/.gitignore",
+      "sha256": "8c14e5ce2a4b785f38e12036540e8838090de3a962d6e91132c34bf1f129d2a2",
+      "bytes": 16,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/Native/build.gradle.kts",
+      "sha256": "527d29a98de54f3786890c2bf35c51765fdb56a87d660e6ff2f704c8d93be736",
+      "bytes": 13698,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/Native/gradle.lockfile",
+      "sha256": "aa609c493c6e5d1ce939e4f12d6bb8a272c48a3e41c89df40dec61ccfd7168d5",
+      "bytes": 31374,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/Native/settings.gradle.kts",
+      "sha256": "43976247d173404e5be085824b76ae11b3703822fa4092fe2627b98add12e018",
+      "bytes": 695,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/README.md",
+      "sha256": "158f3019227ac90ab1d4906351daa1326c389a3e91bab6346a2785cc27aa670a",
+      "bytes": 17487,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/Smoke/GroupedSmoke.csproj",
+      "sha256": "b07ef0ea30c2dd60575c962386bc6e2379859333983514ff622ec982e17d48ce",
+      "bytes": 1198,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/Smoke/GroupedSmokeActivity.cs",
+      "sha256": "c8b4b8774cbb0fc641b14163aa4000fe046259cdd8f57d297ddb4a74d772a000",
+      "bytes": 980,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/Smoke/Properties/AndroidManifest.xml",
+      "sha256": "ae171379c17990f1caaba0facf7cc8cc91d43d9b3da118df83be3f96c6386cbb",
+      "bytes": 253,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/generate-assemblies.py",
+      "sha256": "3d0325ec94a60ebf153ba09004c717e34b6d68f0b1ddef11e4376f2c82cc7584",
+      "bytes": 21534,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/prepare-inputs.py",
+      "sha256": "719301ca7f003c646be7a9e237c51c636c2f4afba2b5c2312ec72c16f7f85a9a",
+      "bytes": 7150,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/test_generation_profiles.py",
+      "sha256": "fb8ea2d9744b99fab74b96c82f94a6c02a8bb188b966b92fac19e1a482fd2428",
+      "bytes": 15653,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/test_prepare_inputs.py",
+      "sha256": "9c804acf64756bc776de7341cffefbf07a972453f59ab382b8bb5f3db5d8a40a",
+      "bytes": 6868,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Corpus/verify-smoke.py",
+      "sha256": "e682fe5f28d0ef19083603fd0115f4bcc90269270a31092299773bcde62b8477",
+      "bytes": 4579,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Foundation/Reference.Foundation.csproj",
+      "sha256": "6b74033169e23dff750d84ce266b331ab9dce4e3bd8c27c05991d55f9e2bbfef",
+      "bytes": 2825,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/GeneratorPackage/App/Preview.App.csproj",
+      "sha256": "b4eb00a7c5704091178a7457c49f0f69b550bf45b3018a24164137187ad3784a",
+      "bytes": 840,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/GeneratorPackage/App/ProbeActivity.cs",
+      "sha256": "8a70d62f3bbac820e8a9d6961bd8a61a52ac5f41bd21f08d6e351c1af3648330",
+      "bytes": 2406,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/GeneratorPackage/Binding/Additions.cs",
+      "sha256": "5c26173df4c55a53d3c22ad3663e5be05869ceb2bb6e07302e288e0036a36a7e",
+      "bytes": 134,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/GeneratorPackage/Binding/Metadata.xml",
+      "sha256": "f0aa21efe0a2819297d289d97a7917d34e23ec1ff83679735af36d47a936459f",
+      "bytes": 287,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/GeneratorPackage/Binding/Preview.Binding.csproj",
+      "sha256": "ae30d7c65e535eeccb6cfdf8a6447cf03cf5bcd4cdea67e8ad99174bd6faf380",
+      "bytes": 1015,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/GeneratorPackage/Consumer/Consumer.cs",
+      "sha256": "02eb276b93ff72056865d82500f823423efee4c646305201d1720d2a430ed8ee",
+      "bytes": 209,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/GeneratorPackage/Consumer/Preview.Consumer.csproj",
+      "sha256": "66fbfb9048a429b74315a6a136694f82fc4d03c1b185eca349a6cddb63016c54",
+      "bytes": 331,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/GeneratorPackage/Multi/Preview.Multi.csproj",
+      "sha256": "5c97c58d785e4173763be29454478596e0533277ab9a790209f31d0c55018502",
+      "bytes": 1061,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/GeneratorPackage/Native/build.gradle.kts",
+      "sha256": "58ab3b25475f6e202e5f6727b217be37e7a4a685b8620eb53311ed02f34a2f4d",
+      "bytes": 434,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/GeneratorPackage/Native/net/dot/android/packagetest/Box.java",
+      "sha256": "1056b30b2b981cf6f6eaebf065c6123e7d754ad813bf48dfec14798cbfde5ef1",
+      "bytes": 534,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/GeneratorPackage/Native/settings.gradle.kts",
+      "sha256": "1c18f7b0eac60ce1778177a2fa0b3fb14485b2bc413542657f05d0ede6d96238",
+      "bytes": 865,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/GeneratorPackage/PackageTasks.proj",
+      "sha256": "95814d02038a2ab8cf0cea533630522f0d788e2fefda9a06a153ca777ab31f9b",
+      "bytes": 1059,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/GeneratorPackage/README.md",
+      "sha256": "f6372ad68d7eddc4347fea94210f36c1cb63f155b7290815546dd7df9f98472e",
+      "bytes": 3467,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/GeneratorPackage/verify-package.py",
+      "sha256": "ba4fc0f35e38724900c4e80eb80063d25e4796a4825234687f36413bbf8ff00b",
+      "bytes": 16580,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/MauiCompatibility/App/Compat.App.csproj",
+      "sha256": "0b07e81d8dec2671dc98e77de2803673f0cfd0aae96826f89e301f3626390fbd",
+      "bytes": 1495,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/MauiCompatibility/App/CompatibilityDriver.java",
+      "sha256": "1aaad2610c6e22c5ffbfdcba3b0d4d372eb986416d8636eb2a8840cc95d05fb2",
+      "bytes": 599,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/MauiCompatibility/App/ProbeActivity.cs",
+      "sha256": "448b3442e2d37c6a30e6839bdfd207994caa7cc390cf287dca1854a64ae7c50e",
+      "bytes": 3846,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/MauiCompatibility/App/compatibility-driver.pro",
+      "sha256": "f28cad827d6228a1e3d3b64c14f0a9f6a0181fcac516dbceb4e0c448f718f2b0",
+      "bytes": 80,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/MauiCompatibility/Baseline/Baseline.csproj",
+      "sha256": "40a72a6276892f6e7fe2293515fa7a2f89718a417b7b50fbd371b2d26229343d",
+      "bytes": 962,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/MauiCompatibility/Legacy/Legacy.Consumer.csproj",
+      "sha256": "acfc570ba97025756b157bd9b15e26c65f104429a2aa6c603c2500157bd7fc55",
+      "bytes": 347,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/MauiCompatibility/Legacy/LegacyApi.cs",
+      "sha256": "bb9de357a23b577656e356346f1a3f977129461bcc43579d22836cc929fa4eb2",
+      "bytes": 1959,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/MauiCompatibility/README.md",
+      "sha256": "23a5b00b98a89b7645a465f9bc295643deab28b6e3d825e18981886de67c3a81",
+      "bytes": 3078,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/MauiCompatibility/Regenerated/Regenerated.csproj",
+      "sha256": "98d7ef9de39ea530d6e7bb917c026afaaccb8ff9e6009450817b3f325c254ee8",
+      "bytes": 630,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/MauiCompatibility/verify-pilot.py",
+      "sha256": "d721e15e9e7334edef10cac297255d1c55bf4712dfe31e53c12fb8d2d76ec14c",
+      "bytes": 10683,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Native/.gitignore",
+      "sha256": "8c52614a6393b6b7820cdde0027edb883ac1c2b204d35a088b623ccc4e6157cd",
+      "bytes": 25,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Native/AndroidManifest.xml",
+      "sha256": "d1f609b54ec23b76591127cf91382109c7c837de7fb6a1c6307fd54bd073813e",
+      "bytes": 108,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Native/build.gradle.kts",
+      "sha256": "f7962915f237a552e89994f0087726b50d90e3470750dad4430f4ac86e0f6c3f",
+      "bytes": 5152,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Native/gradle.lockfile",
+      "sha256": "1000e339b923095aceacdc8846926d8966e2b12c4d5c0c61a59721d2b0e9dd47",
+      "bytes": 5389,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Native/gradle.properties",
+      "sha256": "76bae61b57a478abcf6c1adc2c750c17a304aa256d81cf73fb49a591421ece98",
+      "bytes": 86,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Native/gradlew",
+      "sha256": "e8ef59824445349ef8bbcdf8ea79568e64f5a38ef88a2908f6cb3cbf63d728dd",
+      "bytes": 148,
+      "mode": "100755"
+    },
+    {
+      "path": "tests/BindingProjection/Native/gradlew.bat",
+      "sha256": "b36566b5e043bd2b04c13e363467b545bc8768e64b5ac0de174dad4b2155c66a",
+      "bytes": 97,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Native/settings.gradle.kts",
+      "sha256": "7418bf8aa935fa17bf9b53c6bdec3bc82a33853fd230adfc597e18510280e638",
+      "bytes": 870,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Native/src/main/java/net/dot/android/reference/GenericProbe.java",
+      "sha256": "0597b8ac2da88a0918580b1bd9eac168f88aae52cd1790a1ef8762f3f7383d83",
+      "bytes": 2895,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Native/src/main/kotlin/net/dot/android/reference/SettingsRepository.kt",
+      "sha256": "a9fd55044754350bc34528e6ac2143e53827974ab4b8c3ee2193b265d9d5fe48",
+      "bytes": 2500,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/README.md",
+      "sha256": "648d0b7368c7b649ef3466cea8e8dcb0a2ba7f9745fff8fcbd0cf1aad2d1fb9c",
+      "bytes": 7886,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Reader/CounterReader.cs",
+      "sha256": "072fa242013a8dbb9a4042a61c951f0e2c8ca6515dae75a742661d613c2a4093",
+      "bytes": 1072,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Reader/Reference.Reader.csproj",
+      "sha256": "112b411cf2e33ac8319c404e701f0d51c2086fb93ff02efa89835865bd9b03fc",
+      "bytes": 233,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Reader/view.json",
+      "sha256": "f6de537c9bee07f735c77903b0c83d22945da06b9d5d543a9d812d0798d6f519",
+      "bytes": 415,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Reference.props",
+      "sha256": "fddead4c073f49ab602ed3f8a4cb510d555c01278d14214854cb01c5a8873232",
+      "bytes": 431,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Reference.slnx",
+      "sha256": "e144586c1cf109b17c73a54af010c775932d0756b8733f322d7968b668ae5fd0",
+      "bytes": 321,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/ThirdParty/KoinProbe.cs",
+      "sha256": "c22bf346de62736b79710d82b7f3c8a74143b2745696d49661c158a9a347ee46",
+      "bytes": 2914,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/ThirdParty/MapLibreProbe.cs",
+      "sha256": "b8978077e4a74990ab944ba5fa60f1b01c92a6aec3abe451dd881ed58292022b",
+      "bytes": 3380,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/ThirdParty/OfflineProbeActivity.cs",
+      "sha256": "7abe1608a3c5d9b4e71e48333666fedd2fed9c17762bbf525e121a019f16c2de",
+      "bytes": 1500,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/ThirdParty/README.md",
+      "sha256": "b4218fde12dedcfdb27f0708efd6f4fb6d249c12f6ff5edf65b46680ce84164d",
+      "bytes": 2400,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/ThirdParty/SentryProbe.cs",
+      "sha256": "007afcff291a028d62092fde433aba22f6e5de39ae687df4cdb955685d8f135e",
+      "bytes": 3598,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Views.targets",
+      "sha256": "5c32b48c5118b03e844c2bcbc7be29dbde8c6a4bef6a94ac9d00e94f00a6a053",
+      "bytes": 2288,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Writer/CounterWriter.cs",
+      "sha256": "bb0be2da4c270dda852179f66be2bf93623fb42d4d0f7535e45bdc73537b4a5d",
+      "bytes": 631,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Writer/Reference.Writer.csproj",
+      "sha256": "112b411cf2e33ac8319c404e701f0d51c2086fb93ff02efa89835865bd9b03fc",
+      "bytes": 233,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/Writer/view.json",
+      "sha256": "a41a1766d9cf0aacfd131d3c5621cc47c9b9fb919584d656bf123a0b8cc63f80",
+      "bytes": 410,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/BindingProjection/verify-reference.py",
+      "sha256": "1a6ba63df96ffd796afcca0be073601c3845d2af05c1a472aa7db0dbee984f20",
+      "bytes": 3673,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/Microsoft.Android.BindingGenerator-Tests/BindingToolTests.cs",
+      "sha256": "c1dc491a4919073eac5808f1665c395f6b617a2b4e1b6467b68c3bcfd6237250",
+      "bytes": 9830,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/Microsoft.Android.BindingGenerator-Tests/Microsoft.Android.BindingGenerator-Tests.csproj",
+      "sha256": "c44c405c0676ef3a6a1af6e2c7a7e7a46012052243c25ce3c92e84d6f72735da",
+      "bytes": 1129,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/Microsoft.Android.BindingGenerator-Tests/ProcessProbe.proj",
+      "sha256": "453d5b6c439519eae7762a319265e1fa50dc24b1ca35fe6960e0de78758deeb1",
+      "bytes": 279,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/Mono.Android-Tests/Mono.Android-Tests/Java.Interop/SharedPeerViewTests.cs",
+      "sha256": "93fe87dc9e334facae45eaf3688fa8d4bbc87a8a54b9ed37d85ee32a728a98ed",
+      "bytes": 13661,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/Mono.Android-Tests/Mono.Android-Tests/java/net/dot/android/test/SharedPeerFixture.java",
+      "sha256": "1e0a989babad43cf3e2de5219d06bbd608e2d5a82d3ba3f2cfdba8933334d85e",
+      "bytes": 1083,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/Mono.Android-Tests/SharedPeerViews/Reader/SharedPeerViews.Reader.csproj",
+      "sha256": "3d3524d8fba6b44dbdd285647b8035d214d035534fa6b3b0a79263f9548ae781",
+      "bytes": 607,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/Mono.Android-Tests/SharedPeerViews/Reader/Widget.cs",
+      "sha256": "c7b28127f1aa00185aa07549dffdce09ef3b15e11e76b0462b6d7b817f10dd28",
+      "bytes": 1620,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/Mono.Android-Tests/SharedPeerViews/Widget.cs",
+      "sha256": "78ced7c1c114682c73375b11e7894144519c107cae7f2d589046267ea09c91d2",
+      "bytes": 1805,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/Mono.Android-Tests/SharedPeerViews/Writer/SharedPeerViews.Writer.csproj",
+      "sha256": "3d3524d8fba6b44dbdd285647b8035d214d035534fa6b3b0a79263f9548ae781",
+      "bytes": 607,
+      "mode": "100644"
+    },
+    {
+      "path": "tests/Mono.Android-Tests/SharedPeerViews/Writer/Widget.cs",
+      "sha256": "a82463457082974004d5b01a4727bab3ea87274167087ecd524beca64272d901",
+      "bytes": 1630,
+      "mode": "100644"
+    }
+  ],
+  "trackedOutputs": [
+    {
+      "path": ".github/skills/tests/references/test-catalog.md",
+      "sha256": "939189e5c4b17c81930a0e8fe1d4e03bd453de38d70e1763593a0cb390ce73e8",
+      "bytes": 24086,
+      "worktreeSha256": "939189e5c4b17c81930a0e8fe1d4e03bd453de38d70e1763593a0cb390ce73e8",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "Documentation/docs-mobile/TOC.yml",
+      "sha256": "255f999ffd6d729ee88ed69283bd0e13b01b264a3304b75fcc328c18ae54b798",
+      "bytes": 14223,
+      "worktreeSha256": "255f999ffd6d729ee88ed69283bd0e13b01b264a3304b75fcc328c18ae54b798",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "Documentation/docs-mobile/binding-libs/msbuild-reference/build-properties.md",
+      "sha256": "919e09f0b22b501d8967190bcba34209df0a4ebef773e8a2ccff1da998058b67",
+      "bytes": 8540,
+      "worktreeSha256": "919e09f0b22b501d8967190bcba34209df0a4ebef773e8a2ccff1da998058b67",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "Documentation/docs-mobile/building-apps/build-properties.md",
+      "sha256": "eda7b73f42bc2c6dee693bed9003005f1bd55feb7910104acd3ddf61063edb1b",
+      "bytes": 80873,
+      "worktreeSha256": "eda7b73f42bc2c6dee693bed9003005f1bd55feb7910104acd3ddf61063edb1b",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "Documentation/docs-mobile/messages/index.md",
+      "sha256": "8f4617634f629cf63139bab5793120f12cba75e4d83ff8918fc140d9fdc7eef4",
+      "bytes": 33902,
+      "worktreeSha256": "8f4617634f629cf63139bab5793120f12cba75e4d83ff8918fc140d9fdc7eef4",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.TXT",
+      "sha256": "b5b03dd37ef3216b8d633b041be2b00058def43f72f9a7e8917c9e4d84c68dbd",
+      "bytes": 148105,
+      "worktreeSha256": "b5b03dd37ef3216b8d633b041be2b00058def43f72f9a7e8917c9e4d84c68dbd",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/src/Java.Interop.Tools.JavaTypeSystem/JavaModels/JavaTypeName.cs",
+      "sha256": "dd1782edf35b0d1c9a3c7c865af54f0fe5f4ce76539adba6332a55762a3028f4",
+      "bytes": 4425,
+      "worktreeSha256": "dd1782edf35b0d1c9a3c7c865af54f0fe5f4ce76539adba6332a55762a3028f4",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/src/Xamarin.Android.Tools.Bytecode/ClassFile.cs",
+      "sha256": "57974551d22db10d706faaabba7045d320a84046da8cc37c400fe481f1b5c846",
+      "bytes": 7593,
+      "worktreeSha256": "57974551d22db10d706faaabba7045d320a84046da8cc37c400fe481f1b5c846",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/src/Xamarin.Android.Tools.Bytecode/ClassPath.cs",
+      "sha256": "823e0802316aeb31904955a1229af7dc120246222819690e451b9a654e241910",
+      "bytes": 14298,
+      "worktreeSha256": "823e0802316aeb31904955a1229af7dc120246222819690e451b9a654e241910",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/src/Xamarin.Android.Tools.Bytecode/Fields.cs",
+      "sha256": "e09599f7ba2bee8e0037af4c1692270e2e96af3d09d7373d75e81aa41de70022",
+      "bytes": 2646,
+      "worktreeSha256": "e09599f7ba2bee8e0037af4c1692270e2e96af3d09d7373d75e81aa41de70022",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/src/Xamarin.Android.Tools.Bytecode/Kotlin/JvmNameResolver.cs",
+      "sha256": "8d61bd457a4d2d871830f38e640dcd3c51331eb8b7766bbf6420616450a43680",
+      "bytes": 3437,
+      "worktreeSha256": "8d61bd457a4d2d871830f38e640dcd3c51331eb8b7766bbf6420616450a43680",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/src/Xamarin.Android.Tools.Bytecode/Kotlin/KotlinClassMetadata.cs",
+      "sha256": "446a791fa24f064ec08db50a8342e4b8819bd37183fe6a52343d4ae965bffb32",
+      "bytes": 23197,
+      "worktreeSha256": "446a791fa24f064ec08db50a8342e4b8819bd37183fe6a52343d4ae965bffb32",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/src/Xamarin.Android.Tools.Bytecode/Kotlin/KotlinFixups.cs",
+      "sha256": "a4d0ebe74c1400be95cfbff15a8c738946fc89f11f4517c62e13dbe2a5f97afc",
+      "bytes": 34598,
+      "worktreeSha256": "a4d0ebe74c1400be95cfbff15a8c738946fc89f11f4517c62e13dbe2a5f97afc",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/src/Xamarin.Android.Tools.Bytecode/Kotlin/KotlinMetadata.cs",
+      "sha256": "ab841e15c7128f416ce98367f7972d283687dd06f89ae8eca4f8175dc4a1e1b6",
+      "bytes": 5621,
+      "worktreeSha256": "ab841e15c7128f416ce98367f7972d283687dd06f89ae8eca4f8175dc4a1e1b6",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/src/Xamarin.Android.Tools.Bytecode/Kotlin/KotlinUtilities.cs",
+      "sha256": "6928657e2b0c749efb60246d00d9fa6b756dfb833194f74f7a59fd1b17276f2d",
+      "bytes": 11278,
+      "worktreeSha256": "6928657e2b0c749efb60246d00d9fa6b756dfb833194f74f7a59fd1b17276f2d",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/src/Xamarin.Android.Tools.Bytecode/Methods.cs",
+      "sha256": "5d2560ceac760399a41a409808393657338812320bdcc099e64881e0b5cecfd6",
+      "bytes": 16322,
+      "worktreeSha256": "5d2560ceac760399a41a409808393657338812320bdcc099e64881e0b5cecfd6",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/src/Xamarin.Android.Tools.Bytecode/XmlClassDeclarationBuilder.cs",
+      "sha256": "740fb7351d159b4484cce87750fdee108178d3e5f97e4f419b60679d1bfda9c5",
+      "bytes": 37386,
+      "worktreeSha256": "740fb7351d159b4484cce87750fdee108178d3e5f97e4f419b60679d1bfda9c5",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/src/Xamarin.SourceWriter/Models/TypeWriter.cs",
+      "sha256": "efe85c0bb6819613d0b380057e4a7fe49c59f5e18ac1b58c7ec0bb3a395abf17",
+      "bytes": 6621,
+      "worktreeSha256": "efe85c0bb6819613d0b380057e4a7fe49c59f5e18ac1b58c7ec0bb3a395abf17",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tests/Java.Interop.Tools.JavaTypeSystem-Tests/JavaTypeNameTests.cs",
+      "sha256": "e5052aa4309927ed3d626944023ee41f580b5239fe58bcb7b826cf0a4f5bb16e",
+      "bytes": 2998,
+      "worktreeSha256": "e5052aa4309927ed3d626944023ee41f580b5239fe58bcb7b826cf0a4f5bb16e",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/KotlinFixupsTests.cs",
+      "sha256": "190a35acae71dd1f3a862d32c00750ebc006e579335f0b665162b285855cade2",
+      "bytes": 20846,
+      "worktreeSha256": "190a35acae71dd1f3a862d32c00750ebc006e579335f0b665162b285855cade2",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/KotlinMetadataTests.cs",
+      "sha256": "448cdbe512036354ddb9104ec9c1457ffff7d5db5c10e250894559a51aff7b12",
+      "bytes": 6636,
+      "worktreeSha256": "448cdbe512036354ddb9104ec9c1457ffff7d5db5c10e250894559a51aff7b12",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/Resources/JvmOverloadsConstructor.xml",
+      "sha256": "a031f3ef9af6bdb2ca7a8a48759e22df4fc7be979b03d8c99e0913b84e545b32",
+      "bytes": 4925,
+      "worktreeSha256": "a031f3ef9af6bdb2ca7a8a48759e22df4fc7be979b03d8c99e0913b84e545b32",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/kotlin-gradle.targets",
+      "sha256": "1ba5a0e7d7e1a1fd3dfde4e979afd29de5f6660e05ba4a5d7a7e8277a12ebc56",
+      "bytes": 3931,
+      "worktreeSha256": "a6d4cf23a60de744e847311fdf15b396de7843a383d0bd571ea0fea40798c0a3",
+      "lineEndingsNormalized": true
+    },
+    {
+      "path": "external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/kotlin-gradle/build.gradle.kts",
+      "sha256": "1d87a53228ba4a6d790746a66914d75c5029e8d49b287c57283ef1c3fb8b521f",
+      "bytes": 1227,
+      "worktreeSha256": "1d87a53228ba4a6d790746a66914d75c5029e8d49b287c57283ef1c3fb8b521f",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/README.md",
+      "sha256": "03d59af7a6a68ab1d3ded201def978edc6b79c5d518f69bc12a40b0ffbc1401e",
+      "bytes": 38265,
+      "worktreeSha256": "03d59af7a6a68ab1d3ded201def978edc6b79c5d518f69bc12a40b0ffbc1401e",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/CodeGeneratorTestBase.cs",
+      "sha256": "cbbfe56beb9c76b3267eefc1615a9c89b033e7338423e34a245dc8612e3c6c01",
+      "bytes": 4767,
+      "worktreeSha256": "cbbfe56beb9c76b3267eefc1615a9c89b033e7338423e34a245dc8612e3c6c01",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/KotlinInlineClassEndToEndTests.cs",
+      "sha256": "613b0fa168d11b951ec08a420305dd86898556aa01d1e7b2ccf52f73c7b2fdcb",
+      "bytes": 14142,
+      "worktreeSha256": "613b0fa168d11b951ec08a420305dd86898556aa01d1e7b2ccf52f73c7b2fdcb",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/ManagedTests.cs",
+      "sha256": "34efac599a782ef40d4fe987acbe19aeddd87fba3a20273d7b10949b79ad9b6f",
+      "bytes": 17213,
+      "worktreeSha256": "34efac599a782ef40d4fe987acbe19aeddd87fba3a20273d7b10949b79ad9b6f",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/UnmanagedCallersOnlyCallbackTests.cs",
+      "sha256": "9a3af581641c5b3fb0dceecd351b0f042037b3e398bcaac9a55d04e2c3ea03b2",
+      "bytes": 31500,
+      "worktreeSha256": "9a3af581641c5b3fb0dceecd351b0f042037b3e398bcaac9a55d04e2c3ea03b2",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/XmlApiImporterTests.cs",
+      "sha256": "4475c051d0a46b1e206a13d904e756017a55a6628dbb5a6980d42bef007649de",
+      "bytes": 14547,
+      "worktreeSha256": "4475c051d0a46b1e206a13d904e756017a55a6628dbb5a6980d42bef007649de",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tests/generator-Tests/generator-Tests.csproj",
+      "sha256": "9b5092c1ea790c442128ec5f871b4fee57281430c95dadbd64623a667748e9e5",
+      "bytes": 4291,
+      "worktreeSha256": "22517fcbb61dfc888eec003eaf3c164952c7857f622f8787c925abcf74e2c844",
+      "lineEndingsNormalized": true
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/CodeGenerationOptions.cs",
+      "sha256": "5eb4eecf5fd6391639c8459e2ed67432d34246353b8ac361b8f346d245962167",
+      "bytes": 9946,
+      "worktreeSha256": "5eb4eecf5fd6391639c8459e2ed67432d34246353b8ac361b8f346d245962167",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/CodeGenerator.cs",
+      "sha256": "ff7a23c5185bd2d6718a67f0e827ebd826f7c2e80b08003dcce272ac76edd79b",
+      "bytes": 23230,
+      "worktreeSha256": "ff7a23c5185bd2d6718a67f0e827ebd826f7c2e80b08003dcce272ac76edd79b",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/CodeGeneratorOptions.cs",
+      "sha256": "539d5b35af96487a4e133253a690e5b5151630c53eab11238b169828a914c7a7",
+      "bytes": 12586,
+      "worktreeSha256": "539d5b35af96487a4e133253a690e5b5151630c53eab11238b169828a914c7a7",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Extensions/ManagedExtensions.cs",
+      "sha256": "4b0c040e5b491dcbe4414dc0994fafec7948614c1a722fcff50e859d7230c9e0",
+      "bytes": 4928,
+      "worktreeSha256": "4b0c040e5b491dcbe4414dc0994fafec7948614c1a722fcff50e859d7230c9e0",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.CodeGeneration/JavaInteropCodeGenerator.cs",
+      "sha256": "29998704c8ce97cf999a8bf55c0b5ad368309163acca620608e411414786f4e8",
+      "bytes": 1648,
+      "worktreeSha256": "29998704c8ce97cf999a8bf55c0b5ad368309163acca620608e411414786f4e8",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Importers/CecilApiImporter.cs",
+      "sha256": "de826062d950b3b667c817024577cdc37b528d1119473bb55f49dc998cd45eaa",
+      "bytes": 12324,
+      "worktreeSha256": "de826062d950b3b667c817024577cdc37b528d1119473bb55f49dc998cd45eaa",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Importers/XmlApiImporter.cs",
+      "sha256": "ac9739e0a01d7e6ea3cd0513706939bfded629799ffa777ac9bed6724e1b8ef1",
+      "bytes": 24850,
+      "worktreeSha256": "ac9739e0a01d7e6ea3cd0513706939bfded629799ffa777ac9bed6724e1b8ef1",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/ClassGen.cs",
+      "sha256": "84f1b889a80b4bf843b1737fe39583282360961ed116cce08ca440176eb6b023",
+      "bytes": 11439,
+      "worktreeSha256": "84f1b889a80b4bf843b1737fe39583282360961ed116cce08ca440176eb6b023",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/Ctor.cs",
+      "sha256": "3690ebb036ce007d1e33a246b2da3d71b4f6b4382888172466b324d6f010dcec",
+      "bytes": 871,
+      "worktreeSha256": "3690ebb036ce007d1e33a246b2da3d71b4f6b4382888172466b324d6f010dcec",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/Field.cs",
+      "sha256": "8f949f9742124615a623f9c4ff35a9212eb3892bb6c64944a7322a947d287f5c",
+      "bytes": 3638,
+      "worktreeSha256": "8f949f9742124615a623f9c4ff35a9212eb3892bb6c64944a7322a947d287f5c",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/GenBase.cs",
+      "sha256": "673d0c25c2bb2ff6522e4aa8a45f3ea99ee27e0769a28b73e0dc1f6a8bee2f43",
+      "bytes": 37747,
+      "worktreeSha256": "673d0c25c2bb2ff6522e4aa8a45f3ea99ee27e0769a28b73e0dc1f6a8bee2f43",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/GenBaseSupport.cs",
+      "sha256": "1850598c08f266992b803c3c1815100b0daaaa7967d28593b9d87b73925b93be",
+      "bytes": 1511,
+      "worktreeSha256": "1850598c08f266992b803c3c1815100b0daaaa7967d28593b9d87b73925b93be",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/GenericParameterList.cs",
+      "sha256": "e625ea0fef13073bd7edbfb9ed50ff4c18d0b0759733a4fee2045d3e012f1d5f",
+      "bytes": 2692,
+      "worktreeSha256": "e625ea0fef13073bd7edbfb9ed50ff4c18d0b0759733a4fee2045d3e012f1d5f",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/InterfaceGen.cs",
+      "sha256": "75da85199a29cdbf483e2a1072b3d0433e1107f9c688075747cf31d4b54cf2e9",
+      "bytes": 9308,
+      "worktreeSha256": "75da85199a29cdbf483e2a1072b3d0433e1107f9c688075747cf31d4b54cf2e9",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/Method.cs",
+      "sha256": "d41e450f1248d3ee15b2a954388f04c7fdfb185786ac25238cbecdbe8321d345",
+      "bytes": 12554,
+      "worktreeSha256": "d41e450f1248d3ee15b2a954388f04c7fdfb185786ac25238cbecdbe8321d345",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/Parameter.cs",
+      "sha256": "405c92f6eb3b43efb0b256fa49d150c9e23e8e9e28ef9e17d574cad34606b3e1",
+      "bytes": 11210,
+      "worktreeSha256": "405c92f6eb3b43efb0b256fa49d150c9e23e8e9e28ef9e17d574cad34606b3e1",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/Property.cs",
+      "sha256": "97d5173cc2fed15a88ebd286c2a7fced44e3f1efc790dbf6bc90bffbede0aef4",
+      "bytes": 2596,
+      "worktreeSha256": "97d5173cc2fed15a88ebd286c2a7fced44e3f1efc790dbf6bc90bffbede0aef4",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/ReturnValue.cs",
+      "sha256": "89564a635f7688578cccda5f8bc0a1a0af16b58c76a0c606c6f3cbdfbbd96ab5",
+      "bytes": 6530,
+      "worktreeSha256": "89564a635f7688578cccda5f8bc0a1a0af16b58c76a0c606c6f3cbdfbbd96ab5",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/Symbols/ArraySymbol.cs",
+      "sha256": "3d987419a471df2f389c1e6d9b00ca595b7bfd48262b253cf97e93aa3662a58f",
+      "bytes": 4180,
+      "worktreeSha256": "3d987419a471df2f389c1e6d9b00ca595b7bfd48262b253cf97e93aa3662a58f",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/Symbols/CollectionSymbol.cs",
+      "sha256": "498f5dabb5638c8957287d02d14a565336db2d1662ed2bc836022b960af98285",
+      "bytes": 4713,
+      "worktreeSha256": "498f5dabb5638c8957287d02d14a565336db2d1662ed2bc836022b960af98285",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/Symbols/GenericSymbol.cs",
+      "sha256": "012bb9216f1b3014bcbbcb1b4e5d444157dfaf601a01dee4bfb3114f0118e291",
+      "bytes": 4351,
+      "worktreeSha256": "012bb9216f1b3014bcbbcb1b4e5d444157dfaf601a01dee4bfb3114f0118e291",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/Symbols/GenericTypeParameter.cs",
+      "sha256": "cf66ada1207b97e063c65dd2e42da98b5f866a1c51b9c280599e74cf21950ecf",
+      "bytes": 5629,
+      "worktreeSha256": "cf66ada1207b97e063c65dd2e42da98b5f866a1c51b9c280599e74cf21950ecf",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.ObjectModel/Symbols/SymbolTable.cs",
+      "sha256": "db4d64a56b2c4dae7c3e12b210dd3aefe4fcb3a3d15b044fdc298939618b30ca",
+      "bytes": 12026,
+      "worktreeSha256": "db4d64a56b2c4dae7c3e12b210dd3aefe4fcb3a3d15b044fdc298939618b30ca",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Transformation/JavaTypeResolutionFixups.cs",
+      "sha256": "b8f55d5a1fd10ce0e74d84923b258f7014a25caac2dde75bd4d94b0d3dc4d107",
+      "bytes": 4284,
+      "worktreeSha256": "b8f55d5a1fd10ce0e74d84923b258f7014a25caac2dde75bd4d94b0d3dc4d107",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/BoundAbstractProperty.cs",
+      "sha256": "06e5c7528473e5d90199eb1841c6bb2a228c37bb87eea581f97e2d43c16f4f6b",
+      "bytes": 3173,
+      "worktreeSha256": "06e5c7528473e5d90199eb1841c6bb2a228c37bb87eea581f97e2d43c16f4f6b",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/BoundClass.cs",
+      "sha256": "e568afaab3214087bc3eed16fa1b35067c7ee1237c3494dae962c58d0169c1a3",
+      "bytes": 25342,
+      "worktreeSha256": "e568afaab3214087bc3eed16fa1b35067c7ee1237c3494dae962c58d0169c1a3",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/BoundConstructor.cs",
+      "sha256": "e13e0793cac25e0a0d88458c88c89249cf48605bae40fee071b281efa6e0fd00",
+      "bytes": 4845,
+      "worktreeSha256": "e13e0793cac25e0a0d88458c88c89249cf48605bae40fee071b281efa6e0fd00",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/BoundFieldAsProperty.cs",
+      "sha256": "2f1ea807147054b9c82e42ff51ca3642e0191758d176cf38908158ef85a5bb5f",
+      "bytes": 5569,
+      "worktreeSha256": "2f1ea807147054b9c82e42ff51ca3642e0191758d176cf38908158ef85a5bb5f",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/BoundInterface.cs",
+      "sha256": "a0f0f231e7bd2e17261893fc4114469588af8fbc9bd6861c8107a97402e914c4",
+      "bytes": 11529,
+      "worktreeSha256": "a0f0f231e7bd2e17261893fc4114469588af8fbc9bd6861c8107a97402e914c4",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/BoundInterfacePropertyDeclaration.cs",
+      "sha256": "1239043d46ed121e65e183b1b54277fb2b508b76aab4e0cba363dcc6af9f52da",
+      "bytes": 2881,
+      "worktreeSha256": "1239043d46ed121e65e183b1b54277fb2b508b76aab4e0cba363dcc6af9f52da",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/BoundMethod.cs",
+      "sha256": "a207182caa923db6ccaf19e96cffd8faf038a49e26c534cf9fe69eb0080d56eb",
+      "bytes": 4346,
+      "worktreeSha256": "a207182caa923db6ccaf19e96cffd8faf038a49e26c534cf9fe69eb0080d56eb",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/BoundMethodAbstractDeclaration.cs",
+      "sha256": "95a07e00da0e18eb27bde0576754cddd9df24d0697565deedb844ba77994c5dd",
+      "bytes": 2502,
+      "worktreeSha256": "95a07e00da0e18eb27bde0576754cddd9df24d0697565deedb844ba77994c5dd",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/BoundMethodExtensionStringOverload.cs",
+      "sha256": "499df3148ae77546c59a730ff390f69a687bb088066fd982d623fc048fb5b77e",
+      "bytes": 1550,
+      "worktreeSha256": "499df3148ae77546c59a730ff390f69a687bb088066fd982d623fc048fb5b77e",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/BoundMethodStringOverload.cs",
+      "sha256": "ead43c32723180fc8a4bfa4edcf9dddf5e27f148e1ca41c7beb22cf2263856f3",
+      "bytes": 2303,
+      "worktreeSha256": "ead43c32723180fc8a4bfa4edcf9dddf5e27f148e1ca41c7beb22cf2263856f3",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/BoundProperty.cs",
+      "sha256": "dc45a2f0d1e5f4ddb2efee6fab4f702015f4a8ed95ed4ddde41e2a94d9a43282",
+      "bytes": 10535,
+      "worktreeSha256": "dc45a2f0d1e5f4ddb2efee6fab4f702015f4a8ed95ed4ddde41e2a94d9a43282",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/CallbackNameAllocator.cs",
+      "sha256": "a4a15b98d6e9069125d671e3d3d61a6e5a080669cb59ecd9e1e92c9c59f126e1",
+      "bytes": 9432,
+      "worktreeSha256": "a4a15b98d6e9069125d671e3d3d61a6e5a080669cb59ecd9e1e92c9c59f126e1",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/ClassInvokerClass.cs",
+      "sha256": "c757378e5e209b5a08a26ddbdc4e06659935c5858d6eeaf5eead83a1f56bf029",
+      "bytes": 6507,
+      "worktreeSha256": "c757378e5e209b5a08a26ddbdc4e06659935c5858d6eeaf5eead83a1f56bf029",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/CreateImplementorMethod.cs",
+      "sha256": "3d4acaba25167000d3f2e2446cab1d5ff81ec23431b07574e342403d44707df4",
+      "bytes": 797,
+      "worktreeSha256": "3d4acaba25167000d3f2e2446cab1d5ff81ec23431b07574e342403d44707df4",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/ExplicitInterfaceInvokerMethod.cs",
+      "sha256": "702956f3822c1e4ea2581947444b6ac3786fcd976fc5bf508525c3ec8d10cb0a",
+      "bytes": 903,
+      "worktreeSha256": "702956f3822c1e4ea2581947444b6ac3786fcd976fc5bf508525c3ec8d10cb0a",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/Extensions/SourceWriterExtensions.cs",
+      "sha256": "77f51c96b9b5e327c9ee2b7bccd791a62e9ea74290748aa2007a86411b5fa09e",
+      "bytes": 22852,
+      "worktreeSha256": "77f51c96b9b5e327c9ee2b7bccd791a62e9ea74290748aa2007a86411b5fa09e",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/InterfaceEventHandlerImplClass.cs",
+      "sha256": "f7c79aa88746bcf32d7cd5dab4b15b7399270f98c29f40d63464c4f23e883541",
+      "bytes": 5235,
+      "worktreeSha256": "f7c79aa88746bcf32d7cd5dab4b15b7399270f98c29f40d63464c4f23e883541",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/InterfaceExtensionsClass.cs",
+      "sha256": "ebde56dbbcdf432a7989c0779ce3e296ff71eba464c742286d7e9270c76f4ada",
+      "bytes": 1325,
+      "worktreeSha256": "ebde56dbbcdf432a7989c0779ce3e296ff71eba464c742286d7e9270c76f4ada",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/InterfaceInvokerClass.cs",
+      "sha256": "aa61879871faee4eadaec4f4cd78e6ec487f475b84b66d767cd34e60f7b22baf",
+      "bytes": 6207,
+      "worktreeSha256": "aa61879871faee4eadaec4f4cd78e6ec487f475b84b66d767cd34e60f7b22baf",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/InterfaceInvokerMethod.cs",
+      "sha256": "2b24a89946fa09e41f1446bc367b757d25bfa82bf0235d47fc7cdd4e086275b8",
+      "bytes": 1207,
+      "worktreeSha256": "2b24a89946fa09e41f1446bc367b757d25bfa82bf0235d47fc7cdd4e086275b8",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/InterfaceInvokerProperty.cs",
+      "sha256": "4246799e27bba0f1993aac3778238ffcf4990f850e1072638d57c614337b34bd",
+      "bytes": 2238,
+      "worktreeSha256": "4246799e27bba0f1993aac3778238ffcf4990f850e1072638d57c614337b34bd",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/InterfaceListenerEvent.cs",
+      "sha256": "33989953b890530e6b09c45b2d5047ed10f42ac933eff8fd49ec077610ede100",
+      "bytes": 2389,
+      "worktreeSha256": "33989953b890530e6b09c45b2d5047ed10f42ac933eff8fd49ec077610ede100",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/KotlinInlineClassStruct.cs",
+      "sha256": "c9ce4ba71d3575238c34524b07d478ee174ceb5bbe90c8ed7e586ba4b271c28c",
+      "bytes": 4879,
+      "worktreeSha256": "c9ce4ba71d3575238c34524b07d478ee174ceb5bbe90c8ed7e586ba4b271c28c",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/MethodCallback.cs",
+      "sha256": "b7503cdb4b92320fd7af410445e47b1109d91e1fc54c41058f4466e7d59939eb",
+      "bytes": 10332,
+      "worktreeSha256": "b7503cdb4b92320fd7af410445e47b1109d91e1fc54c41058f4466e7d59939eb",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/SourceWriters/UnmanagedCallbackSupport.cs",
+      "sha256": "fc72d7b6540412409fee63f2a64667f9a68a385c038ec6861045e853cf38a5cc",
+      "bytes": 16757,
+      "worktreeSha256": "fc72d7b6540412409fee63f2a64667f9a68a385c038ec6861045e853cf38a5cc",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "external/Java.Interop/tools/generator/generator.csproj",
+      "sha256": "ebea60f39d8e63de33181d894409a66a03578d279e2ce0319d7cd9db4c96e9d4",
+      "bytes": 3017,
+      "worktreeSha256": "34b2bf745930da42ceb29d6c39d4a5ed5bd791340598c69206b9085229fedc6f",
+      "lineEndingsNormalized": true
+    },
+    {
+      "path": "src/Xamarin.Android.Build.Tasks/MSBuild/Xamarin/Android/Microsoft.Android.Sdk.Bindings.Gradle.targets",
+      "sha256": "172c82f19f1856d4511ef841230d12cf1de88ec160a96b52609dbe7d48c2daf6",
+      "bytes": 6942,
+      "worktreeSha256": "64aa2e00ec3c0367146d8f6b4cc520bea3b06f9fba71d3fef2f766daa9c2756c",
+      "lineEndingsNormalized": true
+    },
+    {
+      "path": "src/Xamarin.Android.Build.Tasks/MSBuild/Xamarin/Android/Xamarin.Android.Bindings.ClassParse.targets",
+      "sha256": "33d540232164dfa242fa69cf0bdc99590c52971eadf6d130e69b0c04c53098b0",
+      "bytes": 5575,
+      "worktreeSha256": "17942f373d8b06adbfb7185a3b9b2ea3e0eb1220cea14812728ac2d4cbb6059a",
+      "lineEndingsNormalized": true
+    },
+    {
+      "path": "src/Xamarin.Android.Build.Tasks/MSBuild/Xamarin/Android/Xamarin.Android.Bindings.Core.targets",
+      "sha256": "1b96f22484b95c2d93a7b96138944de2e25c542c442c6913f423508fbf18eb72",
+      "bytes": 13805,
+      "worktreeSha256": "cd515fdef88c8586ed1764c44873ca5085f3e50974015067d770d21ed5326270",
+      "lineEndingsNormalized": true
+    },
+    {
+      "path": "src/Xamarin.Android.Build.Tasks/Microsoft.Android.Sdk/targets/Microsoft.Android.Sdk.AndroidLibraries.targets",
+      "sha256": "6065ac440cade32c12f9bf402256dbcab508dee860487e5ed50a21b44b122028",
+      "bytes": 5946,
+      "worktreeSha256": "f281e38f8aefe80548fab4651fbd3ca3272c094f71f2de72bbf455af3805fd13",
+      "lineEndingsNormalized": true
+    },
+    {
+      "path": "src/Xamarin.Android.Build.Tasks/Microsoft.Android.Sdk/targets/Microsoft.Android.Sdk.AssemblyResolution.targets",
+      "sha256": "478876b9a6d855459eec2bb85c270e4f4c94b3aabf07772232779129475dfe0c",
+      "bytes": 25067,
+      "worktreeSha256": "508a392fc49d2586f7bbb9dceb228c56e0c464639133d18d5a2a502247d3c47b",
+      "lineEndingsNormalized": true
+    },
+    {
+      "path": "src/Xamarin.Android.Build.Tasks/Resources/net.android.init.gradle.kts",
+      "sha256": "fbf7d3b00528f30e4541758d1de22fd7c55da203cbf3a5bfc3cfee69febfb41b",
+      "bytes": 914,
+      "worktreeSha256": "fbf7d3b00528f30e4541758d1de22fd7c55da203cbf3a5bfc3cfee69febfb41b",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "src/Xamarin.Android.Build.Tasks/Tasks/Generator.cs",
+      "sha256": "5e06c667f8aca9903486cab0c84549d3a4a82ecb98ee72c5e6792f54922259d4",
+      "bytes": 10948,
+      "worktreeSha256": "5e06c667f8aca9903486cab0c84549d3a4a82ecb98ee72c5e6792f54922259d4",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "src/Xamarin.Android.Build.Tasks/Tasks/Gradle.cs",
+      "sha256": "de0f9afd205e1f5f3f2a9fab448b48fe77e6b4329203f9ecf490c30df453a874",
+      "bytes": 2723,
+      "worktreeSha256": "de0f9afd205e1f5f3f2a9fab448b48fe77e6b4329203f9ecf490c30df453a874",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/Mono.Android-Tests/Mono.Android-Tests/Mono.Android.NET-Tests.csproj",
+      "sha256": "a06b11d1acca4f78dfee3e9795eb0d515877b5ea95842ff96202fe1f7531a86d",
+      "bytes": 16734,
+      "worktreeSha256": "2d3137185c4e5b559708a037e4b97a4efb230e4281cb26d3cceab5b322f7bfc8",
+      "lineEndingsNormalized": true
+    },
+    {
+      "path": "tests/Mono.Android-Tests/Mono.Android-Tests/proguard.cfg",
+      "sha256": "cce0505771051602829842d1d467c3669964dcd22c39da2a9bb56e3d7a06e530",
+      "bytes": 371,
+      "worktreeSha256": "cce0505771051602829842d1d467c3669964dcd22c39da2a9bb56e3d7a06e530",
+      "lineEndingsNormalized": false
+    }
+  ],
+  "submodules": [
+    {
+      "path": "external/android-api-docs",
+      "url": "https://github.com/dotnet/android-api-docs",
+      "commit": "9ae59ce173055fafda74c465c3423552b61ea5f6",
+      "requiredForHostTooling": false
+    }
+  ],
+  "notes": [
+    "external/Java.Interop is vendored in this dotnet/android commit, not a submodule.",
+    "The tracked patch plus additions reproduce all substantive changes; caches and generated Gradle problems HTML are excluded.",
+    "trackedOutputs hashes describe git patch output; nine existing CRLF worktree files normalize to LF. worktreeSha256 preserves original local-byte provenance.",
+    "This is a source snapshot, not an upstream commit or a claim that every optional runtime test is currently portable."
+  ],
+  "excludedGeneratedFiles": [
+    "external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/kotlin-compatibility/build/reports/problems/problems-report.html",
+    "external/Java.Interop/tests/generator-Tests/__pycache__/compare-binding-closure.cpython-314.pyc",
+    "external/Java.Interop/tests/generator-Tests/__pycache__/compare-binding-corpus.cpython-314.pyc",
+    "external/Java.Interop/tests/generator-Tests/__pycache__/compare-bindings.cpython-314.pyc",
+    "external/Java.Interop/tests/generator-Tests/__pycache__/test_compare_binding_corpus.cpython-314.pyc",
+    "tests/BindingProjection/__pycache__/verify-reference.cpython-314.pyc"
+  ]
+}

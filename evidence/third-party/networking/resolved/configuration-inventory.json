@@ -1,0 +1,33 @@
+{
+    "schemaVersion": 1,
+    "policy": "Every artifact record in config.json; no Maven-group allowlist",
+    "configurationSha256": "bc06aa77284c84aef5064a142624feb1539f603b7125688ea436b4ddcc95e2d8",
+    "originalRecords": 4,
+    "mavenGroups": {
+        "com.squareup.moshi": 1,
+        "com.squareup.okhttp3": 1,
+        "com.squareup.retrofit2": 2
+    },
+    "records": [
+        {
+            "groupId": "com.squareup.retrofit2",
+            "artifactId": "retrofit",
+            "version": "3.0.0"
+        },
+        {
+            "groupId": "com.squareup.retrofit2",
+            "artifactId": "converter-moshi",
+            "version": "3.0.0"
+        },
+        {
+            "groupId": "com.squareup.okhttp3",
+            "artifactId": "okhttp",
+            "version": "5.5.1"
+        },
+        {
+            "groupId": "com.squareup.moshi",
+            "artifactId": "moshi",
+            "version": "1.15.2"
+        }
+    ]
+}

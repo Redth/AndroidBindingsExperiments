@@ -1,0 +1,91 @@
+{
+  "task": "User said do ALL remaining Kotlin production work. Do not mark complete yet.",
+  "confirmed_decision": "User chose one optional support package owned by dotnet/android, not a workload-wide Kotlin dependency.",
+  "repo": "${ANDROID_SOURCE}",
+  "session_files": "${EXPERIMENT_ARTIFACTS}",
+  "current_sources": {
+    "runtime": "src/Microsoft.Android.Kotlin/",
+    "native_runtime": "src/Microsoft.Android.Kotlin/Native/src/main/kotlin/net/dot/android/kotlin/CoroutineBridge.kt",
+    "new_generator_writers": [
+      "external/Java.Interop/tools/generator/SourceWriters/KotlinSuspendMethod.cs",
+      "external/Java.Interop/tools/generator/SourceWriters/KotlinFlowMethod.cs",
+      "external/Java.Interop/tools/generator/SourceWriters/KotlinValueClassMethods.cs",
+      "external/Java.Interop/tools/generator/SourceWriters/KotlinDefaultMethod.cs"
+    ],
+    "projection": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Semantics/ManagedContractProjection.cs",
+    "type_projection": "external/Java.Interop/tools/generator/Java.Interop.Tools.Generator.Semantics/KotlinTypeProjection.cs",
+    "metadata_contract": "external/Java.Interop/src/Xamarin.Android.Tools.Bytecode/Kotlin/KotlinTypeContract.cs"
+  },
+  "implemented": [
+    "Canonical Microsoft.Android.Kotlin.csproj builds an opaque-peer runtime with no published Kotlin CLR assembly dependencies.",
+    "One native Flow subscription and reusable ManualResetValueTaskSourceCore per enumeration; strict acknowledgement/backpressure.",
+    "Task-to-Kotlin managed implementations, original exception identity through public JniRuntime.GetExceptionForThrowable, native cancellation waits managed finally.",
+    "Structured Kotlin type/parameter facts, type tables, nullable thresholds, variance and stars.",
+    "Metadata version policy 1.1-1.9 / 2.0-2.4; multifile parts supported.",
+    "Corrected JvmNameResolver predefined index zero, substring range and descriptor class IDs; corrected generic primitive array boxing.",
+    "Typed peer suspend results and method/property Flow facades.",
+    "Verified box/unbox/constructor helpers for primitive, reference, nullable and generic value classes, including constructor validation.",
+    "Unsigned built-in value structs expose unsigned values while preserving signed JNI bit conversions.",
+    "Verified JVM default helper owner/signature/mask facts and KotlinOptional<T>; functions, suspend functions, interfaces, static/extension receivers, nontrailing args, null/zero and 33-arg masks.",
+    "Full native closure regeneration --regenerate-support, excluding all published managed support DLLs.",
+    "General full-ecosystem fixes for scoped generics, actual abstract/default contracts, covariant invokers, native bridge aliases, duplicate string conveniences, projected value-class owners, exact imported signed-byte CLR types and private explicit DIM contracts.",
+    "Optional package source layout and README were JUST revised; native module/plugin management and stdlib min dependency changed; MUST rebuild, pack and validate latest."
+  ],
+  "verified": {
+    "generator_tests": "664 passed before the latest README/package source-only layout changes.",
+    "metadata_tests": "60 focused Kotlin/resource-filter tests passed before latest default fact additions; rerun.",
+    "native_complete_closure": {
+      "comparison": "kotlin-full-closures/closure-b66bacf0e09c/comparison.json",
+      "compiler_snapshot": "a29acca031e7a65f2cc3",
+      "result": "49 exact archives, zero published support DLLs, zero semantic C# errors. Legacy has >1000 errors.",
+      "debug_device": "5/5 passed, device-e2610e78",
+      "optimized_device": "Not yet run for fully regenerated support closure."
+    },
+    "convenience_device": {
+      "comparison": "kotlin-production/async-20261029T161157Z-ccc3486a/comparison.json",
+      "original_run": "48/48 Debug checks passed including nine defaults and six value-boxing checks.",
+      "latest_probe": "49/49 Debug including allocation benchmark, device-ca601aa9.",
+      "benchmark": "kotlin-flow-benchmark-debug.json",
+      "benchmark_results": "Baseline median 41,047,632 managed bytes vs optimized 2,077,144 (~94.94% reduction). Median 11,036 vs 68,292 items/sec (~6.19x) on emulator; Java/native allocations not measured.",
+      "optimized_device": "New production runtime only tested Debug so far; old prototype 25/25 all 3 configs is historical, not new evidence."
+    },
+    "first_nupkg": "kotlin-packages/Microsoft.Android.Kotlin.0.1.0-dev.nupkg built successfully, no Kotlin dependencies in nuspec. Had an empty AAR; latest target removes it but MUST repack/inspect/test."
+  },
+  "remaining": [
+    "Rebuild/pack source-only NuGet after latest Native plugin-management and stdlib 2.0.0 edits. Validate no JAR/AAR payload, correct buildTransitive props, native source paths, consumer round-trip. Native source goes into existing app Gradle graph; do not introduce a second private runtime dependency tree.",
+    "Kotlin constructor default adapters still absent. Only function defaults implemented.",
+    "Richer generic collection result facades (currently typed peers and typed Flow, other generic results often erase) still need implementation.",
+    "Metadata compiler/version matrix beyond existing binary fixtures/current 2.4.21 not done.",
+    "Broader dispatcher coverage: Main/immediate and coroutine-android, more library/runtime shapes.",
+    "Actual real-library adapters should be rerun with new runtime; previous four-library 50-adapter compilation is older and runtime signature changed.",
+    "Optimized Release/full trim/R8 and NativeAOT device matrix for production conveniences and fully regenerated support closure.",
+    "Final full-corpus regression after broad semantic changes, and native registration/API review.",
+    "Unsigned wrapper runtime boundary tests against regenerated Kotlin core, not only C# compilation.",
+    "Host regression tests specifically for default-mask generation and KotlinOptional semantics; demand core already has seven tests.",
+    "Related docs/test catalog/third-party dependency audit, clean build/incremental/package tests.",
+    "Review callback/resource lifetimes and error paths; do not silently swallow bridge failures.",
+    "Cleanup owned emulator and app at end, persist final report only once complete."
+  ],
+  "environment": {
+    "nuget_cache": "${EXPERIMENT_ARTIFACTS}/nuget-packages",
+    "java_home": "${JAVA_HOME}",
+    "android_home": "${ANDROID_HOME}",
+    "emulator": "Owned read-only API35 ARM64 at emulator-5570, running under bash shellId 307.",
+    "app": "com.dotnet.bindingcompiler.kotlinasync",
+    "tools": "bin/Debug/lib/packs/Microsoft.Android.Sdk.Darwin/37.99.0/tools",
+    "tool_snapshot_helper": "files/capture-kotlin-tools.py",
+    "current_snapshot_manifest": "files/kotlin-production-tools.json",
+    "core_dump_tool": "files/inspect-core/Tool.csproj; use DOTNET_ROLL_FORWARD=Major.",
+    "baseline_failure": "ModuleInfoTests.ClassFile constant pool expects 12, actual 13; reproduced unchanged parser in prior slice. Do not fix unrelated expectation."
+  },
+  "constraints": [
+    "All work local/uncommitted; preserve all earlier shared-peer/compiler changes.",
+    "No push/PR/commit requested. No subagents or Anthropic models used.",
+    "Do not access main checkout.",
+    "Use apply_patch for manual edits; session files for scratch, not /tmp.",
+    "Avoid listing/globbing the huge session files tree and avoid list_bash.",
+    "Background preamble gate active: stay silent in commentary except tool calls; a background emulator was launched.",
+    "task_complete was refused in interactive mode last turn; do not claim completion until actual all work validated.",
+    "User asks ALL; do not silently shrink scope to the first successful slice."
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/google/error-prone/v2.41.0/COPYING",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/google/gson/gson-parent-2.13.2/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/JetBrains/java-annotations/master/LICENSE.txt",
+    "sha256": "8c1e966c7855fb54027bcaf6ebe7a43abe4785791e8cf9148c363761d493d097"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/JetBrains/kotlin/v2.4.21/license/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/JetBrains/kotlin/v2.4.21/license/third_party/protobuf_license.txt",
+    "sha256": "31c7505c31a1ea8557a5362cd69946dc9f5ee80fac8fa1d1b1531c08530497b0"
+  },
+  {
+    "url": "https://asm.ow2.io/license.html",
+    "verification": "Compared with the official license page."
+  }
+]

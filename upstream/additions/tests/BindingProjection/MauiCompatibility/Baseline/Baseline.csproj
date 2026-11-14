@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Maui.Controls" Version="11.0.0-rc.2.26505.5" />
+  </ItemGroup>
+  <Target Name="SnapshotInputs" DependsOnTargets="ResolveReferences"
+      Inputs="$(MSBuildProjectFullPath);@(ReferencePath);@(ReferenceCopyLocalPaths)"
+      Outputs="snapshot.stamp">
+    <Copy SourceFiles="@(ReferencePath)" DestinationFolder="references" />
+    <Copy SourceFiles="@(ReferenceCopyLocalPaths)" DestinationFolder="implementations" />
+    <WriteLinesToFile File="references.txt" Lines="@(ReferencePath->'%(FullPath)')" Overwrite="true" />
+    <WriteLinesToFile File="implementations.txt" Lines="@(ReferenceCopyLocalPaths->'%(FullPath)')" Overwrite="true" />
+    <Touch Files="snapshot.stamp" AlwaysCreate="true" />
+  </Target>
+</Project>

@@ -1,0 +1,21 @@
+{
+  "archive": "${EXPERIMENT_ARTIFACTS}/maplibre-sentry-koin-artifact-bindings.zip",
+  "sha256": "2636f99649b791650c63488086532dfd415e8e72df5533498e900a28a3b6bb74",
+  "bytes": 13317546,
+  "profiles": [
+    {
+      "profile": "maplibre-opengl",
+      "assemblies": 39
+    },
+    {
+      "profile": "sentry",
+      "assemblies": 20
+    },
+    {
+      "profile": "koin",
+      "assemblies": 86
+    }
+  ],
+  "releaseR8Checks": 18,
+  "nativeAOTChecks": 18
+}

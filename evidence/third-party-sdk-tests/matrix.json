@@ -1,0 +1,118 @@
+{
+  "maplibre-opengl": {
+    "groups": [
+      "org.maplibre"
+    ],
+    "roots": [
+      "org.maplibre.gl:android-sdk-opengl:13.7.1"
+    ]
+  },
+  "maplibre": {
+    "groups": [
+      "org.maplibre"
+    ],
+    "roots": [
+      "org.maplibre.gl:android-sdk:13.7.1"
+    ]
+  },
+  "sentry": {
+    "groups": [
+      "io.sentry"
+    ],
+    "roots": [
+      "io.sentry:sentry-android:8.62.0",
+      "io.sentry:sentry-compose-android:8.62.0",
+      "io.sentry:sentry-kotlin-extensions:8.62.0"
+    ]
+  },
+  "koin": {
+    "groups": [
+      "io.insert-koin"
+    ],
+    "roots": [
+      "io.insert-koin:koin-core:4.2.2",
+      "io.insert-koin:koin-android:4.2.2",
+      "io.insert-koin:koin-androidx-compose:4.2.2",
+      "io.insert-koin:koin-android-compat:4.2.2"
+    ]
+  },
+  "revenuecat": {
+    "groups": [
+      "com.revenuecat.purchases"
+    ],
+    "roots": [
+      "com.revenuecat.purchases:purchases:11.0.1",
+      "com.revenuecat.purchases:purchases-ui:11.0.1",
+      "com.revenuecat.purchases:purchases-store-amazon:11.0.1",
+      "com.revenuecat.purchases:purchases-store-galaxy:11.0.1",
+      "com.revenuecat.purchases:purchases-debug-view:11.0.1",
+      "com.revenuecat.purchases:purchases-admob:11.0.1"
+    ]
+  },
+  "revenuecat-noop": {
+    "groups": [
+      "com.revenuecat.purchases"
+    ],
+    "roots": [
+      "com.revenuecat.purchases:purchases-debug-view-noop:11.0.1"
+    ]
+  },
+  "revenuecat-custom": {
+    "groups": [
+      "com.revenuecat.purchases"
+    ],
+    "roots": [
+      "com.revenuecat.purchases:purchases-custom-entitlement-computation:11.0.1"
+    ]
+  },
+  "revenuecat-nextgen": {
+    "groups": [
+      "com.revenuecat.purchases"
+    ],
+    "roots": [
+      "com.revenuecat.purchases:purchases-admob-next-gen:11.0.1"
+    ]
+  },
+  "mapbox": {
+    "groups": [
+      "com.mapbox"
+    ],
+    "repository": "https://api.mapbox.com/downloads/v2/releases/maven",
+    "roots": [
+      "com.mapbox.maps:android-ndk27:11.34.1",
+      "com.mapbox.extension:maps-compose-ndk27:11.34.1"
+    ]
+  },
+  "stripe": {
+    "groups": [
+      "com.stripe"
+    ],
+    "roots": [
+      "com.stripe:stripe-android:23.25.1"
+    ]
+  },
+  "coil": {
+    "groups": [
+      "io.coil-kt.coil3"
+    ],
+    "roots": [
+      "io.coil-kt.coil3:coil:3.6.3",
+      "io.coil-kt.coil3:coil-compose:3.6.3",
+      "io.coil-kt.coil3:coil-network-okhttp:3.6.3"
+    ]
+  },
+  "networking": {
+    "groups": [
+      "com.squareup.okhttp3",
+      "com.squareup.okio",
+      "com.squareup.retrofit2",
+      "com.squareup.moshi"
+    ],
+    "roots": [
+      "com.squareup.retrofit2:retrofit:3.0.0",
+      "com.squareup.retrofit2:converter-moshi:3.0.0",
+      "com.squareup.okhttp3:okhttp:5.5.1",
+      "com.squareup.moshi:moshi:1.15.2"
+    ]
+  }
+}

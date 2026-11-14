@@ -1,0 +1,52 @@
+{
+  "items_per_trial": 10000,
+  "baseline": "one native operation, completion Task and FlowItem per MoveNext",
+  "optimized": "one native subscription and reusable ValueTask source per enumeration",
+  "allocation_scope": "process-wide managed bytes; excludes Java/native heap allocations",
+  "baseline_median_bytes": 41047632,
+  "optimized_median_bytes": 2077144,
+  "trials": [
+    {
+      "optimized": false,
+      "managed_bytes": 41725296,
+      "milliseconds": 1232.9859,
+      "items_per_second": 8110.392827687649,
+      "checksum": 49995000
+    },
+    {
+      "optimized": true,
+      "managed_bytes": 3011632,
+      "milliseconds": 146.4302,
+      "items_per_second": 68291.92338738866,
+      "checksum": 49995000
+    },
+    {
+      "optimized": true,
+      "managed_bytes": 2077144,
+      "milliseconds": 187.296,
+      "items_per_second": 53391.423201776866,
+      "checksum": 49995000
+    },
+    {
+      "optimized": false,
+      "managed_bytes": 41047632,
+      "milliseconds": 906.1091,
+      "items_per_second": 11036.198621115273,
+      "checksum": 49995000
+    },
+    {
+      "optimized": false,
+      "managed_bytes": 40772304,
+      "milliseconds": 857.8487,
+      "items_per_second": 11657.067266057522,
+      "checksum": 49995000
+    },
+    {
+      "optimized": true,
+      "managed_bytes": 1780400,
+      "milliseconds": 112.096,
+      "items_per_second": 89209.2492149586,
+      "checksum": 49995000
+    }
+  ]
+}

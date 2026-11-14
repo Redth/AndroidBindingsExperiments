@@ -1,0 +1,2403 @@
+{
+  "revision": "418cecf802289defcdbc17c420fb8e429007dd41",
+  "scope": "Android shipped/unshipped source API inventories, not yet the compiled inherited ABI closure",
+  "apiFiles": 18,
+  "apiEntriesWithExternalTypes": 176,
+  "referencedTypeTokens": 40,
+  "types": [
+    {
+      "name": "AndroidX.AppCompat.App.ActionBarDrawerToggle",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4432
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.AppCompat.Widget.AppCompatButton",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2748
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.AppCompat.Widget.AppCompatCheckBox",
+      "occurrences": 7,
+      "locations": [
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 493
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2384
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2385
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2386
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3264
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3265
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3266
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.AppCompat.Widget.AppCompatEditText",
+      "occurrences": 2,
+      "locations": [
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 502
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 505
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.AppCompat.Widget.AppCompatRadioButton",
+      "occurrences": 7,
+      "locations": [
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2456
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3369
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3370
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3371
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3372
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3373
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3374
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.AppCompat.Widget.AppCompatTextView",
+      "occurrences": 2,
+      "locations": [
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 529
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2423
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.AppCompat.Widget.SearchView",
+      "occurrences": 20,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2756
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 597
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2468
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2469
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2470
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3376
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3377
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3378
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3380
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3381
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3382
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3383
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3384
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3385
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3386
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3387
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3388
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3389
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3390
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3391
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.AppCompat.Widget.SwitchCompat",
+      "occurrences": 9,
+      "locations": [
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 620
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2486
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2487
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2488
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3422
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3423
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3424
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3425
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3426
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.AppCompat.Widget.Toolbar",
+      "occurrences": 16,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1274
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1291
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1292
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1350
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4291
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4420
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4421
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4422
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4430
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4431
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4433
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4435
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4436
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4437
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4438
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4439
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.CardView.Widget.CardView",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 5217
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.Core.View.Accessibility.AccessibilityNodeInfoCompat",
+      "occurrences": 5,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 8035
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 8200
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2542
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2566
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3392
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.Core.View.Accessibility.AccessibilityNodeProviderCompat",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2540
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.Core.View.AccessibilityDelegateCompat",
+      "occurrences": 4,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 6288
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1711
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1712
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1818
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.DrawerLayout.Widget.DrawerLayout",
+      "occurrences": 5,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1275
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1350
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4430
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4431
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4433
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.Fragment.App.Fragment",
+      "occurrences": 3,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1280
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1283
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1300
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.Fragment.App.FragmentManager",
+      "occurrences": 5,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 616
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4294
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3282
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3679
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3680
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.Fragment.App.FragmentTransaction",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4403
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.Navigation.Fragment.FragmentNavigator",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1936
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.Navigation.Fragment.FragmentNavigator.Destination",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3675
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.Navigation.Fragment.NavHostFragment",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1941
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.Navigation.NavController",
+      "occurrences": 2,
+      "locations": [
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1939
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3678
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.Navigation.NavDestination",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3678
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.Navigation.NavGraph",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1940
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.RecyclerView.Widget.RecyclerView",
+      "occurrences": 13,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 594
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2057
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2064
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2068
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2069
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2070
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2079
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2084
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2085
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2087
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2755
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4314
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Unshipped.txt",
+          "line": 17
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.RecyclerView.Widget.RecyclerView.ItemDecoration",
+      "occurrences": 2,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2072
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4303
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.RecyclerView.Widget.RecyclerView.LayoutManager",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4309
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.RecyclerView.Widget.RecyclerView.OnScrollListener",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 578
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.RecyclerView.Widget.RecyclerView.State",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2087
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder",
+      "occurrences": 18,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 535
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 536
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 597
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2055
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2059
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2060
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2062
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2063
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2065
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2066
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2081
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2084
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2085
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2086
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2090
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2091
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2133
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2134
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.RecyclerView.Widget.SnapHelper",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4315
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4282
+        }
+      ]
+    },
+    {
+      "name": "AndroidX.ViewPager2.Widget.ViewPager2",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 621
+        }
+      ]
+    },
+    {
+      "name": "Google.Android.Material.AppBar.AppBarLayout",
+      "occurrences": 1,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1319
+        }
+      ]
+    },
+    {
+      "name": "Google.Android.Material.AppBar.MaterialToolbar",
+      "occurrences": 3,
+      "locations": [
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 628
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2494
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2495
+        }
+      ]
+    },
+    {
+      "name": "Google.Android.Material.BottomNavigation.BottomNavigationView",
+      "occurrences": 7,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 613
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1264
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1265
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2742
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4367
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4368
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4369
+        }
+      ]
+    },
+    {
+      "name": "Google.Android.Material.BottomSheet.BottomSheetDialog",
+      "occurrences": 5,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2741
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4320
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4382
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4383
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4385
+        }
+      ]
+    },
+    {
+      "name": "Google.Android.Material.Button.MaterialButton",
+      "occurrences": 11,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2747
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2749
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 490
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2380
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2381
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2382
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3257
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3258
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3261
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3262
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3263
+        }
+      ]
+    },
+    {
+      "name": "Google.Android.Material.ImageView.ShapeableImageView",
+      "occurrences": 12,
+      "locations": [
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 519
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2414
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2415
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 2416
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3342
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3343
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3344
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3345
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3346
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3347
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3348
+        },
+        {
+          "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 3349
+        }
+      ]
+    },
+    {
+      "name": "Google.Android.Material.Tabs.TabLayout",
+      "occurrences": 6,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 620
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1289
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 1290
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4417
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4418
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4419
+        }
+      ]
+    },
+    {
+      "name": "Google.Android.Material.Tabs.TabLayout.Tab",
+      "occurrences": 3,
+      "locations": [
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4327
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4328
+        },
+        {
+          "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+          "line": 4329
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 535,
+      "api": "~Microsoft.Maui.Controls.Handlers.Items.EmptyViewAdapter.CreateEmptyViewHolder(object content, Microsoft.Maui.Controls.DataTemplate template, Android.Views.ViewGroup parent) -> AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 536,
+      "api": "~Microsoft.Maui.Controls.Handlers.Items.EmptyViewAdapter.CreateHeaderFooterViewHolder(object content, Microsoft.Maui.Controls.DataTemplate template, Android.Content.Context context) -> AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 578,
+      "api": "~Microsoft.Maui.Controls.Handlers.Items.MauiRecyclerView<TItemsView, TAdapter, TItemsViewSource>.RecyclerViewScrollListener -> AndroidX.RecyclerView.Widget.RecyclerView.OnScrollListener",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.OnScrollListener"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 594,
+      "api": "~Microsoft.Maui.Controls.Handlers.Items.SnapManager.SnapManager(AndroidX.RecyclerView.Widget.RecyclerView recyclerView) -> void",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 597,
+      "api": "~Microsoft.Maui.Controls.Handlers.Items.StructuredItemsViewAdapter<TItemsView, TItemsViewSource>.CreateHeaderFooterViewHolder(object content, Microsoft.Maui.Controls.DataTemplate template, Android.Content.Context context) -> AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 613,
+      "api": "~Microsoft.Maui.Controls.Handlers.TabbedPageManager.BottomNavigationView.get -> Google.Android.Material.BottomNavigation.BottomNavigationView",
+      "types": [
+        "Google.Android.Material.BottomNavigation.BottomNavigationView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 616,
+      "api": "~Microsoft.Maui.Controls.Handlers.TabbedPageManager.FragmentManager.get -> AndroidX.Fragment.App.FragmentManager",
+      "types": [
+        "AndroidX.Fragment.App.FragmentManager"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 620,
+      "api": "~Microsoft.Maui.Controls.Handlers.TabbedPageManager.TabLayout.get -> Google.Android.Material.Tabs.TabLayout",
+      "types": [
+        "Google.Android.Material.Tabs.TabLayout"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 621,
+      "api": "~Microsoft.Maui.Controls.Handlers.TabbedPageManager.ViewPager.get -> AndroidX.ViewPager2.Widget.ViewPager2",
+      "types": [
+        "AndroidX.ViewPager2.Widget.ViewPager2"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1264,
+      "api": "~Microsoft.Maui.Controls.Platform.Compatibility.IShellBottomNavViewAppearanceTracker.ResetAppearance(Google.Android.Material.BottomNavigation.BottomNavigationView bottomView) -> void",
+      "types": [
+        "Google.Android.Material.BottomNavigation.BottomNavigationView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1265,
+      "api": "~Microsoft.Maui.Controls.Platform.Compatibility.IShellBottomNavViewAppearanceTracker.SetAppearance(Google.Android.Material.BottomNavigation.BottomNavigationView bottomView, Microsoft.Maui.Controls.IShellAppearanceElement appearance) -> void",
+      "types": [
+        "Google.Android.Material.BottomNavigation.BottomNavigationView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1274,
+      "api": "~Microsoft.Maui.Controls.Platform.Compatibility.IShellContext.CreateTrackerForToolbar(AndroidX.AppCompat.Widget.Toolbar toolbar) -> Microsoft.Maui.Controls.Platform.Compatibility.IShellToolbarTracker",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1275,
+      "api": "~Microsoft.Maui.Controls.Platform.Compatibility.IShellContext.CurrentDrawerLayout.get -> AndroidX.DrawerLayout.Widget.DrawerLayout",
+      "types": [
+        "AndroidX.DrawerLayout.Widget.DrawerLayout"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1280,
+      "api": "~Microsoft.Maui.Controls.Platform.Compatibility.IShellItemRenderer.Fragment.get -> AndroidX.Fragment.App.Fragment",
+      "types": [
+        "AndroidX.Fragment.App.Fragment"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1283,
+      "api": "~Microsoft.Maui.Controls.Platform.Compatibility.IShellObservableFragment.Fragment.get -> AndroidX.Fragment.App.Fragment",
+      "types": [
+        "AndroidX.Fragment.App.Fragment"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1289,
+      "api": "~Microsoft.Maui.Controls.Platform.Compatibility.IShellTabLayoutAppearanceTracker.ResetAppearance(Google.Android.Material.Tabs.TabLayout tabLayout) -> void",
+      "types": [
+        "Google.Android.Material.Tabs.TabLayout"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1290,
+      "api": "~Microsoft.Maui.Controls.Platform.Compatibility.IShellTabLayoutAppearanceTracker.SetAppearance(Google.Android.Material.Tabs.TabLayout tabLayout, Microsoft.Maui.Controls.ShellAppearance appearance) -> void",
+      "types": [
+        "Google.Android.Material.Tabs.TabLayout"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1291,
+      "api": "~Microsoft.Maui.Controls.Platform.Compatibility.IShellToolbarAppearanceTracker.ResetAppearance(AndroidX.AppCompat.Widget.Toolbar toolbar, Microsoft.Maui.Controls.Platform.Compatibility.IShellToolbarTracker toolbarTracker) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1292,
+      "api": "~Microsoft.Maui.Controls.Platform.Compatibility.IShellToolbarAppearanceTracker.SetAppearance(AndroidX.AppCompat.Widget.Toolbar toolbar, Microsoft.Maui.Controls.Platform.Compatibility.IShellToolbarTracker toolbarTracker, Microsoft.Maui.Controls.ShellAppearance appearance) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1300,
+      "api": "~Microsoft.Maui.Controls.Platform.Compatibility.ShellContentFragment.Fragment.get -> AndroidX.Fragment.App.Fragment",
+      "types": [
+        "AndroidX.Fragment.App.Fragment"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1319,
+      "api": "~Microsoft.Maui.Controls.Platform.Compatibility.ShellFlyoutTemplatedContentRenderer.OnOffsetChanged(Google.Android.Material.AppBar.AppBarLayout appBarLayout, int verticalOffset) -> void",
+      "types": [
+        "Google.Android.Material.AppBar.AppBarLayout"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1350,
+      "api": "~Microsoft.Maui.Controls.Platform.Compatibility.ShellToolbarTracker.ShellToolbarTracker(Microsoft.Maui.Controls.Platform.Compatibility.IShellContext shellContext, AndroidX.AppCompat.Widget.Toolbar toolbar, AndroidX.DrawerLayout.Widget.DrawerLayout drawerLayout) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar",
+        "AndroidX.DrawerLayout.Widget.DrawerLayout"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2055,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.CarouselViewAdapter<TItemsView, TItemsViewSource>.OnBindViewHolder(AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder holder, int position) -> void",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2057,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.CarouselViewHandler.CreatePlatformView() -> AndroidX.RecyclerView.Widget.RecyclerView",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2059,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.EmptyViewAdapter.OnBindViewHolder(AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder holder, int position) -> void",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2060,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.EmptyViewAdapter.OnCreateViewHolder(Android.Views.ViewGroup parent, int viewType) -> AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2062,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.GroupableItemsViewAdapter<TItemsView, TItemsViewSource>.OnBindViewHolder(AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder holder, int position) -> void",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2063,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.GroupableItemsViewAdapter<TItemsView, TItemsViewSource>.OnCreateViewHolder(Android.Views.ViewGroup parent, int viewType) -> AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2064,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.GroupableItemsViewHandler<TItemsView>.CreatePlatformView() -> AndroidX.RecyclerView.Widget.RecyclerView",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2065,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.ItemsViewAdapter<TItemsView, TItemsViewSource>.OnBindViewHolder(AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder holder, int position) -> void",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2066,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.ItemsViewAdapter<TItemsView, TItemsViewSource>.OnCreateViewHolder(Android.Views.ViewGroup parent, int viewType) -> AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2068,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler<TItemsView>.ConnectHandler(AndroidX.RecyclerView.Widget.RecyclerView platformView) -> void",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2069,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler<TItemsView>.CreatePlatformView() -> AndroidX.RecyclerView.Widget.RecyclerView",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2070,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.ItemsViewHandler<TItemsView>.DisconnectHandler(AndroidX.RecyclerView.Widget.RecyclerView platformView) -> void",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2072,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.MauiCarouselRecyclerView.CreateSpacingDecoration(Microsoft.Maui.Controls.IItemsLayout itemsLayout) -> AndroidX.RecyclerView.Widget.RecyclerView.ItemDecoration",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ItemDecoration"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2079,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.RecyclerViewScrollListener<TItemsView, TItemsViewSource>.OnScrolled(AndroidX.RecyclerView.Widget.RecyclerView recyclerView, int dx, int dy) -> void",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2081,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.SelectableItemsViewAdapter<TItemsView, TItemsSource>.OnBindViewHolder(AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder holder, int position) -> void",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2084,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.SimpleItemTouchHelperCallback.GetMovementFlags(AndroidX.RecyclerView.Widget.RecyclerView recyclerView, AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder viewHolder) -> int",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView",
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2085,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.SimpleItemTouchHelperCallback.OnMove(AndroidX.RecyclerView.Widget.RecyclerView recyclerView, AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder viewHolder, AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder target) -> bool",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView",
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2086,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.SimpleItemTouchHelperCallback.OnSwiped(AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder viewHolder, int direction) -> void",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2087,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.SpacingItemDecoration.GetItemOffsets(Android.Graphics.Rect outRect, Android.Views.View view, AndroidX.RecyclerView.Widget.RecyclerView parent, AndroidX.RecyclerView.Widget.RecyclerView.State state) -> void",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView",
+        "AndroidX.RecyclerView.Widget.RecyclerView.State"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2090,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.StructuredItemsViewAdapter<TItemsView, TItemsViewSource>.OnBindViewHolder(AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder holder, int position) -> void",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2091,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.StructuredItemsViewAdapter<TItemsView, TItemsViewSource>.OnCreateViewHolder(Android.Views.ViewGroup parent, int viewType) -> AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2133,
+      "api": "~override Microsoft.Maui.Controls.Platform.Compatibility.ShellFlyoutRecyclerAdapter.OnBindViewHolder(AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder holder, int position) -> void",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2134,
+      "api": "~override Microsoft.Maui.Controls.Platform.Compatibility.ShellFlyoutRecyclerAdapter.OnCreateViewHolder(Android.Views.ViewGroup parent, int viewType) -> AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2741,
+      "api": "~static Microsoft.Maui.Controls.Platform.BottomNavigationViewUtils.CreateMoreBottomSheet(System.Action<int, Google.Android.Material.BottomSheet.BottomSheetDialog> selectCallback, Microsoft.Maui.IMauiContext mauiContext, System.Collections.Generic.List<(string title, Microsoft.Maui.Controls.ImageSource icon, bool tabEnabled)> items) -> Google.Android.Material.BottomSheet.BottomSheetDialog",
+      "types": [
+        "Google.Android.Material.BottomSheet.BottomSheetDialog"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2742,
+      "api": "~static Microsoft.Maui.Controls.Platform.BottomNavigationViewUtils.SetShiftMode(this Google.Android.Material.BottomNavigation.BottomNavigationView bottomNavigationView, bool enableShiftMode, bool enableItemShiftMode) -> void",
+      "types": [
+        "Google.Android.Material.BottomNavigation.BottomNavigationView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2747,
+      "api": "~static Microsoft.Maui.Controls.Platform.ButtonExtensions.UpdateContentLayout(this Google.Android.Material.Button.MaterialButton materialButton, Microsoft.Maui.Controls.Button button) -> void",
+      "types": [
+        "Google.Android.Material.Button.MaterialButton"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2748,
+      "api": "~static Microsoft.Maui.Controls.Platform.ButtonExtensions.UpdateLineBreakMode(this AndroidX.AppCompat.Widget.AppCompatButton nativeControl, Microsoft.Maui.Controls.Button button) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatButton"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2749,
+      "api": "~static Microsoft.Maui.Controls.Platform.ButtonExtensions.UpdateText(this Google.Android.Material.Button.MaterialButton platformButton, Microsoft.Maui.Controls.Button button) -> void",
+      "types": [
+        "Google.Android.Material.Button.MaterialButton"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2755,
+      "api": "~static Microsoft.Maui.Controls.Platform.RecyclerViewExtensions.UpdateSelection(this AndroidX.RecyclerView.Widget.RecyclerView recyclerView, Microsoft.Maui.Controls.SelectableItemsView selectableItemsView) -> void",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2756,
+      "api": "~static Microsoft.Maui.Controls.Platform.SearchViewExtensions.UpdateText(this AndroidX.AppCompat.Widget.SearchView searchView, Microsoft.Maui.Controls.InputView inputView) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4282,
+      "api": "~virtual Microsoft.Maui.Controls.Handlers.Compatibility.ListViewRenderer.CreateNativePullToRefresh(Android.Content.Context context) -> AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout",
+      "types": [
+        "AndroidX.SwipeRefreshLayout.Widget.SwipeRefreshLayout"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4291,
+      "api": "~virtual Microsoft.Maui.Controls.Handlers.Compatibility.ShellRenderer.CreateTrackerForToolbar(AndroidX.AppCompat.Widget.Toolbar toolbar) -> Microsoft.Maui.Controls.Platform.Compatibility.IShellToolbarTracker",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4294,
+      "api": "~virtual Microsoft.Maui.Controls.Handlers.Compatibility.ShellRenderer.SwitchFragment(AndroidX.Fragment.App.FragmentManager manager, Android.Views.View targetView, Microsoft.Maui.Controls.ShellItem newItem, bool animate = true) -> void",
+      "types": [
+        "AndroidX.Fragment.App.FragmentManager"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4303,
+      "api": "~virtual Microsoft.Maui.Controls.Handlers.Items.MauiRecyclerView<TItemsView, TAdapter, TItemsViewSource>.CreateSpacingDecoration(Microsoft.Maui.Controls.IItemsLayout itemsLayout) -> AndroidX.RecyclerView.Widget.RecyclerView.ItemDecoration",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.ItemDecoration"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4309,
+      "api": "~virtual Microsoft.Maui.Controls.Handlers.Items.MauiRecyclerView<TItemsView, TAdapter, TItemsViewSource>.SelectLayoutManager(Microsoft.Maui.Controls.IItemsLayout layoutSpecification) -> AndroidX.RecyclerView.Widget.RecyclerView.LayoutManager",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView.LayoutManager"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4314,
+      "api": "~virtual Microsoft.Maui.Controls.Handlers.Items.RecyclerViewScrollListener<TItemsView, TItemsViewSource>.GetVisibleItemsIndex(AndroidX.RecyclerView.Widget.RecyclerView recyclerView) -> (int First, int Center, int Last)",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4315,
+      "api": "~virtual Microsoft.Maui.Controls.Handlers.Items.SnapManager.CreateSnapHelper(Microsoft.Maui.Controls.SnapPointsType snapPointsType, Microsoft.Maui.Controls.SnapPointsAlignment alignment) -> AndroidX.RecyclerView.Widget.SnapHelper",
+      "types": [
+        "AndroidX.RecyclerView.Widget.SnapHelper"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4320,
+      "api": "~virtual Microsoft.Maui.Controls.Handlers.TabbedPageManager.OnMoreItemSelected(int selectedIndex, Google.Android.Material.BottomSheet.BottomSheetDialog dialog) -> void",
+      "types": [
+        "Google.Android.Material.BottomSheet.BottomSheetDialog"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4327,
+      "api": "~virtual Microsoft.Maui.Controls.Handlers.TabbedPageManager.SetIconColorFilter(Microsoft.Maui.Controls.Page page, Google.Android.Material.Tabs.TabLayout.Tab tab, bool selected) -> void",
+      "types": [
+        "Google.Android.Material.Tabs.TabLayout.Tab"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4328,
+      "api": "~virtual Microsoft.Maui.Controls.Handlers.TabbedPageManager.SetTabIconImageSource(Microsoft.Maui.Controls.Page page, Google.Android.Material.Tabs.TabLayout.Tab tab, Android.Graphics.Drawables.Drawable icon) -> void",
+      "types": [
+        "Google.Android.Material.Tabs.TabLayout.Tab"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4329,
+      "api": "~virtual Microsoft.Maui.Controls.Handlers.TabbedPageManager.TabSelected(Google.Android.Material.Tabs.TabLayout.Tab tab) -> void",
+      "types": [
+        "Google.Android.Material.Tabs.TabLayout.Tab"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4367,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellBottomNavViewAppearanceTracker.ResetAppearance(Google.Android.Material.BottomNavigation.BottomNavigationView bottomView) -> void",
+      "types": [
+        "Google.Android.Material.BottomNavigation.BottomNavigationView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4368,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellBottomNavViewAppearanceTracker.SetAppearance(Google.Android.Material.BottomNavigation.BottomNavigationView bottomView, Microsoft.Maui.Controls.IShellAppearanceElement appearance) -> void",
+      "types": [
+        "Google.Android.Material.BottomNavigation.BottomNavigationView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4369,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellBottomNavViewAppearanceTracker.SetBackgroundColor(Google.Android.Material.BottomNavigation.BottomNavigationView bottomView, Microsoft.Maui.Graphics.Color color) -> void",
+      "types": [
+        "Google.Android.Material.BottomNavigation.BottomNavigationView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4382,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellItemRenderer.CreateMoreBottomSheet(System.Action<int, Google.Android.Material.BottomSheet.BottomSheetDialog> selectCallback) -> Google.Android.Material.BottomSheet.BottomSheetDialog",
+      "types": [
+        "Google.Android.Material.BottomSheet.BottomSheetDialog"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4383,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellItemRenderer.CreateMoreBottomSheet(System.Action<Microsoft.Maui.Controls.ShellSection, Google.Android.Material.BottomSheet.BottomSheetDialog> selectCallback) -> Google.Android.Material.BottomSheet.BottomSheetDialog",
+      "types": [
+        "Google.Android.Material.BottomSheet.BottomSheetDialog"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4385,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellItemRenderer.OnMoreItemSelected(Microsoft.Maui.Controls.ShellSection shellSection, Google.Android.Material.BottomSheet.BottomSheetDialog dialog) -> void",
+      "types": [
+        "Google.Android.Material.BottomSheet.BottomSheetDialog"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4403,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellItemRendererBase.SetupAnimation(Microsoft.Maui.Controls.ShellNavigationSource navSource, AndroidX.Fragment.App.FragmentTransaction t, Microsoft.Maui.Controls.Page page) -> void",
+      "types": [
+        "AndroidX.Fragment.App.FragmentTransaction"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4417,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellTabLayoutAppearanceTracker.ResetAppearance(Google.Android.Material.Tabs.TabLayout tabLayout) -> void",
+      "types": [
+        "Google.Android.Material.Tabs.TabLayout"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4418,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellTabLayoutAppearanceTracker.SetAppearance(Google.Android.Material.Tabs.TabLayout tabLayout, Microsoft.Maui.Controls.ShellAppearance appearance) -> void",
+      "types": [
+        "Google.Android.Material.Tabs.TabLayout"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4419,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellTabLayoutAppearanceTracker.SetColors(Google.Android.Material.Tabs.TabLayout tabLayout, Microsoft.Maui.Graphics.Color foreground, Microsoft.Maui.Graphics.Color background, Microsoft.Maui.Graphics.Color title, Microsoft.Maui.Graphics.Color unselected) -> void",
+      "types": [
+        "Google.Android.Material.Tabs.TabLayout"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4420,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellToolbarAppearanceTracker.ResetAppearance(AndroidX.AppCompat.Widget.Toolbar toolbar, Microsoft.Maui.Controls.Platform.Compatibility.IShellToolbarTracker toolbarTracker) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4421,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellToolbarAppearanceTracker.SetAppearance(AndroidX.AppCompat.Widget.Toolbar toolbar, Microsoft.Maui.Controls.Platform.Compatibility.IShellToolbarTracker toolbarTracker, Microsoft.Maui.Controls.ShellAppearance appearance) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4422,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellToolbarAppearanceTracker.SetColors(AndroidX.AppCompat.Widget.Toolbar toolbar, Microsoft.Maui.Controls.Platform.Compatibility.IShellToolbarTracker toolbarTracker, Microsoft.Maui.Graphics.Color foreground, Microsoft.Maui.Graphics.Color background, Microsoft.Maui.Graphics.Color title) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4430,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellToolbarTracker.UpdateDrawerArrow(Android.Content.Context context, AndroidX.AppCompat.Widget.Toolbar toolbar, AndroidX.DrawerLayout.Widget.DrawerLayout drawerLayout) -> System.Threading.Tasks.Task",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar",
+        "AndroidX.DrawerLayout.Widget.DrawerLayout"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4431,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellToolbarTracker.UpdateDrawerArrowFromBackButtonBehavior(Android.Content.Context context, AndroidX.AppCompat.Widget.Toolbar toolbar, AndroidX.DrawerLayout.Widget.DrawerLayout drawerLayout, Microsoft.Maui.Controls.BackButtonBehavior backButtonHandler) -> System.Threading.Tasks.Task",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar",
+        "AndroidX.DrawerLayout.Widget.DrawerLayout"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4432,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellToolbarTracker.UpdateDrawerArrowFromFlyoutIcon(Android.Content.Context context, AndroidX.AppCompat.App.ActionBarDrawerToggle actionBarDrawerToggle) -> System.Threading.Tasks.Task",
+      "types": [
+        "AndroidX.AppCompat.App.ActionBarDrawerToggle"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4433,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellToolbarTracker.UpdateLeftBarButtonItem(Android.Content.Context context, AndroidX.AppCompat.Widget.Toolbar toolbar, AndroidX.DrawerLayout.Widget.DrawerLayout drawerLayout, Microsoft.Maui.Controls.Page page) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar",
+        "AndroidX.DrawerLayout.Widget.DrawerLayout"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4435,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellToolbarTracker.UpdateNavBarVisible(AndroidX.AppCompat.Widget.Toolbar toolbar, Microsoft.Maui.Controls.Page page) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4436,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellToolbarTracker.UpdatePageTitle(AndroidX.AppCompat.Widget.Toolbar toolbar, Microsoft.Maui.Controls.Page page) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4437,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellToolbarTracker.UpdateTitleView(Android.Content.Context context, AndroidX.AppCompat.Widget.Toolbar toolbar, Microsoft.Maui.Controls.View titleView) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4438,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellToolbarTracker.UpdateToolbarIconAccessibilityText(AndroidX.AppCompat.Widget.Toolbar toolbar, Microsoft.Maui.Controls.Shell shell) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 4439,
+      "api": "~virtual Microsoft.Maui.Controls.Platform.Compatibility.ShellToolbarTracker.UpdateToolbarItems(AndroidX.AppCompat.Widget.Toolbar toolbar, Microsoft.Maui.Controls.Page page) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.Toolbar"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 5217,
+      "api": "Microsoft.Maui.Controls.Handlers.Compatibility.FrameRenderer.Control.get -> AndroidX.CardView.Widget.CardView!",
+      "types": [
+        "AndroidX.CardView.Widget.CardView"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 6288,
+      "api": "Microsoft.Maui.Controls.Platform.ControlsAccessibilityDelegate.ControlsAccessibilityDelegate(AndroidX.Core.View.AccessibilityDelegateCompat? originalDelegate, Microsoft.Maui.IViewHandler! viewHandler) -> void",
+      "types": [
+        "AndroidX.Core.View.AccessibilityDelegateCompat"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 8035,
+      "api": "override Microsoft.Maui.Controls.Platform.ControlsAccessibilityDelegate.OnInitializeAccessibilityNodeInfo(Android.Views.View? host, AndroidX.Core.View.Accessibility.AccessibilityNodeInfoCompat? info) -> void",
+      "types": [
+        "AndroidX.Core.View.Accessibility.AccessibilityNodeInfoCompat"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 8200,
+      "api": "static Microsoft.Maui.Controls.Platform.SemanticExtensions.UpdateSemanticNodeInfo(this Microsoft.Maui.Controls.View! virtualView, AndroidX.Core.View.Accessibility.AccessibilityNodeInfoCompat? info) -> void",
+      "types": [
+        "AndroidX.Core.View.Accessibility.AccessibilityNodeInfoCompat"
+      ]
+    },
+    {
+      "path": "src/Controls/src/Core/PublicAPI/net-android/PublicAPI.Unshipped.txt",
+      "line": 17,
+      "api": "~override Microsoft.Maui.Controls.Handlers.Items.RecyclerViewScrollListener<TItemsView, TItemsViewSource>.OnScrollStateChanged(AndroidX.RecyclerView.Widget.RecyclerView recyclerView, int newState) -> void",
+      "types": [
+        "AndroidX.RecyclerView.Widget.RecyclerView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 490,
+      "api": "Microsoft.Maui.Handlers.IButtonHandler.PlatformView.get -> Google.Android.Material.Button.MaterialButton!",
+      "types": [
+        "Google.Android.Material.Button.MaterialButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 493,
+      "api": "Microsoft.Maui.Handlers.ICheckBoxHandler.PlatformView.get -> AndroidX.AppCompat.Widget.AppCompatCheckBox!",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatCheckBox"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 502,
+      "api": "Microsoft.Maui.Handlers.IEditorHandler.PlatformView.get -> AndroidX.AppCompat.Widget.AppCompatEditText!",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatEditText"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 505,
+      "api": "Microsoft.Maui.Handlers.IEntryHandler.PlatformView.get -> AndroidX.AppCompat.Widget.AppCompatEditText!",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatEditText"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 519,
+      "api": "Microsoft.Maui.Handlers.IImageButtonHandler.PlatformView.get -> Google.Android.Material.ImageView.ShapeableImageView!",
+      "types": [
+        "Google.Android.Material.ImageView.ShapeableImageView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 529,
+      "api": "Microsoft.Maui.Handlers.ILabelHandler.PlatformView.get -> AndroidX.AppCompat.Widget.AppCompatTextView!",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatTextView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 597,
+      "api": "Microsoft.Maui.Handlers.ISearchBarHandler.PlatformView.get -> AndroidX.AppCompat.Widget.SearchView!",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 620,
+      "api": "Microsoft.Maui.Handlers.ISwitchHandler.PlatformView.get -> AndroidX.AppCompat.Widget.SwitchCompat!",
+      "types": [
+        "AndroidX.AppCompat.Widget.SwitchCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 628,
+      "api": "Microsoft.Maui.Handlers.IToolbarHandler.PlatformView.get -> Google.Android.Material.AppBar.MaterialToolbar!",
+      "types": [
+        "Google.Android.Material.AppBar.MaterialToolbar"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1711,
+      "api": "Microsoft.Maui.Platform.AccessibilityDelegateCompatWrapper.AccessibilityDelegateCompatWrapper(AndroidX.Core.View.AccessibilityDelegateCompat? originalDelegate) -> void",
+      "types": [
+        "AndroidX.Core.View.AccessibilityDelegateCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1712,
+      "api": "Microsoft.Maui.Platform.AccessibilityDelegateCompatWrapper.WrappedDelegate.get -> AndroidX.Core.View.AccessibilityDelegateCompat?",
+      "types": [
+        "AndroidX.Core.View.AccessibilityDelegateCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1818,
+      "api": "Microsoft.Maui.Platform.MauiAccessibilityDelegateCompat.MauiAccessibilityDelegateCompat(AndroidX.Core.View.AccessibilityDelegateCompat? originalDelegate) -> void",
+      "types": [
+        "AndroidX.Core.View.AccessibilityDelegateCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1936,
+      "api": "Microsoft.Maui.Platform.StackNavigationManager.FragmentNavigator.get -> AndroidX.Navigation.Fragment.FragmentNavigator!",
+      "types": [
+        "AndroidX.Navigation.Fragment.FragmentNavigator"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1939,
+      "api": "Microsoft.Maui.Platform.StackNavigationManager.NavController.get -> AndroidX.Navigation.NavController!",
+      "types": [
+        "AndroidX.Navigation.NavController"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1940,
+      "api": "Microsoft.Maui.Platform.StackNavigationManager.NavGraph.get -> AndroidX.Navigation.NavGraph!",
+      "types": [
+        "AndroidX.Navigation.NavGraph"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 1941,
+      "api": "Microsoft.Maui.Platform.StackNavigationManager.NavHost.get -> AndroidX.Navigation.Fragment.NavHostFragment!",
+      "types": [
+        "AndroidX.Navigation.Fragment.NavHostFragment"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2380,
+      "api": "override Microsoft.Maui.Handlers.ButtonHandler.ConnectHandler(Google.Android.Material.Button.MaterialButton! platformView) -> void",
+      "types": [
+        "Google.Android.Material.Button.MaterialButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2381,
+      "api": "override Microsoft.Maui.Handlers.ButtonHandler.CreatePlatformView() -> Google.Android.Material.Button.MaterialButton!",
+      "types": [
+        "Google.Android.Material.Button.MaterialButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2382,
+      "api": "override Microsoft.Maui.Handlers.ButtonHandler.DisconnectHandler(Google.Android.Material.Button.MaterialButton! platformView) -> void",
+      "types": [
+        "Google.Android.Material.Button.MaterialButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2384,
+      "api": "override Microsoft.Maui.Handlers.CheckBoxHandler.ConnectHandler(AndroidX.AppCompat.Widget.AppCompatCheckBox! platformView) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatCheckBox"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2385,
+      "api": "override Microsoft.Maui.Handlers.CheckBoxHandler.CreatePlatformView() -> AndroidX.AppCompat.Widget.AppCompatCheckBox!",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatCheckBox"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2386,
+      "api": "override Microsoft.Maui.Handlers.CheckBoxHandler.DisconnectHandler(AndroidX.AppCompat.Widget.AppCompatCheckBox! platformView) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatCheckBox"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2414,
+      "api": "override Microsoft.Maui.Handlers.ImageButtonHandler.ConnectHandler(Google.Android.Material.ImageView.ShapeableImageView! platformView) -> void",
+      "types": [
+        "Google.Android.Material.ImageView.ShapeableImageView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2415,
+      "api": "override Microsoft.Maui.Handlers.ImageButtonHandler.CreatePlatformView() -> Google.Android.Material.ImageView.ShapeableImageView!",
+      "types": [
+        "Google.Android.Material.ImageView.ShapeableImageView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2416,
+      "api": "override Microsoft.Maui.Handlers.ImageButtonHandler.DisconnectHandler(Google.Android.Material.ImageView.ShapeableImageView! platformView) -> void",
+      "types": [
+        "Google.Android.Material.ImageView.ShapeableImageView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2423,
+      "api": "override Microsoft.Maui.Handlers.LabelHandler.CreatePlatformView() -> AndroidX.AppCompat.Widget.AppCompatTextView!",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatTextView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2456,
+      "api": "override Microsoft.Maui.Handlers.RadioButtonHandler.CreatePlatformView() -> AndroidX.AppCompat.Widget.AppCompatRadioButton!",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatRadioButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2468,
+      "api": "override Microsoft.Maui.Handlers.SearchBarHandler.ConnectHandler(AndroidX.AppCompat.Widget.SearchView! platformView) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2469,
+      "api": "override Microsoft.Maui.Handlers.SearchBarHandler.CreatePlatformView() -> AndroidX.AppCompat.Widget.SearchView!",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2470,
+      "api": "override Microsoft.Maui.Handlers.SearchBarHandler.DisconnectHandler(AndroidX.AppCompat.Widget.SearchView! platformView) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2486,
+      "api": "override Microsoft.Maui.Handlers.SwitchHandler.ConnectHandler(AndroidX.AppCompat.Widget.SwitchCompat! platformView) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SwitchCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2487,
+      "api": "override Microsoft.Maui.Handlers.SwitchHandler.CreatePlatformView() -> AndroidX.AppCompat.Widget.SwitchCompat!",
+      "types": [
+        "AndroidX.AppCompat.Widget.SwitchCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2488,
+      "api": "override Microsoft.Maui.Handlers.SwitchHandler.DisconnectHandler(AndroidX.AppCompat.Widget.SwitchCompat! platformView) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SwitchCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2494,
+      "api": "override Microsoft.Maui.Handlers.ToolbarHandler.ConnectHandler(Google.Android.Material.AppBar.MaterialToolbar! platformView) -> void",
+      "types": [
+        "Google.Android.Material.AppBar.MaterialToolbar"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2495,
+      "api": "override Microsoft.Maui.Handlers.ToolbarHandler.CreatePlatformElement() -> Google.Android.Material.AppBar.MaterialToolbar!",
+      "types": [
+        "Google.Android.Material.AppBar.MaterialToolbar"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2540,
+      "api": "override Microsoft.Maui.Platform.AccessibilityDelegateCompatWrapper.GetAccessibilityNodeProvider(Android.Views.View? host) -> AndroidX.Core.View.Accessibility.AccessibilityNodeProviderCompat?",
+      "types": [
+        "AndroidX.Core.View.Accessibility.AccessibilityNodeProviderCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2542,
+      "api": "override Microsoft.Maui.Platform.AccessibilityDelegateCompatWrapper.OnInitializeAccessibilityNodeInfo(Android.Views.View? host, AndroidX.Core.View.Accessibility.AccessibilityNodeInfoCompat? info) -> void",
+      "types": [
+        "AndroidX.Core.View.Accessibility.AccessibilityNodeInfoCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 2566,
+      "api": "override Microsoft.Maui.Platform.MauiAccessibilityDelegateCompat.OnInitializeAccessibilityNodeInfo(Android.Views.View? host, AndroidX.Core.View.Accessibility.AccessibilityNodeInfoCompat? info) -> void",
+      "types": [
+        "AndroidX.Core.View.Accessibility.AccessibilityNodeInfoCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3257,
+      "api": "static Microsoft.Maui.Platform.ButtonExtensions.UpdateBackground(this Google.Android.Material.Button.MaterialButton! platformView, Microsoft.Maui.IButton! button) -> void",
+      "types": [
+        "Google.Android.Material.Button.MaterialButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3258,
+      "api": "static Microsoft.Maui.Platform.ButtonExtensions.UpdateCornerRadius(this Google.Android.Material.Button.MaterialButton! platformView, Microsoft.Maui.IButton! button) -> void",
+      "types": [
+        "Google.Android.Material.Button.MaterialButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3261,
+      "api": "static Microsoft.Maui.Platform.ButtonExtensions.UpdateRippleColor(this Google.Android.Material.Button.MaterialButton! platformView, Microsoft.Maui.Graphics.Color? rippleColor) -> void",
+      "types": [
+        "Google.Android.Material.Button.MaterialButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3262,
+      "api": "static Microsoft.Maui.Platform.ButtonExtensions.UpdateStrokeColor(this Google.Android.Material.Button.MaterialButton! platformView, Microsoft.Maui.IButton! button) -> void",
+      "types": [
+        "Google.Android.Material.Button.MaterialButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3263,
+      "api": "static Microsoft.Maui.Platform.ButtonExtensions.UpdateStrokeThickness(this Google.Android.Material.Button.MaterialButton! platformView, Microsoft.Maui.IButton! button) -> void",
+      "types": [
+        "Google.Android.Material.Button.MaterialButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3264,
+      "api": "static Microsoft.Maui.Platform.CheckBoxExtensions.UpdateBackground(this AndroidX.AppCompat.Widget.AppCompatCheckBox! platformCheckBox, Microsoft.Maui.ICheckBox! check) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatCheckBox"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3265,
+      "api": "static Microsoft.Maui.Platform.CheckBoxExtensions.UpdateForeground(this AndroidX.AppCompat.Widget.AppCompatCheckBox! platformCheckBox, Microsoft.Maui.ICheckBox! check) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatCheckBox"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3266,
+      "api": "static Microsoft.Maui.Platform.CheckBoxExtensions.UpdateIsChecked(this AndroidX.AppCompat.Widget.AppCompatCheckBox! platformCheckBox, Microsoft.Maui.ICheckBox! check) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatCheckBox"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3282,
+      "api": "static Microsoft.Maui.Platform.ContextExtensions.GetFragmentManager(this Android.Content.Context! context) -> AndroidX.Fragment.App.FragmentManager?",
+      "types": [
+        "AndroidX.Fragment.App.FragmentManager"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3342,
+      "api": "static Microsoft.Maui.Platform.ImageButtonExtensions.UpdateBackground(this Google.Android.Material.ImageView.ShapeableImageView! platformButton, Microsoft.Maui.IImageButton! imageButton) -> void",
+      "types": [
+        "Google.Android.Material.ImageView.ShapeableImageView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3343,
+      "api": "static Microsoft.Maui.Platform.ImageButtonExtensions.UpdateButtonBackground(this Google.Android.Material.ImageView.ShapeableImageView! platformView, Microsoft.Maui.IImageButton! button) -> void",
+      "types": [
+        "Google.Android.Material.ImageView.ShapeableImageView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3344,
+      "api": "static Microsoft.Maui.Platform.ImageButtonExtensions.UpdateButtonStroke(this Google.Android.Material.ImageView.ShapeableImageView! platformView, Microsoft.Maui.IButtonStroke! button) -> void",
+      "types": [
+        "Google.Android.Material.ImageView.ShapeableImageView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3345,
+      "api": "static Microsoft.Maui.Platform.ImageButtonExtensions.UpdateCornerRadius(this Google.Android.Material.ImageView.ShapeableImageView! platformButton, Microsoft.Maui.IButtonStroke! buttonStroke) -> void",
+      "types": [
+        "Google.Android.Material.ImageView.ShapeableImageView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3346,
+      "api": "static Microsoft.Maui.Platform.ImageButtonExtensions.UpdatePadding(this Google.Android.Material.ImageView.ShapeableImageView! platformButton, Microsoft.Maui.IImageButton! imageButton) -> void",
+      "types": [
+        "Google.Android.Material.ImageView.ShapeableImageView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3347,
+      "api": "static Microsoft.Maui.Platform.ImageButtonExtensions.UpdateRippleColor(this Google.Android.Material.ImageView.ShapeableImageView! platformView, Microsoft.Maui.Graphics.Color! rippleColor) -> void",
+      "types": [
+        "Google.Android.Material.ImageView.ShapeableImageView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3348,
+      "api": "static Microsoft.Maui.Platform.ImageButtonExtensions.UpdateStrokeColor(this Google.Android.Material.ImageView.ShapeableImageView! platformButton, Microsoft.Maui.IButtonStroke! buttonStroke) -> void",
+      "types": [
+        "Google.Android.Material.ImageView.ShapeableImageView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3349,
+      "api": "static Microsoft.Maui.Platform.ImageButtonExtensions.UpdateStrokeThickness(this Google.Android.Material.ImageView.ShapeableImageView! platformButton, Microsoft.Maui.IButtonStroke! buttonStroke) -> void",
+      "types": [
+        "Google.Android.Material.ImageView.ShapeableImageView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3369,
+      "api": "static Microsoft.Maui.Platform.RadioButtonExtensions.UpdateBackground(this AndroidX.AppCompat.Widget.AppCompatRadioButton! platformRadioButton, Microsoft.Maui.IRadioButton! radioButton) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatRadioButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3370,
+      "api": "static Microsoft.Maui.Platform.RadioButtonExtensions.UpdateContent(this AndroidX.AppCompat.Widget.AppCompatRadioButton! platformRadioButton, Microsoft.Maui.IRadioButton! radioButton) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatRadioButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3371,
+      "api": "static Microsoft.Maui.Platform.RadioButtonExtensions.UpdateCornerRadius(this AndroidX.AppCompat.Widget.AppCompatRadioButton! platformRadioButton, Microsoft.Maui.IRadioButton! radioButton) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatRadioButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3372,
+      "api": "static Microsoft.Maui.Platform.RadioButtonExtensions.UpdateIsChecked(this AndroidX.AppCompat.Widget.AppCompatRadioButton! platformRadioButton, Microsoft.Maui.IRadioButton! radioButton) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatRadioButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3373,
+      "api": "static Microsoft.Maui.Platform.RadioButtonExtensions.UpdateStrokeColor(this AndroidX.AppCompat.Widget.AppCompatRadioButton! platformRadioButton, Microsoft.Maui.IRadioButton! radioButton) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatRadioButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3374,
+      "api": "static Microsoft.Maui.Platform.RadioButtonExtensions.UpdateStrokeThickness(this AndroidX.AppCompat.Widget.AppCompatRadioButton! platformRadioButton, Microsoft.Maui.IRadioButton! radioButton) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.AppCompatRadioButton"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3376,
+      "api": "static Microsoft.Maui.Platform.SearchViewExtensions.UpdateCancelButtonColor(this AndroidX.AppCompat.Widget.SearchView! searchView, Microsoft.Maui.ISearchBar! searchBar) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3377,
+      "api": "static Microsoft.Maui.Platform.SearchViewExtensions.UpdateFont(this AndroidX.AppCompat.Widget.SearchView! searchView, Microsoft.Maui.ISearchBar! searchBar, Microsoft.Maui.IFontManager! fontManager, Android.Widget.EditText? editText = null) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3378,
+      "api": "static Microsoft.Maui.Platform.SearchViewExtensions.UpdateIsEnabled(this AndroidX.AppCompat.Widget.SearchView! searchView, Microsoft.Maui.ISearchBar! searchBar, Android.Widget.EditText? editText = null) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3380,
+      "api": "static Microsoft.Maui.Platform.SearchViewExtensions.UpdateIsSpellCheckEnabled(this AndroidX.AppCompat.Widget.SearchView! searchView, Microsoft.Maui.ISearchBar! searchBar, Android.Widget.EditText? editText = null) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3381,
+      "api": "static Microsoft.Maui.Platform.SearchViewExtensions.UpdateIsTextPredictionEnabled(this AndroidX.AppCompat.Widget.SearchView! searchView, Microsoft.Maui.ISearchBar! searchBar, Android.Widget.EditText? editText = null) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3382,
+      "api": "static Microsoft.Maui.Platform.SearchViewExtensions.UpdateKeyboard(this AndroidX.AppCompat.Widget.SearchView! searchView, Microsoft.Maui.ISearchBar! searchBar) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3383,
+      "api": "static Microsoft.Maui.Platform.SearchViewExtensions.UpdateMaxLength(this AndroidX.AppCompat.Widget.SearchView! searchView, int maxLength, Android.Widget.EditText? editText) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3384,
+      "api": "static Microsoft.Maui.Platform.SearchViewExtensions.UpdateMaxLength(this AndroidX.AppCompat.Widget.SearchView! searchView, Microsoft.Maui.ISearchBar! searchBar, Android.Widget.EditText? editText) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3385,
+      "api": "static Microsoft.Maui.Platform.SearchViewExtensions.UpdateMaxLength(this AndroidX.AppCompat.Widget.SearchView! searchView, Microsoft.Maui.ISearchBar! searchBar) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3386,
+      "api": "static Microsoft.Maui.Platform.SearchViewExtensions.UpdatePlaceholder(this AndroidX.AppCompat.Widget.SearchView! searchView, Microsoft.Maui.ISearchBar! searchBar) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3387,
+      "api": "static Microsoft.Maui.Platform.SearchViewExtensions.UpdatePlaceholderColor(this AndroidX.AppCompat.Widget.SearchView! searchView, Microsoft.Maui.ISearchBar! searchBar, Android.Content.Res.ColorStateList? defaultPlaceholderColor, Android.Widget.EditText? editText = null) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3388,
+      "api": "static Microsoft.Maui.Platform.SearchViewExtensions.UpdateReturnType(this AndroidX.AppCompat.Widget.SearchView! searchView, Microsoft.Maui.ISearchBar! searchBar) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3389,
+      "api": "static Microsoft.Maui.Platform.SearchViewExtensions.UpdateText(this AndroidX.AppCompat.Widget.SearchView! searchView, Microsoft.Maui.ISearchBar! searchBar) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3390,
+      "api": "static Microsoft.Maui.Platform.SearchViewExtensions.UpdateVerticalTextAlignment(this AndroidX.AppCompat.Widget.SearchView! searchView, Microsoft.Maui.ISearchBar! searchBar, Android.Widget.EditText? editText) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3391,
+      "api": "static Microsoft.Maui.Platform.SearchViewExtensions.UpdateVerticalTextAlignment(this AndroidX.AppCompat.Widget.SearchView! searchView, Microsoft.Maui.ISearchBar! searchBar) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SearchView"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3392,
+      "api": "static Microsoft.Maui.Platform.SemanticExtensions.UpdateSemanticNodeInfo(this Android.Views.View! platformView, Microsoft.Maui.IView! virtualView, AndroidX.Core.View.Accessibility.AccessibilityNodeInfoCompat? info) -> void",
+      "types": [
+        "AndroidX.Core.View.Accessibility.AccessibilityNodeInfoCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3422,
+      "api": "static Microsoft.Maui.Platform.SwitchExtensions.GetDefaultSwitchThumbDrawable(this AndroidX.AppCompat.Widget.SwitchCompat! aSwitch) -> Android.Graphics.Drawables.Drawable?",
+      "types": [
+        "AndroidX.AppCompat.Widget.SwitchCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3423,
+      "api": "static Microsoft.Maui.Platform.SwitchExtensions.GetDefaultSwitchTrackDrawable(this AndroidX.AppCompat.Widget.SwitchCompat! aSwitch) -> Android.Graphics.Drawables.Drawable?",
+      "types": [
+        "AndroidX.AppCompat.Widget.SwitchCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3424,
+      "api": "static Microsoft.Maui.Platform.SwitchExtensions.UpdateIsOn(this AndroidX.AppCompat.Widget.SwitchCompat! aSwitch, Microsoft.Maui.ISwitch! view) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SwitchCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3425,
+      "api": "static Microsoft.Maui.Platform.SwitchExtensions.UpdateThumbColor(this AndroidX.AppCompat.Widget.SwitchCompat! aSwitch, Microsoft.Maui.ISwitch! view) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SwitchCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3426,
+      "api": "static Microsoft.Maui.Platform.SwitchExtensions.UpdateTrackColor(this AndroidX.AppCompat.Widget.SwitchCompat! aSwitch, Microsoft.Maui.ISwitch! view) -> void",
+      "types": [
+        "AndroidX.AppCompat.Widget.SwitchCompat"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3675,
+      "api": "virtual Microsoft.Maui.Platform.StackNavigationManager.AddFragmentDestination() -> AndroidX.Navigation.Fragment.FragmentNavigator.Destination!",
+      "types": [
+        "AndroidX.Navigation.Fragment.FragmentNavigator.Destination"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3678,
+      "api": "virtual Microsoft.Maui.Platform.StackNavigationManager.OnDestinationChanged(AndroidX.Navigation.NavController! navController, AndroidX.Navigation.NavDestination! navDestination, Android.OS.Bundle? bundle) -> void",
+      "types": [
+        "AndroidX.Navigation.NavController",
+        "AndroidX.Navigation.NavDestination"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3679,
+      "api": "virtual Microsoft.Maui.Platform.StackNavigationManager.OnNavigationViewFragmentDestroyed(AndroidX.Fragment.App.FragmentManager! fm, Microsoft.Maui.Platform.NavigationViewFragment! navHostPageFragment) -> void",
+      "types": [
+        "AndroidX.Fragment.App.FragmentManager"
+      ]
+    },
+    {
+      "path": "src/Core/src/PublicAPI/net-android/PublicAPI.Shipped.txt",
+      "line": 3680,
+      "api": "virtual Microsoft.Maui.Platform.StackNavigationManager.OnNavigationViewFragmentResumed(AndroidX.Fragment.App.FragmentManager! fm, Microsoft.Maui.Platform.NavigationViewFragment! navHostPageFragment) -> void",
+      "types": [
+        "AndroidX.Fragment.App.FragmentManager"
+      ]
+    }
+  ]
+}

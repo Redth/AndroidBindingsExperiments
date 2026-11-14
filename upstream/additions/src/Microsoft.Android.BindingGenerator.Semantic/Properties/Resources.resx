@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="InvalidSelection" xml:space="preserve">
+    <value>AndroidBindingGenerator must be Legacy or Semantic, not '{0}'.</value>
+    <comment>Do not translate AndroidBindingGenerator, Legacy, or Semantic. {0}: selected value.</comment>
+  </data>
+  <data name="RequiresBindingProject" xml:space="preserve">
+    <value>AndroidBindingGenerator=Semantic currently requires IsBindingProject=true.</value>
+    <comment>Do not translate the property names or values.</comment>
+  </data>
+  <data name="MissingTailImport" xml:space="preserve">
+    <value>The semantic binding compiler could not import after the Android SDK. This SDK import order is not supported.</value>
+  </data>
+  <data name="UnsupportedWorkload" xml:space="preserve">
+    <value>The semantic binding compiler preview requires net11.0-android and Android workload 37.x. Resolved framework '{0}', workload '{1}'.</value>
+    <comment>Do not translate net11.0-android. {0}: framework version. {1}: Android workload version.</comment>
+  </data>
+  <data name="MissingToolOutput" xml:space="preserve">
+    <value>Binding tool succeeded without creating required output '{0}'.</value>
+    <comment>{0}: required file path.</comment>
+  </data>
+  <data name="EmptyTransform" xml:space="preserve">
+    <value>Empty binding transform '{0}'.</value>
+    <comment>{0}: transform file path.</comment>
+  </data>
+  <data name="UnsupportedTransform" xml:space="preserve">
+    <value>Unsupported binding transform root '{0}' in '{1}'.</value>
+    <comment>{0}: XML root name. {1}: transform file path.</comment>
+  </data>
+  <data name="MissingNamespaceTransformFile" xml:space="preserve">
+    <value>NamespaceTransformFile is required for namespace replacements.</value>
+    <comment>Do not translate NamespaceTransformFile.</comment>
+  </data>
+  <data name="MissingNamespaceReplacement" xml:space="preserve">
+    <value>AndroidNamespaceReplacement '{0}' has no Replacement metadata.</value>
+    <comment>Do not translate AndroidNamespaceReplacement or Replacement. {0}: source namespace.</comment>
+  </data>
+  <data name="MissingPeerName" xml:space="preserve">
+    <value>The binding ownership report contains a missing JNI peer name.</value>
+  </data>
+  <data name="InvalidPeerName" xml:space="preserve">
+    <value>JNI peer name '{0}' cannot be represented safely in binding retention rules.</value>
+    <comment>{0}: JNI binary class name.</comment>
+  </data>
+  <data name="ToolFailure" xml:space="preserve">
+    <value>Binding tool '{0}' exited with code {1}.
+{2}</value>
+    <comment>{0}: executable. {1}: exit code. {2}: tool error output.</comment>
+  </data>
+  <data name="MissingManifestDirectory" xml:space="preserve">
+    <value>No source directory for binding manifest '{0}'.</value>
+    <comment>{0}: generated source manifest path.</comment>
+  </data>
+  <data name="MissingSourceInclude" xml:space="preserve">
+    <value>Missing Compile Include in binding manifest '{0}'.</value>
+    <comment>Do not translate Compile Include. {0}: generated source manifest path.</comment>
+  </data>
+</root>

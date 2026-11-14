@@ -1,0 +1,13 @@
+{
+  "archive": "${EXPERIMENT_ARTIFACTS}/projection-constraints-health-connect.zip",
+  "bytes": 1489097,
+  "assemblies": {
+    "assemblies/Android.Maven.Androidx.Health.Connect.dll": "9da673cd20539708ffc33e7d274f0719731cdac08e83fe1ff41669660d0bbf61",
+    "assemblies/Microsoft.Android.Kotlin.dll": "fbb5e288dd93f941934a08d018abdfc6c2adfd586a03318bded3a0665950822c"
+  },
+  "runtimeConfigurations": [
+    "Debug",
+    "Release",
+    "NativeAOT"
+  ]
+}

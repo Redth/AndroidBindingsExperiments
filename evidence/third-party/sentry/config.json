@@ -1,0 +1,21 @@
+[
+  {
+    "artifacts": [
+      {
+        "groupId": "io.sentry",
+        "artifactId": "sentry-android",
+        "version": "8.62.0"
+      },
+      {
+        "groupId": "io.sentry",
+        "artifactId": "sentry-compose-android",
+        "version": "8.62.0"
+      },
+      {
+        "groupId": "io.sentry",
+        "artifactId": "sentry-kotlin-extensions",
+        "version": "8.62.0"
+      }
+    ]
+  }
+]

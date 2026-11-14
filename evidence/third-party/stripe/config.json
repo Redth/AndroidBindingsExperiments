@@ -1,0 +1,11 @@
+[
+  {
+    "artifacts": [
+      {
+        "groupId": "com.stripe",
+        "artifactId": "stripe-android",
+        "version": "23.25.1"
+      }
+    ]
+  }
+]

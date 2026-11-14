@@ -1,0 +1,1849 @@
+[
+    {
+        "coordinate": "androidx.activity:activity-compose:1.12.4",
+        "dependencies": [
+            "androidx.activity:activity-ktx:1.12.4",
+            "androidx.activity:activity:1.12.4",
+            "androidx.compose.runtime:runtime-saveable:1.10.6",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "androidx.core:core-ktx:1.17.0",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "androidx.navigationevent:navigationevent-compose:1.0.2",
+            "androidx.savedstate:savedstate:1.4.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "androidx.activity:activity-ktx:1.12.4",
+        "dependencies": [
+            "androidx.activity:activity-compose:1.12.4",
+            "androidx.activity:activity:1.12.4",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.savedstate:savedstate-ktx:1.4.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.activity:activity:1.12.4",
+        "dependencies": [
+            "androidx.activity:activity-compose:1.12.4",
+            "androidx.activity:activity-ktx:1.12.4",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.core:core-ktx:1.17.0",
+            "androidx.core:core-viewtree:1.0.0",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "androidx.navigationevent:navigationevent:1.0.2",
+            "androidx.profileinstaller:profileinstaller:1.4.0",
+            "androidx.savedstate:savedstate:1.4.0",
+            "androidx.tracing:tracing:1.2.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "androidx.annotation:annotation-experimental:1.4.1",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.annotation:annotation-jvm:1.9.1",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.annotation:annotation:1.9.1",
+        "dependencies": [
+            "androidx.annotation:annotation-jvm:1.9.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.appcompat:appcompat-resources:1.7.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.appcompat:appcompat:1.7.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core:1.17.0",
+            "androidx.vectordrawable:vectordrawable-animated:1.1.0",
+            "androidx.vectordrawable:vectordrawable:1.1.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.appcompat:appcompat:1.7.1",
+        "dependencies": [
+            "androidx.activity:activity:1.12.4",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.appcompat:appcompat-resources:1.7.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core-ktx:1.17.0",
+            "androidx.core:core:1.17.0",
+            "androidx.cursoradapter:cursoradapter:1.0.0",
+            "androidx.drawerlayout:drawerlayout:1.1.1",
+            "androidx.emoji2:emoji2-views-helper:1.4.0",
+            "androidx.emoji2:emoji2:1.4.0",
+            "androidx.fragment:fragment:1.8.9",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "androidx.profileinstaller:profileinstaller:1.4.0",
+            "androidx.resourceinspection:resourceinspection-annotation:1.0.1",
+            "androidx.savedstate:savedstate:1.4.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.arch.core:core-common:2.2.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.arch.core:core-runtime:2.2.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.arch.core:core-common:2.2.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.autofill:autofill:1.0.0",
+        "dependencies": [
+            "androidx.core:core:1.17.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.browser:browser:1.9.0",
+        "dependencies": [
+            "androidx.activity:activity:1.12.4",
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.concurrent:concurrent-futures:1.1.0",
+            "androidx.core:core:1.17.0",
+            "androidx.interpolator:interpolator:1.0.0",
+            "com.google.guava:listenablefuture:1.0",
+            "org.jspecify:jspecify:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.cardview:cardview:1.0.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.collection:collection-jvm:1.5.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection-ktx:1.5.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.collection:collection-ktx:1.5.0",
+        "dependencies": [
+            "androidx.collection:collection:1.5.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.collection:collection:1.5.0",
+        "dependencies": [
+            "androidx.collection:collection-jvm:1.5.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.animation:animation-android:1.10.6",
+        "dependencies": [
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.compose.animation:animation-core:1.10.6",
+            "androidx.compose.foundation:foundation-layout:1.10.6",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui-geometry:1.10.6",
+            "androidx.compose.ui:ui-graphics:1.10.6",
+            "androidx.compose.ui:ui-util:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.animation:animation-core-android:1.10.6",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.compose.animation:animation:1.10.6",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui-graphics:1.10.6",
+            "androidx.compose.ui:ui-unit:1.10.6",
+            "androidx.compose.ui:ui-util:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.animation:animation-core:1.10.6",
+        "dependencies": [
+            "androidx.compose.animation:animation-core-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.animation:animation:1.10.6",
+        "dependencies": [
+            "androidx.compose.animation:animation-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.foundation:foundation-android:1.10.6",
+        "dependencies": [
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.compose.animation:animation:1.10.6",
+            "androidx.compose.foundation:foundation-layout:1.10.6",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui-text:1.10.6",
+            "androidx.compose.ui:ui-util:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "androidx.core:core:1.17.0",
+            "androidx.emoji2:emoji2:1.4.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.foundation:foundation-layout-android:1.10.6",
+        "dependencies": [
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.compose.animation:animation-core:1.10.6",
+            "androidx.compose.foundation:foundation:1.10.6",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui-unit:1.10.6",
+            "androidx.compose.ui:ui-util:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "androidx.core:core:1.17.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.foundation:foundation-layout:1.10.6",
+        "dependencies": [
+            "androidx.compose.foundation:foundation-layout-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.foundation:foundation:1.10.6",
+        "dependencies": [
+            "androidx.compose.foundation:foundation-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.material:material-android:1.10.6",
+        "dependencies": [
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.compose.animation:animation-core:1.10.6",
+            "androidx.compose.animation:animation:1.10.6",
+            "androidx.compose.foundation:foundation-layout:1.10.6",
+            "androidx.compose.foundation:foundation:1.10.6",
+            "androidx.compose.material:material-ripple:1.8.2",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui-text:1.10.6",
+            "androidx.compose.ui:ui-util:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "androidx.savedstate:savedstate:1.4.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.material:material-ripple-android:1.8.2",
+        "dependencies": [
+            "androidx.collection:collection:1.5.0",
+            "androidx.compose.animation:animation:1.10.6",
+            "androidx.compose.foundation:foundation:1.10.6",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui-util:1.10.6",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.material:material-ripple:1.8.2",
+        "dependencies": [
+            "androidx.compose.material:material-ripple-android:1.8.2"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.material:material:1.10.6",
+        "dependencies": [
+            "androidx.compose.material:material-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.runtime:runtime-android:1.10.6",
+        "dependencies": [
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.compose.runtime:runtime-annotation:1.10.6",
+            "androidx.compose.runtime:runtime-retain:1.10.6",
+            "androidx.compose.runtime:runtime-saveable:1.10.6",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.runtime:runtime-annotation-android:1.10.6",
+        "dependencies": [
+            "androidx.compose.runtime:runtime-retain:1.10.6",
+            "androidx.compose.runtime:runtime-saveable:1.10.6",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.runtime:runtime-annotation:1.10.6",
+        "dependencies": [
+            "androidx.compose.runtime:runtime-annotation-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.runtime:runtime-retain-android:1.10.6",
+        "dependencies": [
+            "androidx.collection:collection:1.5.0",
+            "androidx.compose.runtime:runtime-annotation:1.10.6",
+            "androidx.compose.runtime:runtime-saveable:1.10.6",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.runtime:runtime-retain:1.10.6",
+        "dependencies": [
+            "androidx.compose.runtime:runtime-retain-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.runtime:runtime-saveable-android:1.10.6",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.compose.runtime:runtime-annotation:1.10.6",
+            "androidx.compose.runtime:runtime-retain:1.10.6",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.savedstate:savedstate-compose:1.4.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.runtime:runtime-saveable:1.10.6",
+        "dependencies": [
+            "androidx.compose.runtime:runtime-saveable-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.runtime:runtime:1.10.6",
+        "dependencies": [
+            "androidx.compose.runtime:runtime-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-android:1.10.6",
+        "dependencies": [
+            "androidx.activity:activity-ktx:1.12.4",
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.autofill:autofill:1.0.0",
+            "androidx.collection:collection:1.5.0",
+            "androidx.compose.foundation:foundation:1.10.6",
+            "androidx.compose.runtime:runtime-retain:1.10.6",
+            "androidx.compose.runtime:runtime-saveable:1.10.6",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui-geometry:1.10.6",
+            "androidx.compose.ui:ui-graphics:1.10.6",
+            "androidx.compose.ui:ui-text:1.10.6",
+            "androidx.compose.ui:ui-tooling-preview:1.10.6",
+            "androidx.compose.ui:ui-unit:1.10.6",
+            "androidx.compose.ui:ui-util:1.10.6",
+            "androidx.compose.ui:ui-viewbinding:1.10.6",
+            "androidx.core:core:1.17.0",
+            "androidx.customview:customview-poolingcontainer:1.0.0",
+            "androidx.emoji2:emoji2:1.4.0",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "androidx.profileinstaller:profileinstaller:1.4.0",
+            "androidx.savedstate:savedstate-compose:1.4.0",
+            "androidx.savedstate:savedstate-ktx:1.4.0",
+            "androidx.transition:transition:1.6.0",
+            "androidx.window:window:1.5.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jspecify:jspecify:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-geometry-android:1.10.6",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui-graphics:1.10.6",
+            "androidx.compose.ui:ui-text:1.10.6",
+            "androidx.compose.ui:ui-tooling-preview:1.10.6",
+            "androidx.compose.ui:ui-unit:1.10.6",
+            "androidx.compose.ui:ui-util:1.10.6",
+            "androidx.compose.ui:ui-viewbinding:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-geometry:1.10.6",
+        "dependencies": [
+            "androidx.compose.ui:ui-geometry-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-graphics-android:1.10.6",
+        "dependencies": [
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui-geometry:1.10.6",
+            "androidx.compose.ui:ui-text:1.10.6",
+            "androidx.compose.ui:ui-tooling-preview:1.10.6",
+            "androidx.compose.ui:ui-unit:1.10.6",
+            "androidx.compose.ui:ui-util:1.10.6",
+            "androidx.compose.ui:ui-viewbinding:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "androidx.core:core:1.17.0",
+            "androidx.graphics:graphics-path:1.0.1",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-graphics:1.10.6",
+        "dependencies": [
+            "androidx.compose.ui:ui-graphics-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-text-android:1.10.6",
+        "dependencies": [
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.compose.runtime:runtime-saveable:1.10.6",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui-geometry:1.10.6",
+            "androidx.compose.ui:ui-graphics:1.10.6",
+            "androidx.compose.ui:ui-tooling-preview:1.10.6",
+            "androidx.compose.ui:ui-unit:1.10.6",
+            "androidx.compose.ui:ui-util:1.10.6",
+            "androidx.compose.ui:ui-viewbinding:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "androidx.core:core:1.17.0",
+            "androidx.emoji2:emoji2:1.4.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-text:1.10.6",
+        "dependencies": [
+            "androidx.compose.ui:ui-text-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-tooling-preview-android:1.10.6",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui-geometry:1.10.6",
+            "androidx.compose.ui:ui-graphics:1.10.6",
+            "androidx.compose.ui:ui-text:1.10.6",
+            "androidx.compose.ui:ui-unit:1.10.6",
+            "androidx.compose.ui:ui-util:1.10.6",
+            "androidx.compose.ui:ui-viewbinding:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-tooling-preview:1.10.6",
+        "dependencies": [
+            "androidx.compose.ui:ui-tooling-preview-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-unit-android:1.10.6",
+        "dependencies": [
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection-ktx:1.5.0",
+            "androidx.collection:collection:1.5.0",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui-geometry:1.10.6",
+            "androidx.compose.ui:ui-graphics:1.10.6",
+            "androidx.compose.ui:ui-text:1.10.6",
+            "androidx.compose.ui:ui-tooling-preview:1.10.6",
+            "androidx.compose.ui:ui-util:1.10.6",
+            "androidx.compose.ui:ui-viewbinding:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-unit:1.10.6",
+        "dependencies": [
+            "androidx.compose.ui:ui-unit-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-util-android:1.10.6",
+        "dependencies": [
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui-geometry:1.10.6",
+            "androidx.compose.ui:ui-graphics:1.10.6",
+            "androidx.compose.ui:ui-text:1.10.6",
+            "androidx.compose.ui:ui-tooling-preview:1.10.6",
+            "androidx.compose.ui:ui-unit:1.10.6",
+            "androidx.compose.ui:ui-viewbinding:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-util:1.10.6",
+        "dependencies": [
+            "androidx.compose.ui:ui-util-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-viewbinding:1.10.6",
+        "dependencies": [
+            "androidx.compose.ui:ui-geometry:1.10.6",
+            "androidx.compose.ui:ui-graphics:1.10.6",
+            "androidx.compose.ui:ui-text:1.10.6",
+            "androidx.compose.ui:ui-tooling-preview:1.10.6",
+            "androidx.compose.ui:ui-unit:1.10.6",
+            "androidx.compose.ui:ui-util:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "androidx.databinding:viewbinding:8.13.2",
+            "androidx.fragment:fragment-ktx:1.8.9",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui:1.10.6",
+        "dependencies": [
+            "androidx.compose.ui:ui-android:1.10.6"
+        ]
+    },
+    {
+        "coordinate": "androidx.concurrent:concurrent-futures:1.1.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "com.google.guava:listenablefuture:1.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.constraintlayout:constraintlayout-core:1.1.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.constraintlayout:constraintlayout:2.2.1",
+        "dependencies": [
+            "androidx.appcompat:appcompat:1.7.1",
+            "androidx.constraintlayout:constraintlayout-core:1.1.1",
+            "androidx.core:core:1.17.0",
+            "androidx.profileinstaller:profileinstaller:1.4.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core:1.17.0",
+            "androidx.customview:customview:1.1.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.core:core-ktx:1.17.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.core:core:1.17.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.core:core-viewtree:1.0.0",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.core:core:1.17.0",
+        "dependencies": [
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.concurrent:concurrent-futures:1.1.0",
+            "androidx.core:core-ktx:1.17.0",
+            "androidx.core:core-viewtree:1.0.0",
+            "androidx.interpolator:interpolator:1.0.0",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.tracing:tracing:1.2.0",
+            "androidx.versionedparcelable:versionedparcelable:1.1.1",
+            "com.google.guava:listenablefuture:1.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jspecify:jspecify:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.cursoradapter:cursoradapter:1.0.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.customview:customview-poolingcontainer:1.0.0",
+        "dependencies": [
+            "androidx.core:core-ktx:1.17.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.customview:customview:1.1.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core:1.17.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.databinding:viewbinding:8.13.2",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.drawerlayout:drawerlayout:1.1.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.core:core:1.17.0",
+            "androidx.customview:customview:1.1.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.dynamicanimation:dynamicanimation:1.1.0",
+        "dependencies": [
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core:1.17.0",
+            "org.jspecify:jspecify:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.emoji2:emoji2-views-helper:1.4.0",
+        "dependencies": [
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core:1.17.0",
+            "androidx.emoji2:emoji2:1.4.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.emoji2:emoji2:1.4.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core:1.17.0",
+            "androidx.emoji2:emoji2-views-helper:1.4.0",
+            "androidx.lifecycle:lifecycle-process:2.10.0",
+            "androidx.startup:startup-runtime:1.1.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.fragment:fragment-ktx:1.8.9",
+        "dependencies": [
+            "androidx.activity:activity-ktx:1.12.4",
+            "androidx.collection:collection-ktx:1.5.0",
+            "androidx.core:core-ktx:1.17.0",
+            "androidx.fragment:fragment:1.8.9",
+            "androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.savedstate:savedstate-ktx:1.4.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.fragment:fragment:1.8.9",
+        "dependencies": [
+            "androidx.activity:activity:1.12.4",
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core-ktx:1.17.0",
+            "androidx.fragment:fragment-ktx:1.8.9",
+            "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "androidx.loader:loader:1.0.0",
+            "androidx.profileinstaller:profileinstaller:1.4.0",
+            "androidx.savedstate:savedstate:1.4.0",
+            "androidx.viewpager:viewpager:1.0.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.graphics:graphics-path:1.0.1",
+        "dependencies": [
+            "androidx.core:core:1.17.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.graphics:graphics-shapes-android:1.0.1",
+        "dependencies": [
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core-ktx:1.17.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.graphics:graphics-shapes:1.0.1",
+        "dependencies": [
+            "androidx.graphics:graphics-shapes-android:1.0.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.interpolator:interpolator:1.0.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-common-jvm:2.10.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata:2.10.0",
+            "androidx.lifecycle:lifecycle-process:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jspecify:jspecify:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-common:2.10.0",
+        "dependencies": [
+            "androidx.lifecycle:lifecycle-common-jvm:2.10.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0",
+        "dependencies": [
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata:2.10.0",
+            "androidx.lifecycle:lifecycle-process:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+        "dependencies": [
+            "androidx.arch.core:core-common:2.2.0",
+            "androidx.arch.core:core-runtime:2.2.0",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata:2.10.0",
+            "androidx.lifecycle:lifecycle-process:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jspecify:jspecify:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-livedata-ktx:2.10.0",
+        "dependencies": [
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata:2.10.0",
+            "androidx.lifecycle:lifecycle-process:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-livedata:2.10.0",
+        "dependencies": [
+            "androidx.arch.core:core-common:2.2.0",
+            "androidx.arch.core:core-runtime:2.2.0",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-process:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jspecify:jspecify:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-process:2.10.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "androidx.startup:startup-runtime:1.1.1",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-runtime-android:2.10.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.arch.core:core-common:2.2.0",
+            "androidx.arch.core:core-runtime:2.2.0",
+            "androidx.core:core-viewtree:1.0.0",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata:2.10.0",
+            "androidx.lifecycle:lifecycle-process:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "androidx.profileinstaller:profileinstaller:1.4.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+            "org.jspecify:jspecify:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-runtime-compose-android:2.10.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata:2.10.0",
+            "androidx.lifecycle:lifecycle-process:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+        "dependencies": [
+            "androidx.lifecycle:lifecycle-runtime-compose-android:2.10.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata:2.10.0",
+            "androidx.lifecycle:lifecycle-process:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+        "dependencies": [
+            "androidx.lifecycle:lifecycle-runtime-ktx-android:2.10.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-runtime:2.10.0",
+        "dependencies": [
+            "androidx.lifecycle:lifecycle-runtime-android:2.10.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-viewmodel-android:2.10.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.core:core-viewtree:1.0.0",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata:2.10.0",
+            "androidx.lifecycle:lifecycle-process:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata:2.10.0",
+            "androidx.lifecycle:lifecycle-process:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-serialization-core:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+        "dependencies": [
+            "androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+        "dependencies": [
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata:2.10.0",
+            "androidx.lifecycle:lifecycle-process:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.core:core-ktx:1.17.0",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-core:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-livedata:2.10.0",
+            "androidx.lifecycle:lifecycle-process:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "androidx.savedstate:savedstate:1.4.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-serialization-core:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+        "dependencies": [
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.10.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+        "dependencies": [
+            "androidx.lifecycle:lifecycle-viewmodel-android:2.10.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.loader:loader:1.0.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.core:core:1.17.0",
+            "androidx.lifecycle:lifecycle-livedata:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.navigation:navigation-common-android:2.9.7",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core-ktx:1.17.0",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "androidx.navigation:navigation-compose:2.9.7",
+            "androidx.navigation:navigation-runtime:2.9.7",
+            "androidx.profileinstaller:profileinstaller:1.4.0",
+            "androidx.savedstate:savedstate:1.4.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-serialization-core:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.navigation:navigation-common:2.9.7",
+        "dependencies": [
+            "androidx.navigation:navigation-common-android:2.9.7"
+        ]
+    },
+    {
+        "coordinate": "androidx.navigation:navigation-compose-android:2.9.7",
+        "dependencies": [
+            "androidx.activity:activity-compose:1.12.4",
+            "androidx.activity:activity:1.12.4",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.compose.animation:animation-core:1.10.6",
+            "androidx.compose.animation:animation:1.10.6",
+            "androidx.compose.foundation:foundation-layout:1.10.6",
+            "androidx.compose.runtime:runtime-saveable:1.10.6",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "androidx.navigation:navigation-common:2.9.7",
+            "androidx.navigation:navigation-runtime:2.9.7",
+            "androidx.savedstate:savedstate-compose:1.4.0",
+            "androidx.savedstate:savedstate:1.4.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-serialization-core:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.navigation:navigation-compose:2.9.7",
+        "dependencies": [
+            "androidx.navigation:navigation-compose-android:2.9.7"
+        ]
+    },
+    {
+        "coordinate": "androidx.navigation:navigation-runtime-android:2.9.7",
+        "dependencies": [
+            "androidx.activity:activity-ktx:1.12.4",
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core-ktx:1.17.0",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.10.0",
+            "androidx.navigation:navigation-common:2.9.7",
+            "androidx.navigation:navigation-compose:2.9.7",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-serialization-core:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.navigation:navigation-runtime:2.9.7",
+        "dependencies": [
+            "androidx.navigation:navigation-runtime-android:2.9.7"
+        ]
+    },
+    {
+        "coordinate": "androidx.navigationevent:navigationevent-android:1.0.2",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.compose.runtime:runtime-annotation:1.10.6",
+            "androidx.core:core-viewtree:1.0.0",
+            "androidx.navigationevent:navigationevent-compose:1.0.2",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "androidx.navigationevent:navigationevent-compose-android:1.0.2",
+        "dependencies": [
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "androidx.navigationevent:navigationevent:1.0.2",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "androidx.navigationevent:navigationevent-compose:1.0.2",
+        "dependencies": [
+            "androidx.navigationevent:navigationevent-compose-android:1.0.2"
+        ]
+    },
+    {
+        "coordinate": "androidx.navigationevent:navigationevent:1.0.2",
+        "dependencies": [
+            "androidx.navigationevent:navigationevent-android:1.0.2"
+        ]
+    },
+    {
+        "coordinate": "androidx.profileinstaller:profileinstaller:1.4.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.concurrent:concurrent-futures:1.1.0",
+            "androidx.startup:startup-runtime:1.1.1",
+            "com.google.guava:listenablefuture:1.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.recyclerview:recyclerview:1.4.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core:1.17.0",
+            "androidx.customview:customview-poolingcontainer:1.0.0",
+            "androidx.customview:customview:1.1.0",
+            "androidx.profileinstaller:profileinstaller:1.4.0",
+            "androidx.viewpager2:viewpager2:1.1.0-beta02"
+        ]
+    },
+    {
+        "coordinate": "androidx.resourceinspection:resourceinspection-annotation:1.0.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.savedstate:savedstate-android:1.4.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.core:core-ktx:1.17.0",
+            "androidx.core:core-viewtree:1.0.0",
+            "androidx.lifecycle:lifecycle-common:2.10.0",
+            "androidx.savedstate:savedstate-compose:1.4.0",
+            "androidx.savedstate:savedstate-ktx:1.4.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-serialization-core:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.savedstate:savedstate-compose-android:1.4.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.compose.runtime:runtime:1.10.6",
+            "androidx.core:core-ktx:1.17.0",
+            "androidx.savedstate:savedstate-ktx:1.4.0",
+            "androidx.savedstate:savedstate:1.4.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.savedstate:savedstate-compose:1.4.0",
+        "dependencies": [
+            "androidx.savedstate:savedstate-compose-android:1.4.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.savedstate:savedstate-ktx:1.4.0",
+        "dependencies": [
+            "androidx.savedstate:savedstate-compose:1.4.0",
+            "androidx.savedstate:savedstate:1.4.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.savedstate:savedstate:1.4.0",
+        "dependencies": [
+            "androidx.savedstate:savedstate-android:1.4.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.startup:startup-runtime:1.1.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.tracing:tracing:1.2.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.tracing:tracing:1.2.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.transition:transition:1.6.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core:1.17.0",
+            "androidx.dynamicanimation:dynamicanimation:1.1.0",
+            "org.jspecify:jspecify:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.vectordrawable:vectordrawable-animated:1.1.0",
+        "dependencies": [
+            "androidx.collection:collection:1.5.0",
+            "androidx.interpolator:interpolator:1.0.0",
+            "androidx.vectordrawable:vectordrawable:1.1.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.vectordrawable:vectordrawable:1.1.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core:1.17.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.versionedparcelable:versionedparcelable:1.1.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.viewpager2:viewpager2:1.1.0-beta02",
+        "dependencies": [
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core:1.17.0",
+            "androidx.fragment:fragment:1.8.9",
+            "androidx.recyclerview:recyclerview:1.4.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.viewpager:viewpager:1.0.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.core:core:1.17.0",
+            "androidx.customview:customview:1.1.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.webkit:webkit:1.15.0",
+        "dependencies": [
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.core:core:1.17.0",
+            "org.jspecify:jspecify:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.window:window-core-android:1.5.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.window:window:1.5.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.window:window-core:1.5.0",
+        "dependencies": [
+            "androidx.window:window-core-android:1.5.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.window:window:1.5.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core:1.17.0",
+            "androidx.window:window-core:1.5.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+            "org.jspecify:jspecify:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "com.google.accompanist:accompanist-systemuicontroller:0.36.0",
+        "dependencies": [
+            "androidx.compose.ui:ui:1.10.6",
+            "androidx.core:core-ktx:1.17.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "com.google.android.gms:play-services-base:18.5.0",
+        "dependencies": [
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core:1.17.0",
+            "androidx.fragment:fragment:1.8.9",
+            "com.google.android.gms:play-services-basement:18.9.0",
+            "com.google.android.gms:play-services-tasks:18.2.0"
+        ]
+    },
+    {
+        "coordinate": "com.google.android.gms:play-services-basement:18.9.0",
+        "dependencies": [
+            "androidx.collection:collection:1.5.0",
+            "androidx.core:core:1.17.0",
+            "androidx.fragment:fragment:1.8.9"
+        ]
+    },
+    {
+        "coordinate": "com.google.android.gms:play-services-identity:18.1.0",
+        "dependencies": [
+            "com.google.android.gms:play-services-base:18.5.0",
+            "com.google.android.gms:play-services-basement:18.9.0"
+        ]
+    },
+    {
+        "coordinate": "com.google.android.gms:play-services-maps:18.0.2",
+        "dependencies": [
+            "androidx.fragment:fragment:1.8.9",
+            "com.google.android.gms:play-services-base:18.5.0",
+            "com.google.android.gms:play-services-basement:18.9.0"
+        ]
+    },
+    {
+        "coordinate": "com.google.android.gms:play-services-tasks:18.2.0",
+        "dependencies": [
+            "com.google.android.gms:play-services-basement:18.9.0"
+        ]
+    },
+    {
+        "coordinate": "com.google.android.gms:play-services-wallet:20.0.0",
+        "dependencies": [
+            "androidx.fragment:fragment:1.8.9",
+            "com.google.android.gms:play-services-base:18.5.0",
+            "com.google.android.gms:play-services-basement:18.9.0",
+            "com.google.android.gms:play-services-identity:18.1.0",
+            "com.google.android.gms:play-services-maps:18.0.2",
+            "com.google.android.gms:play-services-tasks:18.2.0"
+        ]
+    },
+    {
+        "coordinate": "com.google.android.instantapps:instantapps:1.1.0",
+        "dependencies": [
+            
+        ]
+    },
+    {
+        "coordinate": "com.google.android.material:material:1.13.0",
+        "dependencies": [
+            "androidx.activity:activity:1.12.4",
+            "androidx.annotation:annotation-experimental:1.4.1",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.appcompat:appcompat:1.7.1",
+            "androidx.cardview:cardview:1.0.0",
+            "androidx.constraintlayout:constraintlayout:2.2.1",
+            "androidx.coordinatorlayout:coordinatorlayout:1.1.0",
+            "androidx.core:core:1.17.0",
+            "androidx.drawerlayout:drawerlayout:1.1.1",
+            "androidx.dynamicanimation:dynamicanimation:1.1.0",
+            "androidx.fragment:fragment:1.8.9",
+            "androidx.graphics:graphics-shapes:1.0.1",
+            "androidx.lifecycle:lifecycle-runtime:2.10.0",
+            "androidx.recyclerview:recyclerview:1.4.0",
+            "androidx.resourceinspection:resourceinspection-annotation:1.0.1",
+            "androidx.transition:transition:1.6.0",
+            "androidx.vectordrawable:vectordrawable:1.1.0",
+            "androidx.viewpager2:viewpager2:1.1.0-beta02",
+            "com.google.errorprone:error_prone_annotations:2.15.0",
+            "org.jetbrains.kotlin:kotlin-bom:1.8.22"
+        ]
+    },
+    {
+        "coordinate": "com.google.android.play:core-common:2.0.4",
+        "dependencies": [
+            
+        ]
+    },
+    {
+        "coordinate": "com.google.android.play:integrity:1.4.0",
+        "dependencies": [
+            "com.google.android.gms:play-services-basement:18.9.0",
+            "com.google.android.gms:play-services-tasks:18.2.0",
+            "com.google.android.play:core-common:2.0.4"
+        ]
+    },
+    {
+        "coordinate": "com.google.dagger:dagger:2.58",
+        "dependencies": [
+            "jakarta.inject:jakarta.inject-api:2.0.1",
+            "javax.inject:javax.inject:1",
+            "org.jspecify:jspecify:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "com.google.errorprone:error_prone_annotations:2.15.0",
+        "dependencies": [
+            
+        ]
+    },
+    {
+        "coordinate": "com.google.guava:listenablefuture:1.0",
+        "dependencies": [
+            
+        ]
+    },
+    {
+        "coordinate": "com.jakewharton:disklrucache:2.0.2",
+        "dependencies": [
+            
+        ]
+    },
+    {
+        "coordinate": "com.nimbusds:nimbus-jose-jwt:10.6",
+        "dependencies": [
+            
+        ]
+    },
+    {
+        "coordinate": "com.stripe:attestation:23.25.1",
+        "dependencies": [
+            "com.google.android.play:integrity:1.4.0",
+            "com.stripe:stripe-core:23.25.1",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "com.stripe:financial-connections-core:23.25.1",
+        "dependencies": [
+            "androidx.activity:activity-ktx:1.12.4",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.fragment:fragment-ktx:1.8.9",
+            "com.stripe:payments-model:23.25.1",
+            "com.stripe:stripe-core:23.25.1",
+            "dev.drewhamilton.poko:poko-annotations:0.20.2",
+            "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.2.21",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "com.stripe:financial-connections-lite:23.25.1",
+        "dependencies": [
+            "androidx.activity:activity-ktx:1.12.4",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.browser:browser:1.9.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "com.stripe:financial-connections-core:23.25.1",
+            "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.2.21",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "com.stripe:hcaptcha:23.25.1",
+        "dependencies": [
+            "androidx.appcompat:appcompat:1.7.1",
+            "androidx.core:core:1.17.0",
+            "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.2.21",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "com.stripe:payments-core:23.25.1",
+        "dependencies": [
+            "androidx.activity:activity-compose:1.12.4",
+            "androidx.activity:activity-ktx:1.12.4",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.appcompat:appcompat:1.7.1",
+            "androidx.browser:browser:1.9.0",
+            "androidx.compose.foundation:foundation:1.10.6",
+            "androidx.compose.material:material:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "androidx.constraintlayout:constraintlayout:2.2.1",
+            "androidx.databinding:viewbinding:8.13.2",
+            "androidx.fragment:fragment-ktx:1.8.9",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.recyclerview:recyclerview:1.4.0",
+            "androidx.webkit:webkit:1.15.0",
+            "com.google.android.gms:play-services-wallet:20.0.0",
+            "com.google.android.instantapps:instantapps:1.1.0",
+            "com.google.android.material:material:1.13.0",
+            "com.google.dagger:dagger:2.58",
+            "com.stripe:financial-connections-lite:23.25.1",
+            "com.stripe:hcaptcha:23.25.1",
+            "com.stripe:payments-model:23.25.1",
+            "com.stripe:stripe-3ds2-android:23.25.1",
+            "com.stripe:stripe-core:23.25.1",
+            "com.stripe:stripe-ui-core:23.25.1",
+            "dev.drewhamilton.poko:poko-annotations:0.20.2",
+            "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.2.21",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "com.stripe:payments-model:23.25.1",
+        "dependencies": [
+            "androidx.appcompat:appcompat:1.7.1",
+            "androidx.core:core-ktx:1.17.0",
+            "com.stripe:stripe-core:23.25.1",
+            "dev.drewhamilton.poko:poko-annotations:0.20.2",
+            "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.2.21",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "com.stripe:payments-ui-core:23.25.1",
+        "dependencies": [
+            "androidx.activity:activity-compose:1.12.4",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.appcompat:appcompat:1.7.1",
+            "androidx.compose.foundation:foundation:1.10.6",
+            "androidx.compose.material:material:1.10.6",
+            "androidx.compose.ui:ui-tooling-preview:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "androidx.constraintlayout:constraintlayout:2.2.1",
+            "androidx.core:core-ktx:1.17.0",
+            "androidx.databinding:viewbinding:8.13.2",
+            "com.google.android.gms:play-services-wallet:20.0.0",
+            "com.google.android.material:material:1.13.0",
+            "com.google.dagger:dagger:2.58",
+            "com.stripe:payments-core:23.25.1",
+            "com.stripe:stripe-core:23.25.1",
+            "com.stripe:stripe-ui-core:23.25.1",
+            "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.2.21",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "com.stripe:paymentsheet:23.25.1",
+        "dependencies": [
+            "androidx.activity:activity-compose:1.12.4",
+            "androidx.activity:activity-ktx:1.12.4",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.appcompat:appcompat:1.7.1",
+            "androidx.browser:browser:1.9.0",
+            "androidx.compose.foundation:foundation:1.10.6",
+            "androidx.compose.material:material:1.10.6",
+            "androidx.compose.ui:ui-tooling-preview:1.10.6",
+            "androidx.compose.ui:ui-viewbinding:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "androidx.databinding:viewbinding:8.13.2",
+            "androidx.fragment:fragment-ktx:1.8.9",
+            "androidx.lifecycle:lifecycle-runtime-compose:2.10.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "androidx.navigation:navigation-compose:2.9.7",
+            "androidx.webkit:webkit:1.15.0",
+            "com.google.accompanist:accompanist-systemuicontroller:0.36.0",
+            "com.google.android.gms:play-services-wallet:20.0.0",
+            "com.google.android.material:material:1.13.0",
+            "com.google.dagger:dagger:2.58",
+            "com.stripe:attestation:23.25.1",
+            "com.stripe:payments-core:23.25.1",
+            "com.stripe:payments-ui-core:23.25.1",
+            "com.stripe:stripe-ui-core:23.25.1",
+            "dev.drewhamilton.poko:poko-annotations:0.20.2",
+            "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.2.21",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "com.stripe:stripe-3ds2-android:23.25.1",
+        "dependencies": [
+            "androidx.activity:activity-ktx:1.12.4",
+            "androidx.appcompat:appcompat:1.7.1",
+            "androidx.core:core-ktx:1.17.0",
+            "androidx.databinding:viewbinding:8.13.2",
+            "androidx.fragment:fragment-ktx:1.8.9",
+            "androidx.lifecycle:lifecycle-livedata-ktx:2.10.0",
+            "com.google.android.material:material:1.13.0",
+            "com.nimbusds:nimbus-jose-jwt:10.6",
+            "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.2.21",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "com.stripe:stripe-android:23.25.1",
+        "dependencies": [
+            "com.stripe:payments-core:23.25.1",
+            "com.stripe:paymentsheet:23.25.1",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "com.stripe:stripe-core:23.25.1",
+        "dependencies": [
+            "androidx.activity:activity-ktx:1.12.4",
+            "androidx.browser:browser:1.9.0",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.10.0",
+            "com.google.dagger:dagger:2.58",
+            "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.2.21",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "com.stripe:stripe-ui-core:23.25.1",
+        "dependencies": [
+            "androidx.activity:activity-ktx:1.12.4",
+            "androidx.annotation:annotation:1.9.1",
+            "androidx.compose.foundation:foundation:1.10.6",
+            "androidx.compose.material:material:1.10.6",
+            "androidx.compose.ui:ui-tooling-preview:1.10.6",
+            "androidx.compose.ui:ui:1.10.6",
+            "androidx.core:core-ktx:1.17.0",
+            "androidx.navigation:navigation-compose:2.9.7",
+            "com.google.dagger:dagger:2.58",
+            "com.jakewharton:disklrucache:2.0.2",
+            "com.stripe:stripe-core:23.25.1",
+            "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.2.21",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "dev.drewhamilton.poko:poko-annotations-jvm:0.20.2",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "dev.drewhamilton.poko:poko-annotations:0.20.2",
+        "dependencies": [
+            "dev.drewhamilton.poko:poko-annotations-jvm:0.20.2"
+        ]
+    },
+    {
+        "coordinate": "jakarta.inject:jakarta.inject-api:2.0.1",
+        "dependencies": [
+            
+        ]
+    },
+    {
+        "coordinate": "javax.inject:javax.inject:1",
+        "dependencies": [
+            
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlin:kotlin-bom:1.8.22",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlin:kotlin-parcelize-runtime:2.2.21",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "dependencies": [
+            "org.jetbrains:annotations:23.0.0"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.10.2",
+        "dependencies": [
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.2",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.10.2",
+            "org.jetbrains:annotations:23.0.0"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2",
+        "dependencies": [
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.10.2",
+        "dependencies": [
+            "com.google.android.gms:play-services-tasks:18.2.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.10.2",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlinx:kotlinx-serialization-bom:1.9.0",
+        "dependencies": [
+            "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.9.0",
+            "org.jetbrains.kotlinx:kotlinx-serialization-core:1.9.0",
+            "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.9.0",
+            "org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.9.0",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-serialization-bom:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlinx:kotlinx-serialization-core:1.9.0",
+        "dependencies": [
+            "org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.9.0",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+            "org.jetbrains.kotlinx:kotlinx-serialization-bom:1.9.0",
+            "org.jetbrains.kotlinx:kotlinx-serialization-core:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0",
+        "dependencies": [
+            "org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains:annotations:23.0.0",
+        "dependencies": [
+            
+        ]
+    },
+    {
+        "coordinate": "org.jspecify:jspecify:1.0.0",
+        "dependencies": [
+            
+        ]
+    }
+]

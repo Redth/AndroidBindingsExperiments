@@ -1,0 +1,20 @@
+[
+  {
+    "apk": "tests/BindingProjection/App/bin/Debug/net11.0-android/android-arm64/net.dot.android.bindingreference-Signed.apk",
+    "sha256": "798150e61fea3a551c46c32857a9a222267bd063b2ba1ae547a903eb7edda9dc",
+    "dexFiles": [
+      "classes.dex"
+    ],
+    "toolDependenciesAbsent": true,
+    "descriptorJsonAbsent": true
+  },
+  {
+    "apk": "tests/BindingProjection/App/bin/Release/net11.0-android/android-arm64/net.dot.android.bindingreference-Signed.apk",
+    "sha256": "634a13d6d6fc34d56cb5397bc3612cf701fd6006e39041ea6c030b236f3e1ade",
+    "dexFiles": [
+      "classes.dex"
+    ],
+    "toolDependenciesAbsent": true,
+    "descriptorJsonAbsent": true
+  }
+]

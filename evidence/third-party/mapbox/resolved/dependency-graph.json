@@ -1,0 +1,1026 @@
+[
+    {
+        "coordinate": "androidx.activity:activity-ktx:1.6.0",
+        "dependencies": [
+            "androidx.activity:activity:1.6.0",
+            "androidx.core:core-ktx:1.9.0",
+            "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+            "androidx.savedstate:savedstate-ktx:1.2.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.activity:activity:1.6.0",
+        "dependencies": [
+            "androidx.activity:activity-ktx:1.6.0",
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.collection:collection:1.1.0",
+            "androidx.core:core:1.9.0",
+            "androidx.lifecycle:lifecycle-runtime:2.5.1",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1",
+            "androidx.lifecycle:lifecycle-viewmodel:2.5.1",
+            "androidx.savedstate:savedstate:1.2.0",
+            "androidx.tracing:tracing:1.0.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.annotation:annotation-experimental:1.3.0",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.annotation:annotation-jvm:1.7.0",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.annotation:annotation:1.7.0",
+        "dependencies": [
+            "androidx.annotation:annotation-jvm:1.7.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.appcompat:appcompat-resources:1.6.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat:1.6.1",
+            "androidx.collection:collection:1.1.0",
+            "androidx.core:core:1.9.0",
+            "androidx.vectordrawable:vectordrawable-animated:1.1.0",
+            "androidx.vectordrawable:vectordrawable:1.1.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.appcompat:appcompat:1.6.1",
+        "dependencies": [
+            "androidx.activity:activity:1.6.0",
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat-resources:1.6.1",
+            "androidx.collection:collection:1.1.0",
+            "androidx.core:core-ktx:1.9.0",
+            "androidx.core:core:1.9.0",
+            "androidx.cursoradapter:cursoradapter:1.0.0",
+            "androidx.drawerlayout:drawerlayout:1.0.0",
+            "androidx.emoji2:emoji2-views-helper:1.2.0",
+            "androidx.emoji2:emoji2:1.2.0",
+            "androidx.fragment:fragment:1.3.6",
+            "androidx.lifecycle:lifecycle-runtime:2.5.1",
+            "androidx.lifecycle:lifecycle-viewmodel:2.5.1",
+            "androidx.resourceinspection:resourceinspection-annotation:1.0.1",
+            "androidx.savedstate:savedstate:1.2.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.arch.core:core-common:2.1.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.arch.core:core-runtime:2.1.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.arch.core:core-common:2.1.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.autofill:autofill:1.0.0",
+        "dependencies": [
+            "androidx.core:core:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.collection:collection:1.1.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.animation:animation-core:1.3.3",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.compose.runtime:runtime:1.3.3",
+            "androidx.compose.ui:ui-unit:1.3.3",
+            "androidx.compose.ui:ui-util:1.3.3",
+            "androidx.compose.ui:ui:1.3.3",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.animation:animation:1.3.3",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.compose.animation:animation-core:1.3.3",
+            "androidx.compose.foundation:foundation-layout:1.3.1",
+            "androidx.compose.runtime:runtime:1.3.3",
+            "androidx.compose.ui:ui-geometry:1.3.3",
+            "androidx.compose.ui:ui-util:1.3.3",
+            "androidx.compose.ui:ui:1.3.3",
+            "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.foundation:foundation-layout:1.3.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.compose.animation:animation-core:1.3.3",
+            "androidx.compose.runtime:runtime:1.3.3",
+            "androidx.compose.ui:ui-unit:1.3.3",
+            "androidx.compose.ui:ui-util:1.3.3",
+            "androidx.compose.ui:ui:1.3.3",
+            "androidx.core:core:1.9.0",
+            "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.foundation:foundation:1.3.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.compose.animation:animation:1.3.3",
+            "androidx.compose.foundation:foundation-layout:1.3.1",
+            "androidx.compose.runtime:runtime:1.3.3",
+            "androidx.compose.ui:ui-graphics:1.3.3",
+            "androidx.compose.ui:ui-text:1.3.3",
+            "androidx.compose.ui:ui-util:1.3.3",
+            "androidx.compose.ui:ui:1.3.3",
+            "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.material:material-icons-core:1.3.1",
+        "dependencies": [
+            "androidx.compose.runtime:runtime:1.3.3",
+            "androidx.compose.ui:ui:1.3.3",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.material:material-ripple:1.3.1",
+        "dependencies": [
+            "androidx.compose.animation:animation:1.3.3",
+            "androidx.compose.foundation:foundation:1.3.1",
+            "androidx.compose.runtime:runtime:1.3.3",
+            "androidx.compose.ui:ui-util:1.3.3",
+            "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.material:material:1.3.1",
+        "dependencies": [
+            "androidx.compose.animation:animation-core:1.3.3",
+            "androidx.compose.animation:animation:1.3.3",
+            "androidx.compose.foundation:foundation-layout:1.3.1",
+            "androidx.compose.foundation:foundation:1.3.1",
+            "androidx.compose.material:material-icons-core:1.3.1",
+            "androidx.compose.material:material-ripple:1.3.1",
+            "androidx.compose.runtime:runtime:1.3.3",
+            "androidx.compose.ui:ui-text:1.3.3",
+            "androidx.compose.ui:ui-util:1.3.3",
+            "androidx.compose.ui:ui:1.3.3",
+            "androidx.lifecycle:lifecycle-runtime:2.5.1",
+            "androidx.lifecycle:lifecycle-viewmodel:2.5.1",
+            "androidx.savedstate:savedstate:1.2.0",
+            "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.runtime:runtime-saveable:1.3.3",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.compose.runtime:runtime:1.3.3",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.runtime:runtime:1.3.3",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-geometry:1.3.3",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.compose.runtime:runtime:1.3.3",
+            "androidx.compose.ui:ui-util:1.3.3",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-graphics:1.3.3",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.compose.runtime:runtime:1.3.3",
+            "androidx.compose.ui:ui-unit:1.3.3",
+            "androidx.compose.ui:ui-util:1.3.3",
+            "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-text:1.3.3",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.collection:collection:1.1.0",
+            "androidx.compose.runtime:runtime-saveable:1.3.3",
+            "androidx.compose.runtime:runtime:1.3.3",
+            "androidx.compose.ui:ui-graphics:1.3.3",
+            "androidx.compose.ui:ui-unit:1.3.3",
+            "androidx.compose.ui:ui-util:1.3.3",
+            "androidx.core:core:1.9.0",
+            "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-unit:1.3.3",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.compose.runtime:runtime:1.3.3",
+            "androidx.compose.ui:ui-geometry:1.3.3",
+            "androidx.compose.ui:ui-util:1.3.3",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui-util:1.3.3",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose.ui:ui:1.3.3",
+        "dependencies": [
+            "androidx.activity:activity-ktx:1.6.0",
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.autofill:autofill:1.0.0",
+            "androidx.collection:collection:1.1.0",
+            "androidx.compose.runtime:runtime-saveable:1.3.3",
+            "androidx.compose.runtime:runtime:1.3.3",
+            "androidx.compose.ui:ui-geometry:1.3.3",
+            "androidx.compose.ui:ui-graphics:1.3.3",
+            "androidx.compose.ui:ui-text:1.3.3",
+            "androidx.compose.ui:ui-unit:1.3.3",
+            "androidx.compose.ui:ui-util:1.3.3",
+            "androidx.core:core:1.9.0",
+            "androidx.customview:customview-poolingcontainer:1.0.0",
+            "androidx.lifecycle:lifecycle-common-java8:2.5.1",
+            "androidx.lifecycle:lifecycle-runtime:2.5.1",
+            "androidx.lifecycle:lifecycle-viewmodel:2.5.1",
+            "androidx.profileinstaller:profileinstaller:1.2.0",
+            "androidx.savedstate:savedstate-ktx:1.2.0",
+            "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "androidx.compose:compose-bom:2023.01.00",
+        "dependencies": [
+            "androidx.compose.animation:animation-core:1.3.3",
+            "androidx.compose.animation:animation:1.3.3",
+            "androidx.compose.foundation:foundation-layout:1.3.1",
+            "androidx.compose.foundation:foundation:1.3.1",
+            "androidx.compose.material:material-icons-core:1.3.1",
+            "androidx.compose.material:material-ripple:1.3.1",
+            "androidx.compose.material:material:1.3.1",
+            "androidx.compose.runtime:runtime-saveable:1.3.3",
+            "androidx.compose.runtime:runtime:1.3.3",
+            "androidx.compose.ui:ui-geometry:1.3.3",
+            "androidx.compose.ui:ui-graphics:1.3.3",
+            "androidx.compose.ui:ui-text:1.3.3",
+            "androidx.compose.ui:ui-unit:1.3.3",
+            "androidx.compose.ui:ui-util:1.3.3",
+            "androidx.compose.ui:ui:1.3.3"
+        ]
+    },
+    {
+        "coordinate": "androidx.concurrent:concurrent-futures:1.0.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "com.google.guava:listenablefuture:1.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.core:core-ktx:1.9.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.core:core:1.9.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.core:core:1.9.0",
+        "dependencies": [
+            "androidx.annotation:annotation-experimental:1.3.0",
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.collection:collection:1.1.0",
+            "androidx.concurrent:concurrent-futures:1.0.0",
+            "androidx.core:core-ktx:1.9.0",
+            "androidx.lifecycle:lifecycle-runtime:2.5.1",
+            "androidx.versionedparcelable:versionedparcelable:1.1.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.cursoradapter:cursoradapter:1.0.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.customview:customview-poolingcontainer:1.0.0",
+        "dependencies": [
+            "androidx.core:core-ktx:1.9.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.customview:customview:1.0.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.core:core:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.drawerlayout:drawerlayout:1.0.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.core:core:1.9.0",
+            "androidx.customview:customview:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.emoji2:emoji2-views-helper:1.2.0",
+        "dependencies": [
+            "androidx.collection:collection:1.1.0",
+            "androidx.core:core:1.9.0",
+            "androidx.emoji2:emoji2:1.2.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.emoji2:emoji2:1.2.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.collection:collection:1.1.0",
+            "androidx.core:core:1.9.0",
+            "androidx.lifecycle:lifecycle-process:2.4.1",
+            "androidx.startup:startup-runtime:1.1.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.fragment:fragment:1.3.6",
+        "dependencies": [
+            "androidx.activity:activity:1.6.0",
+            "androidx.annotation:annotation-experimental:1.3.0",
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.collection:collection:1.1.0",
+            "androidx.core:core:1.9.0",
+            "androidx.lifecycle:lifecycle-livedata-core:2.5.1",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1",
+            "androidx.lifecycle:lifecycle-viewmodel:2.5.1",
+            "androidx.loader:loader:1.0.0",
+            "androidx.savedstate:savedstate:1.2.0",
+            "androidx.viewpager:viewpager:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.interpolator:interpolator:1.0.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-common-java8:2.5.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.lifecycle:lifecycle-common:2.5.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-common:2.5.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.lifecycle:lifecycle-common-java8:2.5.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-livedata-core:2.5.1",
+        "dependencies": [
+            "androidx.arch.core:core-common:2.1.0",
+            "androidx.arch.core:core-runtime:2.1.0",
+            "androidx.lifecycle:lifecycle-common:2.5.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-livedata:2.0.0",
+        "dependencies": [
+            "androidx.arch.core:core-common:2.1.0",
+            "androidx.arch.core:core-runtime:2.1.0",
+            "androidx.lifecycle:lifecycle-livedata-core:2.5.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-process:2.4.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.lifecycle:lifecycle-runtime:2.5.1",
+            "androidx.startup:startup-runtime:1.1.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.lifecycle:lifecycle-runtime:2.5.1",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-runtime:2.5.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.arch.core:core-common:2.1.0",
+            "androidx.arch.core:core-runtime:2.1.0",
+            "androidx.lifecycle:lifecycle-common:2.5.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1",
+        "dependencies": [
+            "androidx.lifecycle:lifecycle-viewmodel:2.5.1",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.core:core-ktx:1.9.0",
+            "androidx.lifecycle:lifecycle-livedata-core:2.5.1",
+            "androidx.lifecycle:lifecycle-viewmodel:2.5.1",
+            "androidx.savedstate:savedstate:1.2.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "androidx.lifecycle:lifecycle-viewmodel:2.5.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.loader:loader:1.0.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.core:core:1.9.0",
+            "androidx.lifecycle:lifecycle-livedata:2.0.0",
+            "androidx.lifecycle:lifecycle-viewmodel:2.5.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.profileinstaller:profileinstaller:1.2.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.startup:startup-runtime:1.1.1"
+        ]
+    },
+    {
+        "coordinate": "androidx.resourceinspection:resourceinspection-annotation:1.0.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.savedstate:savedstate-ktx:1.2.0",
+        "dependencies": [
+            "androidx.savedstate:savedstate:1.2.0",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.savedstate:savedstate:1.2.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.arch.core:core-common:2.1.0",
+            "androidx.lifecycle:lifecycle-common:2.5.1",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "androidx.startup:startup-runtime:1.1.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.tracing:tracing:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.tracing:tracing:1.0.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.vectordrawable:vectordrawable-animated:1.1.0",
+        "dependencies": [
+            "androidx.collection:collection:1.1.0",
+            "androidx.interpolator:interpolator:1.0.0",
+            "androidx.vectordrawable:vectordrawable:1.1.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.vectordrawable:vectordrawable:1.1.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.collection:collection:1.1.0",
+            "androidx.core:core:1.9.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.versionedparcelable:versionedparcelable:1.1.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.collection:collection:1.1.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.viewpager:viewpager:1.0.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.core:core:1.9.0",
+            "androidx.customview:customview:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "com.google.android.gms:play-services-base:18.5.0",
+        "dependencies": [
+            "androidx.collection:collection:1.1.0",
+            "androidx.core:core:1.9.0",
+            "androidx.fragment:fragment:1.3.6",
+            "com.google.android.gms:play-services-basement:18.4.0",
+            "com.google.android.gms:play-services-tasks:18.2.0"
+        ]
+    },
+    {
+        "coordinate": "com.google.android.gms:play-services-basement:18.4.0",
+        "dependencies": [
+            "androidx.collection:collection:1.1.0",
+            "androidx.core:core:1.9.0",
+            "androidx.fragment:fragment:1.3.6"
+        ]
+    },
+    {
+        "coordinate": "com.google.android.gms:play-services-cronet:18.1.0",
+        "dependencies": [
+            "com.google.android.gms:play-services-base:18.5.0",
+            "com.google.android.gms:play-services-basement:18.4.0",
+            "com.google.android.gms:play-services-tasks:18.2.0",
+            "org.chromium.net:cronet-api:119.6045.31"
+        ]
+    },
+    {
+        "coordinate": "com.google.android.gms:play-services-tasks:18.2.0",
+        "dependencies": [
+            "com.google.android.gms:play-services-basement:18.4.0"
+        ]
+    },
+    {
+        "coordinate": "com.google.code.gson:gson:2.13.1",
+        "dependencies": [
+            "com.google.errorprone:error_prone_annotations:2.38.0"
+        ]
+    },
+    {
+        "coordinate": "com.google.errorprone:error_prone_annotations:2.38.0",
+        "dependencies": [
+            
+        ]
+    },
+    {
+        "coordinate": "com.google.guava:listenablefuture:1.0",
+        "dependencies": [
+            
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.annotation:annotation:0.3.0",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.base:annotations:0.12.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.base:common:0.12.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "com.mapbox.base:annotations:0.12.0",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.common:common-ndk27:24.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.core:core:1.9.0",
+            "androidx.startup:startup-runtime:1.1.1",
+            "com.google.android.gms:play-services-cronet:18.1.0",
+            "com.mapbox.annotation:annotation:0.3.0",
+            "com.mapbox.base:annotations:0.12.0",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.common:loader:0.12.0",
+            "com.mapbox.common:logger:0.12.0",
+            "com.mapbox.mapboxsdk:mapbox-sdk-geojson:7.10.1",
+            "com.squareup.okhttp3:okhttp:4.10.0",
+            "com.squareup.okio:okio:3.4.0",
+            "org.chromium.net:cronet-api:119.6045.31",
+            "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.common:loader:0.12.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "com.mapbox.base:common:0.12.0",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.common:logger:0.12.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "com.mapbox.base:common:0.12.0",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.extension:maps-compose-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat:1.6.1",
+            "androidx.compose.material:material:1.3.1",
+            "androidx.compose.ui:ui:1.3.3",
+            "androidx.compose:compose-bom:2023.01.00",
+            "androidx.core:core-ktx:1.9.0",
+            "com.mapbox.base:common:0.12.0",
+            "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.20",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.extension:maps-localization-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat:1.6.1",
+            "androidx.core:core-ktx:1.9.0",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.extension:maps-style-ndk27:11.34.1",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.extension:maps-style-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat:1.6.1",
+            "androidx.core:core-ktx:1.9.0",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.mapboxsdk:mapbox-sdk-geojson:7.10.1",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.mapboxsdk:mapbox-android-gestures:0.10.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.mapboxsdk:mapbox-sdk-geojson:7.10.1",
+        "dependencies": [
+            "com.google.code.gson:gson:2.13.1"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.maps:android-core-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.startup:startup-runtime:1.1.1",
+            "com.mapbox.common:common-ndk27:24.34.1",
+            "com.mapbox.mapboxsdk:mapbox-sdk-geojson:7.10.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.maps:android-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat:1.6.1",
+            "androidx.core:core-ktx:1.9.0",
+            "com.mapbox.base:annotations:0.12.0",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.extension:maps-localization-ndk27:11.34.1",
+            "com.mapbox.extension:maps-style-ndk27:11.34.1",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "com.mapbox.module:maps-telemetry-ndk27:11.34.1",
+            "com.mapbox.plugin:maps-animation-ndk27:11.34.1",
+            "com.mapbox.plugin:maps-annotation-ndk27:11.34.1",
+            "com.mapbox.plugin:maps-attribution-ndk27:11.34.1",
+            "com.mapbox.plugin:maps-compass-ndk27:11.34.1",
+            "com.mapbox.plugin:maps-gestures-ndk27:11.34.1",
+            "com.mapbox.plugin:maps-indoorselector-ndk27:11.34.1",
+            "com.mapbox.plugin:maps-lifecycle-ndk27:11.34.1",
+            "com.mapbox.plugin:maps-locationcomponent-ndk27:11.34.1",
+            "com.mapbox.plugin:maps-logo-ndk27:11.34.1",
+            "com.mapbox.plugin:maps-overlay-ndk27:11.34.1",
+            "com.mapbox.plugin:maps-scalebar-ndk27:11.34.1",
+            "com.mapbox.plugin:maps-viewport-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.maps:base-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.common:common-ndk27:24.34.1",
+            "com.mapbox.mapboxsdk:mapbox-android-gestures:0.10.0",
+            "com.mapbox.maps:android-core-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.20",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.module:maps-telemetry-ndk27:11.34.1",
+        "dependencies": [
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.plugin:maps-animation-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.core:core-ktx:1.9.0",
+            "androidx.interpolator:interpolator:1.0.0",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.plugin:maps-annotation-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat:1.6.1",
+            "androidx.core:core-ktx:1.9.0",
+            "com.mapbox.base:annotations:0.12.0",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.extension:maps-style-ndk27:11.34.1",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.plugin:maps-attribution-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat:1.6.1",
+            "androidx.core:core-ktx:1.9.0",
+            "com.mapbox.base:annotations:0.12.0",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.plugin:maps-compass-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat:1.6.1",
+            "androidx.core:core-ktx:1.9.0",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.plugin:maps-gestures-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat:1.6.1",
+            "androidx.core:core-ktx:1.9.0",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.mapboxsdk:mapbox-android-gestures:0.10.0",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.plugin:maps-indoorselector-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat:1.6.1",
+            "androidx.core:core-ktx:1.9.0",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.plugin:maps-lifecycle-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.core:core-ktx:1.9.0",
+            "androidx.lifecycle:lifecycle-runtime:2.5.1",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.plugin:maps-locationcomponent-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat:1.6.1",
+            "androidx.core:core-ktx:1.9.0",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.extension:maps-style-ndk27:11.34.1",
+            "com.mapbox.mapboxsdk:mapbox-sdk-geojson:7.10.1",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.plugin:maps-logo-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat:1.6.1",
+            "androidx.core:core-ktx:1.9.0",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.plugin:maps-overlay-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat:1.6.1",
+            "androidx.core:core-ktx:1.9.0",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.plugin:maps-scalebar-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat:1.6.1",
+            "androidx.core:core-ktx:1.9.0",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.mapbox.plugin:maps-viewport-ndk27:11.34.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.7.0",
+            "androidx.appcompat:appcompat:1.6.1",
+            "androidx.core:core-ktx:1.9.0",
+            "com.mapbox.base:common:0.12.0",
+            "com.mapbox.maps:base-ndk27:11.34.1",
+            "com.mapbox.plugin:maps-animation-ndk27:11.34.1",
+            "com.mapbox.plugin:maps-locationcomponent-ndk27:11.34.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.squareup.okhttp3:okhttp:4.10.0",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "com.squareup.okio:okio-jvm:3.4.0",
+        "dependencies": [
+            
+        ]
+    },
+    {
+        "coordinate": "com.squareup.okio:okio:3.4.0",
+        "dependencies": [
+            "com.squareup.okio:okio-jvm:3.4.0"
+        ]
+    },
+    {
+        "coordinate": "org.chromium.net:cronet-api:119.6045.31",
+        "dependencies": [
+            
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.20",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlin:kotlin-parcelize-runtime:1.7.20",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.7.20",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20",
+        "dependencies": [
+            
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20",
+            "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlin:kotlin-stdlib:1.7.20",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20",
+            "org.jetbrains:annotations:13.0"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.4",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.4",
+        "dependencies": [
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+        "dependencies": [
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains:annotations:13.0",
+        "dependencies": [
+            
+        ]
+    }
+]

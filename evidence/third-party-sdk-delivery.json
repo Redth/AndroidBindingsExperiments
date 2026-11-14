@@ -1,0 +1,8 @@
+{
+  "archive": "${EXPERIMENT_ARTIFACTS}/third-party-sdk-validation.zip",
+  "bytes": 57433330,
+  "profiles": 8,
+  "releaseR8ChecksPassed": 28,
+  "nativeAOTChecksPassed": 17,
+  "sha256": "d3570b9c2878ede31423275817823c1c2c9567f34dbb6ce49d6f10c4c8bb1188"
+}

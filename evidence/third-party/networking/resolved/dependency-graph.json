@@ -1,0 +1,102 @@
+[
+    {
+        "coordinate": "androidx.annotation:annotation-jvm:1.10.0",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "androidx.annotation:annotation:1.10.0",
+        "dependencies": [
+            "androidx.annotation:annotation-jvm:1.10.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.startup:startup-runtime:1.2.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.10.0",
+            "androidx.tracing:tracing:1.0.0"
+        ]
+    },
+    {
+        "coordinate": "androidx.tracing:tracing:1.0.0",
+        "dependencies": [
+            "androidx.annotation:annotation:1.10.0"
+        ]
+    },
+    {
+        "coordinate": "com.squareup.moshi:moshi:1.15.2",
+        "dependencies": [
+            "com.squareup.okio:okio:3.18.1",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21"
+        ]
+    },
+    {
+        "coordinate": "com.squareup.okhttp3:okhttp-android:5.5.1",
+        "dependencies": [
+            "androidx.annotation:annotation:1.10.0",
+            "androidx.startup:startup-runtime:1.2.0",
+            "com.squareup.okio:okio:3.18.1",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "com.squareup.okhttp3:okhttp:5.5.1",
+        "dependencies": [
+            "com.squareup.okhttp3:okhttp-android:5.5.1"
+        ]
+    },
+    {
+        "coordinate": "com.squareup.okio:okio-jvm:3.18.1",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "com.squareup.okio:okio:3.18.1",
+        "dependencies": [
+            "com.squareup.okio:okio-jvm:3.18.1"
+        ]
+    },
+    {
+        "coordinate": "com.squareup.retrofit2:converter-moshi:3.0.0",
+        "dependencies": [
+            "com.squareup.moshi:moshi:1.15.2",
+            "com.squareup.retrofit2:retrofit:3.0.0"
+        ]
+    },
+    {
+        "coordinate": "com.squareup.retrofit2:retrofit:3.0.0",
+        "dependencies": [
+            "com.squareup.okhttp3:okhttp:5.5.1",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.21",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.21",
+            "org.jetbrains.kotlin:kotlin-stdlib:2.2.21"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains.kotlin:kotlin-stdlib:2.2.21",
+        "dependencies": [
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.21",
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21",
+            "org.jetbrains:annotations:13.0"
+        ]
+    },
+    {
+        "coordinate": "org.jetbrains:annotations:13.0",
+        "dependencies": [
+            
+        ]
+    }
+]

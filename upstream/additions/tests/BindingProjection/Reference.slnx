@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../../src/Microsoft.Android.Kotlin/Microsoft.Android.Kotlin.csproj" />
+  <Project Path="Foundation/Reference.Foundation.csproj" />
+  <Project Path="Reader/Reference.Reader.csproj" />
+  <Project Path="Writer/Reference.Writer.csproj" />
+  <Project Path="App/Reference.App.csproj" />
+</Solution>

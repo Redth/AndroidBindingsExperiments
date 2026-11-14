@@ -1,0 +1,1378 @@
+{
+    "schemaVersion": 1,
+    "policy": "One Gradle-resolved version per module",
+    "configurationSha256": "454723b78d5429a1f0223c41beefb9fa304b6f74a54e0c310ab537f938f49d7c",
+    "configurationRecords": 3,
+    "includedRoots": null,
+    "records": [
+        {
+            "requested": {
+                "groupId": "io.coil-kt.coil3",
+                "artifactId": "coil",
+                "version": "3.6.3"
+            },
+            "selected": {
+                "group": "io.coil-kt.coil3",
+                "artifact": "coil",
+                "version": "3.6.3",
+                "reasons": [
+                    "requested"
+                ]
+            },
+            "variantAlias": null,
+            "publishedRelocation": null,
+            "superseded": false
+        },
+        {
+            "requested": {
+                "groupId": "io.coil-kt.coil3",
+                "artifactId": "coil-compose",
+                "version": "3.6.3"
+            },
+            "selected": {
+                "group": "io.coil-kt.coil3",
+                "artifact": "coil-compose",
+                "version": "3.6.3",
+                "reasons": [
+                    "requested"
+                ]
+            },
+            "variantAlias": null,
+            "publishedRelocation": null,
+            "superseded": false
+        },
+        {
+            "requested": {
+                "groupId": "io.coil-kt.coil3",
+                "artifactId": "coil-network-okhttp",
+                "version": "3.6.3"
+            },
+            "selected": {
+                "group": "io.coil-kt.coil3",
+                "artifact": "coil-network-okhttp",
+                "version": "3.6.3",
+                "reasons": [
+                    "requested"
+                ]
+            },
+            "variantAlias": null,
+            "publishedRelocation": null,
+            "superseded": false
+        }
+    ],
+    "modules": [
+        {
+            "group": "io.coil-kt.coil3",
+            "artifact": "coil",
+            "version": "3.6.3",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.coil-kt.coil3",
+            "artifact": "coil-android",
+            "version": "3.6.3",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.coil-kt.coil3",
+            "artifact": "coil-core",
+            "version": "3.6.3",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.coil-kt.coil3",
+            "artifact": "coil-core-android",
+            "version": "3.6.3",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-runtime",
+            "version": "2.9.4",
+            "reasons": [
+                "requested",
+                "lifecycle-common is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel-ktx is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel is in atomic group androidx.lifecycle",
+                "lifecycle-process is in atomic group androidx.lifecycle",
+                "lifecycle-runtime-ktx is in atomic group androidx.lifecycle",
+                "lifecycle-runtime-compose is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle",
+                "lifecycle-livedata-core is in atomic group androidx.lifecycle",
+                "between versions 2.9.4, 2.6.2 and 2.6.1"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-runtime-android",
+            "version": "2.9.4",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.annotation",
+            "artifact": "annotation",
+            "version": "1.10.0",
+            "reasons": [
+                "requested",
+                "between versions 1.10.0, 1.2.0, 1.8.1, 1.9.1, 1.0.0, 1.1.0, 1.6.0 and 1.7.0"
+            ]
+        },
+        {
+            "group": "androidx.annotation",
+            "artifact": "annotation-jvm",
+            "version": "1.10.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlin",
+            "artifact": "kotlin-stdlib",
+            "version": "2.4.10",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 2.4.10, 1.8.21, 1.8.22, 2.1.0, 2.0.20, 2.1.21, 2.0.21, 2.1.20, 1.7.10, 1.9.24, 2.2.20, 1.8.10 and 1.6.21"
+            ]
+        },
+        {
+            "group": "org.jetbrains",
+            "artifact": "annotations",
+            "version": "23.0.0",
+            "reasons": [
+                "requested",
+                "between versions 23.0.0 and 13.0"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlin",
+            "artifact": "kotlin-stdlib-jdk8",
+            "version": "1.8.21",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 1.8.21 and 1.8.0"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlin",
+            "artifact": "kotlin-stdlib-jdk7",
+            "version": "1.8.21",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 1.8.21 and 1.8.0"
+            ]
+        },
+        {
+            "group": "androidx.arch.core",
+            "artifact": "core-common",
+            "version": "2.2.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.arch.core",
+            "artifact": "core-runtime",
+            "version": "2.2.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.core",
+            "artifact": "core-viewtree",
+            "version": "1.0.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-common",
+            "version": "2.9.4",
+            "reasons": [
+                "requested",
+                "lifecycle-runtime is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel-ktx is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel is in atomic group androidx.lifecycle",
+                "lifecycle-process is in atomic group androidx.lifecycle",
+                "lifecycle-runtime-ktx is in atomic group androidx.lifecycle",
+                "lifecycle-runtime-compose is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle",
+                "lifecycle-livedata-core is in atomic group androidx.lifecycle",
+                "between versions 2.9.4 and 2.9.2"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-common-jvm",
+            "version": "2.9.4",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlinx",
+            "artifact": "kotlinx-coroutines-core",
+            "version": "1.10.2",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 1.10.2, 1.7.3, 1.8.1, 1.9.0 and 1.6.1"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlinx",
+            "artifact": "kotlinx-coroutines-core-jvm",
+            "version": "1.10.2",
+            "reasons": [
+                "requested",
+                "constraint"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlinx",
+            "artifact": "kotlinx-coroutines-bom",
+            "version": "1.10.2",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlinx",
+            "artifact": "kotlinx-coroutines-android",
+            "version": "1.10.2",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 1.10.2, 1.6.4, 1.8.1, 1.7.3 and 1.9.0"
+            ]
+        },
+        {
+            "group": "org.jspecify",
+            "artifact": "jspecify",
+            "version": "1.0.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-viewmodel",
+            "version": "2.9.4",
+            "reasons": [
+                "requested",
+                "lifecycle-common is in atomic group androidx.lifecycle",
+                "lifecycle-runtime is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel-ktx is in atomic group androidx.lifecycle",
+                "lifecycle-process is in atomic group androidx.lifecycle",
+                "lifecycle-runtime-ktx is in atomic group androidx.lifecycle",
+                "lifecycle-runtime-compose is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle",
+                "lifecycle-livedata-core is in atomic group androidx.lifecycle",
+                "between versions 2.9.4, 2.6.1 and 2.9.2"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-viewmodel-android",
+            "version": "2.9.4",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-process",
+            "version": "2.9.4",
+            "reasons": [
+                "requested",
+                "lifecycle-viewmodel-ktx is in atomic group androidx.lifecycle",
+                "lifecycle-common is in atomic group androidx.lifecycle",
+                "lifecycle-runtime is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel is in atomic group androidx.lifecycle",
+                "lifecycle-runtime-ktx is in atomic group androidx.lifecycle",
+                "lifecycle-runtime-compose is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle",
+                "lifecycle-livedata-core is in atomic group androidx.lifecycle",
+                "between versions 2.9.4 and 2.4.1"
+            ]
+        },
+        {
+            "group": "androidx.startup",
+            "artifact": "startup-runtime",
+            "version": "1.1.1",
+            "reasons": [
+                "requested",
+                "between versions 1.1.1 and 1.0.0"
+            ]
+        },
+        {
+            "group": "androidx.tracing",
+            "artifact": "tracing",
+            "version": "1.2.0",
+            "reasons": [
+                "requested",
+                "between versions 1.2.0 and 1.0.0"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-runtime-compose",
+            "version": "2.9.4",
+            "reasons": [
+                "requested",
+                "lifecycle-common is in atomic group androidx.lifecycle",
+                "lifecycle-runtime is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel-ktx is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel is in atomic group androidx.lifecycle",
+                "lifecycle-process is in atomic group androidx.lifecycle",
+                "lifecycle-runtime-ktx is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle",
+                "lifecycle-livedata-core is in atomic group androidx.lifecycle",
+                "between versions 2.9.4, 2.8.3 and 2.8.7"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-runtime-compose-android",
+            "version": "2.9.4",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.compose.runtime",
+            "artifact": "runtime",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "runtime-retain is in atomic group androidx.compose.runtime",
+                "runtime-annotation is in atomic group androidx.compose.runtime",
+                "runtime-saveable is in atomic group androidx.compose.runtime",
+                "between versions 1.12.0, 1.7.0, 1.1.1 and 1.9.0"
+            ]
+        },
+        {
+            "group": "androidx.compose.runtime",
+            "artifact": "runtime-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.annotation",
+            "artifact": "annotation-experimental",
+            "version": "1.4.1",
+            "reasons": [
+                "requested",
+                "between versions 1.4.1 and 1.4.0"
+            ]
+        },
+        {
+            "group": "androidx.collection",
+            "artifact": "collection",
+            "version": "1.5.0",
+            "reasons": [
+                "requested",
+                "collection-ktx is in atomic group androidx.collection",
+                "between versions 1.5.0, 1.4.2, 1.1.0, 1.0.0, 1.4.0 and 1.4.3"
+            ]
+        },
+        {
+            "group": "androidx.collection",
+            "artifact": "collection-jvm",
+            "version": "1.5.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.collection",
+            "artifact": "collection-ktx",
+            "version": "1.5.0",
+            "reasons": [
+                "requested",
+                "collection is in atomic group androidx.collection",
+                "between versions 1.5.0 and 1.4.2"
+            ]
+        },
+        {
+            "group": "androidx.compose.runtime",
+            "artifact": "runtime-annotation",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "runtime is in atomic group androidx.compose.runtime",
+                "runtime-retain is in atomic group androidx.compose.runtime",
+                "runtime-saveable is in atomic group androidx.compose.runtime"
+            ]
+        },
+        {
+            "group": "androidx.compose.runtime",
+            "artifact": "runtime-annotation-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.compose.runtime",
+            "artifact": "runtime-retain",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "runtime is in atomic group androidx.compose.runtime",
+                "runtime-annotation is in atomic group androidx.compose.runtime",
+                "runtime-saveable is in atomic group androidx.compose.runtime"
+            ]
+        },
+        {
+            "group": "androidx.compose.runtime",
+            "artifact": "runtime-retain-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.compose.runtime",
+            "artifact": "runtime-saveable",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "runtime is in atomic group androidx.compose.runtime",
+                "runtime-retain is in atomic group androidx.compose.runtime",
+                "runtime-annotation is in atomic group androidx.compose.runtime"
+            ]
+        },
+        {
+            "group": "androidx.compose.runtime",
+            "artifact": "runtime-saveable-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.savedstate",
+            "artifact": "savedstate-compose",
+            "version": "1.4.0",
+            "reasons": [
+                "requested",
+                "savedstate-ktx is in atomic group androidx.savedstate",
+                "savedstate is in atomic group androidx.savedstate",
+                "between versions 1.4.0, 1.3.1, 1.3.0, 1.3.3 and 1.3.2"
+            ]
+        },
+        {
+            "group": "androidx.savedstate",
+            "artifact": "savedstate-compose-android",
+            "version": "1.4.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.core",
+            "artifact": "core-ktx",
+            "version": "1.16.0",
+            "reasons": [
+                "requested",
+                "constraint",
+                "Mirror activity dependency graph for -ktx artifacts",
+                "between versions 1.16.0, 1.1.0, 1.5.0, 1.13.1 and 1.2.0"
+            ]
+        },
+        {
+            "group": "androidx.core",
+            "artifact": "core",
+            "version": "1.16.0",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 1.16.0, 1.6.0, 1.1.0, 1.13.1, 1.3.0, 1.12.0, 1.7.0 and 1.8.0"
+            ]
+        },
+        {
+            "group": "androidx.concurrent",
+            "artifact": "concurrent-futures",
+            "version": "1.1.0",
+            "reasons": [
+                "requested",
+                "between versions 1.1.0 and 1.0.0"
+            ]
+        },
+        {
+            "group": "com.google.guava",
+            "artifact": "listenablefuture",
+            "version": "1.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.interpolator",
+            "artifact": "interpolator",
+            "version": "1.0.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.versionedparcelable",
+            "artifact": "versionedparcelable",
+            "version": "1.1.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.savedstate",
+            "artifact": "savedstate",
+            "version": "1.4.0",
+            "reasons": [
+                "requested",
+                "savedstate-compose is in atomic group androidx.savedstate",
+                "savedstate-ktx is in atomic group androidx.savedstate",
+                "between versions 1.4.0, 1.3.1, 1.2.1 and 1.3.3"
+            ]
+        },
+        {
+            "group": "androidx.savedstate",
+            "artifact": "savedstate-android",
+            "version": "1.4.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlinx",
+            "artifact": "kotlinx-serialization-core",
+            "version": "1.7.3",
+            "reasons": [
+                "requested",
+                "constraint"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlinx",
+            "artifact": "kotlinx-serialization-core-jvm",
+            "version": "1.7.3",
+            "reasons": [
+                "requested",
+                "constraint"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlinx",
+            "artifact": "kotlinx-serialization-bom",
+            "version": "1.7.3",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.savedstate",
+            "artifact": "savedstate-ktx",
+            "version": "1.4.0",
+            "reasons": [
+                "requested",
+                "Mirror activity dependency graph for -ktx artifacts",
+                "savedstate-compose is in atomic group androidx.savedstate",
+                "savedstate is in atomic group androidx.savedstate",
+                "between versions 1.4.0, 1.3.1 and 1.2.1"
+            ]
+        },
+        {
+            "group": "org.jetbrains.androidx.savedstate",
+            "artifact": "savedstate",
+            "version": "1.3.6",
+            "reasons": [
+                "requested",
+                "prevents symbols duplication",
+                "between versions 1.3.6 and 1.3.2"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.runtime",
+            "artifact": "runtime-saveable",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "runtime is in atomic group androidx.compose.runtime",
+                "prevents symbols duplication",
+                "between versions 1.12.0 and 1.9.2"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.runtime",
+            "artifact": "runtime-saveable-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.androidx.lifecycle",
+            "artifact": "lifecycle-runtime-compose",
+            "version": "2.9.6",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.androidx.lifecycle",
+            "artifact": "lifecycle-common",
+            "version": "2.9.6",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.androidx.lifecycle",
+            "artifact": "lifecycle-runtime",
+            "version": "2.9.6",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.runtime",
+            "artifact": "runtime",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "prevents symbols duplication",
+                "runtime-saveable is in atomic group androidx.compose.runtime",
+                "between versions 1.12.0, 1.9.3 and 1.9.0"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.runtime",
+            "artifact": "runtime-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.androidx.savedstate",
+            "artifact": "savedstate-compose",
+            "version": "1.3.6",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-runtime-ktx",
+            "version": "2.9.4",
+            "reasons": [
+                "Mirror activity dependency graph for -ktx artifacts",
+                "lifecycle-common is in atomic group androidx.lifecycle",
+                "lifecycle-runtime is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel-ktx is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel is in atomic group androidx.lifecycle",
+                "lifecycle-process is in atomic group androidx.lifecycle",
+                "requested",
+                "lifecycle-runtime-compose is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle",
+                "lifecycle-livedata-core is in atomic group androidx.lifecycle",
+                "between versions 2.9.4 and 2.6.1"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-runtime-ktx-android",
+            "version": "2.9.4",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-viewmodel-ktx",
+            "version": "2.9.4",
+            "reasons": [
+                "requested",
+                "lifecycle-common is in atomic group androidx.lifecycle",
+                "lifecycle-runtime is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel is in atomic group androidx.lifecycle",
+                "lifecycle-process is in atomic group androidx.lifecycle",
+                "lifecycle-runtime-ktx is in atomic group androidx.lifecycle",
+                "lifecycle-runtime-compose is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle",
+                "lifecycle-livedata-core is in atomic group androidx.lifecycle",
+                "between versions 2.9.4, 2.9.2 and 2.6.1"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-viewmodel-savedstate",
+            "version": "2.9.4",
+            "reasons": [
+                "requested",
+                "lifecycle-viewmodel-ktx is in atomic group androidx.lifecycle",
+                "lifecycle-common is in atomic group androidx.lifecycle",
+                "lifecycle-runtime is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel is in atomic group androidx.lifecycle",
+                "lifecycle-process is in atomic group androidx.lifecycle",
+                "lifecycle-runtime-ktx is in atomic group androidx.lifecycle",
+                "lifecycle-runtime-compose is in atomic group androidx.lifecycle",
+                "lifecycle-livedata-core is in atomic group androidx.lifecycle",
+                "between versions 2.9.4 and 2.6.1"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-viewmodel-savedstate-android",
+            "version": "2.9.4",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-livedata-core",
+            "version": "2.9.4",
+            "reasons": [
+                "requested",
+                "lifecycle-viewmodel-savedstate is in atomic group androidx.lifecycle",
+                "lifecycle-runtime-compose is in atomic group androidx.lifecycle",
+                "lifecycle-runtime-ktx is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel is in atomic group androidx.lifecycle",
+                "lifecycle-common is in atomic group androidx.lifecycle",
+                "lifecycle-runtime is in atomic group androidx.lifecycle",
+                "lifecycle-process is in atomic group androidx.lifecycle",
+                "lifecycle-viewmodel-ktx is in atomic group androidx.lifecycle"
+            ]
+        },
+        {
+            "group": "androidx.profileinstaller",
+            "artifact": "profileinstaller",
+            "version": "1.4.1",
+            "reasons": [
+                "requested",
+                "between versions 1.4.1, 1.4.0, 1.3.1 and 1.3.0"
+            ]
+        },
+        {
+            "group": "com.squareup.okio",
+            "artifact": "okio",
+            "version": "3.18.1",
+            "reasons": [
+                "requested",
+                "between versions 3.18.1 and 3.6.0"
+            ]
+        },
+        {
+            "group": "com.squareup.okio",
+            "artifact": "okio-jvm",
+            "version": "3.18.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.appcompat",
+            "artifact": "appcompat-resources",
+            "version": "1.7.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.vectordrawable",
+            "artifact": "vectordrawable",
+            "version": "1.1.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.vectordrawable",
+            "artifact": "vectordrawable-animated",
+            "version": "1.1.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.exifinterface",
+            "artifact": "exifinterface",
+            "version": "1.4.2",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.coil-kt.coil3",
+            "artifact": "coil-compose",
+            "version": "3.6.3",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.coil-kt.coil3",
+            "artifact": "coil-compose-android",
+            "version": "3.6.3",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.coil-kt.coil3",
+            "artifact": "coil-compose-core",
+            "version": "3.6.3",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.coil-kt.coil3",
+            "artifact": "coil-compose-core-android",
+            "version": "3.6.3",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.foundation",
+            "artifact": "foundation",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "foundation-layout is in atomic group androidx.compose.foundation"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.foundation",
+            "artifact": "foundation-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.compose.foundation",
+            "artifact": "foundation",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "foundation-layout is in atomic group androidx.compose.foundation",
+                "prevents a regression in Overscroll",
+                "between versions 1.12.0 and 1.7.0"
+            ]
+        },
+        {
+            "group": "androidx.compose.foundation",
+            "artifact": "foundation-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.compose.animation",
+            "artifact": "animation",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "animation-core is in atomic group androidx.compose.animation"
+            ]
+        },
+        {
+            "group": "androidx.compose.animation",
+            "artifact": "animation-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.compose.animation",
+            "artifact": "animation-core",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "animation is in atomic group androidx.compose.animation",
+                "between versions 1.12.0 and 1.2.1"
+            ]
+        },
+        {
+            "group": "androidx.compose.animation",
+            "artifact": "animation-core-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.compose.ui",
+            "artifact": "ui",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "ui-text is in atomic group androidx.compose.ui",
+                "ui-util is in atomic group androidx.compose.ui",
+                "ui-geometry is in atomic group androidx.compose.ui",
+                "ui-graphics is in atomic group androidx.compose.ui",
+                "ui-unit is in atomic group androidx.compose.ui",
+                "between versions 1.12.0, 1.10.0, 1.7.0 and 1.2.1"
+            ]
+        },
+        {
+            "group": "androidx.compose.ui",
+            "artifact": "ui-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.activity",
+            "artifact": "activity-ktx",
+            "version": "1.7.0",
+            "reasons": [
+                "requested",
+                "constraint"
+            ]
+        },
+        {
+            "group": "androidx.activity",
+            "artifact": "activity",
+            "version": "1.7.0",
+            "reasons": [
+                "requested",
+                "constraint"
+            ]
+        },
+        {
+            "group": "androidx.autofill",
+            "artifact": "autofill",
+            "version": "1.0.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.compose.ui",
+            "artifact": "ui-geometry",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "ui is in atomic group androidx.compose.ui",
+                "ui-text is in atomic group androidx.compose.ui",
+                "ui-util is in atomic group androidx.compose.ui",
+                "ui-graphics is in atomic group androidx.compose.ui",
+                "ui-unit is in atomic group androidx.compose.ui",
+                "between versions 1.12.0 and 1.10.0"
+            ]
+        },
+        {
+            "group": "androidx.compose.ui",
+            "artifact": "ui-geometry-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.compose.ui",
+            "artifact": "ui-util",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "ui is in atomic group androidx.compose.ui",
+                "ui-text is in atomic group androidx.compose.ui",
+                "ui-geometry is in atomic group androidx.compose.ui",
+                "ui-graphics is in atomic group androidx.compose.ui",
+                "ui-unit is in atomic group androidx.compose.ui",
+                "between versions 1.12.0, 1.10.0 and 1.0.0"
+            ]
+        },
+        {
+            "group": "androidx.compose.ui",
+            "artifact": "ui-util-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.compose.ui",
+            "artifact": "ui-graphics",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "ui is in atomic group androidx.compose.ui",
+                "ui-text is in atomic group androidx.compose.ui",
+                "ui-util is in atomic group androidx.compose.ui",
+                "ui-geometry is in atomic group androidx.compose.ui",
+                "ui-unit is in atomic group androidx.compose.ui",
+                "between versions 1.12.0 and 1.10.0"
+            ]
+        },
+        {
+            "group": "androidx.compose.ui",
+            "artifact": "ui-graphics-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.compose.ui",
+            "artifact": "ui-unit",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "ui is in atomic group androidx.compose.ui",
+                "ui-text is in atomic group androidx.compose.ui",
+                "ui-util is in atomic group androidx.compose.ui",
+                "ui-geometry is in atomic group androidx.compose.ui",
+                "ui-graphics is in atomic group androidx.compose.ui",
+                "between versions 1.12.0 and 1.10.0"
+            ]
+        },
+        {
+            "group": "androidx.compose.ui",
+            "artifact": "ui-unit-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.compose.ui",
+            "artifact": "ui-text",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "ui is in atomic group androidx.compose.ui",
+                "ui-util is in atomic group androidx.compose.ui",
+                "ui-geometry is in atomic group androidx.compose.ui",
+                "ui-graphics is in atomic group androidx.compose.ui",
+                "ui-unit is in atomic group androidx.compose.ui",
+                "between versions 1.12.0 and 1.10.0"
+            ]
+        },
+        {
+            "group": "androidx.compose.ui",
+            "artifact": "ui-text-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.emoji2",
+            "artifact": "emoji2",
+            "version": "1.4.0",
+            "reasons": [
+                "requested",
+                "between versions 1.4.0, 1.3.0 and 1.2.0"
+            ]
+        },
+        {
+            "group": "androidx.graphics",
+            "artifact": "graphics-path",
+            "version": "1.0.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.customview",
+            "artifact": "customview-poolingcontainer",
+            "version": "1.0.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.window",
+            "artifact": "window",
+            "version": "1.5.0",
+            "reasons": [
+                "requested",
+                "window-core is in atomic group androidx.window"
+            ]
+        },
+        {
+            "group": "androidx.window",
+            "artifact": "window-core",
+            "version": "1.5.0",
+            "reasons": [
+                "requested",
+                "window is in atomic group androidx.window"
+            ]
+        },
+        {
+            "group": "androidx.window",
+            "artifact": "window-core-android",
+            "version": "1.5.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.compose.foundation",
+            "artifact": "foundation-layout",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "foundation is in atomic group androidx.compose.foundation",
+                "between versions 1.12.0 and 1.10.0"
+            ]
+        },
+        {
+            "group": "androidx.compose.foundation",
+            "artifact": "foundation-layout-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.animation",
+            "artifact": "animation",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "animation-core is in atomic group androidx.compose.animation"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.animation",
+            "artifact": "animation-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.animation",
+            "artifact": "animation-core",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "animation is in atomic group androidx.compose.animation"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.animation",
+            "artifact": "animation-core-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.ui",
+            "artifact": "ui",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "ui-text is in atomic group androidx.compose.ui",
+                "ui-util is in atomic group androidx.compose.ui",
+                "ui-geometry is in atomic group androidx.compose.ui",
+                "ui-graphics is in atomic group androidx.compose.ui",
+                "ui-unit is in atomic group androidx.compose.ui"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.ui",
+            "artifact": "ui-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.ui",
+            "artifact": "ui-geometry",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "ui is in atomic group androidx.compose.ui",
+                "ui-text is in atomic group androidx.compose.ui",
+                "ui-util is in atomic group androidx.compose.ui",
+                "ui-graphics is in atomic group androidx.compose.ui",
+                "ui-unit is in atomic group androidx.compose.ui"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.ui",
+            "artifact": "ui-geometry-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.ui",
+            "artifact": "ui-util",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "ui is in atomic group androidx.compose.ui",
+                "ui-text is in atomic group androidx.compose.ui",
+                "ui-geometry is in atomic group androidx.compose.ui",
+                "ui-graphics is in atomic group androidx.compose.ui",
+                "ui-unit is in atomic group androidx.compose.ui"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.ui",
+            "artifact": "ui-util-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.ui",
+            "artifact": "ui-graphics",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "ui is in atomic group androidx.compose.ui",
+                "ui-text is in atomic group androidx.compose.ui",
+                "ui-util is in atomic group androidx.compose.ui",
+                "ui-geometry is in atomic group androidx.compose.ui",
+                "ui-unit is in atomic group androidx.compose.ui"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.ui",
+            "artifact": "ui-graphics-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.ui",
+            "artifact": "ui-unit",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "ui is in atomic group androidx.compose.ui",
+                "ui-text is in atomic group androidx.compose.ui",
+                "ui-util is in atomic group androidx.compose.ui",
+                "ui-geometry is in atomic group androidx.compose.ui",
+                "ui-graphics is in atomic group androidx.compose.ui"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.ui",
+            "artifact": "ui-unit-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.ui",
+            "artifact": "ui-text",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "ui is in atomic group androidx.compose.ui",
+                "ui-util is in atomic group androidx.compose.ui",
+                "ui-geometry is in atomic group androidx.compose.ui",
+                "ui-graphics is in atomic group androidx.compose.ui",
+                "ui-unit is in atomic group androidx.compose.ui"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.ui",
+            "artifact": "ui-text-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.foundation",
+            "artifact": "foundation-layout",
+            "version": "1.12.0",
+            "reasons": [
+                "requested",
+                "foundation is in atomic group androidx.compose.foundation"
+            ]
+        },
+        {
+            "group": "org.jetbrains.compose.foundation",
+            "artifact": "foundation-layout-android",
+            "version": "1.12.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "com.google.accompanist",
+            "artifact": "accompanist-drawablepainter",
+            "version": "0.37.3",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.coil-kt.coil3",
+            "artifact": "coil-network-okhttp",
+            "version": "3.6.3",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.coil-kt.coil3",
+            "artifact": "coil-network-okhttp-android",
+            "version": "3.6.3",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.coil-kt.coil3",
+            "artifact": "coil-network-core",
+            "version": "3.6.3",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.coil-kt.coil3",
+            "artifact": "coil-network-core-android",
+            "version": "3.6.3",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "com.squareup.okhttp3",
+            "artifact": "okhttp",
+            "version": "4.12.0",
+            "reasons": [
+                "requested"
+            ]
+        }
+    ]
+}

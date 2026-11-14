@@ -1,0 +1,11 @@
+[
+  {
+    "artifacts": [
+      {
+        "groupId": "org.maplibre.gl",
+        "artifactId": "android-sdk-opengl",
+        "version": "13.7.1"
+      }
+    ]
+  }
+]

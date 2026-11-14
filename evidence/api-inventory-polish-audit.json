@@ -1,0 +1,52 @@
+{
+  "summary": "${EXPERIMENT_ARTIFACTS}/kotlin-final-corpus/runs/be19d395f8086a094fbe/summary.json",
+  "auditedAssemblies": 3,
+  "publicTypes": 952,
+  "reviewedDifferences": [
+    {
+      "coordinate": "androidx.constraintlayout:constraintlayout-core:1.1.2",
+      "identity": "androidx.constraintlayout.core.parser.CLToken.getType()Ljava/lang/Enum;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getType()Landroidx/constraintlayout/core/parser/CLToken$Type;",
+          "available": true,
+          "excluded": false,
+          "bridgeCovered": false,
+          "classification": "Public"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.constraintlayout:constraintlayout-core:1.1.2",
+      "identity": "androidx.constraintlayout.core.state.Transition.findNextPosition(Ljava/lang/String;I)Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "findNextPosition(Ljava/lang/String;I)Landroidx/constraintlayout/core/state/Transition$KeyPosition;",
+          "available": true,
+          "excluded": false,
+          "bridgeCovered": false,
+          "classification": "Public"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.constraintlayout:constraintlayout-core:1.1.2",
+      "identity": "androidx.constraintlayout.core.state.Transition.findPreviousPosition(Ljava/lang/String;I)Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "findPreviousPosition(Ljava/lang/String;I)Landroidx/constraintlayout/core/state/Transition$KeyPosition;",
+          "available": true,
+          "excluded": false,
+          "bridgeCovered": false,
+          "classification": "Public"
+        }
+      ]
+    }
+  ],
+  "unexplainedDifferences": [],
+  "restrictedPublicLeaks": [],
+  "qualification": "JNI-slot and compiled CLR-contract evidence, not behavioral equivalence or validation of every native dependency version."
+}

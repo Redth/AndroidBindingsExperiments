@@ -1,0 +1,16 @@
+[
+  {
+    "artifacts": [
+      {
+        "groupId": "com.mapbox.maps",
+        "artifactId": "android-ndk27",
+        "version": "11.34.1"
+      },
+      {
+        "groupId": "com.mapbox.extension",
+        "artifactId": "maps-compose-ndk27",
+        "version": "11.34.1"
+      }
+    ]
+  }
+]

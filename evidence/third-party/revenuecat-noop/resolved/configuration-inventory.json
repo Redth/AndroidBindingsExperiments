@@ -1,0 +1,16 @@
+{
+    "schemaVersion": 1,
+    "policy": "Every artifact record in config.json; no Maven-group allowlist",
+    "configurationSha256": "f9fc618112c62bf07e35f0f3a4225c37a55f1938817c22be58b44d73b81ffcb7",
+    "originalRecords": 1,
+    "mavenGroups": {
+        "com.revenuecat.purchases": 1
+    },
+    "records": [
+        {
+            "groupId": "com.revenuecat.purchases",
+            "artifactId": "purchases-debug-view-noop",
+            "version": "11.0.1"
+        }
+    ]
+}

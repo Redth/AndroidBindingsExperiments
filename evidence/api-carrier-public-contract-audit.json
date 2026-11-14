@@ -1,0 +1,88 @@
+{
+  "summary": "${EXPERIMENT_ARTIFACTS}/kotlin-final-corpus/runs/203768d86870d969b315/summary.json",
+  "auditedAssemblies": 4,
+  "publicTypes": 1256,
+  "reviewedDifferences": [
+    {
+      "coordinate": "androidx.compose.runtime:runtime-android:1.12.1",
+      "identity": "androidx.compose.runtime.ComposerKt.isAfterFirstChild(Ljava/lang/Object;)Z",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "isAfterFirstChild(Landroidx/compose/runtime/composer/gapbuffer/SlotReader;)Z",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        },
+        {
+          "slot": "isAfterFirstChild(Landroidx/compose/runtime/composer/gapbuffer/SlotWriter;)Z",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.runtime:runtime-android:1.12.1",
+      "identity": "androidx.compose.runtime.composer.linkbuffer.LinkAnchorKt.getLazyAnchor()Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getLazyAnchor()Landroidx/compose/runtime/composer/linkbuffer/LinkAnchor;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.runtime:runtime-android:1.12.1",
+      "identity": "androidx.compose.runtime.composer.linkbuffer.LinkAnchorKt.getNullAnchor()Ljava/lang/Object;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getNullAnchor()Landroidx/compose/runtime/composer/linkbuffer/LinkAnchor;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.runtime:runtime-android:1.12.1",
+      "identity": "androidx.compose.runtime.snapshots.SnapshotStateListKt.getReadable(Landroidx/compose/runtime/snapshots/SnapshotStateList;)Landroidx/compose/runtime/snapshots/StateRecord;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getReadable(Landroidx/compose/runtime/snapshots/SnapshotStateList;)Landroidx/compose/runtime/snapshots/StateListStateRecord;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    },
+    {
+      "coordinate": "androidx.compose.runtime:runtime-android:1.12.1",
+      "identity": "androidx.compose.runtime.snapshots.SnapshotStateSetKt.getReadable(Landroidx/compose/runtime/snapshots/SnapshotStateSet;)Landroidx/compose/runtime/snapshots/StateRecord;",
+      "reason": "legacy-slot-not-in-native-class-physical-family-accounted-for",
+      "evidence": [
+        {
+          "slot": "getReadable(Landroidx/compose/runtime/snapshots/SnapshotStateSet;)Landroidx/compose/runtime/snapshots/StateSetStateRecord;",
+          "available": false,
+          "excluded": true,
+          "bridgeCovered": false,
+          "classification": "Excluded"
+        }
+      ]
+    }
+  ],
+  "unexplainedDifferences": [],
+  "restrictedPublicLeaks": [],
+  "selectedDependencyDescriptor": "${EXPERIMENT_ARTIFACTS}/api-inventory-audit/selected-dependency-descriptor.json",
+  "qualification": "JNI-slot and compiled CLR-contract evidence, including separately recorded selected dependency archives; not behavioral equivalence or validation of every native dependency version."
+}

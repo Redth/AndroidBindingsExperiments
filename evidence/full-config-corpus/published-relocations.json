@@ -1,0 +1,26 @@
+[
+    {
+        "source": "com.google.errorprone:error_prone_type_annotations:2.50.0",
+        "target": "com.google.errorprone:error_prone_annotations:2.50.0",
+        "pom": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.errorprone/error_prone_type_annotations/2.50.0/d4bad1c44eb7a6ad36a799b2cbb220391855b1b5/error_prone_type_annotations-2.50.0.pom",
+        "pomSha256": "5bebbf037c2271e5f09529e26d2df0ff150ea9e36d493b95ec6fcee7e480799a"
+    },
+    {
+        "source": "org.tensorflow:tensorflow-lite-metadata:0.5.0",
+        "target": "com.google.ai.edge.litert:litert-metadata:1.0.1",
+        "pom": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.tensorflow/tensorflow-lite-metadata/0.5.0/11eac447d99b64bdd4a5400fd6097f02cfdc7154/tensorflow-lite-metadata-0.5.0.pom",
+        "pomSha256": "a28533ddce730f20cce9ab0cf62fc57157c323ad8e382fd0eaa7c98eca9155c7"
+    },
+    {
+        "source": "org.tensorflow:tensorflow-lite-support:0.5.0",
+        "target": "com.google.ai.edge.litert:litert-support:1.0.1",
+        "pom": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.tensorflow/tensorflow-lite-support/0.5.0/762d9717a17dfbc1d799019c54ecdff6eb2667cf/tensorflow-lite-support-0.5.0.pom",
+        "pomSha256": "878e7c81abdbd976a4fe81a49760367061d096bf85593e2da6d28a88702559e5"
+    },
+    {
+        "source": "org.tensorflow:tensorflow-lite-support-api:0.5.0",
+        "target": "com.google.ai.edge.litert:litert-support-api:1.0.1",
+        "pom": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.tensorflow/tensorflow-lite-support-api/0.5.0/b6041734173d93e4a3a56b19d88a7a8b88e1389c/tensorflow-lite-support-api-0.5.0.pom",
+        "pomSha256": "6ceda6f6a9b81f675b05f5a7fe93123dc84c2a19b38b04ef3f44d8aace5ab51c"
+    }
+]

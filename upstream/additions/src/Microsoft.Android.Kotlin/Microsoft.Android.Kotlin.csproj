@@ -1,0 +1,73 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>$(DotNetAndroidTargetFramework)</TargetFramework>
+    <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
+    <IsBindingProject>true</IsBindingProject>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <IsPackable>true</IsPackable>
+    <PackageId>Microsoft.Android.Kotlin</PackageId>
+    <Version>0.1.0-preview.1</Version>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <Authors>Microsoft</Authors>
+    <Description>Shared source-built Kotlin interoperation runtime for .NET for Android.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <AndroidClassParser>class-parse</AndroidClassParser>
+  </PropertyGroup>
+  <Import Project="..\..\Configuration.props" />
+  <ItemGroup>
+    <AndroidGradleProject Include="Native\build.gradle.kts" Bind="true" Pack="false" />
+    <None Remove="Native\**\*" />
+    <None Include="Native\**\*" Exclude="Native\build\**;Native\.gradle\**" Pack="true" PackagePath="native\%(RecursiveDir)%(Filename)%(Extension)" />
+    <None Include="..\..\eng\gradle\plugin-repositories.gradle;..\..\eng\gradle\dependency-repositories.gradle"
+        Pack="true" PackagePath="native\gradle\" />
+    <None Update="README.md" Pack="true" PackagePath="" />
+    <None Update="buildTransitive\Microsoft.Android.Kotlin.props" Pack="true" PackagePath="buildTransitive\Microsoft.Android.Kotlin.props" />
+  </ItemGroup>
+  <Target Name="_AndroidStageKotlinRuntimeInputs">
+    <PropertyGroup>
+      <_AndroidKotlinStage>$([System.IO.Path]::GetFullPath('$(MSBuildProjectDirectory)\$(IntermediateOutputPath)kotlin-native'))</_AndroidKotlinStage>
+    </PropertyGroup>
+    <ItemGroup>
+      <_AndroidKotlinNativeSource Include="Native\**\*" Exclude="Native\build\**;Native\.gradle\**" />
+      <_AndroidKotlinWrapperSource Include="$(GradleHome)\gradlew;$(GradleHome)\gradlew.bat" />
+      <_AndroidKotlinWrapperJar Include="$(GradleHome)\gradle\wrapper\gradle-wrapper.jar;$(GradleHome)\gradle\wrapper\gradle-wrapper.properties" />
+      <_AndroidKotlinGradleConfig Include="$(MSBuildThisFileDirectory)..\..\eng\gradle\plugin-repositories.gradle;$(MSBuildThisFileDirectory)..\..\eng\gradle\dependency-repositories.gradle" />
+      <_AndroidKotlinStageSource Include="@(_AndroidKotlinNativeSource)">
+        <Destination>$(_AndroidKotlinStage)\%(_AndroidKotlinNativeSource.RecursiveDir)%(_AndroidKotlinNativeSource.Filename)%(_AndroidKotlinNativeSource.Extension)</Destination>
+      </_AndroidKotlinStageSource>
+      <_AndroidKotlinStageSource Include="@(_AndroidKotlinWrapperSource)">
+        <Destination>$(_AndroidKotlinStage)\%(_AndroidKotlinWrapperSource.Filename)%(_AndroidKotlinWrapperSource.Extension)</Destination>
+      </_AndroidKotlinStageSource>
+      <_AndroidKotlinStageSource Include="@(_AndroidKotlinWrapperJar)">
+        <Destination>$(_AndroidKotlinStage)\gradle\wrapper\%(_AndroidKotlinWrapperJar.Filename)%(_AndroidKotlinWrapperJar.Extension)</Destination>
+      </_AndroidKotlinStageSource>
+      <_AndroidKotlinStageSource Include="@(_AndroidKotlinGradleConfig)">
+        <Destination>$(_AndroidKotlinStage)\gradle\%(_AndroidKotlinGradleConfig.Filename)%(_AndroidKotlinGradleConfig.Extension)</Destination>
+      </_AndroidKotlinStageSource>
+    </ItemGroup>
+  </Target>
+  <Target Name="_AndroidStageKotlinRuntime"
+      BeforeTargets="_GetBuildAndroidGradleProjectsInputs;_CalculateAndroidGradleProjectOutputPath"
+      DependsOnTargets="_AndroidStageKotlinRuntimeInputs"
+      Inputs="@(_AndroidKotlinStageSource)"
+      Outputs="@(_AndroidKotlinStageSource->'%(Destination)')">
+    <Copy SourceFiles="@(_AndroidKotlinStageSource)" DestinationFiles="@(_AndroidKotlinStageSource->'%(Destination)')" />
+    <ItemGroup>
+      <AndroidGradleProject Remove="Native\build.gradle.kts" />
+      <AndroidGradleProject Include="$(_AndroidKotlinStage)\build.gradle.kts" Bind="true" Pack="false" />
+    </ItemGroup>
+  </Target>
+  <Target Name="_AndroidAddKotlinBindingReferences" AfterTargets="_BuildAndroidGradleProjects">
+    <ItemGroup>
+      <AndroidLibrary Include="%(AndroidGradleProject.OutputPath)outputs\references\*.jar" Bind="false" Pack="false" />
+    </ItemGroup>
+  </Target>
+  <Target Name="_AndroidExcludePrecompiledKotlinPayload" AfterTargets="_IncludeAarInNuGetPackage">
+    <ItemGroup>
+      <TfmSpecificPackageFile Remove="$(_AarOutputPath)" />
+    </ItemGroup>
+  </Target>
+</Project>

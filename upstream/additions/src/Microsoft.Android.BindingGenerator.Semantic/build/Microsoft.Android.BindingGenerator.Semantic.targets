@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <_AndroidSemanticBindingTargets>$(MSBuildThisFileDirectory)Microsoft.Android.BindingGenerator.Semantic.Bindings.targets</_AndroidSemanticBindingTargets>
+    <AfterMicrosoftNETSdkTargets Condition=" '$(TargetPlatformIdentifier)' == 'android' and '$(AndroidBindingGenerator)' == 'Semantic' ">$(AfterMicrosoftNETSdkTargets);$(_AndroidSemanticBindingTargets)</AfterMicrosoftNETSdkTargets>
+  </PropertyGroup>
+  <UsingTask TaskName="Microsoft.Android.BindingGenerator.BuildTasks.CheckBindingGenerator"
+      AssemblyFile="$(MSBuildThisFileDirectory)..\tools\tasks\Microsoft.Android.BindingGenerator.Semantic.dll" />
+  <Target Name="_AndroidCheckBindingGeneratorSelection" BeforeTargets="PrepareForBuild"
+      Condition=" '$(AndroidBindingGenerator)' != '' and '$(AndroidBindingGenerator)' != 'Legacy' ">
+    <CheckBindingGenerator Selection="$(AndroidBindingGenerator)" Platform="$(TargetPlatformIdentifier)"
+        FrameworkVersion="$(TargetFrameworkVersion)" SdkVersion="$(AndroidNETSdkVersion)"
+        BindingProject="$(IsBindingProject)" TailImported="$(_AndroidSemanticBindingTargetsImported)" />
+  </Target>
+</Project>

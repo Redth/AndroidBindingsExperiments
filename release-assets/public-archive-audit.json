@@ -1,0 +1,1697 @@
+[
+  {
+    "file": "binding-generator-semantic-preview.zip",
+    "sourceSha256": "88a342861e40e9a9d37fc1087d1a94fe803d90050b38bed2458fb87e13130683",
+    "publishedSha256": "c6d38bae23e3780f8e4dc22c41da6648659b66f6a687a116fa6fa51da05149a9",
+    "payloadsVerifiedUnchanged": 6,
+    "changes": [
+      {
+        "file": "validation/results.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "validation/task-tests.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "validation/previous-jni-results.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      }
+    ]
+  },
+  {
+    "file": "maui-protected-compatibility-pilot.zip",
+    "sourceSha256": "ca9d81e57902e9cf6968d5d8620d91bcf116e911355dcb3405f9bca22bbb4a6f",
+    "publishedSha256": "fdf65b8b26acaa852f8a5178b3d4ed73b431127a6191d1dd704c6b94d629dd92",
+    "payloadsVerifiedUnchanged": 7,
+    "changes": [
+      {
+        "file": "validation/results.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "validation/maui-compat-generator-tests.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "validation/maui-compat-sdk-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      }
+    ]
+  },
+  {
+    "file": "projection-constraints-health-connect.zip",
+    "sourceSha256": "d72ff1acedca06bcaad8a6c42d4816bbea37ffb1943e83af102e54f36c7ade3d",
+    "publishedSha256": "7746d3adddbfb524eedf416867a0fe1a66663b01ff36384b77f7d448cf38b353",
+    "payloadsVerifiedUnchanged": 8,
+    "changes": [
+      {
+        "file": "validation/Debug.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "validation/NativeAOT.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "validation/Release.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      }
+    ]
+  },
+  {
+    "file": "consolidated-binding-tree.tar.xz",
+    "sourceSha256": "5e4ae9b9c3411b1db50c5f01df25d9fbd2ced3b546da0c12b1f3608bb8d8d3b1",
+    "publishedSha256": "487acf517adf00022f3ee7bf037dfc3d3917ec7c5019879e04530de2517e3b28",
+    "payloadsVerifiedUnchanged": 167,
+    "changes": [
+      {
+        "file": "baseline-coverage.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "native-input-audit.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "ownership.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "validation/Debug-build.log",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "validation/Debug.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "validation/NativeAOT-build.log",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "validation/NativeAOT.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "validation/Release-build.log",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "validation/Release.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "validation/commands-and-results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "validation/runtime-selection.json",
+        "action": "replaced machine-local paths"
+      }
+    ]
+  },
+  {
+    "file": "maplibre-sentry-koin-artifact-bindings.zip",
+    "sourceSha256": "2636f99649b791650c63488086532dfd415e8e72df5533498e900a28a3b6bb74",
+    "publishedSha256": "a9668dce7e7e79a62956f0f2fcc94adcc672a30b0ae35e2543f9602be5607dd4",
+    "payloadsVerifiedUnchanged": 154,
+    "changes": [
+      {
+        "file": "default-vulkan/generation-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "default-vulkan/runtime-logcat.log",
+        "action": "filtered to probe/crash evidence"
+      },
+      {
+        "file": "default-vulkan/runtime-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/koin/artifact-owners.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/koin/generation-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/koin/native/native-inputs.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/koin/ownership.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/koin/validation/NativeAOT-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/koin/validation/NativeAOT.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/koin/validation/Release-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/koin/validation/Release.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/maplibre-opengl/artifact-owners.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/maplibre-opengl/generation-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/maplibre-opengl/native/native-inputs.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/maplibre-opengl/ownership.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/maplibre-opengl/validation/NativeAOT-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/maplibre-opengl/validation/NativeAOT.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/maplibre-opengl/validation/Release-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/maplibre-opengl/validation/Release.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/sentry/artifact-owners.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/sentry/generation-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/sentry/native/native-inputs.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/sentry/ownership.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/sentry/validation/NativeAOT-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/sentry/validation/NativeAOT.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/sentry/validation/Release.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "tools/finalize-additional-artifacts.py",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "tools/third-party-runtime.py",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "tools/third-party-sdk-tests.py",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      }
+    ]
+  },
+  {
+    "file": "third-party-sdk-validation.zip",
+    "sourceSha256": "d3570b9c2878ede31423275817823c1c2c9567f34dbb6ce49d6f10c4c8bb1188",
+    "publishedSha256": "789ea59f48f22361ba111cb8f9f4178a6d073575e493f945f3db6cf6d7d0f00a",
+    "payloadsVerifiedUnchanged": 18,
+    "changes": [
+      {
+        "file": "profiles/coil/binding-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/coil/native-inputs.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/coil/runtime-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/coil/runtime-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/mapbox/binding-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/mapbox/native-inputs.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/mapbox/runtime-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/mapbox/runtime-nativeaot-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/mapbox/runtime-nativeaot-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/mapbox/runtime-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/networking/binding-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/networking/native-inputs.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/networking/runtime-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/networking/runtime-nativeaot-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/networking/runtime-nativeaot-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/networking/runtime-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat/binding-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat/native-inputs.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat/runtime-nativeaot-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat/runtime-nativeaot-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat/runtime-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat-custom/binding-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat-custom/native-inputs.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat-custom/runtime-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat-custom/runtime-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat-nextgen/binding-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat-nextgen/native-inputs.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat-nextgen/runtime-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat-nextgen/runtime-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat-noop/binding-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat-noop/native-inputs.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat-noop/runtime-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/revenuecat-noop/runtime-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/stripe/binding-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/stripe/native-inputs.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/stripe/runtime-build.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "profiles/stripe/runtime-result.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "third-party-runtime.py",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "third-party-sdk-tests.py",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      }
+    ]
+  },
+  {
+    "file": "canonical-corpus-audit.zip",
+    "sourceSha256": "805875d4cdd98647bff2feae916cbb52fa88b23a32fbb9d38c4027a1a5f8a13e",
+    "publishedSha256": "76417e49058fce8af80382e14f2947e1f64c899202011a1b5596cbd2d82c36f0",
+    "payloadsVerifiedUnchanged": 0,
+    "changes": [
+      {
+        "file": "summary.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-inputs.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "selection.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "validation/canonical-full-generator-tests.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "validation/canonical-corpus-python-tests.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      }
+    ]
+  },
+  {
+    "file": "native-evolution-evidence.zip",
+    "sourceSha256": "af55d22cb460692e46a35ddb073412f53c65ac5c023c88c8532519deccdcc03b",
+    "publishedSha256": "09c722d7c3018ce8c2d95231dbe35b669ef92011471e28ba5fbd42e6fc2d13ee",
+    "payloadsVerifiedUnchanged": 0,
+    "changes": [
+      {
+        "file": "native-evolution/verify_examples.py",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/activity-1.13.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/activity-1.8.2.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/activity-1.9.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/base-10.0.1.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/base-17.0.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/base-18.11.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/base-8.4.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/base-9.0.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/collection-1.2.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/collection-1.3.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/collection-1.4.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/compose-lifecycle-new.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/compose-lifecycle-old.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/compose-savedstate-new.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/compose-savedstate-old.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/lifecycle-2.11.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/lifecycle-2.5.1.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/lifecycle-2.6.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/lifecycle-2.7.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/lifecycle-2.8.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/location-20.0.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/location-21.0.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/location-21.0.1.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/location-21.3.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/mixed-foundation.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/mixed-with-credentials.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/mixed-with-navigation.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/navigation-2.7.7.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/navigation-2.8.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/navigation-2.9.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/savedstate-1.2.1.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-evolution/graphs/resolved/savedstate-1.3.0.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      }
+    ]
+  },
+  {
+    "file": "full-config-corpus-inputs.zip",
+    "sourceSha256": "7cceece84e97d6b40ad41d23c65efc7267228f91b3c390d755d0490d5f0a4987",
+    "publishedSha256": "7e16317675ef21f1726d17867608c19468d03f35ed87279cdd6fc069f3b1a81d",
+    "payloadsVerifiedUnchanged": 0,
+    "changes": [
+      {
+        "file": "selection.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "native-inputs.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "published-relocations.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      }
+    ]
+  },
+  {
+    "file": "kotlin-descriptor-inspection.zip",
+    "sourceSha256": "daeb4f777e9ad2f8fb6b911ae3c5c0e316537aeba8e1c75f007d41e5a073f268",
+    "publishedSha256": "b683944f8b508cc7c0f434b8b4dfd6ec637dddc468089df7cd4b55dc2b7b50b5",
+    "payloadsVerifiedUnchanged": 4,
+    "changes": [
+      {
+        "file": "evidence.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "api-review.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      }
+    ]
+  },
+  {
+    "file": "binding-output-inspection.zip",
+    "sourceSha256": "b9586036665518d4383ca165ba14beb82aac221015b6cd07658d8f9eee1d3e29",
+    "publishedSha256": "b9586036665518d4383ca165ba14beb82aac221015b6cd07658d8f9eee1d3e29",
+    "payloadsVerifiedUnchanged": 370,
+    "changes": []
+  },
+  {
+    "file": "maven-group-preflight-evidence.zip",
+    "sourceSha256": "2c78f18b5683ac91d9edee8903e50e35ef801befaa8470f0e72fe371fa34fea2",
+    "publishedSha256": "6ea64976caf1829c00d465436d3ed8f9ecf9f794788126cf1e45cde17990b179",
+    "payloadsVerifiedUnchanged": 0,
+    "changes": [
+      {
+        "file": "native-inputs.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "input-audit.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "d8-command.json",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "d8.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "ownership-guard.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      },
+      {
+        "file": "ownership-repeat.log",
+        "action": "replaced machine-local paths / removed emulator public-key lines"
+      }
+    ]
+  },
+  {
+    "file": "retained-experiment-summaries.tar.xz",
+    "sourceSha256": "cf483538ccdd603345b3b9931ed6483dc6a76af0e1f1f21c7ababfa9488dbdec",
+    "publishedSha256": "ff0e9e62d584a5cc5570092f495ba33e2563cbc3fd65a5c22391f3af6d63578e",
+    "payloadsVerifiedUnchanged": 0,
+    "changes": [
+      {
+        "file": "api-generic-audit/Audit.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/Debug-4414a785bb8d/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/NativeAOT-R8-2301a9bfc24b/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/Debug-e2b1ec1359d4/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/Release-R8-996a0b21e11b/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/Debug-ba9e02c0fa87/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/Debug-85be99f125fa/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/Release-R8-350cbc00f807/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/NativeAOT-R8-dfe80299a7e3/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/Release-R8-0e96d34f63bd/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/Release-R8-899939c3dcaf/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/Debug-37ab69b6a0bb/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/Debug-82820888d882/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/Debug-aea9132da9c3/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/NativeAOT-R8-5e2f295c25f7/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/NativeAOT-R8-b650a98cbfbd/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/NativeAOT-R8-fd40f234602f/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-device/Release-R8-13bfd08f46f9/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-emoji-closure/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-emoji-closure/Emoji.Foundation.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-generic-emoji-closure/native-archives.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-inventory-audit/selected-dependency-provenance.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "api-inventory-audit/Audit.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-fd39c48ff195/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-fd39c48ff195/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-fd39c48ff195/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-fd39c48ff195/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-6ed7d1e5f1bc/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-6ed7d1e5f1bc/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-6ed7d1e5f1bc/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-6ed7d1e5f1bc/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-7e37d50d4272/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-7e37d50d4272/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-7e37d50d4272/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-7e37d50d4272/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-9d9bcfc8b990/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-9d9bcfc8b990/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-9d9bcfc8b990/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-closures/closure-9d9bcfc8b990/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-contract-validation/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-device/Final-Debug-8431fde8a88e/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-device/Release-R8-67e2979849e9/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-device/NativeAOT-R8-2574365d3e87/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-device/Debug-d7a0215f6a34/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/clean-managed-build.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/unchanged-3.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/managed-only-edit.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/staged-warm.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/datastore-1.2.1-upgrade.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/descriptor-free-contracts.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/export-warm.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/unchanged-final.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/final-debug-build.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/final-unchanged.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/unchanged-4.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/staged-warm-2.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/locked-baseline.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/discovery-cache-warm.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/locked-baseline-fixed.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/unchanged-1.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "binding-reference-measurements/ownership-baseline.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "emoji-native-closure/build/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "health-connect-full/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "health-connect-full/inspection-manifest.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "health-connect-full/native-libraries.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "health-connect-full/HealthConnect.FullBindings.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "health-connect-full/artifact-only-baseline/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "inspect-core/Tool.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T134124Z-5ffff144/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T134124Z-5ffff144/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T134124Z-5ffff144/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T133503Z-92c841c0/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T133503Z-92c841c0/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T133503Z-92c841c0/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T133542Z-b86865c6/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T133542Z-b86865c6/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T133542Z-b86865c6/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T134839Z-fcedcef2/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T134839Z-fcedcef2/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T134839Z-fcedcef2/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T133858Z-9b1c6446/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T133858Z-9b1c6446/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T133858Z-9b1c6446/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T135106Z-4883427d/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T135106Z-4883427d/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async/async-20261029T135106Z-4883427d/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-async-real-libraries/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-broad-support-closures/closure-a40096047f63/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-broad-support-closures/closure-a40096047f63/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-broad-support-closures/closure-a40096047f63/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-complete-async-closures/closure-d47281d4fc0d/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-complete-async-closures/closure-d47281d4fc0d/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-complete-async-closures/closure-d47281d4fc0d/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-complete-async-closures/closure-dd9c3fa21074/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-complete-async-closures/closure-dd9c3fa21074/runtime-comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-complete-async-closures/closure-dd9c3fa21074/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-complete-async-closures/closure-dd9c3fa21074/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-final-closures/closure-409b238c02ce/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-final-closures/closure-409b238c02ce/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-final-closures/closure-409b238c02ce/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-final-production/async-20261029T164630Z-b8fc00bf/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-final-production/async-20261029T164630Z-b8fc00bf/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-final-production/async-20261029T164630Z-b8fc00bf/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-final-production/async-20261029T164630Z-b8fc00bf/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-final-production/async-20261029T164630Z-b8fc00bf/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-0dfcc35d06f5/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-0dfcc35d06f5/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-0dfcc35d06f5/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-e05e3732a064/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-e05e3732a064/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-e05e3732a064/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-7b21f9335645/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-7b21f9335645/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-7b21f9335645/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-b62fe5d6572a/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-b62fe5d6572a/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-b62fe5d6572a/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-eeb55d82e89a/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-eeb55d82e89a/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-eeb55d82e89a/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-ceaaf178e2c7/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-ceaaf178e2c7/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-ceaaf178e2c7/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-b66bacf0e09c/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-b66bacf0e09c/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-b66bacf0e09c/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-66551b86bfe8/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-66551b86bfe8/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-66551b86bfe8/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-bb108e932d79/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-bb108e932d79/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-full-closures/closure-bb108e932d79/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-package-consumers/package-17f5134eb80d/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-package-consumers/package-17f5134eb80d/Consumer.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-package-consumers/package-24c36d816025/Consumer.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-package-consumers/package-42f5d9a4c5cb/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-package-consumers/package-42f5d9a4c5cb/Consumer.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T163609Z-fe779c99/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T163609Z-fe779c99/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T163609Z-fe779c99/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T163609Z-fe779c99/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T163609Z-fe779c99/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T161157Z-ccc3486a/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T161157Z-ccc3486a/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T161157Z-ccc3486a/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T161157Z-ccc3486a/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T161157Z-ccc3486a/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T144351Z-75f33d36/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T144351Z-75f33d36/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T144351Z-75f33d36/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T144351Z-75f33d36/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T144351Z-75f33d36/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T150807Z-a53c0f5c/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T150807Z-a53c0f5c/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T150807Z-a53c0f5c/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T150807Z-a53c0f5c/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T150807Z-a53c0f5c/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T144856Z-17884a68/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T144856Z-17884a68/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T144856Z-17884a68/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T144856Z-17884a68/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T144856Z-17884a68/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T145825Z-0a375a41/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T145825Z-0a375a41/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T145825Z-0a375a41/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T145825Z-0a375a41/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T145825Z-0a375a41/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T144044Z-109bfcfd/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T144044Z-109bfcfd/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T144044Z-109bfcfd/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T144044Z-109bfcfd/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T144044Z-109bfcfd/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T154302Z-0ffdc998/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T154302Z-0ffdc998/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T154302Z-0ffdc998/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T154302Z-0ffdc998/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T154302Z-0ffdc998/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T163818Z-a51b33b3/references.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T163818Z-a51b33b3/comparison.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T163818Z-a51b33b3/inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T163818Z-a51b33b3/Inputs.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production/async-20261029T163818Z-a51b33b3/reference-hashes.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-real-libraries/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/4e002be5caff79b1f06e/Xamarin.Android.Common.Debugging.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/4e002be5caff79b1f06e/Xamarin.Installer.Common.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/4e002be5caff79b1f06e/Xamarin.Android.Common.Debugging.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/4e002be5caff79b1f06e/Xamarin.Android.Aapt2.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/4e002be5caff79b1f06e/Xamarin.Installer.Common.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/5984bcb94622a6348214/Xamarin.Android.Common.Debugging.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/5984bcb94622a6348214/Xamarin.Installer.Common.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/5984bcb94622a6348214/Xamarin.Android.Common.Debugging.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/5984bcb94622a6348214/Xamarin.Android.Aapt2.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/5984bcb94622a6348214/Xamarin.Installer.Common.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/3b93392de72dbc80d9e5/Xamarin.Android.Common.Debugging.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/3b93392de72dbc80d9e5/Xamarin.Installer.Common.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/3b93392de72dbc80d9e5/Xamarin.Android.Common.Debugging.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/3b93392de72dbc80d9e5/Xamarin.Android.Aapt2.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/3b93392de72dbc80d9e5/Xamarin.Installer.Common.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/59e826ecac8e5d77b86b/Xamarin.Android.Common.Debugging.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/59e826ecac8e5d77b86b/Xamarin.Installer.Common.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/59e826ecac8e5d77b86b/Xamarin.Android.Common.Debugging.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/59e826ecac8e5d77b86b/Xamarin.Android.Aapt2.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/59e826ecac8e5d77b86b/Xamarin.Installer.Common.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/9139c1e485e8ec221be8/Xamarin.Android.Common.Debugging.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/9139c1e485e8ec221be8/Xamarin.Installer.Common.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/9139c1e485e8ec221be8/Xamarin.Android.Common.Debugging.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/9139c1e485e8ec221be8/Xamarin.Android.Aapt2.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/9139c1e485e8ec221be8/Xamarin.Installer.Common.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/a29acca031e7a65f2cc3/Xamarin.Android.Common.Debugging.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/a29acca031e7a65f2cc3/Xamarin.Installer.Common.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/a29acca031e7a65f2cc3/Xamarin.Android.Common.Debugging.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/a29acca031e7a65f2cc3/Xamarin.Android.Aapt2.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/a29acca031e7a65f2cc3/Xamarin.Installer.Common.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/d42a136538eef8c2100a/Xamarin.Android.Common.Debugging.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/d42a136538eef8c2100a/Xamarin.Installer.Common.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/d42a136538eef8c2100a/Xamarin.Android.Common.Debugging.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/d42a136538eef8c2100a/Xamarin.Android.Aapt2.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/d42a136538eef8c2100a/Xamarin.Installer.Common.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/19aa4986f4161276846b/Xamarin.Android.Common.Debugging.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/19aa4986f4161276846b/Xamarin.Installer.Common.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/19aa4986f4161276846b/Xamarin.Android.Common.Debugging.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/19aa4986f4161276846b/Xamarin.Android.Aapt2.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/19aa4986f4161276846b/Xamarin.Installer.Common.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/a187d16c96bf1277ef1c/Xamarin.Android.Common.Debugging.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/a187d16c96bf1277ef1c/Xamarin.Installer.Common.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/a187d16c96bf1277ef1c/Xamarin.Android.Common.Debugging.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/a187d16c96bf1277ef1c/Xamarin.Android.Aapt2.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/a187d16c96bf1277ef1c/Xamarin.Installer.Common.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/ae915247d8c368744d77/Xamarin.Android.Common.Debugging.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/ae915247d8c368744d77/Xamarin.Installer.Common.props",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/ae915247d8c368744d77/Xamarin.Android.Common.Debugging.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/ae915247d8c368744d77/Xamarin.Android.Aapt2.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-production-tools/ae915247d8c368744d77/Xamarin.Installer.Common.targets",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "kotlin-support-graph/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-assemblies/play-services-ads-lite/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-assemblies/play-services-ads-lite/Bootstrap.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-assemblies/play-services-ads-lite/input-audit.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-assemblies/alternate-02/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-assemblies/alternate-02/Bootstrap.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-assemblies/alternate-02/input-audit.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-assemblies/play-services-gass/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-assemblies/play-services-gass/Bootstrap.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-assemblies/play-services-gass/input-audit.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-assemblies/primary/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-assemblies/primary/Bootstrap.csproj",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-assemblies/primary/input-audit.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-corpus/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-corpus/d8-conflict-repro/command.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-delivery/validation.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-delivery/catalog.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-runtime/Debug-b4c7170f2fcd/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-runtime/NativeAOT-3bea75a8e576/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-runtime/Release-10959f0295c5/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-runtime-final/NativeAOT-2f91e4a271ea/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-runtime-final/Debug-ce518547f0f2/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-group-runtime-final/Release-3c7b9fd6a926/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-source-group-pilot/native-inputs.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-source-group-runtime/Release-c417a781613c/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-source-group-runtime/NativeAOT-64c39a809f3d/results.json",
+        "action": "replaced machine-local paths"
+      },
+      {
+        "file": "maven-source-group-runtime/Debug-2d9336226758/results.json",
+        "action": "replaced machine-local paths"
+      }
+    ]
+  }
+]

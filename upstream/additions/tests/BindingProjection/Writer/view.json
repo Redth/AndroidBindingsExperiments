@@ -1,0 +1,15 @@
+{
+  "SchemaVersion": 1,
+  "Views": [{
+    "JavaType": "net/dot/android/reference/SettingsRepository",
+    "PeerType": "Net.Dot.Android.Reference.SettingsRepository",
+    "OwnerAssembly": "Reference.Foundation",
+    "Namespace": "Reference.Local",
+    "Name": "SettingsView",
+    "Members": [{
+      "JavaName": "increment",
+      "ManagedMember": "IncrementAsync",
+      "Name": "IncrementAsync"
+    }]
+  }]
+}

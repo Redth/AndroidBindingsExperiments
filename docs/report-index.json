@@ -1,0 +1,110 @@
+[
+  {
+    "path": "docs/results/android-binding-compiler-results.md",
+    "source": "android-binding-compiler-results.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/results/android-binding-corpus-comparison.md",
+    "source": "android-binding-corpus-comparison.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/research/android-binding-system-recommendation.md",
+    "source": "android-binding-system-recommendation.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/research/android-bindings-future.md",
+    "source": "android-bindings-future.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/research/binding-projection-generation.md",
+    "source": "binding-projection-generation.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/results/binding-reference-results.md",
+    "source": "binding-reference-results.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/research/canonical-binding-contracts.md",
+    "source": "canonical-binding-contracts.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/results/canonical-corpus-results.md",
+    "source": "canonical-corpus-results.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/results/consolidated-binding-tree.md",
+    "source": "consolidated-binding-tree.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/research/full-binding-compiler-spike.md",
+    "source": "full-binding-compiler-spike.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/results/full-config-corpus-results.md",
+    "source": "full-config-corpus-results.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/results/kotlin-conveniences-results.md",
+    "source": "kotlin-conveniences-results.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/results/kotlin-descriptor-results.md",
+    "source": "kotlin-descriptor-results.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/results/kotlin-production-results.md",
+    "source": "kotlin-production-results.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/results/maui-protected-compatibility-results.md",
+    "source": "maui-protected-compatibility-results.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/results/maven-group-corpus-results.md",
+    "source": "maven-group-corpus-results.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/research/native-api-evolution-research.md",
+    "source": "native-api-evolution-research.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  },
+  {
+    "path": "docs/research/net12-binding-migration-plan.md",
+    "source": "net12-binding-migration-plan.md",
+    "historical": true,
+    "paths": "Machine paths replaced by environment-style placeholders; not executed commands."
+  }
+]

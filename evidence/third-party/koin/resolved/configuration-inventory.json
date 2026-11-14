@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "policy": "Every artifact record in config.json; no Maven-group allowlist",
+    "configurationSha256": "b95aa16fb45e9478a4c7a9a5550d2ecfee706cb79c6e9e01c598f6c3f0318cba",
+    "originalRecords": 4,
+    "mavenGroups": {
+        "io.insert-koin": 4
+    },
+    "records": [
+        {
+            "groupId": "io.insert-koin",
+            "artifactId": "koin-core",
+            "version": "4.2.2"
+        },
+        {
+            "groupId": "io.insert-koin",
+            "artifactId": "koin-android",
+            "version": "4.2.2"
+        },
+        {
+            "groupId": "io.insert-koin",
+            "artifactId": "koin-androidx-compose",
+            "version": "4.2.2"
+        },
+        {
+            "groupId": "io.insert-koin",
+            "artifactId": "koin-android-compat",
+            "version": "4.2.2"
+        }
+    ]
+}

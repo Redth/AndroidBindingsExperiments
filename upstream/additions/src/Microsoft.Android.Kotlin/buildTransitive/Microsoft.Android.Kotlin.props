@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <MicrosoftAndroidKotlinNativeProjectDirectory>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\native'))</MicrosoftAndroidKotlinNativeProjectDirectory>
+  </PropertyGroup>
+</Project>

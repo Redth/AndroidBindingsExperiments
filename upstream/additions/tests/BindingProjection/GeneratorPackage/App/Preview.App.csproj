@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0-android</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
+    <ApplicationId>net.dot.android.packagetest.app</ApplicationId>
+    <ApplicationTitle>Binding package probe</ApplicationTitle>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+    <Nullable>enable</Nullable>
+    <KotlinProjections>true</KotlinProjections>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Binding\Preview.Binding.csproj" AdditionalProperties="KotlinProjections=true" />
+    <AndroidLibrary Include="..\Native\build\package-runtime\*.jar" Bind="false" />
+  </ItemGroup>
+</Project>

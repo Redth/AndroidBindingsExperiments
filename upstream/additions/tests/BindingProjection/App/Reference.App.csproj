@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\Reference.props" />
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <ApplicationId>net.dot.android.bindingreference</ApplicationId>
+    <RuntimeIdentifier>android-arm64</RuntimeIdentifier>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+    <AndroidLinkTool Condition=" '$(Configuration)' == 'Release' ">r8</AndroidLinkTool>
+    <TrimMode Condition=" '$(Configuration)' == 'Release' ">full</TrimMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Reader\Reference.Reader.csproj" />
+    <ProjectReference Include="..\Writer\Reference.Writer.csproj" />
+  </ItemGroup>
+  <Target Name="_AndroidReferenceAppNativeInputs" BeforeTargets="_BuildAndroidGradleProjects" DependsOnTargets="ResolveProjectReferences">
+    <MSBuild Projects="..\Foundation\Reference.Foundation.csproj" Targets="GetReferenceNativeGraph"
+        Properties="Configuration=$(Configuration);TargetFramework=$(TargetFramework);RuntimeIdentifier=">
+      <Output TaskParameter="TargetOutputs" ItemName="_AndroidReferenceAppNative" />
+    </MSBuild>
+    <ItemGroup>
+      <AndroidLibrary Include="@(_AndroidReferenceAppNative)" Bind="false" />
+    </ItemGroup>
+  </Target>
+  <Target Name="_AndroidReferenceRequirementsInputs" DependsOnTargets="ResolveReferences">
+    <PropertyGroup>
+      <_AndroidReferenceNativeApi>$(MSBuildProjectDirectory)/../Foundation/obj/$(Configuration)/$(TargetFramework)/api.xml.class-parse</_AndroidReferenceNativeApi>
+      <_AndroidReferenceOwners>$(MSBuildProjectDirectory)/../Foundation/obj/$(Configuration)/$(TargetFramework)/ownership.json</_AndroidReferenceOwners>
+      <_AndroidReferenceValidation>$(IntermediateOutputPath)native-validated.json</_AndroidReferenceValidation>
+      <_AndroidReferenceDotnet>$(XamarinAndroidSourcePath)dotnet-local.sh</_AndroidReferenceDotnet>
+      <_AndroidReferenceDotnet Condition=" '$(OS)' == 'Windows_NT' ">$(XamarinAndroidSourcePath)dotnet-local.cmd</_AndroidReferenceDotnet>
+    </PropertyGroup>
+    <ItemGroup>
+      <_AndroidReferenceRequirement Include="@(ReferencePath)" Condition=" '%(Filename)' == 'Reference.Reader' or '%(Filename)' == 'Reference.Writer' " />
+    </ItemGroup>
+  </Target>
+  <Target Name="_AndroidValidateReferenceRequirements" BeforeTargets="CoreCompile"
+      DependsOnTargets="_AndroidReferenceRequirementsInputs"
+      Inputs="$(_AndroidReferenceNativeApi);$(_AndroidReferenceOwners);@(_AndroidReferenceRequirement);$(MonoAndroidToolsDirectory)/generator.dll;$(MonoAndroidToolsDirectory)/Java.Interop.Tools.Generator.dll"
+      Outputs="$(_AndroidReferenceValidation)">
+    <WriteLinesToFile File="$(IntermediateOutputPath)requirements.rsp" Overwrite="true"
+        Lines="--experimental-ownership-manifest=&quot;$(_AndroidReferenceOwners)&quot;;--experimental-validation-report=&quot;$(_AndroidReferenceValidation)&quot;;@(_AndroidReferenceRequirement->'--experimental-check-requirements=&quot;%(FullPath)&quot;');&quot;$(_AndroidReferenceNativeApi)&quot;" />
+    <Exec Command="&quot;$(_AndroidReferenceDotnet)&quot; &quot;$(MonoAndroidToolsDirectory)/generator.dll&quot; @&quot;$(IntermediateOutputPath)requirements.rsp&quot;" />
+    <ItemGroup>
+      <FileWrites Include="$(IntermediateOutputPath)requirements.rsp;$(_AndroidReferenceValidation)" />
+    </ItemGroup>
+  </Target>
+</Project>

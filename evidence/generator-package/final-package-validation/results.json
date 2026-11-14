@@ -1,0 +1,624 @@
+{
+  "package": "${EXPERIMENT_ARTIFACTS}/generator-package/feed/Microsoft.Android.BindingGenerator.Experimental.0.1.0-preview.1.nupkg",
+  "sha256": "3b837384dd899727af559477173a43500611a5e44bdabce7357d389051e0a8d5",
+  "sdk": {
+    "AndroidNETSdkVersion": "37.2.0-rc.2.84",
+    "MonoAndroidToolsDirectory": "${DOTNET_ROOT}/packs/Microsoft.Android.Sdk.Darwin/37.2.0-rc.2.84/tools",
+    "_AndroidSemanticBindingTargetsImported": "true"
+  },
+  "unmodifiedWorkloadHashes": {
+    "${DOTNET_ROOT}/packs/Microsoft.Android.Sdk.Darwin/37.2.0-rc.2.84/tools/Xamarin.Android.Build.Tasks.dll": "b0c6c08a2ec95b8b83bdbc7834871fc63e1af0bb62b59de47921775dc56a5867",
+    "${DOTNET_ROOT}/packs/Microsoft.Android.Sdk.Darwin/37.2.0-rc.2.84/tools/Xamarin.Android.Bindings.Core.targets": "678ebaf3d52720f714bcea55444288400ed1d0d5c1c1d2141b8d3f4cc08a2065",
+    "${DOTNET_ROOT}/packs/Microsoft.Android.Sdk.Darwin/37.2.0-rc.2.84/tools/Xamarin.Android.Bindings.ClassParse.targets": "1b450a20d4e053dccec53742964c5836589a18950ec0b99586925ea8b6d3c49a",
+    "${DOTNET_ROOT}/packs/Microsoft.Android.Sdk.Darwin/37.2.0-rc.2.84/tools/generator.dll": "c4092b04d52dc1a1750ddc935886b318c65742b301d8196a366ac9fdd07c9362",
+    "${DOTNET_ROOT}/packs/Microsoft.Android.Sdk.Darwin/37.2.0-rc.2.84/tools/class-parse.dll": "93790056476a8c0c5e2a40a62da448f708d41eb1e983158e4d02ca5561d08166"
+  },
+  "results": [
+    {
+      "name": "javac",
+      "command": [
+        "${JAVA_HOME}/bin/javac",
+        "-parameters",
+        "-d",
+        "${EXPERIMENT_ARTIFACTS}/generator-package/final-package-validation/classes",
+        "${EXPERIMENT_ARTIFACTS}/generator-package/final-package-validation/Native/net/dot/android/packagetest/Box.java"
+      ],
+      "exitCode": 0,
+      "seconds": 0.369
+    },
+    {
+      "name": "jar",
+      "command": [
+        "${JAVA_HOME}/bin/jar",
+        "cf",
+        "${EXPERIMENT_ARTIFACTS}/generator-package/final-package-validation/Binding/preview.jar",
+        "-C",
+        "${EXPERIMENT_ARTIFACTS}/generator-package/final-package-validation/classes",
+        "."
+      ],
+      "exitCode": 0,
+      "seconds": 0.104
+    },
+    {
+      "name": "sdk-version",
+      "command": [
+        "dotnet",
+        "--version"
+      ],
+      "exitCode": 0,
+      "seconds": 2.046
+    },
+    {
+      "name": "semantic",
+      "command": [
+        "dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--source",
+        "${EXPERIMENT_ARTIFACTS}/generator-package/feed",
+        "--source",
+        "https://api.nuget.org/v3/index.json",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1",
+        "-bl:semantic.binlog"
+      ],
+      "exitCode": 0,
+      "seconds": 7.43
+    },
+    {
+      "name": "sdk-paths",
+      "command": [
+        "dotnet",
+        "msbuild",
+        "Binding/Preview.Binding.csproj",
+        "-nologo",
+        "-t:_ResolveMonoAndroidSdks",
+        "-getProperty:AndroidNETSdkVersion,MonoAndroidToolsDirectory,_AndroidSemanticBindingTargetsImported",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1"
+      ],
+      "exitCode": 0,
+      "seconds": 0.315
+    },
+    {
+      "name": "incremental",
+      "command": [
+        "dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--no-restore",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1",
+        "-bl:incremental.binlog"
+      ],
+      "exitCode": 0,
+      "seconds": 1.159
+    },
+    {
+      "name": "missing-source",
+      "command": [
+        "dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--no-restore",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1",
+        "-bl:missing-source.binlog"
+      ],
+      "exitCode": 0,
+      "seconds": 2.12
+    },
+    {
+      "name": "metadata-change",
+      "command": [
+        "dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--no-restore",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1",
+        "-bl:metadata-change.binlog"
+      ],
+      "exitCode": 0,
+      "seconds": 2.123
+    },
+    {
+      "name": "native-change",
+      "command": [
+        "dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--no-restore",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1",
+        "-bl:native-change.binlog"
+      ],
+      "exitCode": 0,
+      "seconds": 2.555
+    },
+    {
+      "name": "legacy",
+      "command": [
+        "dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--no-restore",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1",
+        "-p:AndroidBindingGenerator=Legacy",
+        "-bl:legacy.binlog"
+      ],
+      "exitCode": 0,
+      "seconds": 2.351
+    },
+    {
+      "name": "semantic-again",
+      "command": [
+        "dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--no-restore",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1",
+        "-bl:semantic-again.binlog"
+      ],
+      "exitCode": 0,
+      "seconds": 2.365
+    },
+    {
+      "name": "invalid-mode",
+      "command": [
+        "dotnet",
+        "build",
+        "Binding/Preview.Binding.csproj",
+        "--no-restore",
+        "-nr:false",
+        "-p:AndroidBindingGenerator=Invalid",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1"
+      ],
+      "exitCode": 1,
+      "seconds": 0.916
+    },
+    {
+      "name": "multitarget",
+      "command": [
+        "dotnet",
+        "build",
+        "Multi/Preview.Multi.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--source",
+        "${EXPERIMENT_ARTIFACTS}/generator-package/feed",
+        "--source",
+        "https://api.nuget.org/v3/index.json",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1",
+        "-m:2",
+        "-bl:multitarget.binlog"
+      ],
+      "exitCode": 0,
+      "seconds": 6.892
+    },
+    {
+      "name": "design-time",
+      "command": [
+        "dotnet",
+        "msbuild",
+        "Binding/Preview.Binding.csproj",
+        "-t:Compile",
+        "-p:DesignTimeBuild=true",
+        "-p:BuildingInsideVisualStudio=true",
+        "-p:SkipCompilerExecution=true",
+        "-nr:false",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1"
+      ],
+      "exitCode": 0,
+      "seconds": 2.034
+    },
+    {
+      "name": "strict-package-tasks",
+      "command": [
+        "dotnet",
+        "msbuild",
+        "PackageTasks.proj",
+        "-t:Check",
+        "-m:2",
+        "-mt",
+        "-nr:false",
+        "-warnaserror:MSB4286,MSB4287,MSB4288",
+        "-p:PackageTaskAssembly=${EXPERIMENT_ARTIFACTS}/nuget-packages/microsoft.android.bindinggenerator.experimental/0.1.0-preview.1/tools/tasks/Microsoft.Android.BindingGenerator.Experimental.dll",
+        "-p:DotnetHost=dotnet",
+        "-p:BindingManifest=${EXPERIMENT_ARTIFACTS}/generator-package/final-package-validation/Binding/obj/Debug/net11.0-android/semantic-bindings/-1568763234/generated/src/Preview.Binding.projitems",
+        "-p:BindingOwnershipReport=${EXPERIMENT_ARTIFACTS}/generator-package/final-package-validation/Binding/obj/Debug/net11.0-android/semantic-bindings/-1568763234/generated/ownership.json"
+      ],
+      "exitCode": 0,
+      "seconds": 0.447
+    },
+    {
+      "name": "runtime-reference",
+      "command": [
+        "dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--source",
+        "${EXPERIMENT_ARTIFACTS}/generator-package/feed",
+        "--source",
+        "https://api.nuget.org/v3/index.json",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1",
+        "-p:KotlinProjections=true",
+        "-bl:runtime-reference.binlog"
+      ],
+      "exitCode": 0,
+      "seconds": 3.139
+    },
+    {
+      "name": "package-upgrade",
+      "command": [
+        "dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--source",
+        "${EXPERIMENT_ARTIFACTS}/generator-package/feed",
+        "--source",
+        "https://api.nuget.org/v3/index.json",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1",
+        "-p:GeneratorPackageVersion=0.1.0-preview.2",
+        "-bl:package-upgrade.binlog"
+      ],
+      "exitCode": 0,
+      "seconds": 3.988
+    },
+    {
+      "name": "native-runtime",
+      "command": [
+        "bash",
+        "${ANDROID_SOURCE}/build-tools/gradle/gradlew",
+        "--no-daemon",
+        "--console",
+        "plain",
+        "-p",
+        "${EXPERIMENT_ARTIFACTS}/generator-package/final-package-validation/Native",
+        "-PdotnetAndroidGradleConfig=${ANDROID_SOURCE}/eng/gradle",
+        "-PdotnetKotlinRuntimeSource=${EXPERIMENT_ARTIFACTS}/nuget-packages/microsoft.android.kotlin/0.1.0-preview.1/native",
+        "prepareRuntime"
+      ],
+      "exitCode": 0,
+      "seconds": 7.108
+    },
+    {
+      "name": "device-ready",
+      "command": [
+        "${ANDROID_HOME}/platform-tools/adb",
+        "-s",
+        "emulator-5594",
+        "shell",
+        "getprop",
+        "sys.boot_completed"
+      ],
+      "exitCode": 0,
+      "seconds": 0.04
+    },
+    {
+      "name": "device-debug-build",
+      "command": [
+        "dotnet",
+        "build",
+        "App/Preview.App.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:minimal",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1",
+        "--source",
+        "${EXPERIMENT_ARTIFACTS}/generator-package/feed",
+        "--source",
+        "https://api.nuget.org/v3/index.json",
+        "-p:KotlinProjections=true",
+        "-p:RuntimeIdentifier=android-arm64",
+        "-bl:device-debug.binlog"
+      ],
+      "exitCode": 0,
+      "seconds": 14.033
+    },
+    {
+      "name": "device-debug-install",
+      "command": [
+        "${ANDROID_HOME}/platform-tools/adb",
+        "-s",
+        "emulator-5594",
+        "install",
+        "-r",
+        "${EXPERIMENT_ARTIFACTS}/generator-package/final-package-validation/App/bin/Debug/net11.0-android/android-arm64/net.dot.android.packagetest.app-Signed.apk"
+      ],
+      "exitCode": 0,
+      "seconds": 0.692
+    },
+    {
+      "name": "device-debug-stop",
+      "command": [
+        "${ANDROID_HOME}/platform-tools/adb",
+        "-s",
+        "emulator-5594",
+        "shell",
+        "am",
+        "force-stop",
+        "net.dot.android.packagetest.app"
+      ],
+      "exitCode": 0,
+      "seconds": 0.074
+    },
+    {
+      "name": "device-debug-clear-log",
+      "command": [
+        "${ANDROID_HOME}/platform-tools/adb",
+        "-s",
+        "emulator-5594",
+        "logcat",
+        "-c"
+      ],
+      "exitCode": 0,
+      "seconds": 0.134
+    },
+    {
+      "name": "device-debug-launch",
+      "command": [
+        "${ANDROID_HOME}/platform-tools/adb",
+        "-s",
+        "emulator-5594",
+        "shell",
+        "am",
+        "start",
+        "-W",
+        "-n",
+        "net.dot.android.packagetest.app/net.dot.android.packagetest.app.ProbeActivity"
+      ],
+      "exitCode": 0,
+      "seconds": 0.617
+    },
+    {
+      "name": "device-release-r8-build",
+      "command": [
+        "dotnet",
+        "build",
+        "App/Preview.App.csproj",
+        "-c",
+        "Release",
+        "-nr:false",
+        "-v:minimal",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1",
+        "--source",
+        "${EXPERIMENT_ARTIFACTS}/generator-package/feed",
+        "--source",
+        "https://api.nuget.org/v3/index.json",
+        "-p:KotlinProjections=true",
+        "-p:RuntimeIdentifier=android-arm64",
+        "-p:PublishTrimmed=true",
+        "-p:TrimMode=full",
+        "-p:AndroidLinkTool=r8",
+        "-bl:device-release-r8.binlog"
+      ],
+      "exitCode": 0,
+      "seconds": 25.186
+    },
+    {
+      "name": "device-release-r8-install",
+      "command": [
+        "${ANDROID_HOME}/platform-tools/adb",
+        "-s",
+        "emulator-5594",
+        "install",
+        "-r",
+        "${EXPERIMENT_ARTIFACTS}/generator-package/final-package-validation/App/bin/Release/net11.0-android/android-arm64/net.dot.android.packagetest.app-Signed.apk"
+      ],
+      "exitCode": 0,
+      "seconds": 0.545
+    },
+    {
+      "name": "device-release-r8-stop",
+      "command": [
+        "${ANDROID_HOME}/platform-tools/adb",
+        "-s",
+        "emulator-5594",
+        "shell",
+        "am",
+        "force-stop",
+        "net.dot.android.packagetest.app"
+      ],
+      "exitCode": 0,
+      "seconds": 0.068
+    },
+    {
+      "name": "device-release-r8-clear-log",
+      "command": [
+        "${ANDROID_HOME}/platform-tools/adb",
+        "-s",
+        "emulator-5594",
+        "logcat",
+        "-c"
+      ],
+      "exitCode": 0,
+      "seconds": 0.112
+    },
+    {
+      "name": "device-release-r8-launch",
+      "command": [
+        "${ANDROID_HOME}/platform-tools/adb",
+        "-s",
+        "emulator-5594",
+        "shell",
+        "am",
+        "start",
+        "-W",
+        "-n",
+        "net.dot.android.packagetest.app/net.dot.android.packagetest.app.ProbeActivity"
+      ],
+      "exitCode": 0,
+      "seconds": 0.167
+    },
+    {
+      "name": "device-nativeaot-build",
+      "command": [
+        "dotnet",
+        "build",
+        "App/Preview.App.csproj",
+        "-c",
+        "Release",
+        "-nr:false",
+        "-v:minimal",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.1",
+        "--source",
+        "${EXPERIMENT_ARTIFACTS}/generator-package/feed",
+        "--source",
+        "https://api.nuget.org/v3/index.json",
+        "-p:KotlinProjections=true",
+        "-p:RuntimeIdentifier=android-arm64",
+        "-p:PublishAot=true",
+        "-bl:device-nativeaot.binlog"
+      ],
+      "exitCode": 0,
+      "seconds": 22.414
+    },
+    {
+      "name": "device-nativeaot-install",
+      "command": [
+        "${ANDROID_HOME}/platform-tools/adb",
+        "-s",
+        "emulator-5594",
+        "install",
+        "-r",
+        "${EXPERIMENT_ARTIFACTS}/generator-package/final-package-validation/App/bin/Release/net11.0-android/android-arm64/net.dot.android.packagetest.app-Signed.apk"
+      ],
+      "exitCode": 0,
+      "seconds": 0.214
+    },
+    {
+      "name": "device-nativeaot-stop",
+      "command": [
+        "${ANDROID_HOME}/platform-tools/adb",
+        "-s",
+        "emulator-5594",
+        "shell",
+        "am",
+        "force-stop",
+        "net.dot.android.packagetest.app"
+      ],
+      "exitCode": 0,
+      "seconds": 0.045
+    },
+    {
+      "name": "device-nativeaot-clear-log",
+      "command": [
+        "${ANDROID_HOME}/platform-tools/adb",
+        "-s",
+        "emulator-5594",
+        "logcat",
+        "-c"
+      ],
+      "exitCode": 0,
+      "seconds": 0.107
+    },
+    {
+      "name": "device-nativeaot-launch",
+      "command": [
+        "${ANDROID_HOME}/platform-tools/adb",
+        "-s",
+        "emulator-5594",
+        "shell",
+        "am",
+        "start",
+        "-W",
+        "-n",
+        "net.dot.android.packagetest.app/net.dot.android.packagetest.app.ProbeActivity"
+      ],
+      "exitCode": 0,
+      "seconds": 0.13
+    }
+  ],
+  "deviceResults": [
+    {
+      "mode": "debug",
+      "checks": 11,
+      "apkSha256": "deb73d71c6c92a770557cecfc64e859c1fffe9b968424116b3a2fc5672608a60"
+    },
+    {
+      "mode": "release-r8",
+      "checks": 11,
+      "apkSha256": "d35fa2552347c9aec4ba437ad6bacafebfd40efb782a9caf2a577a097db73358"
+    },
+    {
+      "mode": "nativeaot",
+      "checks": 11,
+      "apkSha256": "bac208f06f2c9f30174296a1219aaf6149265325b2ac5be7e5035ec5a601fcc2"
+    }
+  ],
+  "testedArchiveSha256": "c89c073a44c3ba2550edb45fb7f7b92c7f650d68fb3a12e41f5eab0b7c553eef",
+  "documentationOnlyRepack": {
+    "identicalBuildAndToolPayloads": true,
+    "payloadCount": 141
+  },
+  "strictFullRebuild": {
+    "exitCode": 0,
+    "command": "dotnet build Binding/Preview.Binding.csproj -t:Rebuild --no-restore -c Debug -m:2 -mt -nr:false -warnaserror:MSB4286,MSB4287,MSB4288 -p:KotlinProjections=true -p:AndroidSdkDirectory=${ANDROID_HOME} -p:JavaSdkDirectory=${JAVA_HOME} -v:minimal"
+  }
+}

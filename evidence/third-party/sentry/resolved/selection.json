@@ -1,0 +1,255 @@
+{
+    "schemaVersion": 1,
+    "policy": "One Gradle-resolved version per module",
+    "configurationSha256": "8aaadeaa197978b69d910f2dbaf1578c2cc5654f6a7fe8fd9242a5390a95a383",
+    "configurationRecords": 3,
+    "includedRoots": null,
+    "records": [
+        {
+            "requested": {
+                "groupId": "io.sentry",
+                "artifactId": "sentry-android",
+                "version": "8.62.0"
+            },
+            "selected": {
+                "group": "io.sentry",
+                "artifact": "sentry-android",
+                "version": "8.62.0",
+                "reasons": [
+                    "requested"
+                ]
+            },
+            "variantAlias": null,
+            "publishedRelocation": null,
+            "superseded": false
+        },
+        {
+            "requested": {
+                "groupId": "io.sentry",
+                "artifactId": "sentry-compose-android",
+                "version": "8.62.0"
+            },
+            "selected": {
+                "group": "io.sentry",
+                "artifact": "sentry-compose-android",
+                "version": "8.62.0",
+                "reasons": [
+                    "requested"
+                ]
+            },
+            "variantAlias": null,
+            "publishedRelocation": null,
+            "superseded": false
+        },
+        {
+            "requested": {
+                "groupId": "io.sentry",
+                "artifactId": "sentry-kotlin-extensions",
+                "version": "8.62.0"
+            },
+            "selected": {
+                "group": "io.sentry",
+                "artifact": "sentry-kotlin-extensions",
+                "version": "8.62.0",
+                "reasons": [
+                    "requested"
+                ]
+            },
+            "variantAlias": null,
+            "publishedRelocation": null,
+            "superseded": false
+        }
+    ],
+    "modules": [
+        {
+            "group": "io.sentry",
+            "artifact": "sentry-android",
+            "version": "8.62.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.sentry",
+            "artifact": "sentry-android-core",
+            "version": "8.62.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-common-java8",
+            "version": "2.2.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-common",
+            "version": "2.2.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.annotation",
+            "artifact": "annotation",
+            "version": "1.1.0",
+            "reasons": [
+                "requested",
+                "between versions 1.1.0 and 1.0.0"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-process",
+            "version": "2.2.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.lifecycle",
+            "artifact": "lifecycle-runtime",
+            "version": "2.2.0",
+            "reasons": [
+                "requested",
+                "between versions 2.2.0 and 2.0.0"
+            ]
+        },
+        {
+            "group": "androidx.arch.core",
+            "artifact": "core-common",
+            "version": "2.1.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.core",
+            "artifact": "core",
+            "version": "1.3.2",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.versionedparcelable",
+            "artifact": "versionedparcelable",
+            "version": "1.1.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "androidx.collection",
+            "artifact": "collection",
+            "version": "1.0.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "com.abovevacant",
+            "artifact": "epitaph",
+            "version": "0.1.1",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.sentry",
+            "artifact": "sentry",
+            "version": "8.62.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.sentry",
+            "artifact": "sentry-android-ndk",
+            "version": "8.62.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.sentry",
+            "artifact": "sentry-native-ndk",
+            "version": "0.17.4",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.sentry",
+            "artifact": "sentry-android-replay",
+            "version": "8.62.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlin",
+            "artifact": "kotlin-stdlib-jdk8",
+            "version": "1.9.24",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 1.9.24 and 1.8.0"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlin",
+            "artifact": "kotlin-stdlib",
+            "version": "1.9.24",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains",
+            "artifact": "annotations",
+            "version": "13.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "org.jetbrains.kotlin",
+            "artifact": "kotlin-stdlib-jdk7",
+            "version": "1.9.24",
+            "reasons": [
+                "requested",
+                "constraint",
+                "between versions 1.9.24 and 1.8.0"
+            ]
+        },
+        {
+            "group": "io.sentry",
+            "artifact": "sentry-compose-android",
+            "version": "8.62.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.sentry",
+            "artifact": "sentry-android-navigation",
+            "version": "8.62.0",
+            "reasons": [
+                "requested"
+            ]
+        },
+        {
+            "group": "io.sentry",
+            "artifact": "sentry-kotlin-extensions",
+            "version": "8.62.0",
+            "reasons": [
+                "requested"
+            ]
+        }
+    ]
+}

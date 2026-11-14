@@ -1,0 +1,36 @@
+[
+  {
+    "artifacts": [
+      {
+        "groupId": "com.revenuecat.purchases",
+        "artifactId": "purchases",
+        "version": "11.0.1"
+      },
+      {
+        "groupId": "com.revenuecat.purchases",
+        "artifactId": "purchases-ui",
+        "version": "11.0.1"
+      },
+      {
+        "groupId": "com.revenuecat.purchases",
+        "artifactId": "purchases-store-amazon",
+        "version": "11.0.1"
+      },
+      {
+        "groupId": "com.revenuecat.purchases",
+        "artifactId": "purchases-store-galaxy",
+        "version": "11.0.1"
+      },
+      {
+        "groupId": "com.revenuecat.purchases",
+        "artifactId": "purchases-debug-view",
+        "version": "11.0.1"
+      },
+      {
+        "groupId": "com.revenuecat.purchases",
+        "artifactId": "purchases-admob",
+        "version": "11.0.1"
+      }
+    ]
+  }
+]

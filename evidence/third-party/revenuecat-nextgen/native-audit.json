@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "coherent": true,
+  "inputArchiveRecords": 56,
+  "uniqueArchives": 56,
+  "repeatedArchiveRecords": [],
+  "nativeClassNames": 10969,
+  "mavenGroups": {
+    "androidx.activity": 51,
+    "androidx.annotation": 81,
+    "androidx.arch.core": 14,
+    "androidx.collection": 143,
+    "androidx.concurrent": 19,
+    "androidx.core": 1028,
+    "androidx.customview": 15,
+    "androidx.fragment": 76,
+    "androidx.interpolator": 4,
+    "androidx.lifecycle": 129,
+    "androidx.loader": 23,
+    "androidx.profileinstaller": 27,
+    "androidx.savedstate": 13,
+    "androidx.startup": 5,
+    "androidx.tracing": 3,
+    "androidx.versionedparcelable": 15,
+    "androidx.viewpager": 24,
+    "com.android.billingclient": 607,
+    "com.google.android.datatransport": 254,
+    "com.google.android.gms": 1113,
+    "com.google.code.findbugs": 35,
+    "com.google.code.gson": 217,
+    "com.google.crypto.tink": 1581,
+    "com.google.errorprone": 26,
+    "com.google.firebase": 32,
+    "com.google.guava": 1,
+    "com.revenuecat.purchases": 3178,
+    "dev.drewhamilton.poko": 9,
+    "javax.inject": 6,
+    "org.jetbrains": 57,
+    "org.jetbrains.kotlin": 993,
+    "org.jetbrains.kotlinx": 1190
+  },
+  "androidVariantAliases": {},
+  "conflicts": [],
+  "inputs": [
+    {
+      "group": "androidx.activity",
+      "artifact": "activity",
+      "version": "1.2.3",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.activity/activity/1.2.3/31b424ed12f25c6a47fb74280054f128064c94dc/activity-1.2.3.aar",
+      "sha256": "1dce0705c334a6b2ef03382418dc7586f4e57ee23817267b403ea8cfc36c824e"
+    },
+    {
+      "group": "androidx.annotation",
+      "artifact": "annotation-experimental",
+      "version": "1.4.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.annotation/annotation-experimental/1.4.1/7851235e2a16ce50270a74b555edaf9209b42864/annotation-experimental-1.4.1.aar",
+      "sha256": "6bd4c7c7476f8260cd3bdbb81183583e93fc9f790c27dea7dc314181cbf87aa0"
+    },
+    {
+      "group": "androidx.annotation",
+      "artifact": "annotation-jvm",
+      "version": "1.8.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.annotation/annotation-jvm/1.8.1/b8a16fe526014b7941c1debaccaf9c5153692dbb/annotation-jvm-1.8.1.jar",
+      "sha256": "9aab326d9492800991854360ac248f493ce7f7c3183519309b78ace9e240f6f6"
+    },
+    {
+      "group": "androidx.arch.core",
+      "artifact": "core-common",
+      "version": "2.2.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.2.0/5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3/core-common-2.2.0.jar",
+      "sha256": "65308a06b1c00ee186cb9e19321383f043b993813f1522c47f4a3e3303bdba41"
+    },
+    {
+      "group": "androidx.arch.core",
+      "artifact": "core-runtime",
+      "version": "2.2.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.2.0/39705982680d78556b679ef9d5400d4f17509b0b/core-runtime-2.2.0.aar",
+      "sha256": "a1be5e0caa2b07623862af6ae21b3ab0718123245184d0e30dea81b53f990a47"
+    },
+    {
+      "group": "androidx.collection",
+      "artifact": "collection-jvm",
+      "version": "1.4.2",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.collection/collection-jvm/1.4.2/bc60b5568a66d765a9fe8e266fd0c6c727e0b50b/collection-jvm-1.4.2.jar",
+      "sha256": "984ce9bd780055eafb8a105aca3f514686bf7b1b6272ec7c645a98ce40fc7db4"
+    },
+    {
+      "group": "androidx.concurrent",
+      "artifact": "concurrent-futures",
+      "version": "1.1.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.concurrent/concurrent-futures/1.1.0/50b7fb98350d5f42a4e49704b03278542293ba48/concurrent-futures-1.1.0.jar",
+      "sha256": "0ce067c514a0d1049d1bebdf709e344ed3266fe9744275682937cdcb13334e9e"
+    },
+    {
+      "group": "androidx.core",
+      "artifact": "core-ktx",
+      "version": "1.15.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.core/core-ktx/1.15.0/b45c3596eb3875fcb756552706aed117caf90208/core-ktx-1.15.0.aar",
+      "sha256": "c72c97ff4a32308bcaf3061eea5ddf33455ce413cee4aa1d5c82440c5759d4bc"
+    },
+    {
+      "group": "androidx.core",
+      "artifact": "core",
+      "version": "1.15.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.core/core/1.15.0/e8d4c7eeed12403fdd2d5ef29a00ebe946d530d6/core-1.15.0.aar",
+      "sha256": "432b85a1974076e14b487ece4a28c59a84f1b9efc3fc8be72cd7f05d32055e51"
+    },
+    {
+      "group": "androidx.customview",
+      "artifact": "customview",
+      "version": "1.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.customview/customview/1.0.0/30f5ff6075d112f8076e733b24410e68159735b6/customview-1.0.0.aar",
+      "sha256": "20e5b8f6526a34595a604f56718da81167c0b40a7a94a57daa355663f2594df2"
+    },
+    {
+      "group": "androidx.fragment",
+      "artifact": "fragment",
+      "version": "1.1.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/5f9efc7569e651415a0958d6b3e6226ef2825c24/fragment-1.1.0.aar",
+      "sha256": "a14c8b8f2153f128e800fbd266a6beab1c283982a29ec570d2cc05d307d81496"
+    },
+    {
+      "group": "androidx.interpolator",
+      "artifact": "interpolator",
+      "version": "1.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.interpolator/interpolator/1.0.0/8a01fa254a23b9388571eb6334b03707c7d122d7/interpolator-1.0.0.aar",
+      "sha256": "33193135a64fe21fa2c35eec6688f1a76e512606c0fc83dc1b689e37add7732a"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-common",
+      "version": "2.6.2",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.6.2/10f354fdb64868baecd67128560c5a0d6312c495/lifecycle-common-2.6.2.jar",
+      "sha256": "f34831b6c71cd844e1d35d1be49d5e79447c5ab856346531b1e8676fda7374b1"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-livedata-core",
+      "version": "2.6.2",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.6.2/23f66885a260f0a2cd6540927ea8795484afd2da/lifecycle-livedata-core-2.6.2.aar",
+      "sha256": "2256780a3cff4a1e57fbb3d442557c17dc363ab8af105bcaf5261d8e2d5db949"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-livedata",
+      "version": "2.6.2",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.6.2/e7f6d9e232bf035af69c030917c1ccda8e840b57/lifecycle-livedata-2.6.2.aar",
+      "sha256": "67359f609dfc2bf65da1270b23033f856064ec279f058e0a70c715f7c9003031"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-process",
+      "version": "2.6.2",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-process/2.6.2/1cda99630dfe13ea65f63d05821187bfe87a5967/lifecycle-process-2.6.2.aar",
+      "sha256": "0f33b1bd017f965a6afb2e7bf3e3bd343c624061c1986dea8ba2469d04349437"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-runtime",
+      "version": "2.6.2",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.6.2/f0ef27053faa89b3ec06c4f118cea0a15edde35b/lifecycle-runtime-2.6.2.aar",
+      "sha256": "4867fd5279742fba8388821930cb2affe06d81a52814e7e41e70392ea0ef887c"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-viewmodel-savedstate",
+      "version": "2.6.2",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-savedstate/2.6.2/483115c35b2926c3780dfdaf3f5d0342855e73b1/lifecycle-viewmodel-savedstate-2.6.2.aar",
+      "sha256": "7bc7dcbab17636ec076f12afe4d02671265c389457b1b366b37a0e8cb91e2da0"
+    },
+    {
+      "group": "androidx.lifecycle",
+      "artifact": "lifecycle-viewmodel",
+      "version": "2.6.2",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.6.2/fa35bfdbbe0e7df1573e377cbdd15de35176141d/lifecycle-viewmodel-2.6.2.aar",
+      "sha256": "e4ff4338999e1c6c9c724719f5d4aa7dd61bf6f545d5256a27a9d375df9f2330"
+    },
+    {
+      "group": "androidx.loader",
+      "artifact": "loader",
+      "version": "1.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.loader/loader/1.0.0/8af8b6cec0da85c207d03e15840e0722cbc71e70/loader-1.0.0.aar",
+      "sha256": "11f735cb3b55c458d470bed9e25254375b518b4b1bad6926783a7026db0f5025"
+    },
+    {
+      "group": "androidx.profileinstaller",
+      "artifact": "profileinstaller",
+      "version": "1.3.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.profileinstaller/profileinstaller/1.3.0/624641814089cd7bebf427aafa68ac089fb38261/profileinstaller-1.3.0.aar",
+      "sha256": "34e8b2bfc74e23c1525e3da903ae449b7f1b440aef45e18159ee470e91997f48"
+    },
+    {
+      "group": "androidx.savedstate",
+      "artifact": "savedstate",
+      "version": "1.2.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.savedstate/savedstate/1.2.1/e364fc9dec32aa569d855f85864e50250318a093/savedstate-1.2.1.aar",
+      "sha256": "21a7d4bcf6bdb94ad7b9283801529300b4fbb8808ca4f191e0cdce6fd8e4705a"
+    },
+    {
+      "group": "androidx.startup",
+      "artifact": "startup-runtime",
+      "version": "1.1.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.startup/startup-runtime/1.1.1/9d4ba67056aff98b69eadc1477c19a1e67cb9470/startup-runtime-1.1.1.aar",
+      "sha256": "e0a6329a371262fe4c450372b70fdaf33b769ef6917094723787cfce896b1dd3"
+    },
+    {
+      "group": "androidx.tracing",
+      "artifact": "tracing",
+      "version": "1.2.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.tracing/tracing/1.2.0/a6ac2cc501278fdc99c56b428548e0cd1e9300f7/tracing-1.2.0.aar",
+      "sha256": "6faa90390d1fdbf0adb9a99bf99de67b94c6c6f35aea9510593a9d17973736a2"
+    },
+    {
+      "group": "androidx.versionedparcelable",
+      "artifact": "versionedparcelable",
+      "version": "1.1.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/18e18071e7715679e0593c570217edeb5ca48b9e/versionedparcelable-1.1.1.aar",
+      "sha256": "57e8d93260d18d5b9007c9eed3c64ad159de90c8609ebfc74a347cbd514535a4"
+    },
+    {
+      "group": "androidx.viewpager",
+      "artifact": "viewpager",
+      "version": "1.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/1f90e13820f96c2fb868f9674079a551678d68b2/viewpager-1.0.0.aar",
+      "sha256": "147af4e14a1984010d8f155e5e19d781f03c1d70dfed02a8e0d18428b8fc8682"
+    },
+    {
+      "group": "com.android.billingclient",
+      "artifact": "billing",
+      "version": "9.1.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.android.billingclient/billing/9.1.0/df0528975494b56c68e178ce5ee9aee52a4479f/billing-9.1.0.aar",
+      "sha256": "d28286d4e4c18725510980de01211d9b72501e7146d96817fa0c9999af9b0d22"
+    },
+    {
+      "group": "com.google.android.datatransport",
+      "artifact": "transport-api",
+      "version": "3.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.android.datatransport/transport-api/3.0.0/7421bab19ed712c5592694e807ba72ccf39d42d4/transport-api-3.0.0.aar",
+      "sha256": "4e6983c0703b357df6f1c6ceacb1b5dfc2c5006a789c799fec2298b2b5337466"
+    },
+    {
+      "group": "com.google.android.datatransport",
+      "artifact": "transport-backend-cct",
+      "version": "3.1.8",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.android.datatransport/transport-backend-cct/3.1.8/cfd0b63e154b80207d36ef3199ae06c8fe088e5/transport-backend-cct-3.1.8.aar",
+      "sha256": "e17edd1ef7fd475c90baa4e39422332f27087d34bcb46cb48ce86af9a54a612e"
+    },
+    {
+      "group": "com.google.android.datatransport",
+      "artifact": "transport-runtime",
+      "version": "3.1.8",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.android.datatransport/transport-runtime/3.1.8/5632cd0e73a5e28a50761beae0b999ca8a3d69ce/transport-runtime-3.1.8.aar",
+      "sha256": "cb9353ef1791ae17097d878ca711e25a9c32cec9042adc49b00cadfee1a7290b"
+    },
+    {
+      "group": "com.google.android.gms",
+      "artifact": "play-services-ads-identifier",
+      "version": "17.0.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.android.gms/play-services-ads-identifier/17.0.1/af2dbb76a32365178a748215499f66470b39be13/play-services-ads-identifier-17.0.1.aar",
+      "sha256": "b1c33c165321cbe09803cfd7404a8ffc805ceb5a71cee63df344d99fcec7e937"
+    },
+    {
+      "group": "com.google.android.gms",
+      "artifact": "play-services-auth-blockstore",
+      "version": "16.4.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.android.gms/play-services-auth-blockstore/16.4.0/3420113130f15d15959fee245c35707a267b8862/play-services-auth-blockstore-16.4.0.aar",
+      "sha256": "7e70f20ca8710a783bfbdb268b35603105089e55134313c977e5ba6a0fae4938"
+    },
+    {
+      "group": "com.google.android.gms",
+      "artifact": "play-services-base",
+      "version": "18.5.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.android.gms/play-services-base/18.5.0/9b3fc5c98a0a082ce2804aa97d1f1bf39b01ce76/play-services-base-18.5.0.aar",
+      "sha256": "59a5c0c2da12311d75d965ce1f419498536b1a167fb28ff7dfc2dfd9cefa4157"
+    },
+    {
+      "group": "com.google.android.gms",
+      "artifact": "play-services-basement",
+      "version": "18.9.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.android.gms/play-services-basement/18.9.0/19b02720db5a39461ccf479053b5dbc10e65b09f/play-services-basement-18.9.0.aar",
+      "sha256": "c6ed7236b1b3ce0296b508a5c0a09108fd52d83559d35cad2639505cd04ab255"
+    },
+    {
+      "group": "com.google.android.gms",
+      "artifact": "play-services-location",
+      "version": "19.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.android.gms/play-services-location/19.0.0/ebe2c9a380472c149a0fbd982474bc93792057e0/play-services-location-19.0.0.aar",
+      "sha256": "6b205c43ba5df751eca8ce9dae7a58effafac7d637fb4fc708a7522d1b99cf80"
+    },
+    {
+      "group": "com.google.android.gms",
+      "artifact": "play-services-places-placereport",
+      "version": "17.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.android.gms/play-services-places-placereport/17.0.0/6fd0e52de8c47b7228223bf3a7fe53d075b6b0b2/play-services-places-placereport-17.0.0.aar",
+      "sha256": "2c7fd63ad02f28150ae4ffe4615dac7d694d790e2c4667f777aedc8ee054e929"
+    },
+    {
+      "group": "com.google.android.gms",
+      "artifact": "play-services-tasks",
+      "version": "18.2.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.android.gms/play-services-tasks/18.2.0/75cd01884bac2768b8ab1b530c6510334bb2330c/play-services-tasks-18.2.0.aar",
+      "sha256": "7f2aaa8f502068eaf54356ca92aec04271d6e7c416c52c45c0d23440fcbd1654"
+    },
+    {
+      "group": "com.google.code.findbugs",
+      "artifact": "jsr305",
+      "version": "3.0.2",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar",
+      "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+    },
+    {
+      "group": "com.google.code.gson",
+      "artifact": "gson",
+      "version": "2.10.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/b3add478d4382b78ea20b1671390a858002feb6c/gson-2.10.1.jar",
+      "sha256": "4241c14a7727c34feea6507ec801318a3d4a90f070e4525681079fb94ee4c593"
+    },
+    {
+      "group": "com.google.crypto.tink",
+      "artifact": "tink-android",
+      "version": "1.10.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.crypto.tink/tink-android/1.10.0/5ada7bceaf39f3e4130b0749a04182805400dfd8/tink-android-1.10.0.jar",
+      "sha256": "9f4f847dc575d9712385feb8f04bdbc7f4e96e46c0e47e47208fc3b79c2b5dc3"
+    },
+    {
+      "group": "com.google.errorprone",
+      "artifact": "error_prone_annotations",
+      "version": "2.18.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.18.0/89b684257096f548fa39a7df9fdaa409d4d4df91/error_prone_annotations-2.18.0.jar",
+      "sha256": "9e6814cb71816988a4fd1b07a993a8f21bb7058d522c162b1de849e19bea54ae"
+    },
+    {
+      "group": "com.google.firebase",
+      "artifact": "firebase-encoders-json",
+      "version": "18.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.firebase/firebase-encoders-json/18.0.0/96bb325983a231881f1e195ed9d713189f421dea/firebase-encoders-json-18.0.0.aar",
+      "sha256": "80aece7e1ef58957ca2fc1957bc9208ec92a3a9528201331d3c63e3182570f97"
+    },
+    {
+      "group": "com.google.firebase",
+      "artifact": "firebase-encoders-proto",
+      "version": "16.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.firebase/firebase-encoders-proto/16.0.0/a42d5fd83b96ae7b73a8617d29c94703e18c9992/firebase-encoders-proto-16.0.0.jar",
+      "sha256": "293db96a0d1d43f033167881b638d8fde844e4e5495f5101cf52295765295e0e"
+    },
+    {
+      "group": "com.google.firebase",
+      "artifact": "firebase-encoders",
+      "version": "17.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.firebase/firebase-encoders/17.0.0/26f52dc549c42575b155f8c720e84059ee600a85/firebase-encoders-17.0.0.jar",
+      "sha256": "282a5a703f9b7eb56508dde97ea918e95d73318b157050f457f7a86dca750150"
+    },
+    {
+      "group": "com.google.guava",
+      "artifact": "listenablefuture",
+      "version": "1.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.google.guava/listenablefuture/1.0/c949a840a6acbc5268d088e47b04177bf90b3cad/listenablefuture-1.0.jar",
+      "sha256": "e4ad7607e5c0477c6f890ef26a49cb8d1bb4dffb650bab4502afee64644e3069"
+    },
+    {
+      "group": "com.revenuecat.purchases",
+      "artifact": "purchases-admob-next-gen",
+      "version": "11.0.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.revenuecat.purchases/purchases-admob-next-gen/11.0.1/7ff207e78828d023957305cce303cea522d70dd6/purchases-admob-next-gen-11.0.1.aar",
+      "sha256": "284e63f4c9aeb8f0b74f9ce874d6054286bdcaabe18a32e4eb50d5cd79c90c2b"
+    },
+    {
+      "group": "com.revenuecat.purchases",
+      "artifact": "purchases",
+      "version": "11.0.1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/com.revenuecat.purchases/purchases/11.0.1/d52741cfe3313c62e53a3f5865dd463025b91b5a/purchases-11.0.1.aar",
+      "sha256": "a2fe3beae1119df24547606fd755ebbd3c6665453910eb6a82861d677e41d60f"
+    },
+    {
+      "group": "dev.drewhamilton.poko",
+      "artifact": "poko-annotations-jvm",
+      "version": "0.20.2",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/dev.drewhamilton.poko/poko-annotations-jvm/0.20.2/bd81f18263efb5b3923b7599ec1d590140198dc/poko-annotations-jvm-0.20.2.jar",
+      "sha256": "173fc443f30b8185295c9c9b9401272be84f553e5835e3767c7daafe5be606c9"
+    },
+    {
+      "group": "javax.inject",
+      "artifact": "javax.inject",
+      "version": "1",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar",
+      "sha256": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "artifact": "kotlin-parcelize-runtime",
+      "version": "2.2.21",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-parcelize-runtime/2.2.21/7e1559b4a0f2f45db300f0f894f55fbd5126fcae/kotlin-parcelize-runtime-2.2.21.jar",
+      "sha256": "b441b7dbf84158b8ec50011d51be5b55014170e2ddc6ebb0d47212874665a886"
+    },
+    {
+      "group": "org.jetbrains.kotlin",
+      "artifact": "kotlin-stdlib",
+      "version": "2.2.21",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.21/fa374a986e128314c3db00a20aae55f72a258511/kotlin-stdlib-2.2.21.jar",
+      "sha256": "6558a3d233da56a20934b32159f9db5f86ed5816ef098f78a2c223dc6abb79dd"
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-coroutines-android",
+      "version": "1.9.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.9.0/6cf3b8df5a2ce8c6b0dffe55657a827c405ee2fe/kotlinx-coroutines-android-1.9.0.jar",
+      "sha256": "bd783acd2f9738845d58380f46f45b5cde95d0cb03027d56725338b26bfc4d72"
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-coroutines-core-jvm",
+      "version": "1.9.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.9.0/9beade4c1c1569e4f36cbd2c37e02e3e41502601/kotlinx-coroutines-core-jvm-1.9.0.jar",
+      "sha256": "ad89c2892235e670f222d819cb3d81188143cb19a05b59df9889ae4269f5c70a"
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-serialization-core-jvm",
+      "version": "1.7.3",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.7.3/1f226780b845ff9206474c05159245d861556249/kotlinx-serialization-core-jvm-1.7.3.jar",
+      "sha256": "f0adde45864144475385cf4aa7e0b7feb27f61fcf9472665ed98cc971b06b1eb"
+    },
+    {
+      "group": "org.jetbrains.kotlinx",
+      "artifact": "kotlinx-serialization-json-jvm",
+      "version": "1.7.3",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json-jvm/1.7.3/6701e8c68d9e82387ce72ee96e8ddf058208d58f/kotlinx-serialization-json-jvm-1.7.3.jar",
+      "sha256": "b1e9138499ed8d20375edda3f2b1c95f3103a258eff6af9edc5ea07100f2b29c"
+    },
+    {
+      "group": "org.jetbrains",
+      "artifact": "annotations",
+      "version": "23.0.0",
+      "file": "${GRADLE_USER_HOME}/caches/modules-2/files-2.1/org.jetbrains/annotations/23.0.0/8cc20c07506ec18e0834947b84a864bfc094484e/annotations-23.0.0.jar",
+      "sha256": "7b0f19724082cbfcbc66e5abea2b9bc92cf08a1ea11e191933ed43801eb3cd05"
+    }
+  ]
+}

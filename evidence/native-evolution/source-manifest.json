@@ -1,0 +1,34 @@
+{
+  "lifecycle": {
+    "url": "https://developer.android.com/jetpack/androidx/releases/lifecycle",
+    "sha256": "fa1fcae719a3952a5358238402a3839fd860cca7cde4212d3f172575d749bced"
+  },
+  "collection": {
+    "url": "https://developer.android.com/jetpack/androidx/releases/collection",
+    "sha256": "5b127b02b02e3f88f550d5969dfa12e404642919ef511e4ed023d12851d2ecc8"
+  },
+  "activity": {
+    "url": "https://developer.android.com/jetpack/androidx/releases/activity",
+    "sha256": "5e5deb5311f297a04f53be398c92c7f11af8904cb2f35d2172fd534f830c6ea7"
+  },
+  "navigation": {
+    "url": "https://developer.android.com/jetpack/androidx/releases/navigation",
+    "sha256": "a86eef0502b8c091027cbb179e8185a65ac3b19207de533b23afff742802f1f6"
+  },
+  "savedstate": {
+    "url": "https://developer.android.com/jetpack/androidx/releases/savedstate",
+    "sha256": "47fdaf173dd8a3be7288b3d33c61954b1fd765a4235b3afb355d9bc577071873"
+  },
+  "gms-releases": {
+    "url": "https://developers.google.com/android/guides/releases",
+    "sha256": "da9393f8e66066641eab6f68db3b11aa8e330ac20c645f9bcf4b83a6e88497aa"
+  },
+  "gms-versioning": {
+    "url": "https://developers.google.com/android/guides/versioning",
+    "sha256": "6a55b85b0f7d382a4ac3bbd9b7ef5d107318745c9b183879b56f25a96355732b"
+  },
+  "androidx-versioning": {
+    "url": "https://developer.android.com/jetpack/androidx/versions",
+    "sha256": "6c8fd337f52da2e84ea4a8b91c4b17074f6f155d0c15157cafadf527d4bd82bd"
+  }
+}

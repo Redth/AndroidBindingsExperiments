@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
+    <IsBindingProject>true</IsBindingProject>
+    <AndroidBindingGenerator>Semantic</AndroidBindingGenerator>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Android.BindingGenerator.Semantic"
+                      Version="0.1.0-preview.workbench.1"
+                      PrivateAssets="all" />
+    <AndroidLibrary Include="hello.jar" Bind="true" />
+    <AndroidNamespaceReplacement Include="Com.Example.Bindingworkbench"
+                                Replacement="HelloBindings" />
+  </ItemGroup>
+</Project>

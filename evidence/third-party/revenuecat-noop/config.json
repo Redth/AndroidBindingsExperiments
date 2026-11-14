@@ -1,0 +1,11 @@
+[
+  {
+    "artifacts": [
+      {
+        "groupId": "com.revenuecat.purchases",
+        "artifactId": "purchases-debug-view-noop",
+        "version": "11.0.1"
+      }
+    ]
+  }
+]

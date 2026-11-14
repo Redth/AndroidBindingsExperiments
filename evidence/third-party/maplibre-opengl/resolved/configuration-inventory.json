@@ -1,0 +1,16 @@
+{
+    "schemaVersion": 1,
+    "policy": "Every artifact record in config.json; no Maven-group allowlist",
+    "configurationSha256": "f6eb31b92d252ab80608d296c4d40a9eb05848fba794f94e4a91de8c7d00c16f",
+    "originalRecords": 1,
+    "mavenGroups": {
+        "org.maplibre.gl": 1
+    },
+    "records": [
+        {
+            "groupId": "org.maplibre.gl",
+            "artifactId": "android-sdk-opengl",
+            "version": "13.7.1"
+        }
+    ]
+}

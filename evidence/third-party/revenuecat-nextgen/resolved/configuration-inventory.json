@@ -1,0 +1,16 @@
+{
+    "schemaVersion": 1,
+    "policy": "Every artifact record in config.json; no Maven-group allowlist",
+    "configurationSha256": "8f1884bf40f81b1dd7eb0c92799b0035c84f16fd169ad64cb6c16635643e65fd",
+    "originalRecords": 1,
+    "mavenGroups": {
+        "com.revenuecat.purchases": 1
+    },
+    "records": [
+        {
+            "groupId": "com.revenuecat.purchases",
+            "artifactId": "purchases-admob-next-gen",
+            "version": "11.0.1"
+        }
+    ]
+}

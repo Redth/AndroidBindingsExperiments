@@ -1,0 +1,11 @@
+[
+  {
+    "artifacts": [
+      {
+        "groupId": "com.revenuecat.purchases",
+        "artifactId": "purchases-custom-entitlement-computation",
+        "version": "11.0.1"
+      }
+    ]
+  }
+]

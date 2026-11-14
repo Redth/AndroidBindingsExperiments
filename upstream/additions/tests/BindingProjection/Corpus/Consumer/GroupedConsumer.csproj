@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0-android</TargetFramework>
+    <Nullable>enable</Nullable>
+    <EnableDefaultAndroidItems>false</EnableDefaultAndroidItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="ConsolidatedConsumer.cs" />
+    <Compile Include="ConsolidatedConsumer.cs" Condition="'$(_AndroidConsolidatedConsumer)' == 'true'" />
+    <Reference Include="$(_AndroidGroupedAssemblyDirectory)/*.dll" />
+    <ProjectReference Include="../../../../src/Microsoft.Android.Kotlin/Microsoft.Android.Kotlin.csproj" />
+  </ItemGroup>
+</Project>

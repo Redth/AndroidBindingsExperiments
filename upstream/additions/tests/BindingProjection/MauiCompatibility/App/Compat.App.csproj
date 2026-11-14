@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0-android</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
+    <ApplicationId>net.dot.android.compatpilot</ApplicationId>
+    <ApplicationTitle>MAUI compatibility pilot</ApplicationTitle>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+    <DefineConstants Condition=" '$(CompatibilityBaseline)' != 'true' ">$(DefineConstants);SEMANTIC_BINDING</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Maui.Core" Version="11.0.0-rc.2.26505.5" />
+    <Reference Include="Legacy.Consumer" HintPath="..\frozen\Legacy.Consumer.dll" />
+    <AndroidJavaSource Include="CompatibilityDriver.java" />
+    <ProguardConfiguration Include="compatibility-driver.pro" />
+  </ItemGroup>
+  <Target Name="_AndroidUseRegeneratedSwipe" BeforeTargets="ResolveAssemblyReferences"
+      Condition=" '$(CompatibilityBaseline)' != 'true' ">
+    <ItemGroup>
+      <Reference Remove="@(Reference)" Condition=" '%(Filename)' == 'Xamarin.AndroidX.SwipeRefreshLayout' " />
+      <Reference Include="Xamarin.AndroidX.SwipeRefreshLayout" HintPath="..\replacement\Xamarin.AndroidX.SwipeRefreshLayout.dll" />
+    </ItemGroup>
+  </Target>
+</Project>

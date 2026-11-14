@@ -1,0 +1,7 @@
+{
+  "configSha256": "360ef186aba2af2ef84c1c5d1279026cbdb8afdefca8a2af608bffbb623cb775",
+  "configSource": "dotnet/android-libraries config snapshot retained in original corpus",
+  "configRecords": 717,
+  "configIsHistorical": true,
+  "resolutionEvidencePaths": "Historical paths are placeholders; re-resolve through the existing Gradle corpus driver for executable inputs."
+}

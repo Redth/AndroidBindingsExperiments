@@ -1,0 +1,179 @@
+{
+  "scope": "Independent, coherently resolved binding-validation profiles; not a combined canonical NuGet/dependency tree. Do not mix these profile DLLs together.",
+  "revenueCatScope": "Nine native Android runtime publications at 11.0.1: purchases, purchases-ui, Amazon/Galaxy stores, debug/noop, custom entitlement computation, AdMob and AdMob next-gen. BOM inspected; build-time codegen and KMP/hybrid/Unity platform wrappers are not runtime binding roots in this matrix.",
+  "serviceLimits": [
+    "No real purchases, payment requests, subscription validation, ad requests or credentialed service calls were made.",
+    "RevenueCat Paywall options, managed dismiss callbacks, result models and customer-center Kotlin Unit bridges were exercised. Remote offerings and an on-screen hosted paywall still require a configured RevenueCat project/API key.",
+    "Mapbox Maps/Compose downloads are public for the pinned coordinates. GeoJSON, camera options and typed map models were exercised; displaying/loading a map still requires a public Mapbox account token.",
+    "Stripe card models use the documented public test card number and are not submitted to Stripe. Coil request models do not download images; networking models/JSON do not send HTTP requests."
+  ],
+  "generalCompilerFixes": [
+    "Resolve Kotlin serialization $$serializer scopes through authoritative JVM InnerClasses enclosing owners.",
+    "Keep ABI-changing physical bridges, including Object-returning bridges for native void/Unit methods, instead of reinterpreting JNI return types.",
+    "Recursively rebase deeply nested semantic CLR type names.",
+    "Keep typed overloads distinct when a concrete sibling already implements the erased native base slot."
+  ],
+  "generatorTests": {
+    "command": "./dotnet-local.sh test external/Java.Interop/tests/generator-Tests/generator-Tests.csproj -c Debug -v:minimal -nr:false --logger 'console;verbosity=normal'",
+    "result": "792 passed"
+  },
+  "sdkBuild": {
+    "command": "make all",
+    "result": "passed"
+  },
+  "profileResults": [
+    {
+      "profile": "revenuecat",
+      "roots": [
+        "com.revenuecat.purchases:purchases:11.0.1",
+        "com.revenuecat.purchases:purchases-ui:11.0.1",
+        "com.revenuecat.purchases:purchases-store-amazon:11.0.1",
+        "com.revenuecat.purchases:purchases-store-galaxy:11.0.1",
+        "com.revenuecat.purchases:purchases-debug-view:11.0.1",
+        "com.revenuecat.purchases:purchases-admob:11.0.1"
+      ],
+      "nativeArchives": 152,
+      "generatedSources": 18953,
+      "bindingBuild": "passed",
+      "runtimeReleaseR8": {
+        "passed": 9,
+        "expected": 9
+      },
+      "bindingSha256": "819954f7516a43992b7aad0d2721297ee67463099f2ecc8d9bc6917d4d7a921b",
+      "versionChangedCanonicalOwnersExcluded": 118,
+      "runtimeNativeAOT": {
+        "passed": 9,
+        "expected": 9
+      }
+    },
+    {
+      "profile": "revenuecat-noop",
+      "roots": [
+        "com.revenuecat.purchases:purchases-debug-view-noop:11.0.1"
+      ],
+      "nativeArchives": 100,
+      "generatedSources": 9856,
+      "bindingBuild": "passed",
+      "runtimeReleaseR8": {
+        "passed": 2,
+        "expected": 2
+      },
+      "bindingSha256": "034fa2b20f3dff563e1ac323f3bf632252f1abb53beeb262711f214db474a638",
+      "versionChangedCanonicalOwnersExcluded": 112
+    },
+    {
+      "profile": "revenuecat-custom",
+      "roots": [
+        "com.revenuecat.purchases:purchases-custom-entitlement-computation:11.0.1"
+      ],
+      "nativeArchives": 55,
+      "generatedSources": 6054,
+      "bindingBuild": "passed",
+      "runtimeReleaseR8": {
+        "passed": 2,
+        "expected": 2
+      },
+      "bindingSha256": "15742c5ec6ab43421a3608ae00540e999bfa43b049e9bb55be90c69597cca7ca",
+      "versionChangedCanonicalOwnersExcluded": 106
+    },
+    {
+      "profile": "revenuecat-nextgen",
+      "roots": [
+        "com.revenuecat.purchases:purchases-admob-next-gen:11.0.1"
+      ],
+      "nativeArchives": 56,
+      "generatedSources": 6096,
+      "bindingBuild": "passed",
+      "runtimeReleaseR8": {
+        "passed": 2,
+        "expected": 2
+      },
+      "bindingSha256": "a6c75f48f96ab18034317ee1eaba31befe2895328bde2292c29aaf778f44b75c",
+      "versionChangedCanonicalOwnersExcluded": 106
+    },
+    {
+      "profile": "mapbox",
+      "roots": [
+        "com.mapbox.maps:android-ndk27:11.34.1",
+        "com.mapbox.extension:maps-compose-ndk27:11.34.1"
+      ],
+      "nativeArchives": 103,
+      "generatedSources": 7475,
+      "bindingBuild": "passed",
+      "runtimeReleaseR8": {
+        "passed": 3,
+        "expected": 3
+      },
+      "bindingSha256": "cb5dfe0a8899c556975c9d273f83241f1d1a9a156a793e3130e1bccb73c3df30",
+      "versionChangedCanonicalOwnersExcluded": 111,
+      "runtimeNativeAOT": {
+        "passed": 3,
+        "expected": 3
+      }
+    },
+    {
+      "profile": "stripe",
+      "roots": [
+        "com.stripe:stripe-android:23.25.1"
+      ],
+      "nativeArchives": 129,
+      "generatedSources": 12379,
+      "bindingBuild": "passed",
+      "runtimeReleaseR8": {
+        "passed": 2,
+        "expected": 2
+      },
+      "bindingSha256": "689d863646580a10cab2c8f80ce41ef17ddc0c1c5802c9d928b8e23ec37d8777",
+      "versionChangedCanonicalOwnersExcluded": 108
+    },
+    {
+      "profile": "coil",
+      "roots": [
+        "io.coil-kt.coil3:coil:3.6.3",
+        "io.coil-kt.coil3:coil-compose:3.6.3",
+        "io.coil-kt.coil3:coil-network-okhttp:3.6.3"
+      ],
+      "nativeArchives": 83,
+      "generatedSources": 3109,
+      "bindingBuild": "passed",
+      "runtimeReleaseR8": {
+        "passed": 3,
+        "expected": 3
+      },
+      "bindingSha256": "40a067352015fcf1e236703401ceb88e0ae2631e771eeca7a6b1865fa93e73cb",
+      "versionChangedCanonicalOwnersExcluded": 105
+    },
+    {
+      "profile": "networking",
+      "roots": [
+        "com.squareup.retrofit2:retrofit:3.0.0",
+        "com.squareup.retrofit2:converter-moshi:3.0.0",
+        "com.squareup.okhttp3:okhttp:5.5.1",
+        "com.squareup.moshi:moshi:1.15.2"
+      ],
+      "nativeArchives": 12,
+      "generatedSources": 1340,
+      "bindingBuild": "passed",
+      "runtimeReleaseR8": {
+        "passed": 5,
+        "expected": 5
+      },
+      "bindingSha256": "64bddbe71f6d3f36a9bc2396758b406f4bcd6e7eea11b59967bd2a774a0cfb49",
+      "versionChangedCanonicalOwnersExcluded": 94,
+      "runtimeNativeAOT": {
+        "passed": 5,
+        "expected": 5
+      }
+    }
+  ],
+  "nextUsefulTargets": [
+    "MapLibre (map rendering without Mapbox credentials)",
+    "Sentry (callbacks, tracing and errors)",
+    "Koin (Kotlin generics and dependency injection)",
+    "Glide (Java generics and image pipelines)"
+  ],
+  "warnings": "Generated-code, unavailable JVM-only reference and trim/AOT analysis warnings remain. Passing representative offline checks is not complete runtime/API compatibility certification.",
+  "sharedRuntimeSha256": "fbb5e288dd93f941934a08d018abdfc6c2adfd586a03318bded3a0665950822c",
+  "releaseR8ChecksPassed": 28,
+  "nativeAOTChecksPassed": 17
+}

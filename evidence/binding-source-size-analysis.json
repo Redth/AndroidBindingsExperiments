@@ -1,0 +1,60 @@
+{
+  "record_count": 362,
+  "totals": {
+    "legacy": {
+      "source_bytes": 220131965,
+      "source_files": 23564,
+      "comment_bytes": 45334979,
+      "pragma_bytes": 2583524
+    },
+    "semantic": {
+      "source_bytes": 332435526,
+      "source_files": 38452,
+      "comment_bytes": 66798972,
+      "pragma_bytes": 3518888
+    }
+  },
+  "largest_semantic_groups": [
+    [
+      "com.google.android.gms",
+      130234052
+    ],
+    [
+      "androidx.compose.material",
+      30854314
+    ],
+    [
+      "androidx.media3",
+      23902411
+    ],
+    [
+      "androidx.camera",
+      11845686
+    ],
+    [
+      "androidx.wear.tiles",
+      10784381
+    ],
+    [
+      "androidx.wear.protolayout",
+      10450438
+    ],
+    [
+      "androidx.health.connect",
+      10019915
+    ],
+    [
+      "androidx.datastore",
+      8156099
+    ],
+    [
+      "androidx.constraintlayout",
+      7974712
+    ],
+    [
+      "androidx.compose.ui",
+      7784723
+    ]
+  ],
+  "scope": "Original full-corpus run; leading // comment and #pragma line byte counts. Not a controlled build benchmark or an app-size measurement."
+}

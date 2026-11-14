@@ -1,0 +1,21 @@
+[
+  {
+    "artifacts": [
+      {
+        "groupId": "io.coil-kt.coil3",
+        "artifactId": "coil",
+        "version": "3.6.3"
+      },
+      {
+        "groupId": "io.coil-kt.coil3",
+        "artifactId": "coil-compose",
+        "version": "3.6.3"
+      },
+      {
+        "groupId": "io.coil-kt.coil3",
+        "artifactId": "coil-network-okhttp",
+        "version": "3.6.3"
+      }
+    ]
+  }
+]

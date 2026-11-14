@@ -1,0 +1,10 @@
+{
+  "assembly": "${EXPERIMENT_ARTIFACTS}/api-generic-emoji-closure/bin/Debug/net11.0-android/BindingEmoji.Foundation.dll",
+  "sha256": "012bca78ed7c8001433679231a2f5ad9d51c590ddb121b08e02b9d3dd31acc4f",
+  "sizeBytes": 17161216,
+  "archives": 49,
+  "nativeClasses": 6697,
+  "generatedCSharpFiles": 3688,
+  "publishedManagedSupportBindings": false,
+  "originalNuGetConstraintGraphUnchanged": true
+}
