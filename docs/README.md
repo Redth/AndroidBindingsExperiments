@@ -1,7 +1,7 @@
 # Research, code and evidence
 
 Read [current state](CURRENT-STATE.md) first, then the
-[fresh workbench validation](results/workbench-validation.md). The older notes
+[current .NET workbench validation](results/dotnet-workbench-validation.md). The older notes
 are preserved research, not a list of supported product features.
 
 ## Capability inventory
@@ -9,7 +9,7 @@ are preserved research, not a list of supported product features.
 | Area | Current status | Where to look |
 | --- | --- | --- |
 | Semantic Java/Kotlin compiler, parser and official descriptor | Fresh host build/tests pass | [source map](../upstream/README.md), [commands](../eng/README.md) |
-| Project-local compiler NuGet | Fresh pack, authored binding/consumer and 15-stage installed-workload fixture pass | [validation](results/workbench-validation.md), [hello](../samples/hello/) |
+| Project-local compiler NuGet | Fresh .NET-only pack, authored binding/consumer and 15-stage installed-workload fixture pass | [validation](results/dotnet-workbench-validation.md), [hello](../samples/hello/) |
 | Canonical owners and real implementation splitting | Current host tool built; generator regressions exercise executable cross-assembly IL and registry behavior | [emitter source](../upstream/additions/external/Java.Interop/tools/grouped-bindings/), [historical corpus results](results/maven-group-corpus-results.md) |
 | Per-Maven-artifact assemblies | Current corpus default; historical MapLibre/Sentry/Koin graphs demonstrate it | [corpus source](../upstream/additions/tests/BindingProjection/Corpus/), [asset scopes](../release-assets/assets.json) |
 | Kotlin runtime, typed views, Task/Flow and native bridge | Source preserved; historical runtime nupkg and device evidence retained; not rebuilt in the handoff | [runtime source](../upstream/additions/src/Microsoft.Android.Kotlin/), [Kotlin results](results/kotlin-production-results.md) |
@@ -51,9 +51,12 @@ was added to the package.
 [source handoff](source-handoff.md) preserves export context.
 [content-inventory.json](../provenance/content-inventory.json) accounts for
 277 source files, 190 curated text files and 18 external historical assets.
+The original 33 Python files are now in a
+[checksummed external archive](python-archive.md), not in the tracked tree.
+All original source/curated manifest entries remain accounted for.
 The authoritative source/text hashes are in the corresponding manifests.
 
 Historical commands retain their original semantics. Machine paths were
 replaced by placeholders such as `${ANDROID_SOURCE}`; these are not necessarily
-environment-variable expansion in Python. Use the current command guide,
+environment-variable expansion inside an archived script. Use the .NET command guide,
 not a pasted historical command, for the minimal runnable path.

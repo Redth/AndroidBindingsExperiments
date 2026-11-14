@@ -1,4 +1,8 @@
-# Fresh workbench validation
+# Historical Python workbench validation
+
+This records the original Python-runner handoff, not the current workflow.
+See [the .NET-only validation](dotnet-workbench-validation.md) for the replacement.
+The original runner is preserved only in the external source archive.
 
 These commands were run for this repository handoff on **14 November 2026**.
 They are new results, separate from the imported historical reports.

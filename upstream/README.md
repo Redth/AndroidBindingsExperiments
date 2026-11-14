@@ -5,10 +5,14 @@ patch, all 186 additions and all 91 tracked post-patch outputs. Together these
 account for **277 substantive source files**. Generated Python bytecode and a
 Gradle problems report were deliberately excluded and are listed in the manifest.
 
-The snapshot is unchanged. No workbench source-integration patch was needed.
+The logical snapshot is unchanged. Thirteen Python additions are now stored in
+the [external source archive](../docs/python-archive.md), with original hashes
+retained in `manifest.json`; all other additions remain directly browsable.
+Bootstrap reconstructs every original file into ignored materialized source.
+No workbench source-integration patch was needed.
 The explicit workbench differences are the portable runner and sample outside
 this directory, selection of installed SDK 11.0.100, and the package-version
-override `0.1.0-preview.workbench.1`.
+override `0.1.0-preview.workbench.2`.
 
 Nine tracked files have git-normalized LF hashes and separately recorded CRLF
 worktree hashes. Bootstrap accepts only those exact declared representations;
@@ -32,7 +36,7 @@ Paths below are browseable additions, not an independent build tree:
 | Compiler regressions and authored native probes | [generator tests](additions/external/Java.Interop/tests/generator-Tests/) |
 
 Existing-file changes are in [the tracked patch](patches/android.patch).
-Run `python3 eng/workbench.py bootstrap` from the repository root to inspect
+Run `dotnet run --project eng/Workbench -- bootstrap` from the repository root to inspect
 the combined tree in `.artifacts/source/`. Build or run drivers from that
 combined tree, **not** from `upstream/additions/`.
 

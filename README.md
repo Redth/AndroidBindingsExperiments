@@ -8,23 +8,29 @@ This is a research snapshot, not a supported product or an official .NET release
 
 Start with [what works and what does not](docs/CURRENT-STATE.md), the
 [local command guide](eng/README.md), and the
-[fresh handoff results](docs/results/workbench-validation.md).
+[current .NET-only validation](docs/results/dotnet-workbench-validation.md).
 
 ## Run it locally
 
-Install Python 3.11+, Git, .NET SDK **11.0.100**, a .NET 10 runtime, and JDK 21.
+Install Git, .NET SDK **11.0.100**, a .NET 10 runtime, and JDK 21.
 The hello sample additionally needs an installed .NET 11 Android workload and
 Android SDK. The commands never install or replace workloads.
 
 ```sh
-python3 eng/workbench.py doctor
-python3 eng/workbench.py verify-preservation
-python3 eng/workbench.py bootstrap
-python3 eng/workbench.py build
-python3 eng/workbench.py test
-python3 eng/workbench.py pack
-python3 eng/workbench.py generate
+dotnet run --project eng/Workbench -- doctor
+dotnet run --project eng/Workbench -- verify-preservation
+dotnet run --project eng/Workbench -- bootstrap
+dotnet run --project eng/Workbench -- build
+dotnet run --project eng/Workbench -- test
+dotnet run --project eng/Workbench -- pack
+dotnet run --project eng/Workbench -- generate
 ```
+
+No Python executable or tracked Python files are required. The C# runner uses
+only the .NET base class library. Original Python research sources are preserved
+in a [checksummed external archive](docs/python-archive.md), not renamed or
+stored in an in-git archive. Bootstrap restores their exact bytes only into
+ignored materialized upstream source and never executes them.
 
 The first build needs access to public NuGet/Gradle feeds. `bootstrap` downloads
 only the pinned upstream tree, not the large API-documentation submodule.
@@ -33,20 +39,24 @@ only the pinned upstream tree, not the large API-documentation submodule.
 the rebuilt package, and compiles a separate C# consumer; it does not run an app.
 
 The current compiler package is written to
-`.artifacts/feed/Microsoft.Android.BindingGenerator.Semantic.0.1.0-preview.workbench.1.nupkg`,
+`.artifacts/feed/Microsoft.Android.BindingGenerator.Semantic.0.1.0-preview.workbench.2.nupkg`,
 with a matching `.provenance.json` containing package and source hashes.
-The [snapshot release](https://github.com/Redth/AndroidBindingsExperiments/releases/tag/experiment-snapshot-2026-11-14)
-is the download location for that freshly tested compiler and its matching
-provenance, separately from 18 historical inspection assets. Large binaries
-stay out of git; the [download guide](release-assets/README.md) explains the
-separate checksums and historical scopes.
+The [.NET-only release](https://github.com/Redth/AndroidBindingsExperiments/releases/tag/dotnet-workbench-2026-11-14)
+is the download location for `0.1.0-preview.workbench.2`, matching provenance
+and source-code downloads from the Python-free C# revision.
+The [historical snapshot](https://github.com/Redth/AndroidBindingsExperiments/releases/tag/experiment-snapshot-2026-11-14)
+retains the 18 inspection assets, original Python source archive and earlier
+`workbench.1` package. Its source-code downloads and history are historical,
+not the current Python-free workbench. Large binaries stay out of git; the
+[download guide](release-assets/README.md) explains the separate checksums
+and scopes.
 
 ## What the package looks like
 
 The build-time package is `Microsoft.Android.BindingGenerator.Semantic`.
 The preserved historical preview is `0.1.0-preview.1`; this workbench rebuilds
-current source as **`0.1.0-preview.workbench.1`** so NuGet cannot confuse it with
-the older byte snapshot.
+current source as **`0.1.0-preview.workbench.2`** so NuGet cannot confuse it with
+either older byte snapshot.
 A binding project opts in explicitly:
 
 ```xml
@@ -55,7 +65,7 @@ A binding project opts in explicitly:
 </PropertyGroup>
 <ItemGroup>
   <PackageReference Include="Microsoft.Android.BindingGenerator.Semantic"
-                    Version="0.1.0-preview.workbench.1"
+                    Version="0.1.0-preview.workbench.2"
                     PrivateAssets="all" />
 </ItemGroup>
 ```

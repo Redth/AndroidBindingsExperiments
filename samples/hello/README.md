@@ -10,12 +10,12 @@ This deliberately small sample has three pieces:
 From the workbench root, after bootstrap:
 
 ```sh
-python3 eng/workbench.py pack
-python3 eng/workbench.py generate
+dotnet run --project eng/Workbench -- pack
+dotnet run --project eng/Workbench -- generate
 ```
 
 The runner compiles the Java source and builds a disposable copy under
-`.artifacts/hello/`. Inspect `Binding/obj/Debug/net11.0-android/semantic-bindings/`
+`.artifacts/hello-dotnet/`. Inspect `Binding/obj/Debug/net11.0-android/semantic-bindings/`
 there for unadjusted facts, the official descriptor, generated C# and reports.
 The resulting binding and consumer DLLs are under their normal `bin/Debug`
 directories in that disposable copy.

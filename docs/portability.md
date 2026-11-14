@@ -1,64 +1,58 @@
 # Portable commands and advanced paths
 
-The portable, freshly checked entrypoints are `eng/workbench.py` and the authored
-hello sample. They derive paths from the repository, use argument arrays rather
-than shell-generated command strings, select an installed SDK, and keep source,
-temporary files and generated output under `.artifacts/`.
+Current supported commands are the BCL-only C# runner under `eng/Workbench/`,
+its .NET safeguard tests, and the authored hello sample. No Python executable
+is required and no Python files are tracked.
 
-The wrapper does not reference a creator's session, built SDK or private cache.
-The original source/curated manifests are unchanged; there are no hidden
-integration patches. Standard NuGet and Gradle caches may accelerate restore,
-but the source pin and declared dependencies establish the inputs.
-
-## Classification of preserved drivers
+The original source/curated manifests are unchanged. Their Python entries are
+resolved through the [explicit external archive mapping](python-archive.md).
+The materialized source may naturally contain upstream Python scripts, but
+supported commands do not execute them. The .NET no-device integration fixture
+replaces the old Python package driver.
 
 | Location | Classification |
 | --- | --- |
-| `eng/workbench.py` | Current bootstrap/build/test/pack/generate and evaluated host-tool entrypoint |
-| `samples/hello/` | Current authored native/binding/downstream compile sample |
-| Materialized `tests/BindingProjection/GeneratorPackage/verify-package.py` | Fresh no-device installed-workload fixture; explicit optional runtime/upgrade/device scopes |
-| Materialized `tests/BindingProjection/Corpus/test_*.py` | Fresh pure-Python corpus regression tests |
-| Materialized corpus generation/smoke drivers | Advanced prepared-product-SDK path, not a minimal-bootstrap promise |
-| Materialized `MauiCompatibility/verify-pilot.py` | Advanced prepared-product-SDK/native path; full bounded result is historical |
-| Materialized Kotlin/device comparison drivers | Prepared SDK, selected native graph and explicit owned device required; historical results |
-| `historical/session-helpers/*.py` | Preserved exploratory logic only; not runnable workbench commands |
+| `eng/Workbench/` | Current .NET bootstrap, preservation, build/test/pack, tool discovery, sample and full no-device fixture |
+| `eng/Workbench.Tests/` | Current .NET path/hash/inventory/archive/process/cache safeguards |
+| `samples/hello/` | Current native/binding/downstream compile sample |
+| Original Python corpus tests | Archived historical coverage, not rerun by the .NET `test` command |
+| Original native/corpus/MAUI/device Python drivers | Archived advanced prepared-product-SDK research, not supported Python-free commands |
+| Historical Python helpers and former runner | External archive only; retained for research/provenance |
 
-The last group includes corpus analysis/collision audits, additional SDK
-generation/runtime helpers, closure/incrementality probes, and packaging
-helpers. Some contain literal `${ANDROID_SOURCE}` placeholders and historical
-output assumptions. Python does not expand those placeholders automatically.
-Keep them as evidence; port their inputs/output roots and validate the specific
-path before treating one as a supported command.
+The runner derives paths from the repository, uses `ProcessStartInfo.ArgumentList`,
+checks declared source/archive hashes and keeps generated output under ignored
+`.artifacts/`. It does not depend on a creator's session or private cache.
+Normal public NuGet/Gradle restore caches may accelerate a build. Cached compiler
+packages are keyed by nupkg SHA and their bytes are checked against the feed.
 
-The original corpus and MAUI drivers intentionally remain source-exact. They
-use `dotnet-local.sh`, product output locations and prepared runtime DLLs.
-The current `tool` command instead queries MSBuild for each host tool's actual
-`TargetPath`, avoiding the old conventional-bin assumption. This does not
-silently convert every advanced native driver into a stock-workload build.
+`--block-python` uses per-invocation fail-fast PATH shims on Unix without
+changing host installations. It is not an OS sandbox against arbitrary absolute
+interpreter paths. Current commands never request an interpreter.
 
-## Runtime and full native/MAUI work
+## Advanced host tools and native work
 
-The runtime package source is under
-`upstream/additions/src/Microsoft.Android.Kotlin/`; use its materialized copy
-for builds. Its native bridge joins the app's one selected Gradle graph and
-must be built once, not injected as an extra incompatible prebuilt archive.
-The historical `0.1.0-preview.1` runtime nupkg remains a separate inspection
-asset. The handoff does not claim a fresh runtime rebuild.
+The current host `tool` command asks MSBuild for each built tool's actual
+`TargetPath`. The compatibility CLI can extract/select/verify compiled profiles
+with explicit resolved references and consumer inputs, without running Python.
+This is not a public automatic MAUI-profile MSBuild switch.
 
-A full product build follows the pinned upstream preparation instructions.
-The source's `eng/Versions.props` pins SDK
-`12.0.100-alpha.1.26523.103`; this is separate from the installed SDK 11.0.100
-used for host/package work. `dotnet-local.sh` only works after preparation and
-searches Release before Debug. Do not copy someone else's prepared SDK or
-silently install/replace global workloads.
+Archived corpus and MAUI drivers intentionally remain source-exact in ignored
+materialized upstream. Their old `dotnet-local.sh`, product output and prepared
+runtime assumptions are not silently converted into stock-workload commands.
+The 22 old Python corpus unit tests remain historical, not newly passing tests.
 
-Materialize new native paths using the preserved resolver/configuration rather
-than treating placeholder paths in `evidence/` as live archives. Keep native
-alternatives and owner registries in their proper graph/layout. A 717-record
-coverage report is not a successful combined classpath or a fresh regenerated
-717-record artifact-layout tree.
+The separate Kotlin runtime package/native bridge is preserved source and a
+historical inspection artifact; the .NET workbench migration does not claim
+a fresh runtime, MAUI/device or whole-corpus rebuild. Its native bridge belongs
+in the app's one selected Gradle graph, not in an extra incompatible archive.
 
-Device runners require a deliberately chosen owned serial. No workbench
-command picks a default ADB device, starts/stops an emulator, installs an app,
-makes a purchase or invokes commercial-service APIs. Device execution is outside the fresh
-handoff's validation scope.
+Full product preparation follows the original pinned upstream instructions.
+Its `eng/Versions.props` pins `12.0.100-alpha.1.26523.103`, separately from the
+installed SDK 11.0.100 used by host/package work. `dotnet-local.sh` only works
+after preparation and searches Release before Debug. Do not copy a previous
+prepared SDK or silently install/replace global workloads.
+
+Keep native alternatives and owner registries in their correct graph/layout.
+A 717-record coverage report is not a compatible combined classpath or a newly
+regenerated 717-record per-artifact tree. Device/commercial-service experiments
+are outside this migration's fresh validation scope.

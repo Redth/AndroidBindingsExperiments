@@ -1,11 +1,15 @@
-# Historical helpers
+# Historical research
 
-These are preserved exploratory scripts, not the current local workflow.
-They retain useful algorithms, profiles and measurement/audit logic, but some
-refer to a literal `${ANDROID_SOURCE}` placeholder, old output directories or
-a prepared product SDK. Do not execute them as turnkey workbench commands.
+Original Python helpers have moved out of the tracked repository into the
+[checksummed external source archive](../docs/python-archive.md). That archive
+retains all 18 authored research helpers at their original paths; none were
+renamed to another executable source extension or placed in an in-git archive.
 
-Use [the current command guide](../eng/README.md) for the runnable host and
-package path, and [the portability classification](../docs/portability.md)
-before adapting a historical helper. Exact imported hashes are retained in
-`provenance/curated-files.json`.
+These are exploratory algorithms, profiles and audit/measurement logic, not
+turnkey current commands. Some retain literal `${ANDROID_SOURCE}` placeholders
+and prepared-SDK/output assumptions. Their original records remain in
+`provenance/curated-files.json`; the .NET preservation command verifies them
+against the archive.
+
+Use [the .NET command guide](../eng/README.md) for the current runnable path and
+[the portability classification](../docs/portability.md) for advanced research.
