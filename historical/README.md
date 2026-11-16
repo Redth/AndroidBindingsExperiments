@@ -1,15 +1,13 @@
 # Historical research
 
-Original Python helpers have moved out of the tracked repository into the
-[checksummed external source archive](../docs/python-archive.md). That archive
-retains all 18 authored research helpers at their original paths; none were
-renamed to another executable source extension or placed in an in-git archive.
+Historical reports and inspection artifacts are indexed in
+[the research guide](../docs/README.md) and [release guide](../release-assets/README.md).
+They record earlier experiments, not current runnable commands or fresh results.
 
-These are exploratory algorithms, profiles and audit/measurement logic, not
-turnkey current commands. Some retain literal `${ANDROID_SOURCE}` placeholders
-and prepared-SDK/output assumptions. Their original records remain in
-`provenance/curated-files.json`; the .NET preservation command verifies them
-against the archive.
+The current workbench no longer includes the exploratory automation helpers.
+The [snapshot change record](../provenance/snapshot-change.json) records their
+former revision and hashes. Existing Git history and published assets remain
+unchanged; none are required for current source reconstruction.
 
-Use [the .NET command guide](../eng/README.md) for the current runnable path and
-[the portability classification](../docs/portability.md) for advanced research.
+Use [the command guide](../eng/README.md) for supported entrypoints and
+[scope and portability](../docs/portability.md) for deeper native/runtime work.

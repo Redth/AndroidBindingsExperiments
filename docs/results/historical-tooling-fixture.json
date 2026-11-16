@@ -1,4 +1,6 @@
 {
+  "historical": true,
+  "scope": "Frozen results for the 14 November 2026 tooling revision, not the current source snapshot.",
   "status": "passed",
   "checks": 15,
   "runner": ".NET/BCL",

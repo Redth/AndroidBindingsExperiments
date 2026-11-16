@@ -1,58 +1,44 @@
-# Portable commands and advanced paths
+# Scope and portability
 
-Current supported commands are the BCL-only C# runner under `eng/Workbench/`,
-its .NET safeguard tests, and the authored hello sample. No Python executable
-is required and no Python files are tracked.
+The supported local path is the C# runner under `eng/Workbench/`, its safeguard
+tests and the authored hello sample. Bootstrap uses pinned upstream plus the
+tracked patch and **only local additions**. It has no research-archive download,
+interpreter or previous-session dependency.
 
-The original source/curated manifests are unchanged. Their Python entries are
-resolved through the [explicit external archive mapping](python-archive.md).
-The materialized source may naturally contain upstream Python scripts, but
-supported commands do not execute them. The .NET no-device integration fixture
-replaces the old Python package driver.
+The [source manifest](../upstream/manifest.json) now describes 264 files:
+91 tracked patch outputs and 173 additions. The
+[snapshot change record](../provenance/snapshot-change.json) explains the
+transition from the older 277-file research snapshot, with exact previous
+revision/hashes and omitted automation entries. Retained compiler/runtime/native
+fixture bytes are unchanged. Git history and published releases are not rewritten.
 
-| Location | Classification |
+| Area | Current status |
 | --- | --- |
-| `eng/Workbench/` | Current .NET bootstrap, preservation, build/test/pack, tool discovery, sample and full no-device fixture |
-| `eng/Workbench.Tests/` | Current .NET path/hash/inventory/archive/process/cache safeguards |
-| `samples/hello/` | Current native/binding/downstream compile sample |
-| Original Python corpus tests | Archived historical coverage, not rerun by the .NET `test` command |
-| Original native/corpus/MAUI/device Python drivers | Archived advanced prepared-product-SDK research, not supported Python-free commands |
-| Historical Python helpers and former runner | External archive only; retained for research/provenance |
+| Bootstrap, checksums, four host tools, package and hello commands | Supported workbench entrypoints |
+| Generator, package-task and workbench safeguards | Run by `test` |
+| C# no-device package fixture | Run by `verify-package`, using a new output directory |
+| Canonical ownership, compatibility extraction/selection/verification | Built host tools with explicit inputs |
+| Earlier corpus/MAUI/native/device automation | Historical research, not a promise of current turnkey entrypoints |
+| Kotlin runtime native bridge | Separate source-built runtime/native integration; not rebuilt by compiler `pack` |
 
-The runner derives paths from the repository, uses `ProcessStartInfo.ArgumentList`,
-checks declared source/archive hashes and keeps generated output under ignored
-`.artifacts/`. It does not depend on a creator's session or private cache.
-Normal public NuGet/Gradle restore caches may accelerate a build. Cached compiler
-packages are keyed by nupkg SHA and their bytes are checked against the feed.
-
-`--block-python` uses per-invocation fail-fast PATH shims on Unix without
-changing host installations. It is not an OS sandbox against arbitrary absolute
-interpreter paths. Current commands never request an interpreter.
-
-## Advanced host tools and native work
-
-The current host `tool` command asks MSBuild for each built tool's actual
-`TargetPath`. The compatibility CLI can extract/select/verify compiled profiles
-with explicit resolved references and consumer inputs, without running Python.
-This is not a public automatic MAUI-profile MSBuild switch.
-
-Archived corpus and MAUI drivers intentionally remain source-exact in ignored
-materialized upstream. Their old `dotnet-local.sh`, product output and prepared
-runtime assumptions are not silently converted into stock-workload commands.
-The 22 old Python corpus unit tests remain historical, not newly passing tests.
-
-The separate Kotlin runtime package/native bridge is preserved source and a
-historical inspection artifact; the .NET workbench migration does not claim
-a fresh runtime, MAUI/device or whole-corpus rebuild. Its native bridge belongs
-in the app's one selected Gradle graph, not in an extra incompatible archive.
+The runner derives paths from the repository, uses
+`ProcessStartInfo.ArgumentList`, checks source hashes and keeps generated output
+under ignored `.artifacts/`. Standard public NuGet/Gradle caches are allowed.
+Sample/fixture compiler caches are keyed by nupkg hash and restored bytes must
+match the selected feed.
 
 Full product preparation follows the original pinned upstream instructions.
 Its `eng/Versions.props` pins `12.0.100-alpha.1.26523.103`, separately from the
-installed SDK 11.0.100 used by host/package work. `dotnet-local.sh` only works
+installed SDK 11.0.100 used for host/package work. `dotnet-local.sh` only works
 after preparation and searches Release before Debug. Do not copy a previous
 prepared SDK or silently install/replace global workloads.
 
 Keep native alternatives and owner registries in their correct graph/layout.
 A 717-record coverage report is not a compatible combined classpath or a newly
-regenerated 717-record per-artifact tree. Device/commercial-service experiments
-are outside this migration's fresh validation scope.
+regenerated 717-record per-artifact tree. Compatibility profiles are a bounded
+compiled-contract CLI pilot, not automatic native-version reconciliation or a
+public MAUI-profile MSBuild switch.
+
+Current validation does not rerun devices, commercial services, full corpus,
+Kotlin runtime packaging, or app R8/NativeAOT. The historical evidence remains
+useful within its originally recorded scope.

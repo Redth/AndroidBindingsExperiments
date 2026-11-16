@@ -1,5 +1,9 @@
 # Android binding experiments: export notes
 
+Historical export context: counts and automation paths below describe the
+original handoff. See [the current source snapshot](../upstream/README.md) and
+[snapshot change record](../provenance/snapshot-change.json) for today's inputs.
+
 This export is the durable substance of a long experimental `dotnet/android`
 worktree. It is not a new supported Android SDK, a NuGet.org release, or evidence
 that all experiments were revalidated on the handoff date.

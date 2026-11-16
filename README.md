@@ -1,117 +1,154 @@
-# Android binding experiments
+# Android binding workbench
 
-A team workbench for an experimental .NET Android binding compiler. It brings
-together the source changes, research, recorded results, and a way to rebuild
-the tools and preview packages without changing an installed Android workload.
+Turn Java and Kotlin libraries into C# APIs for .NET Android apps. This
+experimental compiler runs inside an ordinary Android binding project, using
+a private NuGet package rather than replacing your installed Android workload.
 
-This is a research snapshot, not a supported product or an official .NET release.
+## Try a small example
 
-Start with [what works and what does not](docs/CURRENT-STATE.md), the
-[local command guide](eng/README.md), and the
-[current .NET-only validation](docs/results/dotnet-workbench-validation.md).
-
-## Run it locally
-
-Install Git, .NET SDK **11.0.100**, a .NET 10 runtime, and JDK 21.
-The hello sample additionally needs an installed .NET 11 Android workload and
-Android SDK. The commands never install or replace workloads.
+You need Git, .NET SDK **11.0.100**, a .NET 10 runtime and **JDK 21**. The sample
+also needs an installed .NET 11 Android workload and Android SDK. Set
+`JAVA_HOME` and `ANDROID_HOME` to those existing installations.
 
 ```sh
 dotnet run --project eng/Workbench -- doctor
-dotnet run --project eng/Workbench -- verify-preservation
 dotnet run --project eng/Workbench -- bootstrap
-dotnet run --project eng/Workbench -- build
-dotnet run --project eng/Workbench -- test
 dotnet run --project eng/Workbench -- pack
 dotnet run --project eng/Workbench -- generate
 ```
 
-No Python executable or tracked Python files are required. The C# runner uses
-only the .NET base class library. Original Python research sources are preserved
-in a [checksummed external archive](docs/python-archive.md), not renamed or
-stored in an in-git archive. Bootstrap restores their exact bytes only into
-ignored materialized upstream source and never executes them.
+`bootstrap` fetches the pinned upstream source and applies this repository's
+local changes. `pack` builds the compiler into `.artifacts/feed/`. `generate`
+compiles this [Java sample](samples/hello/Native/Greeter.java):
 
-The first build needs access to public NuGet/Gradle feeds. `bootstrap` downloads
-only the pinned upstream tree, not the large API-documentation submodule.
-`build`, `test`, and compiler `pack` do not require a prepared product SDK.
-`generate` compiles an authored Java class, generates its Android binding with
-the rebuilt package, and compiles a separate C# consumer; it does not run an app.
+```java
+package com.example.bindingworkbench;
 
-The current compiler package is written to
-`.artifacts/feed/Microsoft.Android.BindingGenerator.Semantic.0.1.0-preview.workbench.2.nupkg`,
-with a matching `.provenance.json` containing package and source hashes.
-The [.NET-only release](https://github.com/Redth/AndroidBindingsExperiments/releases/tag/dotnet-workbench-2026-11-14)
-is the download location for `0.1.0-preview.workbench.2`, matching provenance
-and source-code downloads from the Python-free C# revision.
-The [historical snapshot](https://github.com/Redth/AndroidBindingsExperiments/releases/tag/experiment-snapshot-2026-11-14)
-retains the 18 inspection assets, original Python source archive and earlier
-`workbench.1` package. Its source-code downloads and history are historical,
-not the current Python-free workbench. Large binaries stay out of git; the
-[download guide](release-assets/README.md) explains the separate checksums
-and scopes.
-
-## What the package looks like
-
-The build-time package is `Microsoft.Android.BindingGenerator.Semantic`.
-The preserved historical preview is `0.1.0-preview.1`; this workbench rebuilds
-current source as **`0.1.0-preview.workbench.2`** so NuGet cannot confuse it with
-either older byte snapshot.
-A binding project opts in explicitly:
-
-```xml
-<PropertyGroup>
-  <AndroidBindingGenerator>Semantic</AndroidBindingGenerator>
-</PropertyGroup>
-<ItemGroup>
-  <PackageReference Include="Microsoft.Android.BindingGenerator.Semantic"
-                    Version="0.1.0-preview.workbench.2"
-                    PrivateAssets="all" />
-</ItemGroup>
+public final class Greeter {
+    public static String greet(String name) {
+        return "Hello, " + name + "!";
+    }
+}
 ```
 
-`Microsoft.Android.Kotlin` version `0.1.0-preview.1` is a separate runtime
-dependency, not a private build dependency. Its native bridge must be built
-from source through the Android build's existing Gradle graph.
+The generated binding lets C# call it:
 
-Ordinary `AndroidLibrary`, `AndroidMavenLibrary`, and `AndroidGradleProject`
-items still select native inputs. This experiment does not add a separate
-native dependency resolver.
+```csharp
+using HelloBindings;
 
-The package path is gated to .NET 11 / Android 37.x. Only macOS ARM64 has been
-verified historically. The MAUI compatibility-profile pilot is a compiler CLI
-feature; it is not part of the older packaged MSBuild interface.
+string? message = Greeter.Greet("team");
+```
 
-## Repository map
+The command builds the binding and a separate C# consumer under
+`.artifacts/hello-dotnet/`. It does not install or run an Android app. Inspect
+`Binding/obj/Debug/net11.0-android/semantic-bindings/` there for generated C#,
+native API facts and compiler reports.
 
-| Location | Purpose |
-| --- | --- |
-| `upstream/` | Exact source pins, patches, and browsable experimental additions |
-| `eng/` | Local bootstrap, build, generation, packaging, and verification commands |
-| `samples/` | Small examples and their native inputs |
-| `docs/research/` | Design and investigation material |
-| `docs/results/` | Recorded results, with their original limitations |
-| `.artifacts/` | Ignored materialized source, build output, and local packages |
+## Use it in your binding project
 
-The source baseline is
-[`dotnet/android@097fd4f7eb6cab27a798e04254ac838c9e8d0369`](https://github.com/dotnet/android/commit/097fd4f7eb6cab27a798e04254ac838c9e8d0369).
-The experiment was not committed upstream: the patches and additions are part
-of the source snapshot, not optional changes.
+Download `Microsoft.Android.BindingGenerator.Semantic.0.1.0-preview.workbench.3.nupkg`
+and its matching source/hash provenance from the
+[current workbench release](https://github.com/Redth/AndroidBindingsExperiments/releases/tag/workbench-2026-11-16)
+into a local NuGet feed. Building with `pack` produces the same package version
+in `.artifacts/feed/`; use that run's matching provenance for its exact hashes.
+The older `workbench.2` release is historical, not this source snapshot.
 
-The [source map](upstream/README.md) links to the compiler, Kotlin runtime,
-ownership emitter, compatibility tooling, and fixtures. The
-[research guide and capability inventory](docs/README.md) distinguish runnable
-work from historical-only evidence and unfinished ideas.
+For example, put `hello.jar` beside `Hello.Binding.csproj`:
 
-## Results are not interchangeable
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>24</SupportedOSPlatformVersion>
+    <IsBindingProject>true</IsBindingProject>
+    <AndroidBindingGenerator>Semantic</AndroidBindingGenerator>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Android.BindingGenerator.Semantic"
+                      Version="0.1.0-preview.workbench.3"
+                      PrivateAssets="all" />
+    <AndroidLibrary Include="hello.jar" Bind="true" />
+    <AndroidNamespaceReplacement Include="Com.Example.Bindingworkbench"
+                                Replacement="HelloBindings" />
+  </ItemGroup>
+</Project>
+```
 
-Historical reports cover host tests, preview-package fixtures, MAUI projection
-fixtures, and real-device runs. A report copied here is not a new successful
-run. Host-tool validation does not establish that an Android app builds or
-runs; package inspection does not establish runtime correctness.
+Build using your local feed plus the ordinary NuGet feed:
 
-The full 717-configuration corpus contains mutually incompatible SDK
-alternatives and cannot be treated as one dependency graph. Its older archive
-uses group layout; later three-SDK demos use per-Maven-artifact layout.
+```sh
+dotnet build Hello.Binding.csproj \
+  --source /absolute/path/to/local-feed \
+  --source https://api.nuget.org/v3/index.json
+```
 
-See the [research guide](docs/README.md) for the evidence and remaining limits.
+Reference the binding project from your Android app or class library with a
+normal `ProjectReference`. The compiler package is private build tooling; it
+does not select the compiler for downstream projects. Set
+`AndroidBindingGenerator=Legacy` to use the installed workload's generator.
+
+### Choose the native inputs
+
+`Bind="true"` generates C# APIs. `Bind="false"` supplies a native dependency
+without generating another binding for it. `Pack="false"` keeps that native
+input out of this project's packaged output; the app must obtain its required
+native payload through another deliberate path. These settings are independent.
+
+Normal SDK inputs still apply. For example, instead of a local `AndroidLibrary`:
+
+```xml
+<AndroidMavenLibrary Include="de.hdodenhof:circleimageview" Version="3.1.0" />
+```
+
+Or build a module from your existing Gradle project:
+
+```xml
+<AndroidGradleProject Include="../native/build.gradle.kts"
+                      ModuleName="mylibrary" Bind="true" />
+```
+
+These are illustrative SDK input forms, not additional fresh integration-test
+claims. The compiler consumes the SDK's selected JAR/AAR inputs and references;
+it does not add a dependency resolver. Keep one compatible native dependency
+graph and avoid generating duplicate bindings for types already owned elsewhere.
+
+## How it works
+
+```mermaid
+flowchart LR
+    A["Resolved JAR/AAR + dependency references"] --> B["Class parser + official Kotlin metadata reader"]
+    B --> C["Semantic planner"]
+    C --> D["Generated C#"]
+    D --> E["Regular binding DLL"]
+    E --> F["App: Java.Interop / JNI"]
+    F --> G["Native Java/Kotlin code"]
+```
+
+The parser finds the real JVM types and method signatures. The Kotlin reader
+adds source-level information such as nullability, generics and suspend
+functions. The planner uses those facts to generate C#, which the normal .NET
+build compiles into a DLL. At runtime, Java.Interop/JNI connects that DLL to the
+native library in your app.
+
+A **raw peer** is the managed wrapper responsible for a Java object's identity
+and callbacks. An optional **generic view** is an ordinary C# API over that
+peer, not a second registered owner. Rich views and Kotlin Task/Flow helpers
+use the separate `Microsoft.Android.Kotlin` runtime; its native bridge is
+source-built in the app's selected Gradle graph.
+
+Choosing a new compiler does not rewrite existing assembly identities, change
+native versions or make incompatible APIs interchangeable. Compiled
+compatibility profiles are a bounded CLI pilot, not an automatic MAUI MSBuild
+switch. See [current capabilities and limits](docs/CURRENT-STATE.md).
+
+## Explore further
+
+Use the [command guide](eng/README.md) for host builds, tests, package inspection
+and the full no-device fixture. The [source map](upstream/README.md),
+[research/results guide](docs/README.md) and
+[current validation](docs/results/workbench-validation.md) explain the deeper
+compiler, runtime, ownership and compatibility experiments.
+
+This is a local preview, not a supported product. Current package validation
+covers macOS ARM64, .NET 11 and Android workload 37.2.31; it does not certify
+every OS, workload revision or native SDK combination.

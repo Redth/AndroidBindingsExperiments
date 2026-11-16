@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "repository": "https://github.com/dotnet/android.git",
   "commit": "097fd4f7eb6cab27a798e04254ac838c9e8d0369",
   "patches": [
@@ -224,36 +224,6 @@
       "path": "external/Java.Interop/tests/generator-Tests/Unit-Tests/ManagedContractProjectionTests.cs",
       "sha256": "676719bcb1030c0fa3fbc7f94bbe601ccff39635be06166f16d04d64f6f0349b",
       "bytes": 135313,
-      "mode": "100644"
-    },
-    {
-      "path": "external/Java.Interop/tests/generator-Tests/compare-binding-closure.py",
-      "sha256": "987e7bb842d5b16551d798783bdb6c041e9e48297aa71ff0a488fb323856c409",
-      "bytes": 16768,
-      "mode": "100644"
-    },
-    {
-      "path": "external/Java.Interop/tests/generator-Tests/compare-binding-corpus.py",
-      "sha256": "f8111448db7ba4659fbc6b35f8c92ffd55e4fa4b1637d64a4b949ccb4cab72c8",
-      "bytes": 30521,
-      "mode": "100644"
-    },
-    {
-      "path": "external/Java.Interop/tests/generator-Tests/compare-bindings.py",
-      "sha256": "b2d292170b5e4b950005697d03058a25ca27d8a85e23e551c084823fea185302",
-      "bytes": 28768,
-      "mode": "100644"
-    },
-    {
-      "path": "external/Java.Interop/tests/generator-Tests/test_compare_binding_corpus.py",
-      "sha256": "5617f2c8ea4ba52f250074d09268cc7a62784ba7e459633a39141e9da0b5dcf8",
-      "bytes": 13286,
-      "mode": "100644"
-    },
-    {
-      "path": "external/Java.Interop/tests/generator-Tests/verify-kotlin-package.py",
-      "sha256": "99c05ab49ffd3c1da53a5dd057debb7ec67840b09b5984df852c714c68009fb0",
-      "bytes": 9041,
       "mode": "100644"
     },
     {
@@ -731,36 +701,6 @@
       "mode": "100644"
     },
     {
-      "path": "tests/BindingProjection/Corpus/generate-assemblies.py",
-      "sha256": "3d0325ec94a60ebf153ba09004c717e34b6d68f0b1ddef11e4376f2c82cc7584",
-      "bytes": 21534,
-      "mode": "100644"
-    },
-    {
-      "path": "tests/BindingProjection/Corpus/prepare-inputs.py",
-      "sha256": "719301ca7f003c646be7a9e237c51c636c2f4afba2b5c2312ec72c16f7f85a9a",
-      "bytes": 7150,
-      "mode": "100644"
-    },
-    {
-      "path": "tests/BindingProjection/Corpus/test_generation_profiles.py",
-      "sha256": "fb8ea2d9744b99fab74b96c82f94a6c02a8bb188b966b92fac19e1a482fd2428",
-      "bytes": 15653,
-      "mode": "100644"
-    },
-    {
-      "path": "tests/BindingProjection/Corpus/test_prepare_inputs.py",
-      "sha256": "9c804acf64756bc776de7341cffefbf07a972453f59ab382b8bb5f3db5d8a40a",
-      "bytes": 6868,
-      "mode": "100644"
-    },
-    {
-      "path": "tests/BindingProjection/Corpus/verify-smoke.py",
-      "sha256": "e682fe5f28d0ef19083603fd0115f4bcc90269270a31092299773bcde62b8477",
-      "bytes": 4579,
-      "mode": "100644"
-    },
-    {
       "path": "tests/BindingProjection/Foundation/Reference.Foundation.csproj",
       "sha256": "6b74033169e23dff750d84ce266b331ab9dce4e3bd8c27c05991d55f9e2bbfef",
       "bytes": 2825,
@@ -845,12 +785,6 @@
       "mode": "100644"
     },
     {
-      "path": "tests/BindingProjection/GeneratorPackage/verify-package.py",
-      "sha256": "ba4fc0f35e38724900c4e80eb80063d25e4796a4825234687f36413bbf8ff00b",
-      "bytes": 16580,
-      "mode": "100644"
-    },
-    {
       "path": "tests/BindingProjection/MauiCompatibility/App/Compat.App.csproj",
       "sha256": "0b07e81d8dec2671dc98e77de2803673f0cfd0aae96826f89e301f3626390fbd",
       "bytes": 1495,
@@ -902,12 +836,6 @@
       "path": "tests/BindingProjection/MauiCompatibility/Regenerated/Regenerated.csproj",
       "sha256": "98d7ef9de39ea530d6e7bb917c026afaaccb8ff9e6009450817b3f325c254ee8",
       "bytes": 630,
-      "mode": "100644"
-    },
-    {
-      "path": "tests/BindingProjection/MauiCompatibility/verify-pilot.py",
-      "sha256": "d721e15e9e7334edef10cac297255d1c55bf4712dfe31e53c12fb8d2d76ec14c",
-      "bytes": 10683,
       "mode": "100644"
     },
     {
@@ -1058,12 +986,6 @@
       "path": "tests/BindingProjection/Writer/view.json",
       "sha256": "a41a1766d9cf0aacfd131d3c5621cc47c9b9fb919584d656bf123a0b8cc63f80",
       "bytes": 410,
-      "mode": "100644"
-    },
-    {
-      "path": "tests/BindingProjection/verify-reference.py",
-      "sha256": "1a6ba63df96ffd796afcca0be073601c3845d2af05c1a472aa7db0dbee984f20",
-      "bytes": 3673,
       "mode": "100644"
     },
     {
@@ -1776,16 +1698,9 @@
   ],
   "notes": [
     "external/Java.Interop is vendored in this dotnet/android commit, not a submodule.",
-    "The tracked patch plus additions reproduce all substantive changes; caches and generated Gradle problems HTML are excluded.",
+    "The tracked patch plus local additions reproduce the current compiler/runtime/tooling source snapshot.",
+    "Research automation omitted from the current snapshot is recorded in provenance/snapshot-change.json; older snapshots remain in Git history.",
     "trackedOutputs hashes describe git patch output; nine existing CRLF worktree files normalize to LF. worktreeSha256 preserves original local-byte provenance.",
-    "This is a source snapshot, not an upstream commit or a claim that every optional runtime test is currently portable."
-  ],
-  "excludedGeneratedFiles": [
-    "external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/kotlin-compatibility/build/reports/problems/problems-report.html",
-    "external/Java.Interop/tests/generator-Tests/__pycache__/compare-binding-closure.cpython-314.pyc",
-    "external/Java.Interop/tests/generator-Tests/__pycache__/compare-binding-corpus.cpython-314.pyc",
-    "external/Java.Interop/tests/generator-Tests/__pycache__/compare-bindings.cpython-314.pyc",
-    "external/Java.Interop/tests/generator-Tests/__pycache__/test_compare_binding_corpus.cpython-314.pyc",
-    "tests/BindingProjection/__pycache__/verify-reference.cpython-314.pyc"
+    "This is an experimental source snapshot, not an upstream commit or a guarantee that every optional runtime test is portable."
   ]
 }

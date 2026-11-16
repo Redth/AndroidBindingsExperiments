@@ -1,18 +1,18 @@
-# Preserved experimental source
+# Experimental compiler source
 
 `manifest.json` pins the upstream repository and commit, the original tracked
-patch, all 186 additions and all 91 tracked post-patch outputs. Together these
-account for **277 substantive source files**. Generated Python bytecode and a
-Gradle problems report were deliberately excluded and are listed in the manifest.
+patch, all 173 local additions and all 91 tracked post-patch outputs. Together
+these account for **264 source files**. Every addition is checked in here;
+bootstrap has no external source-bundle dependency.
 
-The logical snapshot is unchanged. Thirteen Python additions are now stored in
-the [external source archive](../docs/python-archive.md), with original hashes
-retained in `manifest.json`; all other additions remain directly browsable.
-Bootstrap reconstructs every original file into ignored materialized source.
-No workbench source-integration patch was needed.
+The [snapshot change record](../provenance/snapshot-change.json) identifies the
+previous 277-file snapshot and its hashes, plus the 13 research-automation
+additions no longer included. Retained compiler/runtime/native fixture and
+regression source is byte-for-byte unchanged. No source-integration patch
+was needed.
 The explicit workbench differences are the portable runner and sample outside
 this directory, selection of installed SDK 11.0.100, and the package-version
-override `0.1.0-preview.workbench.2`.
+override `0.1.0-preview.workbench.3`.
 
 Nine tracked files have git-normalized LF hashes and separately recorded CRLF
 worktree hashes. Bootstrap accepts only those exact declared representations;
@@ -39,6 +39,9 @@ Existing-file changes are in [the tracked patch](patches/android.patch).
 Run `dotnet run --project eng/Workbench -- bootstrap` from the repository root to inspect
 the combined tree in `.artifacts/source/`. Build or run drivers from that
 combined tree, **not** from `upstream/additions/`.
+Individual source READMEs retain their original research context; earlier
+scripted corpus/device drivers are not part of this current snapshot. Use
+[the command guide](../eng/README.md) for supported entrypoints.
 
 `external/Java.Interop` is vendored at this revision. The only upstream
 submodule is the optional API documentation; its exact pin is retained but

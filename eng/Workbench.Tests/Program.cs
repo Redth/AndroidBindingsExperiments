@@ -1,4 +1,3 @@
-using System.IO.Compression;
 using System.Reflection;
 using System.Text.Json.Nodes;
 using BindingWorkbench;
@@ -102,53 +101,7 @@ try
         File.Copy(package, restored, true);
         Workbench.VerifyRestoredPackage(package, cache);
     });
-    ArchiveIndex MakeArchive(string name, params string[] paths)
-    {
-        string archive = Path.Combine(scratch, name);
-        var index = new ArchiveIndex();
-        using (var zip = ZipFile.Open(archive, ZipArchiveMode.Create))
-        {
-            foreach (string path in paths)
-            {
-                byte[] content = "original archived source"u8.ToArray();
-                using var stream = zip.CreateEntry(path).Open();
-                stream.Write(content);
-                index.Files.Add(new FileRecord { Path = path, Bytes = content.Length, Sha256 = Files.Hash(content) });
-            }
-        }
-        index.Sha256 = Files.Hash(archive);
-        index.Bytes = new FileInfo(archive).Length;
-        return index;
-    }
-    Test("archive hash and every member are verified", () =>
-    {
-        var index = MakeArchive("valid.zip", "original/script.py");
-        string archive = Path.Combine(scratch, "valid.zip");
-        Require(PythonArchive.ReadVerified(archive, index).Count == 1, "Missing archive source.");
-        index.Sha256 = new string('0', 64);
-        Reject(() => PythonArchive.ReadVerified(archive, index), "checksum");
-    });
-    Test("archive directory metadata is accepted without becoming payload", () =>
-    {
-        var index = MakeArchive("directories.zip", "original/script.py");
-        string archive = Path.Combine(scratch, "directories.zip");
-        using (var zip = ZipFile.Open(archive, ZipArchiveMode.Update)) zip.CreateEntry("original/");
-        index.Sha256 = Files.Hash(archive);
-        index.Bytes = new FileInfo(archive).Length;
-        Require(PythonArchive.ReadVerified(archive, index).Count == 1, "Directory metadata became a source file.");
-    });
-    Test("archived path traversal is rejected", () =>
-    {
-        var index = MakeArchive("traversal.zip", "../outside.py");
-        Reject(() => PythonArchive.ReadVerified(Path.Combine(scratch, "traversal.zip"), index), "unsafe");
-    });
-    Test("unexpected archive members are rejected", () =>
-    {
-        var index = MakeArchive("extra.zip", "original.py", "unlisted.py");
-        index.Files.RemoveAt(1);
-        Reject(() => PythonArchive.ReadVerified(Path.Combine(scratch, "extra.zip"), index), "inventory");
-    });
-    var runner = new ProcessRunner(root, false);
+    var runner = new ProcessRunner(root);
     runner.Prepare();
     try
     {
@@ -161,23 +114,6 @@ try
         Require(error.ExitCode == 23, "Child exit code changed.");
         passed++;
         Console.WriteLine("PASS child exit code is preserved");
-    }
-    if (!OperatingSystem.IsWindows())
-    {
-        var blocker = new ProcessRunner(root, true);
-        blocker.Prepare();
-        try
-        {
-            await blocker.Run("python3", ["--version"]);
-            throw new Exception("The blocking shim allowed Python.");
-        }
-        catch (CommandException error)
-        {
-            Require(error.ExitCode == 127, "The blocking shim did not fail fast.");
-            Reject(blocker.VerifyNoPython, "attempted");
-            passed++;
-            Console.WriteLine("PASS negative control reaches the blocking shim, never a Python interpreter");
-        }
     }
     Console.WriteLine($"Passed {passed} .NET workbench tests.");
     return 0;

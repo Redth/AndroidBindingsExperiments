@@ -1,16 +1,11 @@
 {
   "source": {
     "trackedChanges": 91,
-    "addedFiles": 186,
+    "addedFiles": 173,
+    "totalFiles": 264,
     "upstreamCommit": "097fd4f7eb6cab27a798e04254ac838c9e8d0369",
-    "excludedOnlyGenerated": [
-      "external/Java.Interop/tests/Xamarin.Android.Tools.Bytecode-Tests/kotlin-compatibility/build/reports/problems/problems-report.html",
-      "external/Java.Interop/tests/generator-Tests/__pycache__/compare-binding-closure.cpython-314.pyc",
-      "external/Java.Interop/tests/generator-Tests/__pycache__/compare-binding-corpus.cpython-314.pyc",
-      "external/Java.Interop/tests/generator-Tests/__pycache__/compare-bindings.cpython-314.pyc",
-      "external/Java.Interop/tests/generator-Tests/__pycache__/test_compare_binding_corpus.cpython-314.pyc",
-      "tests/BindingProjection/__pycache__/verify-reference.cpython-314.pyc"
-    ]
+    "manifest": "upstream/manifest.json",
+    "snapshotChange": "provenance/snapshot-change.json"
   },
   "text": {
     "docs": {
@@ -22,8 +17,8 @@
       "bytes": 28060457
     },
     "historical": {
-      "files": 18,
-      "bytes": 100333
+      "files": 0,
+      "bytes": 0
     },
     "inputs": {
       "files": 2,
@@ -261,10 +256,12 @@
     }
   ],
   "preservationNotes": [
-    "All substantive tracked/untracked code changes are included in pinned patch/additions.",
-    "Historical generated outputs are inspection artifacts, not whole-world compatible sets or a NuGet.org release.",
-    "Full source/runnable fixtures supersede transient bin/obj/caches; original published session attachments remain available.",
+    "The current source manifest describes 264 local compiler/runtime/tooling files, not the former 277-file research snapshot.",
+    "The curated manifest verifies 172 retained research/evidence/input records; obsolete automation records were removed explicitly.",
+    "provenance/snapshot-change.json records the exact prior revision, manifest hashes and omitted entries.",
+    "Historical generated outputs remain inspection artifacts, not whole-world compatible sets or a NuGet.org release.",
     "Windows/Linux and untested workload revisions must not be presented as validated.",
-    "Compilation and exact bounded device checks prove selected paths, not all methods of every third-party SDK."
-  ]
+    "Bounded compile/device evidence is not validation of every third-party SDK method."
+  ],
+  "curatedManifest": "provenance/curated-files.json"
 }

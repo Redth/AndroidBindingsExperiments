@@ -1,8 +1,9 @@
-# .NET-only workbench validation
+# Historical tooling-revision validation
 
-Fresh results from **14 November 2026**, replacing the active Python workbench.
-The [previous validation](workbench-validation.md) remains historical evidence;
-its Python corpus count is not carried forward as a new passing test.
+This is the frozen **14 November 2026** tooling-revision report, not the current
+command guide. Its snapshot counts, archive dependency and commands describe
+that earlier revision. See [current validation](workbench-validation.md).
+The [initial validation](historical-initial-validation.md) is older evidence.
 
 Environment: macOS ARM64, .NET SDK **11.0.100**, installed .NET 10 runtime,
 JDK **21.0.12**, existing Android SDK and Android workload **37.2.31**.
@@ -94,7 +95,7 @@ blocking shim, return 127 and be reported as blocked, without running a Python
 interpreter. The runner resolves executable names against the actual child
 PATH so the control does not accidentally use the parent PATH.
 
-[Normalized fixture and blocking evidence](dotnet-package-fixture.json)
+[Normalized fixture and blocking evidence](historical-tooling-fixture.json)
 records the 15 stages, workload hashes and six workflow log checks without
 machine-local paths. Raw logs remain under ignored `.artifacts/logs/`.
 This is PATH-based verification, not a sandbox against arbitrary absolute
@@ -129,7 +130,8 @@ from the specific run rather than promising cross-machine identical nupkg bytes.
 
 All 33 formerly tracked Python files are preserved externally, including 13
 source additions, 18 historical helpers and the former runner/tests.
-See [archive integrity and publication](../python-archive.md).
+That revision's archive mapping and download guide remain in Git history, not
+in the current workbench. The present snapshot has no such dependency.
 
 ## Not revalidated
 

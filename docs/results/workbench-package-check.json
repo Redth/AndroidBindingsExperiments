@@ -1,0 +1,318 @@
+{
+  "status": "passed",
+  "checks": 15,
+  "runner": ".NET/BCL",
+  "package": "${WORKBENCH_ROOT}/.artifacts/feed/Microsoft.Android.BindingGenerator.Semantic.0.1.0-preview.workbench.3.nupkg",
+  "sha256": "af9475310d1d4e0eae85f949a5e50aaf20742ab545b14d376fdf3188a03933cc",
+  "sdk": {
+    "AndroidNETSdkVersion": "37.2.31",
+    "MonoAndroidToolsDirectory": "${DOTNET_ROOT}/packs/Microsoft.Android.Sdk.Darwin/37.2.31/tools",
+    "_AndroidSemanticBindingTargetsImported": "true"
+  },
+  "unmodifiedWorkloadHashes": {
+    "${DOTNET_ROOT}/packs/Microsoft.Android.Sdk.Darwin/37.2.31/tools/Xamarin.Android.Build.Tasks.dll": "a960c6d999b42b8fe927f52d5045890f8b424d3018c55fb7be29c94426cb1f59",
+    "${DOTNET_ROOT}/packs/Microsoft.Android.Sdk.Darwin/37.2.31/tools/Xamarin.Android.Bindings.Core.targets": "678ebaf3d52720f714bcea55444288400ed1d0d5c1c1d2141b8d3f4cc08a2065",
+    "${DOTNET_ROOT}/packs/Microsoft.Android.Sdk.Darwin/37.2.31/tools/Xamarin.Android.Bindings.ClassParse.targets": "1b450a20d4e053dccec53742964c5836589a18950ec0b99586925ea8b6d3c49a",
+    "${DOTNET_ROOT}/packs/Microsoft.Android.Sdk.Darwin/37.2.31/tools/generator.dll": "b286e95a521b2886e81a048c425f4fb92e298e30217eb926ccf46dd48a7ac71e",
+    "${DOTNET_ROOT}/packs/Microsoft.Android.Sdk.Darwin/37.2.31/tools/class-parse.dll": "70186db00f12c0d600041aa80d5bb4bcff2776589c8d92536eff4114ca252d1e"
+  },
+  "results": [
+    {
+      "name": "javac",
+      "command": [
+        "${JAVA_HOME}/bin/javac",
+        "-parameters",
+        "-d",
+        "${WORKBENCH_ROOT}/.artifacts/practical-package-check-final/classes",
+        "${WORKBENCH_ROOT}/.artifacts/practical-package-check-final/Native/net/dot/android/packagetest/Box.java"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "expectedFailure": false,
+      "seconds": 0.6720026
+    },
+    {
+      "name": "jar",
+      "command": [
+        "${JAVA_HOME}/bin/jar",
+        "cf",
+        "${WORKBENCH_ROOT}/.artifacts/practical-package-check-final/Binding/preview.jar",
+        "-C",
+        "${WORKBENCH_ROOT}/.artifacts/practical-package-check-final/classes",
+        "."
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "expectedFailure": false,
+      "seconds": 0.8540488
+    },
+    {
+      "name": "sdk-version",
+      "command": [
+        "${DOTNET_ROOT}/dotnet",
+        "--version"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "expectedFailure": false,
+      "seconds": 0.389769
+    },
+    {
+      "name": "semantic",
+      "command": [
+        "${DOTNET_ROOT}/dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--source",
+        "${WORKBENCH_ROOT}/.artifacts/feed",
+        "--source",
+        "https://api.nuget.org/v3/index.json",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.workbench.3",
+        "-bl:semantic.binlog"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "expectedFailure": false,
+      "seconds": 14.6506048
+    },
+    {
+      "name": "sdk-paths",
+      "command": [
+        "${DOTNET_ROOT}/dotnet",
+        "msbuild",
+        "Binding/Preview.Binding.csproj",
+        "-nologo",
+        "-t:_ResolveMonoAndroidSdks",
+        "-getProperty:AndroidNETSdkVersion,MonoAndroidToolsDirectory,_AndroidSemanticBindingTargetsImported",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.workbench.3"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "expectedFailure": false,
+      "seconds": 1.072523
+    },
+    {
+      "name": "incremental",
+      "command": [
+        "${DOTNET_ROOT}/dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--no-restore",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.workbench.3",
+        "-bl:incremental.binlog"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "expectedFailure": false,
+      "seconds": 2.7318502
+    },
+    {
+      "name": "missing-source",
+      "command": [
+        "${DOTNET_ROOT}/dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--no-restore",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.workbench.3",
+        "-bl:missing-source.binlog"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "expectedFailure": false,
+      "seconds": 6.6952474
+    },
+    {
+      "name": "metadata-change",
+      "command": [
+        "${DOTNET_ROOT}/dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--no-restore",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.workbench.3",
+        "-bl:metadata-change.binlog"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "expectedFailure": false,
+      "seconds": 7.0954972
+    },
+    {
+      "name": "native-change",
+      "command": [
+        "${DOTNET_ROOT}/dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--no-restore",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.workbench.3",
+        "-bl:native-change.binlog"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "expectedFailure": false,
+      "seconds": 5.4726754
+    },
+    {
+      "name": "legacy",
+      "command": [
+        "${DOTNET_ROOT}/dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--no-restore",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.workbench.3",
+        "-p:AndroidBindingGenerator=Legacy",
+        "-bl:legacy.binlog"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "expectedFailure": false,
+      "seconds": 6.6055994
+    },
+    {
+      "name": "semantic-again",
+      "command": [
+        "${DOTNET_ROOT}/dotnet",
+        "build",
+        "Consumer/Preview.Consumer.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--no-restore",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.workbench.3",
+        "-bl:semantic-again.binlog"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "expectedFailure": false,
+      "seconds": 4.5750948
+    },
+    {
+      "name": "invalid-mode",
+      "command": [
+        "${DOTNET_ROOT}/dotnet",
+        "build",
+        "Binding/Preview.Binding.csproj",
+        "--no-restore",
+        "-nr:false",
+        "-p:AndroidBindingGenerator=Invalid",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.workbench.3"
+      ],
+      "status": "passed",
+      "exitCode": 1,
+      "expectedFailure": true,
+      "seconds": 1.4152042
+    },
+    {
+      "name": "multitarget",
+      "command": [
+        "${DOTNET_ROOT}/dotnet",
+        "build",
+        "Multi/Preview.Multi.csproj",
+        "-c",
+        "Debug",
+        "-nr:false",
+        "-v:normal",
+        "--source",
+        "${WORKBENCH_ROOT}/.artifacts/feed",
+        "--source",
+        "https://api.nuget.org/v3/index.json",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.workbench.3",
+        "-m:2",
+        "-bl:multitarget.binlog"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "expectedFailure": false,
+      "seconds": 4.2422643
+    },
+    {
+      "name": "design-time",
+      "command": [
+        "${DOTNET_ROOT}/dotnet",
+        "msbuild",
+        "Binding/Preview.Binding.csproj",
+        "-t:Compile",
+        "-p:DesignTimeBuild=true",
+        "-p:BuildingInsideVisualStudio=true",
+        "-p:SkipCompilerExecution=true",
+        "-nr:false",
+        "-p:AndroidSdkDirectory=${ANDROID_HOME}",
+        "-p:JavaSdkDirectory=${JAVA_HOME}",
+        "-p:GeneratorPackageVersion=0.1.0-preview.workbench.3"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "expectedFailure": false,
+      "seconds": 3.3561777
+    },
+    {
+      "name": "strict-package-tasks",
+      "command": [
+        "${DOTNET_ROOT}/dotnet",
+        "msbuild",
+        "PackageTasks.proj",
+        "-t:Check",
+        "-m:2",
+        "-mt",
+        "-nr:false",
+        "-warnaserror:MSB4286,MSB4287,MSB4288",
+        "-p:PackageTaskAssembly=${WORKBENCH_ROOT}/.artifacts/fixture-packages/af9475310d1d4e0eae85f949a5e50aaf20742ab545b14d376fdf3188a03933cc/microsoft.android.bindinggenerator.semantic/0.1.0-preview.workbench.3/tools/tasks/Microsoft.Android.BindingGenerator.Semantic.dll",
+        "-p:DotnetHost=${DOTNET_ROOT}/dotnet",
+        "-p:BindingManifest=${WORKBENCH_ROOT}/.artifacts/practical-package-check-final/Binding/obj/Debug/net11.0-android/semantic-bindings/-1252186978/generated/src/Preview.Binding.projitems",
+        "-p:BindingOwnershipReport=${WORKBENCH_ROOT}/.artifacts/practical-package-check-final/Binding/obj/Debug/net11.0-android/semantic-bindings/-1252186978/generated/ownership.json"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "expectedFailure": false,
+      "seconds": 0.9267723
+    }
+  ],
+  "deviceResults": [],
+  "sourceManifestSha256": "3723a0af59a0aeeb6856cfd3cd144d4ecce3765f2d4c145ec7692b98e33d8782",
+  "snapshotChangeSha256": "8c53e5d31f6f1f494903f6a62942814cf59af171ed202f0c7175cf6d176b1466",
+  "scope": "Current local-only source snapshot; no device, runtime package or whole-corpus execution."
+}
